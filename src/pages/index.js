@@ -5,7 +5,6 @@ export default function Home() {
   const router = useRouter()
 
   useEffect(() => {
-    // Redirect to page 1 (start here)
     router.push('/page/1')
   }, [router])
 
