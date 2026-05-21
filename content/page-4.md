@@ -61,6 +61,8 @@ From your Marketing tab (along the left side), select "Market my Realscout". Thi
 
 ## Why These Three Steps Together
 
-**IABS** is your legal protection. **Rechat** is where you manage your transactions and submit your Compensation Disbursement Agreement to get paid at closing. **RealScout** is your competitive advantage — it lets you market yourself while giving clients a smooth search experience.
+- **IABS** is your legal protection
+- **Rechat** is where you manage your transactions and submit your Compensation Disbursement Agreement to get paid at closing
+- **RealScout** is your competitive advantage — it lets you market yourself while giving clients a smooth search experience
 
 Together, they position you to work with clients professionally, compliantly, and effectively from day one.

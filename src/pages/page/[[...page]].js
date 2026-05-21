@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import { useState, useEffect } from 'react'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -23,9 +24,13 @@ function renderMarkdown(content) {
   // Links
   html = html.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
 
+  // Checkboxes - convert [ ] to interactive checkboxes
+  html = html.replace(/^\- \[ \] (.*?)$/gm, '<li class="checkbox-item"><input type="checkbox" class="page-checkbox" data-label="$1"> <label>$1</label></li>')
+
   // Lists
   html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>')
-  html = html.replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>')
+  html = html.replace(/^\- (.*?)$/gm, '<li>$1</li>')
+  html = html.replace(/(<li[^>]*>.*?<\/li>)/s, '<ul>$1</ul>')
 
   // Line breaks for paragraphs
   html = html.replace(/\n\n/g, '</p><p>')
@@ -36,6 +41,38 @@ function renderMarkdown(content) {
 
 export default function PageComponent({ pageNumber, content }) {
   const router = useRouter()
+  const [checkboxStates, setCheckboxStates] = useState({})
+  const [allCheckboxesChecked, setAllCheckboxesChecked] = useState(false)
+
+  useEffect(() => {
+    // Check if page has checkboxes and update state
+    const checkboxes = document.querySelectorAll('.page-checkbox')
+    const hasCheckboxes = checkboxes.length > 0
+
+    if (hasCheckboxes) {
+      const updateCheckedState = () => {
+        const states = {}
+        checkboxes.forEach((checkbox, index) => {
+          states[index] = checkbox.checked
+        })
+        setCheckboxStates(states)
+
+        // Check if all are checked
+        const allChecked = Object.values(states).every(state => state === true)
+        setAllCheckboxesChecked(allChecked)
+      }
+
+      checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', updateCheckedState)
+      })
+
+      return () => {
+        checkboxes.forEach(checkbox => {
+          checkbox.removeEventListener('change', updateCheckedState)
+        })
+      }
+    }
+  }, [content])
 
   const handlePrev = () => {
     if (pageNumber > 1) {
@@ -44,10 +81,18 @@ export default function PageComponent({ pageNumber, content }) {
   }
 
   const handleNext = () => {
+    // Page 3 requires all checkboxes to be checked
+    if (pageNumber === 3 && !allCheckboxesChecked) {
+      alert('Please complete all items before moving forward.')
+      return
+    }
+
     if (pageNumber < TOTAL_PAGES) {
       router.push(`/page/${pageNumber + 1}`)
     }
   }
+
+  const nextButtonDisabled = pageNumber === 3 && !allCheckboxesChecked
 
   return (
     <Page>
@@ -65,6 +110,7 @@ export default function PageComponent({ pageNumber, content }) {
         onPrev={handlePrev}
         onNext={handleNext}
         totalPages={TOTAL_PAGES}
+        nextDisabled={nextButtonDisabled}
       />
     </Page>
   )

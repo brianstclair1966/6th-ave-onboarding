@@ -49,7 +49,7 @@ We do **quarterly headshot shoots**. You'll get scheduled during one of those.
 
 This helps us know you better and creates more content for your bio and team resources.
 
-[**→ Fill out the form (10 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
+[**→ Fill out the form (5 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
 
 ---
 
@@ -71,10 +71,11 @@ Your website bio is often the first impression clients have of you.
 
 ## Next Steps
 
-- ✓ Submitted your bio to brian@6thavehomes.com
-- ✓ Filled out the "All About You" form
-- ✓ Updated your online profiles with 6th Ave branding
-- ✓ Signed your IC Agreement (when DocuSign arrives)
+Complete these before moving forward:
+
+- [ ] Submitted your bio to brian@6thavehomes.com
+- [ ] Filled out the "All About You" form
+- [ ] Updated your online profiles with 6th Ave branding
 
 Once these are done:
 - **Step 6** (IABS Form)

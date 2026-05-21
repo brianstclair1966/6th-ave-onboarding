@@ -1,4 +1,4 @@
-export default function Navigation({ pageNumber, onPrev, onNext, totalPages }) {
+export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nextDisabled = false }) {
   const showBack = pageNumber > 1
   const showNext = pageNumber < totalPages
 
@@ -20,7 +20,12 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages }) {
           {showNext ? (
             <button
               onClick={onNext}
-              className="px-10 py-3 bg-brand-coral text-white font-bold rounded-lg hover:shadow-lg hover:shadow-brand-coral/50 transition-all duration-200 min-h-12 flex items-center justify-center tracking-wide uppercase text-sm"
+              disabled={nextDisabled}
+              className={`px-10 py-3 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm transition-all duration-200 ${
+                nextDisabled
+                  ? 'bg-gray-300 cursor-not-allowed'
+                  : 'bg-brand-coral hover:shadow-lg hover:shadow-brand-coral/50'
+              }`}
             >
               Next →
             </button>
