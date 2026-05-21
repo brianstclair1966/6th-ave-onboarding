@@ -6,11 +6,11 @@ description: "IC agreement, website bio, and getting established"
 
 # Getting Your Foundation Ready
 
-Steps 4 and 5 are simpler than they sound. These set up your official presence and legal standing.
+These steps help set up your official presence and legal standing with 6th Ave Homes.
 
 ---
 
-## Step 4: Sign Your Independent Contractor Agreement
+## ④ Step 4: Sign Your Independent Contractor Agreement
 
 **What this means:**
 You're an independent contractor, not an employee. This is standard in real estate.
@@ -25,7 +25,7 @@ Review it, sign it, click "finish" and you're good to go!
 
 ---
 
-## Step 5: Build Your Professional Presence
+## ⑤ Step 5: Build Your Professional Presence
 
 ### **Part A: Website Bio**
 
@@ -75,10 +75,12 @@ Complete these before moving forward:
 - [ ] Filled out the "All About You" form
 - [ ] Updated your online profiles with 6th Ave branding
 
+**Complete all the items above to continue — we will send you your Independent Contractor Agreement, so click that box too.**
+
 Once these are done:
-- **Step 6** (IABS Form)
-- **Step 7** (Rechat)
-- **Step 8** (RealScout)
+- **⑥ Step 6** (IABS Form)
+- **⑦ Step 7** (Rechat)
+- **⑧ Step 8** (RealScout & Training)
 
 These are critical for client-facing work.
 

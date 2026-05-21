@@ -1,4 +1,7 @@
-export default function Page({ children }) {
+import Breadcrumb from './Breadcrumb'
+import Glossary from './Glossary'
+
+export default function Page({ children, pageNumber }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
       <header className="bg-brand-navy text-white py-6 border-b-4 border-brand-coral">
@@ -11,9 +14,13 @@ export default function Page({ children }) {
         </div>
       </header>
 
+      {pageNumber > 1 && <Breadcrumb currentPage={pageNumber} />}
+
       <main className="flex-1">
         {children}
       </main>
+
+      <Glossary />
 
       <footer className="bg-brand-navy text-gray-300 text-xs py-8 mt-24">
         <div className="max-w-4xl mx-auto px-6">

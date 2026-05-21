@@ -10,7 +10,7 @@ Steps 1–3 are straightforward and happen at the same time. Don't overthink the
 
 ---
 
-## Step 1: Emergency Contact Form
+## ① Step 1: Emergency Contact Form
 
 This is housekeeping. We need your info for our files.
 
@@ -20,9 +20,9 @@ That's it. Next.
 
 ---
 
-## Step 2: TREC Sponsorship
+## ② Step 2: TREC Sponsorship
 
-**What happens:** Once your Emergency contact form is submitted, Brian will invite you to join us on the TREC website.
+**What happens:** Once your Emergency contact form is submitted, Brian will invite you to join us on the <span title="Texas Real Estate Commission">TREC</span> website.
 
 **What you do:** Accept the invitation and complete the TREC sponsorship request.
 
@@ -30,7 +30,7 @@ That's it. Next.
 
 ---
 
-## Step 3: Join Your Realtor Association
+## ③ Step 3: Join Your Realtor Association
 
 MLS access unlocks everything. Choose the association that matches your location.
 

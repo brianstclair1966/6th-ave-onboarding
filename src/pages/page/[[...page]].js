@@ -95,7 +95,7 @@ export default function PageComponent({ pageNumber, content }) {
   const nextButtonDisabled = pageNumber === 3 && !allCheckboxesChecked
 
   return (
-    <Page>
+    <Page pageNumber={pageNumber}>
       <ProgressIndicator current={pageNumber} total={TOTAL_PAGES} />
 
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">

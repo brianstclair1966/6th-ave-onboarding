@@ -234,6 +234,44 @@ button:disabled {
   color: #c62828;
 }
 
+/* Tooltip styling for glossary terms */
+span[title] {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted var(--brand-coral);
+  text-decoration: none;
+}
+
+span[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--brand-navy);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  z-index: 1000;
+  pointer-events: none;
+  font-weight: 400;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+span[title]:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 115%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--brand-navy);
+  z-index: 1000;
+  pointer-events: none;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   h1 {
@@ -254,5 +292,19 @@ button:disabled {
 
   .card {
     padding: 1.5rem;
+  }
+
+  span[title]:hover::after {
+    white-space: normal;
+    max-width: 200px;
+    bottom: auto;
+    top: 125%;
+  }
+
+  span[title]:hover::before {
+    bottom: auto;
+    top: 115%;
+    border-top-color: transparent;
+    border-bottom-color: var(--brand-navy);
   }
 }

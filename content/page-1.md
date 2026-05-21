@@ -20,11 +20,16 @@ Brian's 3-minute welcome explains who we are and what to expect.
 
 ## Your Activation Path
 
-- **Emergency Contact Form**
-- **TREC Sponsorship**
-- **Join Your Realtor Association**
-- **Sign IC Agreement**
-- **Website Bio**
+Here's everything you'll complete in your first week:
+
+① **Emergency Contact Form**
+② **TREC Sponsorship**
+③ **Join Your Realtor Association**
+④ **Sign IC Agreement**
+⑤ **Website Bio**
+⑥ **Create Your IABS Form**
+⑦ **Get Started with Rechat**
+⑧ **Set Up RealScout & Training**
 
 ---
 
