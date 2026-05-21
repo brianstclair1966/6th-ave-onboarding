@@ -44,12 +44,7 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 
 **You don't need to be an expert yet.** Spend 30 minutes getting familiar with the interface. There's more training coming in your Guide Training sessions.
 
-### **What Rechat does:**
-- Stores all your client contact info in one place
-- Tracks conversations, tasks, and deadlines
-- Manages your deals from lead to close
-- Sends automated reminders for follow-ups
-- Creates a searchable history of every interaction
+**Rechat** is where we manage conversations, transactions, tasks, and follow-up. You'll learn it by using it.
 
 ---
 

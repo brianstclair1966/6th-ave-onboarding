@@ -66,36 +66,10 @@ Once approved, order your SUPRA key and download eKEY.
 
 ---
 
-## What We're Doing on Our End
-
-While you're handling steps 1–3, we're setting you up on:
-
-- **Google Suite** — Gmail, Drive, Calendar
-- **Slack** — Team communication
-- **Docusign** — For contracts (including your IC Agreement)
-- **Rechat** — Client management
-- **Realscout** — Lead generation
-- **Business cards** — Ordering now
-
-You'll get setup links via email. **Check your inbox multiple times a day.**
-
 ---
 
-## Common Questions
+## What's Next
 
-**Q: What if TREC takes forever?**
-It usually doesn't, but if it does, follow up after 48 hours. We can help.
+You don't need to wait for MLS to be fully active before starting **Step 4** (IC Agreement) and **Step 5** (Website Bio). Move to those while these are processing.
 
-**Q: Can I start looking at listings before MLS is active?**
-No. You need MLS access to search and manage transactions. This is non-negotiable.
-
-**Q: What if GFWAR/TBBOR is slow?**
-Call them. It's your license, your timeline. Be proactive.
-
----
-
-## Next Steps
-
-Once you've submitted steps 1–3, move to **Step 4** (IC Agreement) and **Step 5** (Website Bio). You don't need to wait for MLS to be fully active before starting those.
-
-**Ready? Click Next to see Steps 4–5.**
+While you handle steps 1–3, we're setting you up in Google Suite, Slack, Docusign, Rechat, and Realscout. You'll receive setup emails as they're ready — accept them as they arrive.

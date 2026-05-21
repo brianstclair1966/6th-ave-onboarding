@@ -57,9 +57,7 @@ This helps us know you better and creates more content for your bio and team res
 
 ## Why This Matters
 
-Your website bio is powerful. It's **the first thing potential clients see**. It builds trust before you ever talk to them.
-
-We're not a transaction mill. We're built on relationships and trust. Your bio is how you introduce yourself to the market.
+Your website bio is often the first impression clients have of you.
 
 ---
 
