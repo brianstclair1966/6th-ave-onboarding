@@ -30,7 +30,7 @@ function renderMarkdown(content) {
   // Lists
   html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>')
   html = html.replace(/^\- (.*?)$/gm, '<li>$1</li>')
-  html = html.replace(/(<li[^>]*>.*?<\/li>)/s, '<ul>$1</ul>')
+  html = html.replace(/(<li[^>]*>[\s\S]*?<\/li>)/gs, '<ul>$1</ul>')
 
   // Line breaks for paragraphs
   html = html.replace(/\n\n/g, '</p><p>')
