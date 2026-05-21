@@ -53,7 +53,7 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 - [Brand Standards & Logos](https://www.6thavehomesagents.com/logos-and-brand-standards)
 
 **Your Main Resource**
-- [**www.6thavehomesagents.com**](https://www.6thavehomesagents.com)
+- [**www.6thavehomesagents.com**](https://www.6thavehomesagents.com) — the password is "one-stop-shop"
 
 ---
 
