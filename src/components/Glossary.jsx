@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Search, X } from 'lucide-react'
 
 const TERMS = {
   'TREC': 'Texas Real Estate Commission — the regulatory body that licenses real estate professionals in Texas.',
@@ -42,7 +41,10 @@ export default function Glossary() {
         title="Open glossary"
         aria-label="Open glossary"
       >
-        <Search size={20} />
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" />
+        </svg>
       </button>
 
       {/* Modal */}
@@ -57,7 +59,10 @@ export default function Glossary() {
                 className="text-gray-300 hover:text-white"
                 aria-label="Close glossary"
               >
-                <X size={24} />
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
               </button>
             </div>
 
