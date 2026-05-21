@@ -14,7 +14,7 @@ You're joining a brokerage that operates differently. This week, we'll get you l
 
 Brian's 3-minute welcome explains who we are and what to expect.
 
-[Video embed here]
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
