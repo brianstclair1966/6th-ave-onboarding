@@ -19,7 +19,9 @@
     "postcss": "^8.4.31",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.50.0",
-    "eslint-config-next": "^14.0.0"
+    "eslint-config-next": "^14.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0"
   },
   "keywords": [
     "real estate",
