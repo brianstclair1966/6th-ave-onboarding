@@ -1,10 +1,13 @@
 export default function Page({ children }) {
   return (
-    <div className="min-h-screen bg-brand-cream flex flex-col">
-      <header className="bg-brand-navy text-white py-4">
-        <div className="max-w-2xl mx-auto px-6">
-          <h1 className="text-xl font-semibold">6th Ave Homes</h1>
-          <p className="text-sm text-gray-300">Agent Onboarding</p>
+    <div className="min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
+      <header className="bg-brand-navy text-white py-6 border-b-4 border-brand-coral">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="flex items-baseline gap-3">
+            <h1 className="text-2xl font-bold tracking-tight">6th Ave Homes</h1>
+            <div className="w-1 h-6 bg-brand-coral"></div>
+            <p className="text-sm font-light text-gray-200 tracking-wide">AGENT ONBOARDING</p>
+          </div>
         </div>
       </header>
 
@@ -12,9 +15,12 @@ export default function Page({ children }) {
         {children}
       </main>
 
-      <footer className="bg-gray-100 text-gray-600 text-xs py-4 mt-20">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <p>© 2026 6th Ave Homes. All rights reserved.</p>
+      <footer className="bg-brand-navy text-gray-300 text-xs py-8 mt-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="border-t border-gray-700 pt-6">
+            <p className="text-center">© 2026 6th Ave Homes. All rights reserved.</p>
+            <p className="text-center text-gray-400 mt-2">Welcome to the team.</p>
+          </div>
         </div>
       </footer>
     </div>

@@ -2,19 +2,24 @@ export default function ProgressIndicator({ current, total }) {
   const percentage = (current / total) * 100
 
   return (
-    <div className="bg-white border-b border-gray-200 py-4">
-      <div className="max-w-2xl mx-auto px-6">
-        <div className="flex items-center justify-between mb-2">
-          <span className="text-sm font-semibold text-brand-navy">
-            Step {current} of {total}
-          </span>
-          <span className="text-xs text-brand-taupe">
+    <div className="bg-white border-b border-gray-100 py-6">
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="flex items-center justify-between mb-3">
+          <div>
+            <span className="text-xs font-bold text-brand-taupe uppercase tracking-widest">
+              PROGRESS
+            </span>
+            <p className="text-lg font-semibold text-brand-navy mt-1">
+              Step {current} of {total}
+            </p>
+          </div>
+          <span className="text-2xl font-bold text-brand-coral">
             {percentage.toFixed(0)}%
           </span>
         </div>
-        <div className="w-full h-1 bg-gray-200 rounded-full overflow-hidden">
+        <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
           <div
-            className="h-full bg-brand-coral transition-all duration-300"
+            className="h-full bg-gradient-to-r from-brand-coral to-brand-navy transition-all duration-500 rounded-full"
             style={{ width: `${percentage}%` }}
           />
         </div>

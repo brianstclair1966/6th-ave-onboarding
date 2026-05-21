@@ -1,55 +1,75 @@
 ---
-title: "Your First Month: Foundation & Culture"
+title: "Steps 4–5: Documentation & Presence"
 page: 3
-description: "Introduction to our way of working"
+description: "IC agreement, website bio, and getting established"
 ---
 
-# Your First Month: Foundation & Culture
+# Getting Your Foundation Ready
 
-## What Makes Us Different
-
-We operate differently than larger brokerages. Here's what that means for you:
-
-**You Have Autonomy**
-- You manage your own business and client relationships
-- We support you with systems, training, and market knowledge
-- No arbitrary transaction minimums or "desk fees"
-
-**You Have Support**
-- Regular market updates and neighborhood data
-- Training on negotiation, contracts, and market strategy
-- A team that cares about your success and growth
-
-**You Have Community**
-- A small group of agents who help each other
-- Collaborative problem-solving on difficult transactions
-- Genuine relationships, not just coworkers
+Steps 4 and 5 are simpler than they sound. These set up your official presence and legal standing.
 
 ---
 
-## The Guide Training Sessions
+## Step 4: Sign Your Independent Contractor Agreement
 
-We've condensed our foundational training into three sessions. You'll go through these during your first month:
+**What this means:**
+You're an independent contractor, not an employee. This is standard in real estate.
 
-**Session 1: Guide Role & Expectations**
-[Read full guide](https://www.6thavehomesagents.com/guide-role-and-expectations) — What we expect from you, and what you can expect from us.
+**What it entails:**
+- You manage your own schedule — no office hours required
+- You handle your own taxes (federal, state, local)
+- You keep 100% of your commission (minus our brokerage fee)
+- We don't provide benefits, W2s, or unemployment insurance
+- You're responsible for your own business expenses
 
-**Session 2: Compliance & CDA Process**
-[Read full guide](https://www.6thavehomesagents.com/compliance-cda-process) — It's simpler than it sounds. We'll walk you through it.
+**What to expect:**
+We'll send an **Independent Contractor Agreement via DocuSign**. Review it, sign it, send it back.
 
-**Session 3: Brand Standards & Marketing**
-[Read full guide](https://www.6thavehomesagents.com/logos-and-brand-standards) — How to represent 6th Ave professionally.
-
----
-
-## Your First Week Checklist
-
-- [ ] Complete legal activation (page 1)
-- [ ] Review Mission & Values
-- [ ] Read your 90-Day Roadmap
-- [ ] Explore the Backsite
-- [ ] Join the team Slack (when you're set up)
+**Timeline:** 10 minutes to review & sign
 
 ---
 
-**Progress: Step 3 of 5**
+## Step 5: Build Your Professional Presence
+
+### **Part A: Website Bio**
+
+Every 6th Ave agent gets featured on [**6thavehomes.com**](https://6thavehomes.com).
+
+**See an example:** [**Brian's bio →**](https://6thavehomes.com/brian-st-clair)
+
+**Write yours by:**
+- Keeping it 150–300 words
+- Sharing your background (where you grew up, what brought you to real estate)
+- Highlighting what makes you different
+- Making it authentic and personal
+
+**Then:** Email your finished bio to **[brian@6thavehomes.com](mailto:brian@6thavehomes.com)**
+
+We do **quarterly headshot shoots**. You'll get scheduled during one of those.
+
+### **Part B: "All About You" Form**
+
+This helps us know you better and creates more content for your bio and team resources.
+
+[**→ Fill out the form (10 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
+
+---
+
+## Why This Matters
+
+Your website bio is powerful. It's **the first thing potential clients see**. It builds trust before you ever talk to them.
+
+We're not a transaction mill. We're built on relationships and trust. Your bio is how you introduce yourself to the market.
+
+---
+
+## Next Steps
+
+By the end of this page, you should have:
+- ✓ Submitted your bio
+- ✓ Filled out the "All About You" form
+- ✓ Signed your IC Agreement (when DocuSign arrives)
+
+Once these are done, **Step 6** (IABS Form) and **Step 7** (Rechat) are next — and these are critical for client-facing work.
+
+**Ready? Click Next for Steps 6–7.**

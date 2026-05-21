@@ -1,39 +1,71 @@
 ---
-title: "Your Systems & Expectations"
+title: "Steps 6–7: Compliance & Tools"
 page: 4
-description: "What's coming and what you need to know"
+description: "IABS forms and getting comfortable with Rechat"
 ---
 
-# Your Systems & Expectations
+# The Client-Facing Foundation
 
-## System Access (Coming Soon)
-
-After your legal activation, you'll get access to:
-
-**MLS & Brokermint** — Where deals live. MLS is how you search properties. Brokermint is how you manage transactions from contract to close. You'll get video tutorials once you're set up.
-
-**Slack, Rechat, Realscout** — Your daily tools for communication, client management, and lead generation. We'll set you up and give you a brief orientation on each.
-
-Access happens 24-48 hours after legal activation. Victoria or Brian will send you setup links.
+Steps 6 and 7 are **critical for working with clients**. Don't skip or postpone these.
 
 ---
 
-## What You Need to Know
+## Step 6: Create Your IABS Form
 
-**Your Role as a Guide** — [Read what's expected of you](https://www.6thavehomesagents.com/guide-role-and-expectations). This is philosophical + operational. Important foundational material.
+**IABS = Information About Brokerage Services**
 
-**Compliance & CDA** — [Here's how the CDA process works](https://www.6thavehomesagents.com/compliance-cda-process). It's simpler than it sounds. We'll walk you through it.
+**Why it matters:** Texas law requires you to give this form to every client and prospective client at **first contact**. If you don't, you face big fines and potential license loss.
 
-**Brand Standards** — When you represent 6th Ave, represent us professionally. [Here's how](https://www.6thavehomesagents.com/logos-and-brand-standards).
+### **Here's what to do:**
 
-**Policies & Procedures** — [Your operational playbook](https://drive.google.com/file/d/19go9A0reuKBX10-EhZCCwh3oqI4K9WIe/view). Reference this for any operational questions.
+1. **Download the 6th Ave template:** [**IABS Form →**](https://drive.google.com/file/d/18aEHlMDTcs4OffcBoz9r2YbfS3-1AP7e/view?usp=sharing)
+2. **Fill it out** with your name, contact info, and brokerage details
+3. **Save as a PDF** to your Google Drive
+4. **Get the share link** — Right-click the file → Share → Copy link
+5. **Add to your email signature** — Create a hyperlink to the PDF
+
+### **Email signature template:**
+
+> Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](link-to-your-pdf-here). Please review this document before we meet.
+> 
+> IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there.
 
 ---
 
-## Play Around (When You Get Access)
+## Step 7: Get Started with Rechat
 
-Spend 20-30 minutes just exploring Slack, Rechat, and Realscout. Click around. Get comfortable. No assignment here—just familiarity.
+**Rechat** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups.
+
+### **Start here:**
+
+[**→ Rechat Getting Started Guide**](https://help.rechat.com/guides/getting-started)
+
+Work through the **"Getting Started"** section, then explore the **["Deals" section](https://help.rechat.com/guides/deals)**.
+
+**You don't need to be an expert yet.** Spend 30 minutes getting familiar with the interface. There's more training coming in your Guide Training sessions.
+
+### **What Rechat does:**
+- Stores all your client contact info in one place
+- Tracks conversations, tasks, and deadlines
+- Manages your deals from lead to close
+- Sends automated reminders for follow-ups
+- Creates a searchable history of every interaction
 
 ---
 
-**Progress: Step 4 of 5**
+## Why These Two Steps Together
+
+**IABS** is your legal protection. **Rechat** is your competitive advantage.
+
+Together, they position you to work with clients professionally and compliantly from day one.
+
+---
+
+## Timeline
+
+- **IABS:** 20 minutes to create + 5 minutes to add to email signature
+- **Rechat:** 30 minutes initial explore (more later)
+
+You're almost there. Two more steps after this and you'll be ready to list properties.
+
+**Click Next to see the final step.**
