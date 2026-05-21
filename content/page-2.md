@@ -64,10 +64,8 @@ If you're in Austin, Unlock MLS is your primary option for MLS access. It's a te
 
 ---
 
----
-
 ## What's Next
 
-While you handle steps 1–3, we're setting you up in Google Suite, Slack, Docusign, Rechat, and Realscout. You'll receive setup emails as they're ready — accept them as they arrive.
+While you handle steps 1–3, we're setting you up on all our platforms. You'll receive setup emails as they're ready — accept them as they arrive.
 
 Move to **Step 4** (IC Agreement) and **Step 5** (Website Bio) while these are processing.

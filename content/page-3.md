@@ -23,7 +23,7 @@ You're an independent contractor, not an employee. This is standard in real esta
 - You're responsible for your own business expenses
 
 **What to expect:**
-We'll send an Independent Contractor Agreement via Docusign to your new 6th Ave Gmail account. Review it, sign it, and send it back.
+Review it, sign it, click "finish" and you're good to go!
 
 ---
 
@@ -76,6 +76,11 @@ Your website bio is often the first impression clients have of you.
 - ✓ Updated your online profiles with 6th Ave branding
 - ✓ Signed your IC Agreement (when DocuSign arrives)
 
-Once these are done, **Step 6** (IABS Form), **Step 7** (Rechat), and **Step 8** (RealScout) are next — these are critical for client-facing work.
+Once these are done:
+- **Step 6** (IABS Form)
+- **Step 7** (Rechat)
+- **Step 8** (RealScout)
+
+These are critical for client-facing work.
 
 **Ready? Click Next for Steps 6–8.**

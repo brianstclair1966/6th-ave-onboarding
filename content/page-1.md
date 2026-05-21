@@ -14,7 +14,7 @@ You're joining a brokerage that operates differently. This week, we'll get you l
 
 Brian's 3-minute welcome explains who we are and what to expect.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -24,20 +24,21 @@ Brian's 3-minute welcome explains who we are and what to expect.
 - **TREC Sponsorship**
 - **Join Your Realtor Association**
 - **Sign IC Agreement**
-- **Website Bio + Headshot**
+- **Website Bio**
 
 ---
 
 ## What Happens on Our End
 
 We're setting up your accounts at the same time:
+
 - Google Suite (Gmail, Drive, Calendar)
 - Slack
 - Rechat
 - Realscout
 - DocuSign
 
-You'll receive setup emails as your accounts activate. Accept them as they arrive.
+You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 
 ---
 
