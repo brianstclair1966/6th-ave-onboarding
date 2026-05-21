@@ -58,13 +58,9 @@ Once approved, order your SUPRA key and download eKEY.
 
 ### **Austin**
 
-[**Go to Austin Board of Realtors →**](https://www.abor.com)
+[**Go to Unlock MLS →**](https://www.unlockmls.com/)
 
-Follow their membership application process and use our office address: **908 Bryan Ave, Fort Worth, TX 76104**
-
-### **Alternative: Unlock MLS**
-
-[**Unlock MLS →**](https://www.unlockmls.com/) is another option if you prefer a technology-first approach to MLS access.
+If you're in Austin, Unlock MLS is your primary option for MLS access. It's a technology-first platform that gives you full MLS search and transaction management.
 
 ---
 

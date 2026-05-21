@@ -23,9 +23,7 @@ You're an independent contractor, not an employee. This is standard in real esta
 - You're responsible for your own business expenses
 
 **What to expect:**
-We'll send an **Independent Contractor Agreement via DocuSign**. Review it, sign it, send it back.
-
-**Timeline:** 10 minutes to review & sign
+We'll send an Independent Contractor Agreement via Docusign to your new 6th Ave Gmail account. Review it, sign it, and send it back.
 
 ---
 
@@ -55,6 +53,16 @@ This helps us know you better and creates more content for your bio and team res
 
 ---
 
+### **Part C: Update Your Online Presence**
+
+Search Google for your name and find all the places you're currently listed as a Realtor. Update your bio on those sites and change your brokerage name to **6th Ave Homes**.
+
+Use one of these logo versions in your profiles:
+- [**Main Logo (Dark Background)**](https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing)
+- [**Main Logo (White Background)**](https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing)
+
+---
+
 ## Why This Matters
 
 Your website bio is often the first impression clients have of you.
@@ -63,11 +71,11 @@ Your website bio is often the first impression clients have of you.
 
 ## Next Steps
 
-By the end of this page, you should have:
-- ✓ Submitted your bio
+- ✓ Submitted your bio to brian@6thavehomes.com
 - ✓ Filled out the "All About You" form
+- ✓ Updated your online profiles with 6th Ave branding
 - ✓ Signed your IC Agreement (when DocuSign arrives)
 
-Once these are done, **Step 6** (IABS Form) and **Step 7** (Rechat) are next — and these are critical for client-facing work.
+Once these are done, **Step 6** (IABS Form), **Step 7** (Rechat), and **Step 8** (RealScout) are next — these are critical for client-facing work.
 
-**Ready? Click Next for Steps 6–7.**
+**Ready? Click Next for Steps 6–8.**

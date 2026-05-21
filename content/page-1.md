@@ -20,11 +20,11 @@ Brian's 3-minute welcome explains who we are and what to expect.
 
 ## The 5 Activation Steps
 
-1. **Emergency Contact Form**
-2. **TREC Sponsorship**
-3. **Join Your Realtor Association**
-4. **Sign IC Agreement**
-5. **Website Bio + Headshot**
+- **Emergency Contact Form**
+- **TREC Sponsorship**
+- **Join Your Realtor Association**
+- **Sign IC Agreement**
+- **Website Bio + Headshot**
 
 ---
 
