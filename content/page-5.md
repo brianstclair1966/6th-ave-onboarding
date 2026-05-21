@@ -40,20 +40,13 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 
 ---
 
-## Your Complete Resource Library
+## Your Main References
 
-**Who We Are**
-- [Mission, Vision & Core Values](https://www.6thavehomesagents.com/mission-and-values)
+- [Mission & Values](https://www.6thavehomesagents.com/mission-and-values)
 - [Your 90-Day Roadmap](https://www.dropbox.com/scl/fi/5sll74lw1ydy27cb2hotg/6th-Ave-Homes-Language-Roadmap-05.24.pdf)
-- [Networking with Soul](https://www.6thavehomesagents.com/social-media-with-soul)
-
-**Operations & Policies**
-- [Policies & Procedures Playbook](https://drive.google.com/file/d/19go9A0reuKBX10-EhZCCwh3oqI4K9WIe/view)
 - [CDA & Compliance Process](https://www.6thavehomesagents.com/compliance-cda-process)
 - [Brand Standards & Logos](https://www.6thavehomesagents.com/logos-and-brand-standards)
-
-**Your Main Resource**
-- [**www.6thavehomesagents.com**](https://www.6thavehomesagents.com) — the password is "one-stop-shop"
+- [**www.6thavehomesagents.com**](https://www.6thavehomesagents.com) — password: "one-stop-shop"
 
 ---
 

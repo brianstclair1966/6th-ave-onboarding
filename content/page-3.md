@@ -15,12 +15,10 @@ Steps 4 and 5 are simpler than they sound. These set up your official presence a
 **What this means:**
 You're an independent contractor, not an employee. This is standard in real estate.
 
-**What it entails:**
-- You manage your own schedule — no office hours required
-- You handle your own taxes (federal, state, local)
-- You keep 100% of your commission (minus our brokerage fee)
-- We don't provide benefits, W2s, or unemployment insurance
-- You're responsible for your own business expenses
+You manage your own business:
+- your schedule
+- your taxes
+- your expenses
 
 **What to expect:**
 Review it, sign it, click "finish" and you're good to go!

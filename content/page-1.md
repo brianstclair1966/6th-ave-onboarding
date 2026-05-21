@@ -18,7 +18,7 @@ Brian's 3-minute welcome explains who we are and what to expect.
 
 ---
 
-## The 5 Activation Steps
+## Your Activation Path
 
 - **Emergency Contact Form**
 - **TREC Sponsorship**
