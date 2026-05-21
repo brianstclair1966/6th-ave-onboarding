@@ -18,7 +18,7 @@ Steps 6 and 7 are **critical for working with clients**. Don't skip or postpone 
 
 ### **Here's what to do:**
 
-1. **Download the 6th Ave template:** [**IABS Form →**](https://drive.google.com/file/d/18aEHlMDTcs4OffcBoz9r2YbfS3-1AP7e/view?usp=sharing)
+1. **Download the 6th Ave template:** [**IABS Form →**](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view?usp=sharing)
 2. **Fill it out** with your name, contact info, and brokerage details
 3. **Save as a PDF** to your Google Drive
 4. **Get the share link** — Right-click the file → Share → Copy link
@@ -48,19 +48,19 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 
 ---
 
-## Why These Two Steps Together
+## Step 8: Set Up RealScout
 
-**IABS** is your legal protection. **Rechat** is your competitive advantage.
+**RealScout** is your lead generation and marketing platform. You can share it with your clients to let them search the MLS much like Zillow or Realtor.com.
 
-Together, they position you to work with clients professionally and compliantly from day one.
+[**→ RealScout Support →**](https://support.realscout.com/en/)
+
+**To market your RealScout to clients:**
+From your Marketing tab (along the left side), select "Market my Realscout". This creates a branded search portal your clients can use.
 
 ---
 
-## Timeline
+## Why These Three Steps Together
 
-- **IABS:** 20 minutes to create + 5 minutes to add to email signature
-- **Rechat:** 30 minutes initial explore (more later)
+**IABS** is your legal protection. **Rechat** is where you manage client relationships. **RealScout** is your competitive advantage — it lets you market yourself while giving clients a smooth search experience.
 
-You're almost there. Two more steps after this and you'll be ready to list properties.
-
-**Click Next to see the final step.**
+Together, they position you to work with clients professionally, compliantly, and effectively from day one.
