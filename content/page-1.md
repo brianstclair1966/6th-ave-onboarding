@@ -20,11 +20,11 @@ Brian's 3-minute welcome explains who we are and what to expect.
 
 ## The 5 Activation Steps
 
-* **Emergency Contact Form**
-* **TREC Sponsorship**
-* **Join Your Realtor Association**
-* **Sign IC Agreement**
-* **Website Bio**
+- **Emergency Contact Form**
+- **TREC Sponsorship**
+- **Join Your Realtor Association**
+- **Sign IC Agreement**
+- **Website Bio**
 
 ---
 
@@ -37,14 +37,13 @@ We're setting up your accounts at the same time:
 - Rechat
 - Realscout
 - DocuSign
-
-You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
+- You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 
 ---
 
-## Questions?
+## Need Help?
 
-Email [brian@6thavehomes.com](mailto:brian@6thavehomes.com) — respond within the first hour if you're stuck.
+Send Brian a text at **(817) 360-5555**
 
 ---
 
