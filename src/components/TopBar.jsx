@@ -6,7 +6,7 @@ export default function TopBar({ currentPage }) {
   const percentage = (currentPage / TOTAL_PAGES) * 100
 
   return (
-    <div className="fixed top-20 md:top-24 left-0 right-0 z-40 bg-white border-b border-gray-100 py-4">
+    <div className="fixed top-16 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 py-4">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex items-center justify-between">
           {/* Breadcrumbs on left - only show on pages 2+ */}
@@ -44,7 +44,7 @@ export default function TopBar({ currentPage }) {
 
           {/* Progress bar on right */}
           <div className="flex items-center gap-3 ml-4">
-            <span className="text-sm text-brand-taupe font-medium">Page {currentPage} of {TOTAL_PAGES}</span>
+            <span className="text-sm text-brand-navy font-medium">Page {currentPage} of {TOTAL_PAGES}</span>
             <span className="text-lg font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
           </div>
         </div>
