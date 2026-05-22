@@ -4,7 +4,7 @@ page: 5
 description: "Your orientation sessions and what's next"
 ---
 
-## Step 9: Guide Training and Orientation
+## ⑨ Guide Training and Orientation
 
 Complete these three Guide Training sessions in your first week to understand how 6th Ave works.
 

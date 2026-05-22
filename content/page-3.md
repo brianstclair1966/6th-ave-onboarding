@@ -9,7 +9,7 @@ description: "IC agreement, website bio, and getting established"
 Our Transaction Coordinator will be helping you with Step 4 by sending you a Docusign email that contains your Independent Contractor Agreement. You can go to Step 5 and begin building your 6th Ave Homes Professional Presence.
 
 
-## ④ Step 4: Sign Your Independent Contractor Agreement
+## ④ Sign Your Independent Contractor Agreement
 
 **What this means:**
 You're an independent contractor, not an employee. This is standard in real estate.
@@ -23,7 +23,7 @@ You manage your own business:
 Review it, sign it, click "finish" and you're good to go!
 
 
-## ⑤ Step 5: Build Your Professional Presence
+## ⑤ Build Your Professional Presence
 
 ### **Part A: Website Bio**
 

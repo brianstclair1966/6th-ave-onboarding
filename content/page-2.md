@@ -9,7 +9,7 @@ description: "Forms, licensing, MLS — getting legally active"
 Steps 1 - 3 are pretty straightforward & won't take you much time.
 
 
-## ① Step 1: Emergency Contact Form
+## ① Emergency Contact Form
 
 This is housekeeping. We need some info for our files. We promise to keep your info safe.
 
@@ -18,7 +18,7 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 That's it. Next.
 
 
-## ② Step 2: TREC Sponsorship
+## ② TREC Sponsorship
 
 **What happens:** Once you submit your emergency contact form, Brian will receive it and invite you to join us on the <span title="Texas Real Estate Commission">TREC</span> website.
 
@@ -27,7 +27,7 @@ That's it. Next.
 **Why it matters:** You can't get MLS access without being TREC-licensed under 6th Ave.
 
 
-## ③ Step 3: Join Your Realtor Association
+## ③ Join Your Realtor Association
 
 MLS access unlocks everything. Choose the association that matches your location.
 

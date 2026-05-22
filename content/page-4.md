@@ -9,7 +9,7 @@ description: "IABS forms and getting comfortable with Rechat"
 Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postpone these.
 
 
-## ⑥ Step 6: Create Your IABS Form
+## ⑥ Create Your IABS Form
 
 **<span title="Information About Brokerage Services">IABS</span> = Information About Brokerage Services**
 
@@ -32,7 +32,7 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 - IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there.
 
 
-## ⑦ Step 7: Get Started with Rechat
+## ⑦ Get Started with Rechat
 
 **<span title="Client Relationship Management platform for real estate professionals">Rechat</span>** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups. You'll also submit your Compensation Disbursement Agreement here to get paid at closing.
 
@@ -47,7 +47,7 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 **Rechat** is where we manage conversations, transactions, tasks, and follow-up. You'll learn it by using it.
 
 
-## ⑧ Step 8: Set Up RealScout
+## ⑧ Set Up RealScout
 
 **<span title="Lead generation and marketing platform for real estate professionals">RealScout</span>** is your lead generation and marketing platform. You can share it with your clients to let them search the MLS much like Zillow or Realtor.com.
 
