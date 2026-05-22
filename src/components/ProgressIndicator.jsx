@@ -2,7 +2,7 @@ export default function ProgressIndicator({ current, total }) {
   const percentage = (current / total) * 100
 
   return (
-    <div className="sticky top-32 z-30 bg-white border-b border-gray-100 py-3">
+    <div className="sticky top-28 z-30 bg-white border-b border-gray-100 py-3">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex items-center justify-between mb-2">
           <div>
