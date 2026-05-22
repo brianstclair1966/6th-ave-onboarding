@@ -6,9 +6,9 @@ export default function Page({ children, pageNumber }) {
     <div className="min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
       <header className="bg-brand-navy text-white py-6 border-b-4 border-brand-coral">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="flex items-baseline gap-3">
-            <h1 className="text-2xl font-bold tracking-tight">6th Ave Homes</h1>
-            <div className="w-1 h-6 bg-brand-coral"></div>
+          <div className="flex items-center gap-6">
+            <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-16" />
+            <div className="w-1 h-12 bg-brand-coral"></div>
             <p className="text-sm font-light text-gray-200 tracking-wide">AGENT ONBOARDING</p>
           </div>
         </div>
