@@ -16,7 +16,7 @@ export default function Page({ children, pageNumber }) {
 
       <TopBar currentPage={pageNumber} />
 
-      <main className="flex-1 pt-44 md:pt-52">
+      <main className="flex-1 pt-40 md:pt-52">
         {children}
       </main>
 
