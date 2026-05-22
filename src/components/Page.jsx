@@ -8,8 +8,8 @@ export default function Page({ children, pageNumber }) {
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex items-center gap-6">
             <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-16" />
-            <div className="w-1 h-12 bg-brand-coral"></div>
-            <p className="text-sm font-light text-gray-200 tracking-wide">AGENT ONBOARDING</p>
+            <div className="w-1 h-16 bg-brand-coral"></div>
+            <h2 className="text-2xl font-bold text-white tracking-tight">AGENT ONBOARDING</h2>
           </div>
         </div>
       </header>
