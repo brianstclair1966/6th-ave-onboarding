@@ -6,7 +6,7 @@ description: "IC agreement, website bio, and getting established"
 
 # Getting Your Foundation Ready
 
-These steps help set up your official presence and legal standing with 6th Ave Homes.
+Our Transaction Coordinator will be helping you with Step 4 by sending you a Docusign email that contains your Independent Contractor Agreement. You can go to Step 5 and begin building your 6th Ave Homes Professional Presence.
 
 
 ## ④ Step 4: Sign Your Independent Contractor Agreement
