@@ -7,7 +7,7 @@ export default function TopBar({ currentPage }) {
 
   return (
     <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 pt-3 pb-1 md:pt-6 md:pb-1">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-4xl md:max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between gap-2 md:gap-6">
           {/* Breadcrumbs - show on all pages */}
           <div className="flex items-center gap-0.5 md:gap-2 flex-shrink-0 min-w-0">

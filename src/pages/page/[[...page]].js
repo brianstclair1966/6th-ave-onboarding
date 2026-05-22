@@ -95,7 +95,7 @@ export default function PageComponent({ pageNumber, content }) {
 
   return (
     <Page pageNumber={pageNumber}>
-      <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
+      <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         <div
           className="prose prose-sm max-w-none"
           dangerouslySetInnerHTML={{ __html: content }}
