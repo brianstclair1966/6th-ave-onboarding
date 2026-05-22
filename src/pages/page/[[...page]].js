@@ -5,7 +5,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import Page from '../../components/Page'
 import Navigation from '../../components/Navigation'
-import ProgressIndicator from '../../components/ProgressIndicator'
 
 const TOTAL_PAGES = 5
 
@@ -96,8 +95,6 @@ export default function PageComponent({ pageNumber, content }) {
 
   return (
     <Page pageNumber={pageNumber}>
-      <ProgressIndicator current={pageNumber} total={TOTAL_PAGES} />
-
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         <div
           className="prose prose-sm max-w-none"
