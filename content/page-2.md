@@ -6,7 +6,7 @@ description: "Forms, licensing, MLS — getting legally active"
 
 # Getting You Active
 
-Steps 1–3 are straightforward and happen at the same time. Don't overthink them — just execute.
+Steps 1 - 3 are pretty straightforward & won't take you much time.
 
 ---
 
@@ -36,15 +36,15 @@ MLS access unlocks everything. Choose the association that matches your location
 
 ### **DFW Metroplex**
 
-Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** and say:
+Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 336-5165** and say:
 > "I'm a newly licensed real estate agent with 6th Ave Homes. I'd like to apply for membership."
 
 **Also required:**
-1. **SUPRA Key** — Order your first SUPRA lockbox key (GFWAR will guide you)
-2. **eKEY App** — Download the SUPRA eKEY app to your phone
-3. **Matrix MLS Training** — GFWAR will schedule this (video-based, ~2 hours)
-4. **NAR Code of Ethics** — Online course, ~1 hour, can do anytime
-5. **Create your Matrix account** — Once you have MLS access
+- **SUPRA Key** — Order your first SUPRA lockbox key (GFWAR will guide you)
+- **eKEY App** — Download the SUPRA eKEY app to your phone
+- **Matrix MLS Training** — GFWAR will schedule this (video-based, ~2 hours)
+- **NAR Code of Ethics** — Online course, ~1 hour, can do anytime
+- **Create your Matrix account** — Once you have MLS access
 
 ### **Temple-Belton Area**
 

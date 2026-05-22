@@ -10,7 +10,7 @@ export default function ProgressIndicator({ current, total }) {
               PROGRESS
             </span>
             <p className="text-lg font-semibold text-brand-navy mt-1">
-              Step {current} of {total}
+              Page {current} of {total}
             </p>
           </div>
           <span className="text-2xl font-bold text-brand-coral">

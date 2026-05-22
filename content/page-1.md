@@ -22,14 +22,14 @@ Brian's 3-minute welcome explains who we are and what to expect.
 
 Here's everything you'll complete in your first week:
 
-① **Emergency Contact Form**
-② **TREC Sponsorship**
-③ **Join Your Realtor Association**
-④ **Sign IC Agreement**
-⑤ **Website Bio**
-⑥ **Create Your IABS Form**
-⑦ **Get Started with Rechat**
-⑧ **Set Up RealScout & Training**
+- ① **Emergency Contact Form**
+- ② **TREC Sponsorship**
+- ③ **Join Your Realtor Association**
+- ④ **Sign IC Agreement**
+- ⑤ **Website Bio**
+- ⑥ **Create Your IABS Form**
+- ⑦ **Get Started with Rechat**
+- ⑧ **Set Up RealScout & Training**
 
 ---
 
