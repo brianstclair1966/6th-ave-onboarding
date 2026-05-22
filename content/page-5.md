@@ -4,7 +4,7 @@ page: 5
 description: "Your orientation sessions and what's next"
 ---
 
-# Step 8: Your Training Starts Here
+# Step 9: Guide Training and Orientation
 
 Complete these three Guide Training sessions in your first week to understand how 6th Ave works.
 
@@ -46,7 +46,7 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 - [Your 90-Day Roadmap](https://www.dropbox.com/scl/fi/5sll74lw1ydy27cb2hotg/6th-Ave-Homes-Language-Roadmap-05.24.pdf)
 - [CDA & Compliance Process](https://www.6thavehomesagents.com/compliance-cda-process)
 - [Brand Standards & Logos](https://www.6thavehomesagents.com/logos-and-brand-standards)
-- [**www.6thavehomesagents.com**](https://www.6thavehomesagents.com) — password: "one-stop-shop"
+- [www.6thavehomesagents.com](https://www.6thavehomesagents.com) — password: "one-stop-shop"
 
 ---
 
@@ -54,7 +54,9 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 
 Text Brian at **(817) 360-5555** or ask questions on the **#guides** channel on Slack. The #general channel goes to everyone in the company so we try to keep real estate questions on the #guides channel. Be sure to join the **#put-listings-openhouse-here** channel to grab an Open House opportunity soon!
 
-You now have everything you need. Execute the 8 steps, complete these three sessions, and reach out if you're stuck.
+Also join **#brokerageannouncements** channel to stay up to date with messages from 6th Ave & the leadership team.
+
+Thanks for walking through all of the steps. We have tried to give you everything you need to get started, but if you feel like something's missing, [let us know](mailto:brian@6thavehomes.com). We'll be happy to answer your question or help you find what you need.
 
 **Welcome to 6th Ave Homes.**
 

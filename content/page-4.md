@@ -18,17 +18,19 @@ Steps 6 and 7 are **critical for working with clients**. Don't skip or postpone 
 
 ### **Here's what to do:**
 
-- **Download the 6th Ave template:** [**IABS Form →**](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view?usp=sharing)
-- **Fill it out** with your name, contact info, and brokerage details
-- **Save as a PDF** to your Google Drive
-- **Get the share link** — Right-click the file → Share → Copy link
-- **Add to your email signature** — Create a hyperlink to the PDF. This must be above your picture & links.
+[**IABS Template →**](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view?usp=sharing)
+
+- Once you open the IABS Template, look near the top left corner & click "Download"
+- Save the file to your computer or cloud service
+- Open a PDF editor to add your name, license number, email address, and phone number
+- Re-save the file back to your computer or cloud
+- Add to your email signature — Create a hyperlink to the PDF. This link must be above your picture & links in your email signature
 
 ### **Email signature template:**
 
-> "Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
->
-> IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there."
+- Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
+
+- IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there.
 
 ---
 

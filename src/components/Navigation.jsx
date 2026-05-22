@@ -36,7 +36,7 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nex
               rel="noopener noreferrer"
               className="px-10 py-3 bg-green-600 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm hover:bg-green-700 transition-all duration-200 cursor-pointer"
             >
-              ✓ You're Ready
+              Go to the Backsite
             </a>
           )}
         </div>

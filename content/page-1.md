@@ -25,11 +25,12 @@ Here's everything you'll complete in your first week:
 - ① **Emergency Contact Form**
 - ② **TREC Sponsorship**
 - ③ **Join Your Realtor Association**
-- ④ **Sign IC Agreement**
-- ⑤ **Website Bio**
+- ④ **Sign Independent Contractor Agreement**
+- ⑤ **Professional Presence, Bio, & All About You**
 - ⑥ **Create Your IABS Form**
 - ⑦ **Get Started with Rechat**
-- ⑧ **Set Up RealScout & Training**
+- ⑧ **Get Started with RealScout**
+- ⑨ **Guide Training and Orientation**
 
 ---
 

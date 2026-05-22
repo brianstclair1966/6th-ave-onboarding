@@ -45,7 +45,9 @@ We do **quarterly headshot shoots**. You'll get scheduled during one of those.
 
 ### **Part B: "All About You" Form**
 
-This helps us know you better and creates more content for your bio and team resources.
+This helps us know you better and it creates more personal content on your bio page.
+
+See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
 
 [**→ Fill out the form (5 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
 
@@ -75,13 +77,4 @@ Complete these before moving forward:
 - [ ] Filled out the "All About You" form
 - [ ] Updated your online profiles with 6th Ave branding
 
-**Complete all the items above to continue — we will send you your Independent Contractor Agreement, so click that box too.**
-
-Once these are done:
-- **⑥ Step 6** (IABS Form)
-- **⑦ Step 7** (Rechat)
-- **⑧ Step 8** (RealScout & Training)
-
-These are critical for client-facing work.
-
-**Ready? Click Next for Steps 6–8.**
+Complete all the items above to continue to Page 4.
