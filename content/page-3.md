@@ -41,7 +41,7 @@ Every 6th Ave agent gets featured on [**6thavehomes.com**](https://6thavehomes.c
 
 **Then:** Email your finished bio to **[brian@6thavehomes.com](mailto:brian@6thavehomes.com)**
 
-We do **quarterly headshot shoots**. You'll get scheduled during one of those.
+You'll have the opportunity to sign up to get yours done during our next shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
 
 ### **Part B: "All About You" Form**
 

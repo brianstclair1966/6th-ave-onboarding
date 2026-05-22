@@ -6,7 +6,7 @@ description: "IABS forms and getting comfortable with Rechat"
 
 # The Client-Facing Foundation
 
-Steps 6 and 7 are **critical for working with clients**. Don't skip or postpone these.
+Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postpone these.
 
 ---
 
@@ -26,7 +26,7 @@ Steps 6 and 7 are **critical for working with clients**. Don't skip or postpone 
 - Re-save the file back to your computer or cloud
 - Add to your email signature — Create a hyperlink to the PDF. This link must be above your picture & links in your email signature
 
-### **Email signature template:**
+### **Email signature template:** (Place this template wording directly above your email signature. If you are unsure how to do that, please ask Brian or the #guides channel.)
 
 - Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
 

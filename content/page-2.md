@@ -46,9 +46,11 @@ Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 
 - **NAR Code of Ethics** — Online course, ~1 hour, can do anytime
 - **Create your Matrix account** — Once you have MLS access
 
-### **Temple-Belton Area**
+### **Temple-Belton Board of Realtors / CTX MLS**
 
-[**Go to Temple-Belton Association of Realtors →**](https://www.tbbor.com/join)
+6th Ave Home is proud to be a member of the Temple Belton Board of Realtors. TBBOR uses the CTX MLS. You are welcome to join & have access to CTX MLS. Please understand that all fees & application fees for you to join TBBOR & CTX MLS are at your expense.
+
+[**Go to Temple-Belton Board of Realtors →**](https://www.mytbbor.com/)
 
 **On the form:**
 - Register as "Primary Member"
@@ -56,16 +58,14 @@ Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 
 
 Once approved, order your SUPRA key and download eKEY.
 
-### **Austin**
+### **Austin Board of Realtors / Unlock MLS**
+
+6th Ave Home is proud to be a member of the Austin Board of Realtors. ABOR uses the UnlockMLS. You are welcome to join & have access to UnlockMLS. Please understand that all fees & application fees for you to join ABOR & UnlockMLS are at your expense.
 
 [**Go to Unlock MLS →**](https://www.unlockmls.com/)
-
-If you're in Austin, Unlock MLS is your primary option for MLS access. It's a technology-first platform that gives you full MLS search and transaction management.
 
 ---
 
 ## What's Next
-
-While you handle steps 1–3, we're setting you up on all our platforms. You'll receive setup emails as they're ready — accept them as they arrive.
 
 Move to **Step 4** (IC Agreement) and **Step 5** (Website Bio) while these are processing.
