@@ -6,7 +6,7 @@ export default function TopBar({ currentPage }) {
   const percentage = (currentPage / TOTAL_PAGES) * 100
 
   return (
-    <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 py-2 md:py-4">
+    <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 py-2 md:pt-3 md:pb-2">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex items-center justify-between gap-2 md:gap-6">
           {/* Breadcrumbs on left - only show on pages 2+ */}
