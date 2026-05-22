@@ -11,10 +11,10 @@ export default function TopBar({ currentPage }) {
         <div className="flex items-center justify-between gap-2 md:gap-6">
           {/* Breadcrumbs - show on all pages */}
           <div className="flex items-center gap-0.5 md:gap-2 flex-shrink-0 min-w-0">
-            <Link href="/page/1" className="text-xs md:text-sm text-brand-coral hover:text-brand-coral/80 font-medium transition-colors whitespace-nowrap">
+            <Link href="/page/1" className="text-xs md:text-sm text-brand-coral hover:text-brand-coral/80 font-bold transition-colors whitespace-nowrap">
               ← Back
             </Link>
-            <span className="text-gray-300 hidden md:inline text-xs">|</span>
+            <span className="text-brand-coral hidden md:inline text-xs">|</span>
             <div className="flex gap-0.5 md:gap-1.5">
               {Array.from({ length: TOTAL_PAGES }, (_, i) => i + 1).map((pageNum) => (
                 <div key={pageNum}>
