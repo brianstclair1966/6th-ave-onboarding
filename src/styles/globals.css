@@ -27,7 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--brand-cream);
-  color: #1a1a1a;
+  color: var(--brand-navy);
   letter-spacing: -0.3px;
 }
 
@@ -75,7 +75,7 @@ p {
   font-size: 1.0625rem;
   line-height: 1.75;
   margin-bottom: 1.25rem;
-  color: #333;
+  color: var(--brand-navy);
   font-weight: 400;
 }
 
@@ -138,7 +138,7 @@ ol {
 li {
   margin-bottom: 0.875rem;
   line-height: 1.75;
-  color: #333;
+  color: var(--brand-navy);
 }
 
 /* Checkboxes */
