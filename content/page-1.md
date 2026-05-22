@@ -1,6 +1,8 @@
+---
 title: "Welcome to 6th Ave Homes"
 page: 1
 description: "Your first week — what to do first"
+---
 
 # Welcome to 6th Ave Homes
 

@@ -1,6 +1,8 @@
+---
 title: "Step 8: Go Deeper with Guide Training"
 page: 5
 description: "Your orientation sessions and what's next"
+---
 
 ## Step 9: Guide Training and Orientation
 

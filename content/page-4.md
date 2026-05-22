@@ -1,6 +1,8 @@
+---
 title: "Steps 6–7: Compliance & Tools"
 page: 4
 description: "IABS forms and getting comfortable with Rechat"
+---
 
 # The Client-Facing Foundation
 

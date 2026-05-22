@@ -1,6 +1,8 @@
+---
 title: "Steps 4–5: Documentation & Presence"
 page: 3
 description: "IC agreement, website bio, and getting established"
+---
 
 # Getting Your Foundation Ready
 

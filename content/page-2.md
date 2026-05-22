@@ -1,6 +1,8 @@
+---
 title: "Steps 1–3: Activation in Action"
 page: 2
 description: "Forms, licensing, MLS — getting legally active"
+---
 
 # Getting You Active
 
