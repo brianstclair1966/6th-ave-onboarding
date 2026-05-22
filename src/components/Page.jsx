@@ -3,7 +3,7 @@ import Glossary from './Glossary'
 
 export default function Page({ children, pageNumber }) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
+    <div className="w-full min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
       <header className="sticky top-0 z-50 bg-brand-navy text-white py-6 border-b-4 border-brand-coral">
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex items-center gap-6">
