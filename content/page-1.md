@@ -1,14 +1,11 @@
----
 title: "Welcome to 6th Ave Homes"
 page: 1
 description: "Your first week — what to do first"
----
 
 # Welcome to 6th Ave Homes
 
 ## You're joining a brokerage that operates differently. We're going to walk you through some simple steps to get you setup & start building or increasing your business. We're here to make you better at what you're already good at. Everything we do is geared towards your success.
 
----
 
 ## Watch This First
 
@@ -16,7 +13,6 @@ Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome
 
 <iframe width="60%" height="450" src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>
 
----
 
 ## Your Activation Path
 
@@ -32,7 +28,6 @@ Here's the things you'll be working on over the next few pages of this module:
 - ⑧ **Get Started with RealScout**
 - ⑨ **Guide Training and Orientation**
 
----
 
 ## What Happens on Our End
 
@@ -45,12 +40,10 @@ After you complete Step 1 and fill out your Emergency Contact Form, we will begi
 - DocuSign
 - You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 
----
 
 ## Need Help?
 
 Send Brian a text at **(817) 360-5555**
 
----
 
 **Click Next to see Steps 1–3 in detail.**

@@ -1,14 +1,11 @@
----
 title: "Steps 4–5: Documentation & Presence"
 page: 3
 description: "IC agreement, website bio, and getting established"
----
 
 # Getting Your Foundation Ready
 
 These steps help set up your official presence and legal standing with 6th Ave Homes.
 
----
 
 ## ④ Step 4: Sign Your Independent Contractor Agreement
 
@@ -23,7 +20,6 @@ You manage your own business:
 **What to expect:**
 Review it, sign it, click "finish" and you're good to go!
 
----
 
 ## ⑤ Step 5: Build Your Professional Presence
 
@@ -51,7 +47,6 @@ See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-cl
 
 [**→ Go here to fill out the All About You Form (5 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
 
----
 
 ### **Part C: Update Your Online Presence**
 
@@ -61,13 +56,11 @@ You can use one of these logo versions in your profiles:
 - [**Main Logo (Dark Background)**](https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing)
 - [**Main Logo (White Background)**](https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing)
 
----
 
 ## Why This Matters
 
 Your website bio is often the first impression clients have of you.
 
----
 
 ## Next Steps
 
@@ -77,4 +70,4 @@ Complete these before moving forward:
 - [ ] Filled out the "All About You" form
 - [ ] Updated your online profiles with 6th Ave branding
 
-Complete all the items above to continue to Page 4.
+Please check the boxes above signifying that you've completed each of the steps above to continue to page 4.

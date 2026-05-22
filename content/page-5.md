@@ -1,14 +1,11 @@
----
 title: "Step 8: Go Deeper with Guide Training"
 page: 5
 description: "Your orientation sessions and what's next"
----
 
-# Step 9: Guide Training and Orientation
+## Step 9: Guide Training and Orientation
 
 Complete these three Guide Training sessions in your first week to understand how 6th Ave works.
 
----
 
 ## The Three Guide Training Sessions
 
@@ -26,19 +23,16 @@ How we handle client data, the CDA process, and your responsibilities as a licen
 
 Our brand identity, how to market yourself authentically, and content standards.
 
----
 
 ## Timeline
 
 Read these in your first week — you don't need to finish before you start working, but this foundational knowledge matters.
 
----
 
 ## What's Next
 
 Once you've completed the 8 steps and these training sessions, your MLS will be active, systems will be set up, and you're ready to list your first property.
 
----
 
 ## Your Main References
 
@@ -48,7 +42,6 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 - [Brand Standards & Logos](https://www.6thavehomesagents.com/logos-and-brand-standards)
 - [www.6thavehomesagents.com](https://www.6thavehomesagents.com) — password: "one-stop-shop"
 
----
 
 ## Questions?
 

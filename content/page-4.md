@@ -1,14 +1,11 @@
----
 title: "Steps 6–7: Compliance & Tools"
 page: 4
 description: "IABS forms and getting comfortable with Rechat"
----
 
 # The Client-Facing Foundation
 
 Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postpone these.
 
----
 
 ## ⑥ Step 6: Create Your IABS Form
 
@@ -32,7 +29,6 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 - IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there.
 
----
 
 ## ⑦ Step 7: Get Started with Rechat
 
@@ -48,7 +44,6 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 
 **Rechat** is where we manage conversations, transactions, tasks, and follow-up. You'll learn it by using it.
 
----
 
 ## ⑧ Step 8: Set Up RealScout
 
