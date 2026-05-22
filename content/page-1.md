@@ -6,7 +6,11 @@ description: "Your first week — what to do first"
 
 # Welcome to 6th Ave Homes
 
-## You're joining a brokerage that operates differently. We're going to walk you through some simple steps to get you setup & start building or increasing your business. We're here to make you better at what you're already good at. Everything we do is geared towards your success.
+### You're joining a brokerage that looks, feels, & operates differently. We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business.
+
+We think of you as OUR client. We're here to make you better at what you're already good at: Relationships. Stories. People.
+
+Everything we do at 6th Ave Homes is geared for your success.
 
 
 ## Watch This First
