@@ -188,6 +188,19 @@ You don't need to memorize it. You just need to know it exists.
 Use these as you work. The rest is there when you're ready.
 
 
+## The Fort Worth Office
+
+The office is yours to use. Make good use of it!
+
+**The door & alarm code is 8590.** Please be aware that our office has video security.
+
+Wi-Fi: Connect to 6thavellc. The password is: 6thAveHomies
+
+- You can reserve one of the conference rooms to meet clients, sign documents, or have an advisory meeting. Use your Google Calendar to create an event, add your title, then look for "Add rooms or location" about halfway down the popup. Select a conference room (if a room is already booked at that time, you won't be able to reserve that one), invite another person if you like, and save it! You just booked your first event at 6th Ave!
+- Feel free to use the office after hours! Just be sure to lock up and leave the office better than you found it.
+- We have a main printer located in the Brokerage Office (the one with the green couch). Once you are connected to our Wi-Fi, you should be able to add that printer on your computer to print.
+
+
 ## What You Now Understand
 
 - Why 6th Ave operates differently

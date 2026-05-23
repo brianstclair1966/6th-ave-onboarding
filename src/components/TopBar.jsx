@@ -20,8 +20,16 @@ export default function TopBar({ currentPage, sectionTitle }) {
         <div className="flex items-center justify-between gap-2 md:gap-6">
           {/* Breadcrumbs - show on all pages */}
           <div className="flex items-center gap-0.5 md:gap-2 flex-shrink-0 min-w-0">
-            <Link href={currentPage >= 6 ? '/page/6' : '/page/1'} className="text-xs md:text-sm text-brand-coral hover:text-brand-coral/80 font-bold transition-colors whitespace-nowrap">
-              {currentPage >= 6 ? '← Orientation Home' : '← Home'}
+            <Link href={currentPage >= 6 ? '/page/6' : '/page/1'} className="text-xs text-brand-coral hover:text-brand-coral/80 font-bold transition-colors flex flex-col items-start leading-tight">
+              {currentPage >= 6 ? (
+                <>
+                  <span>←</span>
+                  <span>Orientation</span>
+                  <span>Home</span>
+                </>
+              ) : (
+                '← Home'
+              )}
             </Link>
             <span className="text-brand-coral hidden md:inline text-xs">|</span>
             <div className="flex gap-0.5 md:gap-1.5">
