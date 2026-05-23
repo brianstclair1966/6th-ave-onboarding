@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const TOTAL_PAGES = 6
+const TOTAL_PAGES = 8
 
 export default function TopBar({ currentPage, sectionTitle }) {
   const percentage = (currentPage / TOTAL_PAGES) * 100
