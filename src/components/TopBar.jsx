@@ -59,8 +59,13 @@ export default function TopBar({ currentPage, sectionTitle }) {
             </div>
           </div>
 
-          {/* Progress percentage on right */}
-          <div className="ml-auto">
+          {/* Right side: Back to Onboarding (if orientation) + Progress percentage */}
+          <div className="ml-auto flex flex-col items-end gap-1">
+            {isOrientation && (
+              <Link href="/page/1" className="text-xxs text-brand-taupe hover:text-brand-coral transition-colors font-medium whitespace-nowrap">
+                ← Onboarding
+              </Link>
+            )}
             <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
           </div>
         </div>
