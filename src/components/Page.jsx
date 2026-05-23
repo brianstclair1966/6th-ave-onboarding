@@ -9,7 +9,9 @@ export default function Page({ children, pageNumber, sectionTitle }) {
           <div className="flex items-center gap-2 md:gap-6">
             <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-10 md:h-16" />
             <div className="w-1 h-10 md:h-16 bg-brand-coral"></div>
-            <h2 className="text-xl md:text-4xl font-bold text-white tracking-tight">AGENT ONBOARDING</h2>
+            <h2 className="text-xl md:text-4xl font-bold text-white tracking-tight">
+              {pageNumber >= 6 ? 'AGENT ORIENTATION' : 'AGENT ONBOARDING'}
+            </h2>
           </div>
         </div>
       </header>
