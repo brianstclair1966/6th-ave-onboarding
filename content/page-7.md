@@ -165,13 +165,19 @@ You're a guide with a team that moves in unison.
 
 Your job isn't to manage the construction company, the lender, or the title company.
 
-Your job is to architect the solution and guide the client through it.
-
-The team handles the execution.
+Your job is to guide the client through it. The team handles the logistics.
 
 **That's what coordination gives you: your time back.**
 
 Time for more clients. Time for deeper relationships. Time to actually build a business instead of manage chaos.
+
+---
+
+**The first time you see this work in a real transaction, it clicks fast.**
+
+You'll get one email from construction with a scope. Your lender will ask smart questions instead of panicked ones. Your client will say "thank you for making this simple."
+
+Then you'll understand why this matters.
 
 
 ## Common Misconception

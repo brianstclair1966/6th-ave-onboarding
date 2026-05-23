@@ -177,6 +177,10 @@ Your job is showing up for the client while the system does the work.
 
 **That's the operational foundation.**
 
+---
+
+You'll revisit many of these ideas later—through real transactions, weekly trainings, masterminds, and continued experience. This isn't the end of learning. It's the beginning of understanding how the pieces actually fit.
+
 
 ## Next Steps
 
@@ -196,6 +200,10 @@ Pages 6–8 have given you:
 - An advantage (Page 7: Why we win)
 - A foundation (Page 8: How we navigate)
 
-Now comes the execution. That's where the real compounding begins.
+Now comes the execution. The goal isn't perfection. The goal is steady progress and consistent reps.
+
+Every transaction teaches you something. Every client guides you. Every closing builds your confidence.
+
+That's how agents actually get better.
 
 Welcome to 6th Ave.

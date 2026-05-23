@@ -114,6 +114,10 @@ Not a salesperson. Not a transaction processor.
 
 A guide reduces uncertainty. A guide leads with clarity. A guide builds relationships that last beyond closing.
 
+**You do not need to master all of this immediately.**
+
+You'll learn through transactions, through mentoring, through doing. That's how it works here.
+
 **Common Mistake:**
 New agents think "guide" means "teacher." It actually means "steady presence."
 
