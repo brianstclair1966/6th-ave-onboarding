@@ -14,7 +14,7 @@ Most brokerages teach you *how to function*.
 ## Why We Exist Differently
 
 Most brokerages optimize for transaction volume.
-We optimize for agent success.
+We optimize for long-term agent success.
 
 **The difference:**
 We think of you as a business partner, not a transaction machine.
@@ -34,12 +34,13 @@ You lead with clarity, not pressure.
 You explain the process so they understand each step.
 You solve problems before they become crises.
 
-**What this means:**
-Clients remember how you made them *feel* long after they forget the price.
+**Clients remember how you made them feel long after they forget the price.**
 
 Safe, guided, confident? They refer you for years.
 
 Rushed, confused, pressured? They don't.
+
+---
 
 That's not philosophy. That's how humans work.
 
@@ -65,7 +66,11 @@ Every process has a reason. You'll know what's expected before you guess.
 
 Compliance happens naturally. Tools are chosen because they solve real problems.
 
-When systems work, you stop managing logistics and start managing relationships. That's where the real work is.
+---
+
+When systems work, you stop managing logistics and start managing relationships.
+
+That's where the real work is.
 
 
 ### Client-First Thinking
@@ -128,7 +133,11 @@ Your sphere is used to transactional agents. They don't believe you're different
 
 After 3–4 weeks of consistent presence, they start noticing. Then momentum appears.
 
-**The compounding starts at week 4.** Agents who quit at week 2 stop right before it works.
+---
+
+**The compounding starts at week 4.**
+
+Agents who quit at week 2 stop right before it works.
 
 **Your next move:**
 This week, identify 20 people from your sphere you genuinely want to stay connected to.
