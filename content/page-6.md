@@ -6,9 +6,11 @@ description: "How 6th Ave actually works"
 
 # Operations and Requirements
 
-Watch This First
+## Watch This First
 
 <iframe width="60%" height="450" src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>
+
+---
 
 ## What You're About to Learn
 
@@ -40,6 +42,7 @@ You don't need to memorize it. You just need to know it exists.
 
 Use these as you work. The rest is there when you're ready.
 
+---
 
 ## The Fort Worth Office
 
@@ -53,6 +56,7 @@ Wi-Fi: Connect to 6thavellc. The password is: 6thAveHomies
 - Feel free to use the office after hours! Just be sure to lock up and leave the office better than you found it.
 - We have a main printer located in the Brokerage Office (the one with the green couch). Once you are connected to our Wi-Fi, you should be able to add that printer on your computer to print.
 
+---
 
 ## Mentors and Mentees - Important
 
@@ -65,6 +69,7 @@ Every NEW (to the industry) agent will have a mentor for their first 3 transacti
 - If the Mentee is a Part Time agent & brings a buyer or seller, The Mentee receives 60% of the compensation (with a $300 Transaction Fee), the Mentor gets 25%, & 6th Ave 15%.
 - If the Mentee is a Part Time agent & received a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $300 Transaction Fee), Mentor gets 45%, & 6th Ave 25%.
 
+---
 
 ## Meetings and Town Halls
 
@@ -82,6 +87,7 @@ Agents are also invited to attend our quarterly "Town Hall meetings". These meet
 
 Occasionally, your Brokerage Manager or Brokerage Director will request an annual, semi-annual, or quarterly meeting with you as a "catch-up". Low-pressure. Just a check-in. Please try to make time for these.
 
+---
 
 ## Competence and Rules
 
@@ -97,11 +103,13 @@ Agents are encouraged to consult with our [Subject Matter Experts](https://www.6
 
 No 6th Ave Guide will participate in a transaction as a Property Manager without being certified & trained in proper management procedures. Please consult with the broker for more detail.
 
+---
 
 ## Contracts and Documents
 
 In addition to completing all of the forms and TREC documents correctly, we require each real estate transaction to have all required items on the [6AH Checklist Docs](https://www.6thavehomesagents.com/compliance-cda-process) for a CDA to be released. You are expected to submit all of this information in Rechat (full time agents) or to the Transaction Coordinator (part-time agents) a minimum of 7 days before closing to get paid on time. Our transaction coordinator is NOT an employee of 6th Ave Homes & does not work full time on our compliance & CDAs. 7 days gives her time to work us into her workflow & generate your CDA before your closing.
 
+---
 
 ## Splits and Caps
 
@@ -109,6 +117,7 @@ Splits and caps are assessed on an individual basis. 6th Ave Homes charges a man
 
 Once capped, all agents will pay a flat fee of $600/transaction (the $200 fee is included in the $600).
 
+---
 
 ## Leads
 
@@ -124,6 +133,7 @@ Search portal website leads are given out at the brokerage discretion as well. T
 
 If you receive a selling lead and they purchase as well, both transactions are considered 6th Ave Leads and will be at a 50/50 or 65/35 split depending on the type of lead.
 
+---
 
 ## Database and Lead Generation
 
@@ -147,11 +157,13 @@ Lead generation is not rocket science. Agents that have prioritized regular lead
 - Call through 1 letter (first letter in last name) in your database of 400 contacts per week
 - This will be the equivalent of 2 touch points per year for everyone in your database.
 
+---
 
 ## Marketing
 
 Each 6th Ave Guide is highly recommended to have, maintain, and actively use a personal Instagram and Facebook account. We recommend you make a minimum of 1 real estate related Social Media post per week on personal platforms. Please note that all social media posts must follow [TREC Guidelines for Advertising](https://www.texasrealestate.com/members/communications/texas-realtor-magazine/issues/may-2023/the-advertising-rules-you-need-to-know/).
 
+---
 
 ## Clients
 
@@ -166,6 +178,7 @@ When interacting with clients or leads, each 6th Ave Guide is expected to follow
 
 **Bonus:** 6th Ave has an [Editable Buyer Presentation](https://www.6thavehomesagents.com/buyers-presentation) that you can download & make your own!
 
+---
 
 ## Personal Purchase Notifications
 
@@ -177,6 +190,7 @@ Note: we will not expect a commission off of this, other than the fixed cost for
 
 In the event that an agent wants to take on a flip or renovation project, agents must have express consent from Jimmy Williams for use of any subcontractors or members of our renovation team.
 
+---
 
 ## Required Sales Agent Training
 
@@ -197,6 +211,7 @@ Once you complete your SAE, and renew your license for the 1st time, all Sales A
 
 All TREC details are [located here](https://www.trec.texas.gov/renew-license/real-estate-sales-agent).
 
+---
 
 ## Fees
 

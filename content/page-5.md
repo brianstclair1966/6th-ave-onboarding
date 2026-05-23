@@ -1,12 +1,27 @@
 ---
-title: "Step 8: Go Deeper with Guide Training"
+title: "Your Development Path"
 page: 5
-description: "Your orientation sessions and what's next"
+description: "How you grow at 6th Ave"
 ---
 
-## ⑨ Guide Training and Orientation
+## ⑨ Your Development Path
 
-Complete these three Guide Training sessions in your first week to understand how 6th Ave actually operates. This is where the philosophy and tools come together.
+You've now completed your activation steps. Your systems are online. Your foundation is solid.
+
+What comes next is where the actual growth happens — and how 6th Ave supports it differently from most brokerages.
+
+
+## How Growth Works Here
+
+Your first transactions are the foundation. But growth doesn't happen by accident. It happens through:
+
+**Real mentorship** — Your assigned mentor (if you're new to the industry) isn't a rubber stamp. They're there for your first 3 transactions, working alongside you, catching what you miss, and showing you what success looks like operationally.
+
+**Structured learning** — Three Guide Training sessions in your first week ground you in philosophy, compliance, and standards. These aren't optional theory. They change how you operate.
+
+**Immediate feedback** — After every transaction, there's clarity on what worked, what didn't, and what to adjust. No guessing.
+
+**A team that scales with you** — Construction, lending, title, and support systems are already in place. You don't have to build vendor relationships in isolation.
 
 
 ## The Three Guide Training Sessions
@@ -25,17 +40,24 @@ How we handle client data, the CDA process, and your responsibilities as a licen
 
 Our brand identity, how to market yourself authentically, and content standards.
 
+**Complete these in your first week** — you don't need to finish before you start working, but this foundational knowledge will change how you operate.
 
-## Timeline
 
-Read these in your first week — you don't need to finish before you start working, but this foundational knowledge will change how you operate.
+## What Success Looks Like
+
+After your first 3–6 months, you'll know:
+- How real transactions move through your systems
+- What support actually feels like when it's available
+- How to build a sustainable pipeline (not just close one deal)
+- Who to go to when you're stuck
+- How to ask the right questions
 
 
 ## What's Next
 
 Once you've completed the 8 steps and these training sessions, your MLS will be active, systems will be set up, and you're ready to list your first property.
 
-The real insight? You're now ready for the next phase: understanding how all of this works together operationally.
+But the real work isn't the systems. It's the mindset shift: from "I need to know everything" to "I know how to find the answer." That's what this next phase teaches you.
 
 
 ## Your Main References
