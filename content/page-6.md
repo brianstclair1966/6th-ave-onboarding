@@ -11,6 +11,19 @@ Most brokerages teach you *how to function*.
 6th Ave teaches you *how to think*.
 
 
+## You've Completed Activation
+
+You've now set up your accounts, your systems are coming online, and your operational foundation is being created.
+
+Most brokerages stop there.
+
+6th Ave doesn't.
+
+What comes next is what most new agents never get: understanding how all of this actually works together — and why 6th Ave operates differently.
+
+That starts here.
+
+
 ## Why We Exist Differently
 
 Most brokerages optimize for transaction volume.

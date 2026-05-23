@@ -8,7 +8,7 @@ description: "Your first week — what to do first"
 
 ## You're joining a brokerage that looks, feels, & operates differently.
 
-### We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business.
+### We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business. These next few pages will get your operational foundation in place quickly.
 
 ### It's important to know that we think of you as OUR client. We're here to make you better at what you're already good at: Relationships. Stories. People.
 

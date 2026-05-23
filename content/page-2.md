@@ -24,12 +24,12 @@ That's it. Next.
 
 **What you do:** Accept the invitation and complete the TREC sponsorship request.
 
-**Why it matters:** You can't get MLS access without being TREC-licensed under 6th Ave.
+**Why it matters:** TREC licensing under 6th Ave is your legal foundation for operating in Texas. You can't access the MLS without it.
 
 
 ## ③ Join Your Realtor Association
 
-MLS access unlocks everything. Choose the association that matches your location.
+MLS access is how you'll guide clients confidently through the market. Choose the association that matches your location.
 
 ### **DFW Metroplex**
 

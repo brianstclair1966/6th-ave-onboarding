@@ -12,7 +12,7 @@ Our Transaction Coordinator will be helping you with Step 4 by sending you a Doc
 ## ④ Sign Your Independent Contractor Agreement
 
 **What this means:**
-You're an independent contractor, not an employee. This is standard in real estate.
+You're an independent contractor, not an employee. This is standard in real estate. It means you own your business — and we support that.
 
 You manage your own business:
 - your schedule
@@ -27,7 +27,7 @@ Review it, sign it, click "finish" and you're good to go!
 
 ### **Part A: Website Bio**
 
-Every 6th Ave agent gets featured on [**www.6thavehomes.com/the-team**](https://www.6thavehomes.com/the-team).
+Your website bio is often the first impression clients have of you. Every 6th Ave agent gets featured on [**www.6thavehomes.com/the-team**](https://www.6thavehomes.com/the-team).
 
 **See an example:** [**Brian's bio →**](https://6thavehomes.com/brian-st-clair)
 

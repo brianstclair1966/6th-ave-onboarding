@@ -6,7 +6,7 @@ description: "Your orientation sessions and what's next"
 
 ## ⑨ Guide Training and Orientation
 
-Complete these three Guide Training sessions in your first week to understand how 6th Ave works.
+Complete these three Guide Training sessions in your first week to understand how 6th Ave actually operates. This is where the philosophy and tools come together.
 
 
 ## The Three Guide Training Sessions
@@ -28,12 +28,14 @@ Our brand identity, how to market yourself authentically, and content standards.
 
 ## Timeline
 
-Read these in your first week — you don't need to finish before you start working, but this foundational knowledge matters.
+Read these in your first week — you don't need to finish before you start working, but this foundational knowledge will change how you operate.
 
 
 ## What's Next
 
 Once you've completed the 8 steps and these training sessions, your MLS will be active, systems will be set up, and you're ready to list your first property.
+
+The real insight? You're now ready for the next phase: understanding how all of this works together operationally.
 
 
 ## Your Main References

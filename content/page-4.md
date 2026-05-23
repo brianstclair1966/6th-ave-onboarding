@@ -13,7 +13,7 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 **<span title="Information About Brokerage Services">IABS</span> = Information About Brokerage Services**
 
-**Why it matters:** Texas law requires you to give this form to every client and prospective client at **first contact**. If you don't, you face big fines and potential license loss.
+**Why it matters:** This protects you and your clients. Texas law requires you to give this form to every client and prospective client at **first contact**. If you don't, you face big fines and potential license loss.
 
 ### **Here's what to do:**
 
@@ -34,7 +34,7 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 ## ⑦ Get Started with Rechat
 
-**<span title="Client Relationship Management platform for real estate professionals">Rechat</span>** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups. You'll also submit your Compensation Disbursement Agreement here to get paid at closing.
+**<span title="Client Relationship Management platform for real estate professionals">Rechat</span>** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups as your business grows. You'll also submit your Compensation Disbursement Agreement here to get paid at closing.
 
 ### **Start here:**
 
@@ -49,7 +49,7 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 
 ## ⑧ Set Up RealScout
 
-**<span title="Lead generation and marketing platform for real estate professionals">RealScout</span>** is your lead generation and marketing platform. You can share it with your clients to let them search the MLS much like Zillow or Realtor.com.
+**<span title="Lead generation and marketing platform for real estate professionals">RealScout</span>** is your lead generation and marketing platform. It gives your clients a familiar search experience while you control all the data and insights. You can share it with your clients to let them search the MLS much like Zillow or Realtor.com.
 
 [**→ RealScout Help Page →**](https://support.realscout.com/en/)
 
