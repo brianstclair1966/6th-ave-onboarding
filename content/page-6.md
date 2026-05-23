@@ -1,7 +1,7 @@
 ---
 title: "The 6th Ave Difference"
 page: 6
-description: "How 6th Ave thinks"
+description: "6th Ave Guide Foundation"
 ---
 
 # The 6th Ave Difference

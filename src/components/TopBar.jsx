@@ -3,13 +3,16 @@ import Link from 'next/link'
 const TOTAL_PAGES = 8
 
 export default function TopBar({ currentPage, sectionTitle }) {
-  const percentage = (currentPage / TOTAL_PAGES) * 100
-
   // Pages 1-5: Onboarding system. Pages 6-8: Orientation system (separate)
   const isOrientation = currentPage >= 6
   const displayPageNum = isOrientation ? currentPage - 5 : currentPage
   const displayTotalPages = isOrientation ? 3 : 5
   const systemStartPage = isOrientation ? 6 : 1
+
+  // Calculate percentage: separate progress for each system
+  const percentage = isOrientation
+    ? ((currentPage - 5) / 3) * 100
+    : (currentPage / 5) * 100
 
   return (
     <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 pt-3 pb-1 md:pt-6 md:pb-1">
@@ -18,7 +21,7 @@ export default function TopBar({ currentPage, sectionTitle }) {
           {/* Breadcrumbs - show on all pages */}
           <div className="flex items-center gap-0.5 md:gap-2 flex-shrink-0 min-w-0">
             <Link href={currentPage >= 6 ? '/page/6' : '/page/1'} className="text-xs md:text-sm text-brand-coral hover:text-brand-coral/80 font-bold transition-colors whitespace-nowrap">
-              ← Home
+              {currentPage >= 6 ? '← Orientation Home' : '← Home'}
             </Link>
             <span className="text-brand-coral hidden md:inline text-xs">|</span>
             <div className="flex gap-0.5 md:gap-1.5">

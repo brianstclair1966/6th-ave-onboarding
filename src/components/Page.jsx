@@ -10,7 +10,7 @@ export default function Page({ children, pageNumber, sectionTitle }) {
             <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-10 md:h-16" />
             <div className="w-1 h-10 md:h-16 bg-brand-coral"></div>
             <h2 className="text-xl md:text-4xl font-bold text-white tracking-tight">
-              {pageNumber >= 6 ? 'AGENT ORIENTATION' : 'AGENT ONBOARDING'}
+              {pageNumber >= 6 ? 'GUIDE ORIENTATION' : 'AGENT ONBOARDING'}
             </h2>
           </div>
         </div>
