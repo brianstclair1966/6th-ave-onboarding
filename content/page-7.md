@@ -10,26 +10,26 @@ Most agents coordinate alone.
 
 They coordinate lenders, inspectors, title companies, contractors, and clients — usually without shared systems.
 
-They spend energy managing relationships instead of managing the transaction.
+They spend time managing vendors. Hunting for estimates. Coordinating between different groups.
 
 6th Ave is different.
 
-When construction, financing, and title work together, the agent stops *managing logistics* and starts *architecting solutions*.
+When construction, financing, and title work together, you stop managing logistics and start focusing on the client.
 
 
 ## Why This Changes Everything
 
 A scattered team loses time to miscommunication.
 
-They miss closing dates. Clients panic. Agents apologize.
+Inspection results sit in an email. Lender doesn't know about them. Construction gets a call instead of a file. Everything takes 3 times longer.
 
 A coordinated team moves in sync.
 
-**When your team moves together, deals move faster.**
+**When your team works together, deals don't slow down.**
 
-Because delays create confusion. Confusion creates stress. Stress creates mistakes.
+Information flows in Rechat. Construction sees inspection results immediately. Lender understands the scope without asking. Timeline holds.
 
-And speed is safety. For clients. For your reputation. For your paycheck.
+Speed matters because it protects your client, your reputation, and your closing date.
 
 
 ## How Coordination Actually Works
@@ -45,19 +45,17 @@ Most brokerages: Agent calls lender. Lender calls title. Title calls inspector. 
 That's not just efficiency. That's respect for everyone's time.
 
 
-### Problems Surface Before They're Crises
+### Problems Surface Early
 
-Client has title concerns? Construction knows about them before lender even asks.
+Client has title concerns? Construction knows about them immediately (same Rechat).
 
-Inspection finds something? You know within hours, not days.
+Inspection finds something? You know within hours. Construction already has a scope. Lender understands the implications.
 
-Option period tightens? Your construction team is already working the solution.
+Option period tightens? Your construction team is already working the solution instead of scrambling when the deadline hits.
 
-**Anticipation compounds faster than reaction.**
+**You're not waiting for problems to become crises. You're handling them while there's still time.**
 
-By the time a crisis would hit, your team has already solved it.
-
-That's what operational visibility creates.
+That's what information sharing actually creates.
 
 
 ### Clients Feel the Difference
@@ -111,59 +109,52 @@ Fewer title searches. Clearer ownership. Faster close.
 **When your title company knows what's coming, they move with you.**
 
 
-## The Leverage Compound
+## How The 3-Step Process Works
 
-Most agents leverage their network: "I know a good inspector."
+This is where the One Stop Shop actually helps you operationally.
 
-6th Ave agents leverage their system: "Here's how we solve this."
+**Step 1: Before You Go Under Contract**
+You provide loose estimates based on the Renovation Pricing Cheat Sheet. Client has ballpark numbers. No surprises later.
 
-**System leverage compounds faster than network leverage alone.**
+**Step 2: After Offer Accepted**
+You connect the client directly with Construction via email. They get a detailed estimate. Construction knows the property and the client's expectations before anything gets framed or moved.
 
-Networks break when people move or retire. Systems compound when they work.
-
-A client who felt confused at the beginning? They refer you because they felt *guided* throughout.
-
-A lender who guessed at timelines? They're now your fastest underwriting partner.
-
-A title company who scrambled for information? Now they're the reason deals close early.
+**Step 3: After Option Period**
+Construction delivers a hard bid. Client decides whether to proceed, renegotiate, or walk away. No guessing. No "we'll figure it out at closing."
 
 ---
 
-**That's how operational coordination becomes your economic advantage.**
+**Why this changes your job:**
+You're not managing a contractor. Construction is managing the property. You're managing the client's confidence through the process.
 
-Not because 6th Ave invented it. Because 6th Ave *systematized* it.
+That's the actual advantage.
 
 
 ## What This Looks Like In Real Life
 
-**Scenario: Foundation movement found during option period.**
+**Scenario: Inspection finds structural issues during option period.**
 
-**Traditional brokerage:**
-- Agent scrambles to find contractors
+**Most brokerages:**
+- Agent hunts for contractors
 - Lender isn't looped in yet
-- Inspection report sits in agent's email
-- Client calls daily with panic questions
-- Contractor quotes take 3 days
-- Lender suddenly has questions about financing
-- Timeline slips. Client stress rises. Agent manages chaos.
+- Estimates take days
+- Client panics
+- Timeline gets messy
+- Agent manages crisis
 
 **6th Ave:**
-- Construction reviews photos within hours
-- Lender is already aware (same Rechat)
-- Repair implications are clear before client asks
-- Construction connects with lender on financing requirements
-- Agent guides the client through options instead of scrambling for vendors
-- Decision gets made faster. Timeline holds.
+- You loop in Construction immediately (they're already in your Rechat)
+- They review the inspection findings and give you scope within hours
+- You connect Construction directly with your lender to understand financing implications
+- Client gets clarity on cost, timeline, and options while option period is still open
+- Decision gets made. Timeline holds.
 
-**The difference isn't expertise. It's information.**
+**The difference:**
+Construction is already part of your team. They know the market, the property types, and the lender requirements. They move fast because they have context.
 
-When your team sees the same data at the same time, they move together. When they move together, you manage the client. When you manage the client, deals close.
+You guide the client. Construction handles the logistics. Everyone knows what's coming.
 
-The client experiences calm.
-
-Operational coordination isn't impressive because it's organized. It's impressive because clients feel safer when everything feels connected.
-
-That's not luck. That's leverage.
+That's coordination.
 
 
 ## What This Means For You

@@ -39,7 +39,7 @@ These ideas show up operationally every day. That's what makes this different.
 
 ## How We Actually Think
 
-### We Are Guides, Not Salespeople
+### Guides, Not Salespeople
 
 You reduce uncertainty for clients.
 
@@ -55,57 +55,55 @@ Rushed, confused, pressured? They don't.
 
 ---
 
-That's not philosophy. That's how humans work.
+That's not a nice idea. That's operational reality.
 
 
-### Open-Handedness
+### We Share What Works
 
-We share what works. We help each other win. We don't operate from scarcity.
+Open-handedness isn't charity. It's how this place operates.
 
 **What this looks like:**
-- Agents share vendor contacts freely
-- We solve problems publicly in Slack
-- Construction team collaborates on your deals
+- Agents share vendor contacts. Construction helps other agents' deals.
+- Problems get solved publicly in Slack instead of secretly.
+- If something works, we tell you. If it doesn't, we change it.
 
 **Why it matters:**
-The agents who hoard information regret it later. The ones who share build networks that compound for years.
+Hoarding information works short-term. Sharing wins long-term. When construction solves your problem, they solve the next agent's problem faster.
 
 
-### Operational Excellence
+### Clarity Prevents Chaos
 
-**Systems create consistency when motivation fades.**
+Systems aren't glamorous. But they matter.
 
 Every process has a reason. You'll know what's expected before you guess.
 
-Compliance happens naturally. Tools are chosen because they solve real problems.
+Expectations are clear. Communication is constant. That's how you avoid the crises that bury solo agents.
 
 ---
 
-When systems work, you stop managing logistics and start managing relationships.
+When systems work, you stop scrambling and start building.
 
-That's where the real work is.
+That's where actual business happens.
 
 
-### Client-First Thinking
+### Clients As Heroes
 
-**The best outcome comes from clarity upfront, not pressure later.**
+We don't position ourselves. We position clients.
 
 We explain the One Stop Shop before the first appointment.
-We set expectations so clients aren't surprised.
-We solve problems during option period, not at closing.
+We set expectations so they're never blindsided.
+We solve problems during the option period, not surprise them at closing.
 
-Referrals come from clients who felt *guided*, not sold.
+Referrals come from clients who felt *guided* through something complex, not sold something simple.
 
 
-### Why We Improve Constantly
+### We Get Better Constantly
 
-Most brokerages wait until something breaks badly before fixing it.
+Most brokerages fix things after they break.
 
-We don't.
+We don't. We notice friction, fix it, move forward. We mentor constantly. We admit when something isn't working and change it.
 
-We notice the small friction points and fix them fast. We mentor constantly. We admit when something isn't working and change course.
-
-**The best brokerages don't stay best by accident. They improve relentlessly.**
+**That's not some culture thing. That's operational discipline.**
 
 
 ## Your Role Here
