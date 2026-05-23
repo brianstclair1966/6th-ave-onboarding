@@ -5,10 +5,11 @@ const TOTAL_PAGES = 8
 export default function TopBar({ currentPage, sectionTitle }) {
   const percentage = (currentPage / TOTAL_PAGES) * 100
 
-  // For pages 6+, show relative numbering (1-3) within the orientation phase
-  const displayPageNum = currentPage >= 6 ? currentPage - 5 : currentPage
-  const orientationPageCount = 3
-  const displayTotalPages = currentPage >= 6 ? orientationPageCount : TOTAL_PAGES
+  // Pages 1-5: Onboarding system. Pages 6-8: Orientation system (separate)
+  const isOrientation = currentPage >= 6
+  const displayPageNum = isOrientation ? currentPage - 5 : currentPage
+  const displayTotalPages = isOrientation ? 3 : 5
+  const systemStartPage = isOrientation ? 6 : 1
 
   return (
     <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 pt-3 pb-1 md:pt-6 md:pb-1">
@@ -22,8 +23,8 @@ export default function TopBar({ currentPage, sectionTitle }) {
             <span className="text-brand-coral hidden md:inline text-xs">|</span>
             <div className="flex gap-0.5 md:gap-1.5">
               {Array.from({ length: displayTotalPages }, (_, i) => i + 1).map((displayNum) => {
-                // Calculate actual page number for navigation
-                const actualPageNum = currentPage >= 6 ? displayNum + 5 : displayNum
+                // Calculate actual page number (6-8 for orientation, 1-5 for onboarding)
+                const actualPageNum = systemStartPage + displayNum - 1
                 return (
                   <div key={actualPageNum}>
                     {displayNum === displayPageNum ? (
