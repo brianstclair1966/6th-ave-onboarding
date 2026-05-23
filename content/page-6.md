@@ -8,7 +8,7 @@ description: "6th Ave Guide Foundation"
 
 Most brokerages teach you *how to function*.
 
-6th Ave teaches you *how to think*.
+6th Ave wants to help you learn how to <em style="color: #ED6758; font-style: italic;">think</em>.
 
 
 ## You've Completed Activation
@@ -63,8 +63,8 @@ That's not a nice idea. That's operational reality.
 Open-handedness isn't charity. It's how this place operates.
 
 **What this looks like:**
-- Agents share vendor contacts. Construction helps other agents' deals.
-- Problems get solved publicly in Slack instead of secretly.
+- Agents share vendor contacts.
+- Problems get solved publicly in Slack instead of secretly or one-on-one.
 - If something works, we tell you. If it doesn't, we change it.
 
 **Why it matters:**
