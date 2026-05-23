@@ -6,7 +6,7 @@ description: "How operational clarity prevents chaos"
 
 # Systems, Contracts, & Workflow
 
-Without systems, you drown.
+Without systems, small problems turn into big ones quickly.
 
 Not because real estate is hard. Because real estate is *complicated*.
 
@@ -61,6 +61,10 @@ They answer:
 - What if something changes?
 - Who decides if there's a problem?
 
+Good contracts reduce emotional chaos.
+
+People panic when expectations are unclear. When expectations are written down, they feel safe.
+
 When contracts are clear, people don't panic. When people don't panic, they make better decisions.
 
 **The best deals are the ones where the contract answered the hard question before it became a crisis.**
@@ -89,6 +93,8 @@ Example workflow:
 ---
 
 **That sequence isn't arbitrary. Each step sets up the next one.**
+
+When agents skip steps, confusion compounds.
 
 Information flows forward. Problems surface early. Surprises disappear.
 
@@ -124,7 +130,6 @@ With systems:
 - Coordination flows naturally
 - Information moves predictably
 - Leverage compounds
-- You stay calm
 
 **Systems make everything else possible.**
 
@@ -142,6 +147,10 @@ Systems at 6th Ave aren't your responsibility to create. They're your responsibi
 Which is easier. And faster. And lets you focus on what actually matters:
 
 **Guiding clients. Building relationships. Growing your business.**
+
+Most agents think confidence comes from experience.
+
+A lot of confidence actually comes from having systems you trust.
 
 When your workflow is clear, your client can see the path. When your contracts are explicit, your lender stops second-guessing. When your information is centralized, your team moves together.
 
@@ -179,7 +188,11 @@ You're navigating it with tools, clarity, and a team that moves together.
 
 That's the foundation.
 
-**Everything else compounds from here.**
+**This is where operational confidence starts.**
+
+Not because you'll know everything.
+
+Because you'll understand how the pieces work together.
 
 
 ## Next Steps

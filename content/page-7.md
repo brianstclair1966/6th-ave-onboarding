@@ -6,9 +6,9 @@ description: "How coordination compounds your leverage"
 
 # The One Stop Shop Advantage
 
-Most agents fight alone.
+Most agents coordinate alone.
 
-They coordinate with lenders, inspectors, title companies — all strangers.
+They coordinate lenders, inspectors, title companies, contractors, and clients — usually without shared systems.
 
 They spend energy managing relationships instead of managing the transaction.
 
@@ -26,6 +26,8 @@ They miss closing dates. Clients panic. Agents apologize.
 A coordinated team moves in sync.
 
 **When your team moves together, deals move faster.**
+
+Because delays create confusion. Confusion creates stress. Stress creates mistakes.
 
 And speed is safety. For clients. For your reputation. For your paycheck.
 
@@ -54,6 +56,8 @@ Option period tightens? Your construction team is already working the solution.
 **Anticipation compounds faster than reaction.**
 
 By the time a crisis would hit, your team has already solved it.
+
+That's what operational visibility creates.
 
 
 ### Clients Feel the Difference
@@ -113,7 +117,7 @@ Most agents leverage their network: "I know a good inspector."
 
 6th Ave agents leverage their system: "Here's how we solve this."
 
-**System leverage compounds. Network leverage doesn't.**
+**System leverage compounds faster than network leverage alone.**
 
 Networks break when people move or retire. Systems compound when they work.
 
@@ -154,6 +158,10 @@ Not because 6th Ave invented it. Because 6th Ave *systematized* it.
 **The difference isn't expertise. It's information.**
 
 When your team sees the same data at the same time, they move together. When they move together, you manage the client. When you manage the client, deals close.
+
+The client experiences calm.
+
+Operational coordination isn't impressive because it's organized. It's impressive because clients feel safer when everything feels connected.
 
 That's not luck. That's leverage.
 
@@ -212,7 +220,7 @@ Distance doesn't matter when the system works.
 
 You're orchestrating a team that makes deals move faster, clients feel safer, and lenders work better.
 
-That's leverage.
+That's operational leverage.
 
 **Next: Page 8** — How your operational systems create the foundation for everything else.
 
