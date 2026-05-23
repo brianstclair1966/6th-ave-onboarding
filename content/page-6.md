@@ -201,6 +201,18 @@ Wi-Fi: Connect to 6thavellc. The password is: 6thAveHomies
 - We have a main printer located in the Brokerage Office (the one with the green couch). Once you are connected to our Wi-Fi, you should be able to add that printer on your computer to print.
 
 
+## Mentors and Mentees - Important
+
+Every NEW (to the industry) agent will have a mentor for their first 3 transactions, as required by TREC. More experienced agents may not have to have a Mentor, depending on their experience. The Brokerage Manager will assign a Mentor who has volunteered to assist & guide the Mentee.
+
+**Mentor & Mentee Splits**
+
+- If the Mentee brings a buyer or seller, the Mentee receives 60% of the compensation (with a $200 Transaction Fee), the Mentor gets 25%, & 6th Ave 15%.
+- If the Mentee receives a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $200 Transaction Fee), the Mentor gets 45%, & 6th Ave 25%.
+- If the Mentee is a Part Time agent & brings a buyer or seller, The Mentee receives 60% of the compensation (with a $300 Transaction Fee), the Mentor gets 25%, & 6th Ave 15%.
+- If the Mentee is a Part Time agent & received a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $300 Transaction Fee), Mentor gets 45%, & 6th Ave 25%.
+
+
 ## What You Now Understand
 
 - Why 6th Ave operates differently

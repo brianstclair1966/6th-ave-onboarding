@@ -31,6 +31,12 @@ body {
   letter-spacing: -0.3px;
 }
 
+/* Custom text sizes */
+.text-xxs {
+  font-size: 0.625rem; /* 10px */
+  line-height: 1;
+}
+
 /* Premium Typography */
 h1 {
   font-size: 2.75rem;
