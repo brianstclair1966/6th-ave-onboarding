@@ -86,17 +86,6 @@ When systems work, you stop scrambling and start building.
 That's where actual business happens.
 
 
-### Clients As Heroes
-
-We don't position ourselves. We position clients.
-
-We explain the One Stop Shop before the first appointment.
-We set expectations so they're never blindsided.
-We solve problems during the option period, not surprise them at closing.
-
-Referrals come from clients who felt *guided* through something complex, not sold something simple.
-
-
 ### We Get Better Constantly
 
 Most brokerages fix things after they break.
@@ -122,40 +111,6 @@ You'll learn through transactions, through mentoring, through doing. That's how 
 New agents think "guide" means "teacher." It actually means "steady presence."
 
 You don't need to know everything. You need to admit what you don't know and find the answer. That's more powerful than pretending.
-
-
-## Networking With Soul
-
-**Most agents burn through their sphere in 2–3 years. Then they panic.**
-
-Why? They treat relationships like prospecting.
-- They disappear after closing
-- They only reach out when they need something
-- They're transactional by default
-
-Clients feel that immediately.
-
-**Networking with Soul is different.**
-
-Stay present consistently.
-Share what actually matters (not just listings).
-Help without expecting return.
-Build relationships that feel genuine.
-
-**Why it takes 3–4 weeks to work:**
-
-Your sphere is used to transactional agents. They don't believe you're different yet.
-
-After 3–4 weeks of consistent presence, they start noticing. Then momentum appears.
-
----
-
-**The compounding starts at week 4.**
-
-Agents who quit at week 2 stop right before it works.
-
-**Your next move:**
-This week, identify 20 people from your sphere you genuinely want to stay connected to.
 
 
 ## Your Operational Toolkit
@@ -213,12 +168,46 @@ Every NEW (to the industry) agent will have a mentor for their first 3 transacti
 - If the Mentee is a Part Time agent & received a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $300 Transaction Fee), Mentor gets 45%, & 6th Ave 25%.
 
 
+## Meetings and Town Halls
+
+**Team Meetings**
+
+Each 6th Ave Guide is invited & encouraged to attend weekly meetings on Wednesday's at 9:45 am with the rest of the brokerage team. There is always room for exceptions. Showings happen, closings happen, Doctor visits happen. It's OK.
+
+These meetings are designed to be valuable for all agents and participating in them is a huge part of benefiting from the culture at 6th Ave. Joining virtually is always an option if you can't make it to the meeting in person. We also record all of our meetings & place these on our YouTube channel at: [www.youtube.com/@6thAveHomes](https://www.youtube.com/@6thAveHomes).
+
+We call our meetings "Mastermind" sessions where the broker or brokerage manager/director will present something from their expertise tool belt to share with the group. Many great conversations & valuable ideas come from our Masterminds. Plus it's a great time to get to know all the members of the team & learn from them too!
+
+**Town Halls**
+
+Agents are also invited to attend our quarterly "Town Hall meetings". These meetings are the last Thursday of each quarter usually around lunch. These are always fun as we go somewhere to bowl, play pickle ball, meet at a wine bar for Pizza & wine, or other activity.
+
+Occasionally, your Brokerage Manager or Brokerage Director will request an annual, semi-annual, or quarterly meeting with you as a "catch-up". Low-pressure. Just a check-in. Please try to make time for these.
+
+
+## Competence and Rules
+
+All 6th Ave Guides are required to be working towards expert competency in their chosen field of business. Taking classes to increase your knowledge is always encouraged. A great class to take is TREC's 6-hour Broker Responsibility course to understand why being competent is so important to you & your clients.
+
+All 6th Ave Guides are expected to be familiar with our [Policies & Procedures](https://www.6thavehomesagents.com/s/6th-Ave-Homes-Policies-Procedures.pdf).
+
+All 6th Ave Guides will follow [TREC's Advertising Policies](https://bit.ly/TREC-Advertising-Rules).
+
+All 6th Ave Guides will follow [TREC's IABS & Consumer Protection Notice display rules](https://www.trec.texas.gov/tips-posting-iabs-and-consumer-protection-notice-0).
+
+Agents are encouraged to consult with our [Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts). These volunteers are always helping newer agents & are a wealth of information. Use them!
+
+No 6th Ave Guide will participate in a transaction as a Property Manager without being certified & trained in proper management procedures. Please consult with the broker for more detail.
+
+
 ## What You Now Understand
 
 - Why 6th Ave operates differently
 - What "guide" means in this context
-- Why networking compounds over 3–4 weeks
-- How our four platforms work together
+- Your mentorship path and how compensation splits work
+- How the office functions and what resources are available
+- The meetings, rules, and requirements that shape our culture
+- How our platforms and tools work together
 - Where to find what you need
 
 **You now have the foundation most agents never fully build.**
