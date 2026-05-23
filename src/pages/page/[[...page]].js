@@ -6,7 +6,7 @@ import matter from 'gray-matter'
 import Page from '../../components/Page'
 import Navigation from '../../components/Navigation'
 
-const TOTAL_PAGES = 5
+const TOTAL_PAGES = 8
 
 function renderMarkdown(content) {
   let html = content
