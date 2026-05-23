@@ -8,9 +8,11 @@ description: "Your first week — what to do first"
 
 ## You're joining a brokerage that looks, feels, & operates differently.
 
-### We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business. These next few pages will get your operational foundation in place quickly.
+And we think you're going to appreciate the difference.
 
-### It's important to know that we think of you as OUR client. We're here to make you better at what you're already good at: Relationships. Stories. People.
+### We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business. These next few pages will get your operational foundation in place quickly. You're in good hands.
+
+### Here's what matters: we think of you as our client, not a transaction. We're here to make you better at what you're already good at: Relationships. Stories. People.
 
 ### 6th Ave Homes focuses on tools, trainings, and meetings that are geared for your success.
 

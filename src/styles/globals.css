@@ -236,6 +236,38 @@ button:disabled {
   color: #c62828;
 }
 
+/* Common Mistake / Common Misconception Callouts */
+.common-mistake,
+.common-misconception {
+  background: rgba(171, 174, 167, 0.08);
+  border-left: 3px solid var(--brand-taupe);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.common-mistake h2,
+.common-misconception h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--brand-navy);
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
+  opacity: 0.95;
+}
+
+.common-mistake h2::before,
+.common-misconception h2::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: var(--brand-taupe);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+}
+
 /* Tooltip styling for glossary terms */
 span[title] {
   position: relative;

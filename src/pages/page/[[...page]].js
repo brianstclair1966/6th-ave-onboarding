@@ -11,8 +11,10 @@ const TOTAL_PAGES = 8
 function renderMarkdown(content) {
   let html = content
 
-  // Headings
+  // Headings - with special handling for Common Mistake/Misconception
   html = html.replace(/^### (.*?)$/gm, '<h3>$1</h3>')
+  html = html.replace(/^## (Common Mistake.*?)$/gm, '<div class="common-mistake"><h2>$1</h2>')
+  html = html.replace(/^## (Common Misconception.*?)$/gm, '<div class="common-misconception"><h2>$1</h2>')
   html = html.replace(/^## (.*?)$/gm, '<h2>$1</h2>')
   html = html.replace(/^# (.*?)$/gm, '<h1>$1</h1>')
 
@@ -34,6 +36,11 @@ function renderMarkdown(content) {
   // Line breaks for paragraphs
   html = html.replace(/\n\n/g, '</p><p>')
   html = '<p>' + html + '</p>'
+
+  // Close Common Mistake/Misconception divs
+  html = html.replace(/<\/p><div class="common-mistake">/g, '</p>\n<div class="common-mistake">')
+  html = html.replace(/<\/p><div class="common-misconception">/g, '</p>\n<div class="common-misconception">')
+  html = html.replace(/<p><\/div>/g, '</div>')
 
   return html.replace(/<p><\/p>/g, '')
 }
