@@ -67,7 +67,7 @@ export default function TopBar({ currentPage, sectionTitle }) {
               </Link>
             ) : (
               <Link href="/page/6" className="text-xxs text-brand-taupe hover:text-brand-coral transition-colors font-medium whitespace-nowrap">
-                ← Orientation
+                Orientation →
               </Link>
             )}
             <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
