@@ -160,29 +160,30 @@ This week, identify 20 people from your sphere you genuinely want to stay connec
 
 ## Your Operational Toolkit
 
-**Slack** = How we talk, share, celebrate, problem-solve
-**Rechat** = Where every transaction lives (contracts, communication, timelines)
-**RealScout** = Client portal for searching. They feel like they're using Zillow, but you have all the data.
-**Google Workspace** = Email, calendar, docs. Organize your business.
+- **Slack** — How we talk, share, celebrate, problem-solve
+- **Rechat** — Where every transaction lives (contracts, communication, timelines)
+- **RealScout** — Client portal for searching. They feel like they're using Zillow, but you have all the data.
+- **Google Workspace** — Email, calendar, docs. Organize your business.
 
 Each tool has a job. Use them that way.
 
 **Common Mistake:**
-Agents try to do transactions through Slack or manage everything in Rechat.
-
-That doesn't work. The tools are layered for a reason.
+Agents try to do transactions through Slack or manage everything in Rechat. That doesn't work. The tools are layered for a reason.
 
 
 ## The Backsite Is Your Warehouse
 
 You don't need to memorize it. You just need to know it exists.
 
-**Bookmark these five:**
-- [Marketing Resources](https://www.6thavehomesagents.com/marketing-resources) — Templates, posts, content
-- [Buying Steps for Guides](https://www.6thavehomesagents.com/buying-steps) — Exact process for buyers
-- [Listing Steps for Guides](https://www.6thavehomesagents.com/listing-steps) — Exact process for sellers
-- [Prospecting Guide](https://www.6thavehomesagents.com/prospecting-guide) — How to talk to people
-- [Social Media with Soul](https://www.6thavehomesagents.com/social-media-with-soul) — Where storytelling lives
+**Here are some highlights from the Backsite. You'll find a wealth of info there!**
+
+- [Social Media Content](https://www.dropbox.com/scl/fo/najye3pjfv02w1aiq7saq/AMKFlOr8EZWTUFlOF159xDI?rlkey=j332zdehq3efszaqti1n7xg1d&e=1&st=redepgcc&dl=0)
+- [6th Ave Homes Canva Templates](https://www.canva.com/design/DAG6fR3RR-Q/UZ5DMEeXwdFoEv5hcSjRPQ/edit)     [Tutorial on How to Use These](https://app.tango.us/app/workflow/How-to-Customize-the-Agent-Templates-837863c488ec4ad9b74155146fe0cdec)
+- [Buyer's Checklist](https://drive.google.com/file/d/12_aWqsC0ULFGI6bMVeGC_BI95p91LGlx/view)
+- [Listing Checklist](https://drive.google.com/file/d/12_vMBDw2ZLIhYuA2SQc5u3tPuoXCvl2E/view)
+- [Powerful Prospecting](https://www.6thavehomesagents.com/powerful-prospecting-how-to-playbook)
+- [Networking with Soul](https://www.dropbox.com/scl/fo/cynmdx3dtlfeatgd32fu8/AAVTR80MYF82FwR-4G8qDfM/6th%20Ave%20Homes%20-%20Networking%20With%20Soul.pdf?rlkey=lifeiwe6qgr4xa1nlb1cu2h0m&e=2&st=7d35vt1d&dl=0)
+- [The Target 100](https://www.dropbox.com/scl/fi/w059piyo300jzur1uafv4/08.03.22-Target-100-Full-PDF-FINAL.pdf?rlkey=t9mi0tbvgeol5plqsv1y9sqf9&e=2&dl=0)
 
 Use these as you work. The rest is there when you're ready.
 
@@ -208,7 +209,7 @@ Now you do.
 
 ## Next Steps
 
-- [ ] Bookmark the five key backsite pages
+- [ ] Bookmark the Backsite resources above
 - [ ] Spend 15 minutes exploring Slack
 - [ ] Identify 20 people from your sphere you want to stay connected to
 - [ ] Read this page again in your first week. You'll notice different things.
