@@ -38,7 +38,7 @@ function renderMarkdown(content) {
   return html.replace(/<p><\/p>/g, '')
 }
 
-export default function PageComponent({ pageNumber, content }) {
+export default function PageComponent({ pageNumber, content, sectionTitle }) {
   const router = useRouter()
   const [checkboxStates, setCheckboxStates] = useState({})
   const [allCheckboxesChecked, setAllCheckboxesChecked] = useState(false)
@@ -94,7 +94,7 @@ export default function PageComponent({ pageNumber, content }) {
   const nextButtonDisabled = pageNumber === 3 && !allCheckboxesChecked
 
   return (
-    <Page pageNumber={pageNumber}>
+    <Page pageNumber={pageNumber} sectionTitle={sectionTitle}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         <div
           className="prose prose-sm max-w-none"
@@ -122,13 +122,14 @@ export async function getStaticProps({ params }) {
 
   const contentPath = path.join(process.cwd(), 'content', `page-${pageNumber}.md`)
   const fileContent = fs.readFileSync(contentPath, 'utf-8')
-  const { content } = matter(fileContent)
+  const { content, data } = matter(fileContent)
   const htmlContent = renderMarkdown(content)
 
   return {
     props: {
       pageNumber,
       content: htmlContent,
+      sectionTitle: data.description || null,
     },
     revalidate: 3600,
   }

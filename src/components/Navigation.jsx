@@ -27,7 +27,7 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nex
                   : 'bg-brand-coral hover:shadow-lg hover:shadow-brand-coral/50'
               }`}
             >
-              Next →
+              {pageNumber === 5 ? 'Page 7 →' : 'Next →'}
             </button>
           ) : (
             <a

@@ -247,12 +247,12 @@ Each tool has a job. Use them that way.
 
 By reading this page, you now understand:
 
-✓ Why 6th Ave operates differently
-✓ What our core values actually mean operationally
-✓ What "guide" means in this context
-✓ Why networking takes 3–4 weeks to compound
-✓ Where the backsite lives (and you don't need to memorize it)
-✓ How your four platforms work together
+- Why 6th Ave operates differently
+- What our core values actually mean operationally
+- What "guide" means in this context
+- Why networking takes 3–4 weeks to compound
+- Where the backsite lives (and you don't need to memorize it)
+- How your four platforms work together
 
 That's the foundation most agents never fully build.
 

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-const TOTAL_PAGES = 5
+const TOTAL_PAGES = 6
 
-export default function TopBar({ currentPage }) {
+export default function TopBar({ currentPage, sectionTitle }) {
   const percentage = (currentPage / TOTAL_PAGES) * 100
 
   return (
@@ -43,6 +43,13 @@ export default function TopBar({ currentPage }) {
             <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
           </div>
         </div>
+
+        {/* Section title for pages 6+ */}
+        {sectionTitle && currentPage >= 6 && (
+          <div className="mt-2 md:mt-3">
+            <p className="text-xs md:text-sm text-brand-navy font-medium">{sectionTitle}</p>
+          </div>
+        )}
       </div>
     </div>
   )

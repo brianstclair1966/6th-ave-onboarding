@@ -1,7 +1,7 @@
 import TopBar from './TopBar'
 import Glossary from './Glossary'
 
-export default function Page({ children, pageNumber }) {
+export default function Page({ children, pageNumber, sectionTitle }) {
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
       <header className="fixed top-0 left-0 right-0 z-50 bg-brand-navy text-white py-2 md:py-3 border-b-4 border-brand-coral">
@@ -14,7 +14,7 @@ export default function Page({ children, pageNumber }) {
         </div>
       </header>
 
-      <TopBar currentPage={pageNumber} />
+      <TopBar currentPage={pageNumber} sectionTitle={sectionTitle} />
 
       <main className="flex-1 pt-40 md:pt-52">
         {children}
