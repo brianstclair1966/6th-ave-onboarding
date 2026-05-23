@@ -68,7 +68,7 @@ Open-handedness isn't charity. It's how this place operates.
 - If something works, we tell you. If it doesn't, we change it.
 
 **Why it matters:**
-Hoarding information works short-term. Sharing wins long-term. When construction solves your problem, they solve the next agent's problem faster.
+Hoarding information works short-term. Sharing wins long-term. We all can win together & learn from each other. It's what truly sets 6th Ave apart from other brokerages.
 
 
 ### Clarity Prevents Chaos
@@ -116,14 +116,11 @@ You don't need to know everything. You need to admit what you don't know and fin
 ## Your Operational Toolkit
 
 - **Slack** — How we talk, share, celebrate, problem-solve
-- **Rechat** — Where every transaction lives (contracts, communication, timelines)
+- **Rechat** — Where transactions live (contracts, timelines, addenda, & compliance checks)
 - **RealScout** — Client portal for searching. They feel like they're using Zillow, but you have all the data.
 - **Google Workspace** — Email, calendar, docs. Organize your business.
 
 Each tool has a job. Use them that way.
-
-**Common Mistake:**
-Agents try to do transactions through Slack or manage everything in Rechat. That doesn't work. The tools are layered for a reason.
 
 
 ## The Backsite Is Your Warehouse
@@ -198,6 +195,33 @@ All 6th Ave Guides will follow [TREC's IABS & Consumer Protection Notice display
 Agents are encouraged to consult with our [Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts). These volunteers are always helping newer agents & are a wealth of information. Use them!
 
 No 6th Ave Guide will participate in a transaction as a Property Manager without being certified & trained in proper management procedures. Please consult with the broker for more detail.
+
+
+## Contracts and Documents
+
+In addition to completing all of the forms and TREC documents correctly, we require each real estate transaction to have all required items on the [6AH Checklist Docs](https://www.6thavehomesagents.com/compliance-cda-process) for a CDA to be released. You are expected to submit all of this information in Rechat (full time agents) or to the Transaction Coordinator (part-time agents) a minimum of 7 days before closing to get paid on time. Our transaction coordinator is NOT an employee of 6th Ave Homes & does not work full time on our compliance & CDAs. 7 days gives her time to work us into her workflow & generate your CDA before your closing.
+
+
+## Splits and Caps
+
+Splits and caps are assessed on an individual basis. 6th Ave Homes charges a mandatory $200 brokerage fee on every transaction. This pays our broker $75 & our Transaction Coordinator $125 for their service.
+
+Once capped, all agents will pay a flat fee of $600/transaction (the $200 fee is included in the $600).
+
+
+## Leads
+
+One thing that makes us different from a lot of brokerages is that Owners & our Broker don't take real estate leads. That means every lead that comes in from our marketing is then distributed to our 6th Ave Guides. 6th Ave Homes does not ask you to contribute any money towards our marketing and leads are given out at the discretion of the Brokerage Director and/or Brokerage Manager.
+
+If you are given a 6th Ave Lead, you are expected to call the contact within 2 hours of receiving the lead. You are also required to follow up with them 5 more times if you do not get in contact with them.
+
+Any leads that are gained from a specific house, listing or advertisement that you are working on will be directly funneled to you (usually via email).
+
+Any 6th Ave Homes lead given to a 6th Ave Guide will be split 50/50, meaning your split will be 50% of the total commission earned (the $200 mandatory fee is waived on these leads).
+
+Search portal website leads are given out at the brokerage discretion as well. The split for these leads is 65% to you & 35% to 6th Ave.
+
+If you receive a selling lead and they purchase as well, both transactions are considered 6th Ave Leads and will be at a 50/50 or 65/35 split depending on the type of lead.
 
 
 ## What You Now Understand
