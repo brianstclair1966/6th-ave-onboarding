@@ -150,7 +150,7 @@ Lead generation is not rocket science. Agents that have prioritized regular lead
 
 ## Marketing
 
-Each 6th Ave Guide is highly recommended to have, maintain, and actively use a personal Instagram and Facebook account. We recommend you make a minimum of 1 real estate related Social Media post per week on personal platforms. Please note that all social media posts must follow TREC Guidelines for Advertising.
+Each 6th Ave Guide is highly recommended to have, maintain, and actively use a personal Instagram and Facebook account. We recommend you make a minimum of 1 real estate related Social Media post per week on personal platforms. Please note that all social media posts must follow [TREC Guidelines for Advertising](https://www.texasrealestate.com/members/communications/texas-realtor-magazine/issues/may-2023/the-advertising-rules-you-need-to-know/).
 
 
 ## Clients
@@ -229,15 +229,7 @@ GFWAR charges $18.20 per month for this access.
 - What to expect financially (resource fees, association dues, transaction costs)
 - Where to find everything you need to execute as a Guide
 
-**You now have the foundation most agents never fully build.**
-
-Not because it's complicated.
-
-Because they never slow down long enough to understand how the pieces fit together.
-
-Now you do.
-
-**Next: Page 7** — How the One Stop Shop actually gives you leverage.
+**Next: Page 2** — How we think at 6th Ave.
 
 
 ## Next Steps
