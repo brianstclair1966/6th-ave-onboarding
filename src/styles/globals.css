@@ -46,7 +46,7 @@ h2 {
   font-weight: 700;
   color: var(--brand-navy);
   margin-top: 2.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   line-height: 1.2;
   letter-spacing: -0.5px;
 }
@@ -55,7 +55,7 @@ h3 {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--brand-navy);
-  margin-top: 1.75rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.875rem;
   letter-spacing: -0.3px;
 }
@@ -74,7 +74,7 @@ h4 {
 p {
   font-size: 1.0625rem;
   line-height: 1.75;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   color: var(--brand-navy);
   font-weight: 400;
 }
@@ -132,11 +132,11 @@ a:hover {
 ul,
 ol {
   margin-left: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 li {
-  margin-bottom: 0.875rem;
+  margin-bottom: 0.65rem;
   line-height: 1.75;
   color: var(--brand-navy);
 }
