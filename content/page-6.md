@@ -224,6 +224,100 @@ Search portal website leads are given out at the brokerage discretion as well. T
 If you receive a selling lead and they purchase as well, both transactions are considered 6th Ave Leads and will be at a 50/50 or 65/35 split depending on the type of lead.
 
 
+## Database and Lead Generation
+
+**All Guides Are Required To Have, Maintain, and Actively Use a Lead Database**
+
+Your database should have a minimum of 200 people and will include 50 VIPs (Your top referrers) and All Past Clients. If you don't have an active database in Excel, Google Sheets, or other CRM, let Brian know and he can provide you with a template.
+
+Once you get the database set up, it is suggested for you to contact everyone in your database twice per year.
+
+While databases and admin work might seem like a punishment or an annoyance, these rules are important. Every 6th Ave Guide that has followed these guidelines has been able to make a successful career in real estate. Those that did not follow these have all left.
+
+**WEEKLY LEAD GENERATION SUGGESTIONS**
+
+Lead generation is not rocket science. Agents that have prioritized regular lead generating activities similar to those outlined below find success much quicker than the average agent.
+
+**Each week:**
+
+- 5 calls to a past client (if no past clients, then add calls to VIPS)
+- 5 calls to VIP's (VIPs are defined in "Networking with Soul")
+- 2 lunches or coffees / week with a potential lead or someone in your database
+- Call through 1 letter (first letter in last name) in your database of 400 contacts per week
+- This will be the equivalent of 2 touch points per year for everyone in your database.
+
+
+## Marketing
+
+Each 6th Ave Guide is highly recommended to have, maintain, and actively use a personal Instagram and Facebook account. We recommend you make a minimum of 1 real estate related Social Media post per week on personal platforms. Please note that all social media posts must follow TREC Guidelines for Advertising.
+
+
+## Clients
+
+When interacting with clients or leads, each 6th Ave Guide is expected to follow these guidelines:
+
+- Respond to a Lead, email intro, phone call, or lead within 2 hours by phone, text, or email (excluding weekends)
+- Optional - Bring a [6th Ave Homes MeetUp Book](https://drive.google.com/file/d/1TTxRfgNJiHju32WWJ3yodgVEQPhozIW) or your own personal Buyer Packet to every Meet-Up.
+- Send calendar invitations for all Meetings & Showings
+- Send an email recap after all showings and client meetings
+
+**Bonus:** Use and fulfill our [6th Ave Homes Value Touchpoints](https://www.6thavehomesagents.com/celebrating-clients)
+
+**Bonus:** 6th Ave has an [Editable Buyer Presentation](https://www.6thavehomesagents.com/buyers-presentation) that you can download & make your own!
+
+
+## Personal Purchase Notifications
+
+If you are personally buying any real estate, please notify your Brokerage Manager in writing (email).
+
+Purchasing and making a commission on your personal home or investment property is allowed and encouraged.
+
+Note: we will not expect a commission off of this, other than the fixed cost for the transaction ($200) if commission is generated in the sale.
+
+In the event that an agent wants to take on a flip or renovation project, agents must have express consent from Jimmy Williams for use of any subcontractors or members of our renovation team.
+
+
+## Required Sales Agent Training
+
+Each 6th Ave Guide is expected to understand the requirements for keeping your license up-to-date under the current TREC guidelines. The responsibility of this falls on the Guide.
+
+Every agent is required to complete Sales Agent Apprentice Education (SAE - 90 hours of training) within the first two years of obtaining your license:
+
+- 30 of these hours MUST be the Real Estate Brokerage class (offered by many schools)
+- 4 hours of TREC's Legal Update I
+- 4 hours of TREC's Legal Update II
+
+Once you complete your SAE, and renew your license for the 1st time, all Sales Agents are then required to complete 18 hours of trainings every two years there after (CE):
+
+- Complete Legal I and Legal II every two years. These are 4 hours each and are put on by GFWAR (& most online schools)
+- Complete 10 hours of Continuing Education (CE). These are put on by GFWAR, local title companies, & many online schools
+- 3 hours must be contract-related coursework
+- 7 hours of elective CE (We offer many opportunities to get CE credit during the year)
+
+All TREC details are [located here](https://www.trec.texas.gov/renew-license/real-estate-sales-agent).
+
+
+## Fees
+
+**Resource Fees**
+
+All full time agents are responsible for paying $215/month fee. This fee covers part (not all) of the brokerage expense for Rechat, RealScout, Docusign, & our 6th Ave Homes Google Suite (including your personal email address).
+
+Part-time agents do not pay the resource fee & they will not have access to Rechat, Realscout, nor Docusign.
+
+**Required Association Dues/Fees**
+
+Each 6th Ave Guide is expected to maintain & pay all dues associated with Greater Fort Worth Association of Realtors. You also have the ability to affiliate with the Metrotex Association of Realtors, Temple-Belton Board of Realtors, & Austin Board of Realtors. These affiliations are at the expense of each agent. All dues MUST be paid on time. Please ask your board of choice(s) for an auto-pay form.
+
+Guides are responsible for paying yearly National Association of Realtors, Texas Realtors, & local association dues on time. These dues are included through your primary association. Failure to do so may result in the entire brokerage being suspended from MLS access & this would hurt everyone.
+
+It is important to note that these dues are usually $203 by March 31, June 30, & Sep 30, plus annual dues of $609 by Dec 31, each year.
+
+You are also responsible for setting up & maintaining a keycard account with your primary association.
+
+GFWAR charges $18.20 per month for this access.
+
+
 ## What You Now Understand
 
 - Why 6th Ave operates differently
