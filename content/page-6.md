@@ -1,117 +1,18 @@
 ---
-title: "The 6th Ave Difference"
+title: "Operations and Requirements"
 page: 6
-description: "6th Ave Guide Foundation"
+description: "How 6th Ave actually works"
 ---
 
-# The 6th Ave Difference
+# Operations and Requirements
 
-Most brokerages teach you *how to function*.
+Watch This First
 
-6th Ave wants to help you learn how to <em style="color: #ED6758; font-style: italic;">think</em>.
+<iframe width="60%" height="450" src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>
 
+## What You're About to Learn
 
-## You've Completed Activation
-
-You've now set up your accounts, your systems are coming online, and your operational foundation is being created.
-
-Most brokerages stop there.
-
-6th Ave doesn't.
-
-What comes next is what most new agents never get: understanding how all of this actually works together — and why 6th Ave operates differently.
-
-That starts here.
-
-
-## Why We Exist Differently
-
-Most brokerages optimize for transaction volume.
-We optimize for long-term agent success.
-
-**The difference:**
-We think of you as a business partner, not a transaction machine.
-
-Systems reduce chaos. Clear expectations reduce stress. That's how we operate.
-
-These ideas show up operationally every day. That's what makes this different.
-
-
-## How We Actually Think
-
-### Guides, Not Salespeople
-
-You reduce uncertainty for clients.
-
-You lead with clarity, not pressure.
-You explain the process so they understand each step.
-You solve problems before they become crises.
-
-**Clients remember how you made them feel long after they forget the price.**
-
-Safe, guided, confident? They refer you for years.
-
-Rushed, confused, pressured? They don't.
-
----
-
-That's not a nice idea. That's operational reality.
-
-
-### We Share What Works
-
-Open-handedness isn't charity. It's how this place operates.
-
-**What this looks like:**
-- Agents share vendor contacts.
-- Problems get solved publicly in Slack instead of secretly or one-on-one.
-- If something works, we tell you. If it doesn't, we change it.
-
-**Why it matters:**
-Hoarding information works short-term. Sharing wins long-term. We all can win together & learn from each other. It's what truly sets 6th Ave apart from other brokerages.
-
-
-### Clarity Prevents Chaos
-
-Systems aren't glamorous. But they matter.
-
-Every process has a reason. You'll know what's expected before you guess.
-
-Expectations are clear. Communication is constant. That's how you avoid the crises that bury solo agents.
-
----
-
-When systems work, you stop scrambling and start building.
-
-That's where actual business happens.
-
-
-### We Get Better Constantly
-
-Most brokerages fix things after they break.
-
-We don't. We notice friction, fix it, move forward. We mentor constantly. We admit when something isn't working and change it.
-
-**That's not some culture thing. That's operational discipline.**
-
-
-## Your Role Here
-
-**You're a guide.**
-
-Not a salesperson. Not a transaction processor.
-
-A guide reduces uncertainty. A guide leads with clarity. A guide builds relationships that last beyond closing.
-
-**You do not need to master all of this immediately.**
-
-You'll learn through transactions, through mentoring, through doing. That's how it works here.
-
-**Common Mistake:**
-New agents think "guide" means "teacher." It actually means "steady presence."
-
-You don't need to know everything. You need to admit what you don't know and find the answer. That's more powerful than pretending.
-
+You've now completed your activation and have access to 6th Ave's systems and tools. The next phase is understanding how we actually operate—the real mechanics of how deals move, how our team works together, and what we expect from every Guide. This isn't theoretical. It's the operational framework that every successful 6th Ave agent has learned to execute. You'll learn what resources are available to you, what's required of you, how compensation works, and what it takes to build a sustainable real estate career with us. By the end of this page, you'll have clarity on exactly what it takes to succeed here.
 
 ## Your Operational Toolkit
 
@@ -320,13 +221,13 @@ GFWAR charges $18.20 per month for this access.
 
 ## What You Now Understand
 
-- Why 6th Ave operates differently
-- What "guide" means in this context
-- Your mentorship path and how compensation splits work
-- How the office functions and what resources are available
-- The meetings, rules, and requirements that shape our culture
-- How our platforms and tools work together
-- Where to find what you need
+- How to access and use 6th Ave's operational tools and resources
+- Your mentorship path and compensation structure
+- What's required of you (meetings, training, fees, database, lead generation)
+- How our office operates and what's available to you
+- The rules, compliance requirements, and operational expectations
+- What to expect financially (resource fees, association dues, transaction costs)
+- Where to find everything you need to execute as a Guide
 
 **You now have the foundation most agents never fully build.**
 
