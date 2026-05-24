@@ -6,9 +6,7 @@ description: "Professional sustainability in real estate"
 
 # How Strong Agents Operate
 
-You've now completed your activation.
-
-You understand how the brokerage operates.
+You now understand how the brokerage operates.
 
 You know how support works.
 
@@ -37,7 +35,7 @@ That means:
 
 Clients remember how you made them feel long after they forget the details. If they felt safe, guided, and confident? They refer you for years. If they felt rushed or confused or like you were figuring it out as you went? They don't.
 
-That's not theory. That's operational reality.
+That's what clients remember.
 
 ---
 
@@ -47,7 +45,7 @@ Most agents disappear when business slows down.
 
 They stop prospecting. They stop following up. They stop staying visible. Then when they need business again, they wonder why nobody remembers them.
 
-Strong agents operate differently.
+Strong agents build differently.
 
 They stay consistent even when things are slow. They keep following up. They stay visible. They keep building relationships. They understand that consistency feels unremarkable, which is exactly why it works.
 
@@ -62,7 +60,7 @@ Your business builds through small moments:
 - Showing up consistently in people's lives
 - Being the person who remembers
 
-That's how real estate careers actually last.
+That's what compounds.
 
 ---
 
@@ -84,7 +82,7 @@ That means:
 
 You're not supposed to be an expert in construction, financing, title, marketing, and compliance. You're supposed to know who to ask and when to ask them. That's the actual skill.
 
-Information gets cheaper every year. Judgment gets more valuable.
+Information gets cheaper every year. Judgment becomes more valuable.
 
 ---
 
@@ -102,7 +100,7 @@ Systems exist because relationships matter. When things get stressful—and they
 
 Systems reduce chaos. Systems preserve consistency. Systems create trust. Systems prevent small problems from becoming expensive ones.
 
-Your job is to show up inside the system. The system handles the rest.
+Your job is to show up consistently inside the system. The system reduces the chaos that destroys trust.
 
 ---
 
@@ -126,7 +124,7 @@ But through:
 
 Small moments compound. Years pass. Reputation becomes your most valuable asset.
 
-The agent who follows up on time, communicates clearly, and handles stress calmly becomes the agent people refer. Not because they're perfect. Because they're steady.
+The agent who follows up on time, communicates clearly, and handles stress calmly becomes the agent people refer. Not because they're perfect. That's what endures.
 
 ---
 
