@@ -8,7 +8,7 @@ description: "You don't have to do this alone"
 
 Most real estate agents build their careers alone.
 
-You operate in isolation. You build vendor relationships one at a time. You figure out problems by yourself. You carry stress quietly.
+In a lot of brokerages, agents end up figuring out problems independently. Vendor relationships are fragmented. Questions get answered slowly. Stress builds quietly over time.
 
 That's not how this works.
 
@@ -30,7 +30,7 @@ Not through seminars. Not through webinars. Not through reading pages like this 
 
 Real estate is learned through live transactions.
 
-Contracts. Inspections. Negotiations. Closings. Mistakes. Surprises. Problems solved in real time.
+Contracts. Inspections. Negotiations. Closings. Unexpected situations. Surprises. Problems solved in real time.
 
 That's why newer agents get mentorship for their first 3 transactions. Your mentor—usually someone like Holly who's seen everything—isn't there to let you figure it out alone. They're there to show you what steady execution looks like when the pressure is real.
 
@@ -68,7 +68,9 @@ Your job IS to:
 - Know who to bring in and when
 - Admit what you don't know
 
-That's operational maturity. That's how agents who build long-term businesses actually operate.
+Asking questions early is a sign of professionalism, not weakness. Strong agents ask for clarity when they need it. That's what separates people who build long-term businesses from people who burn out.
+
+That's operational maturity. That's how this actually works.
 
 ---
 
