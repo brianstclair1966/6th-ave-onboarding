@@ -32,7 +32,7 @@ Real estate is learned through live transactions.
 
 Contracts. Inspections. Negotiations. Closings. Unexpected situations. Surprises. Problems solved in real time.
 
-That's why newer agents get mentorship for their first 3 transactions. Your mentor—usually someone like Holly who's seen everything—isn't there to let you figure it out alone. They're there to show you what steady execution looks like when the pressure is real.
+That's why newer agents get mentorship for their first 3 transactions. Your mentor isn't there to let you figure it out alone. They're there to show you what steady execution looks like when the pressure is real.
 
 After 3 deals, you have the operational foundation to run on your own. But the support doesn't disappear.
 
@@ -44,15 +44,15 @@ After 3 deals, you have the operational foundation to run on your own. But the s
 Your mentor walks alongside you. They see the contract before you send it. They understand your client's situation. They help you think through problems while there's still time to solve them.
 
 **When you have a question:**
-Ask on Slack (#guides channel). Text Brian. Talk to a subject matter expert. Most questions have been asked before. You don't have to solve it from scratch.
+Start in Slack (#guides channel). Use AI to help organize your thinking, understand terminology, or review situations. Search previous conversations and resources. Most questions have been asked before—and most answers are already documented. When you need real-world perspective or experience, bring it to Slack. That's how the team learns together.
 
 **When you have a weird situation:**
 That's exactly when support exists. Construction questions. Renovation feasibility. Design/layout guidance. Financing problems. Title issues. Marketing strategy. Pool and outdoor expertise.
 
-You don't coordinate these alone. You ask for help. The system exists so you don't have to figure it out solo.
+You don't coordinate these alone. You ask for help. Support exists so you don't have to figure it out alone.
 
 **When you're overwhelmed:**
-Brian's Masterminds (Wednesdays), classes, and direct access exist so you can get perspective. You're not the first agent to feel stuck. You won't be the last.
+Brian's Masterminds (Wednesdays), classes, and broker involvement exist so you can get perspective. Most situations aren't new. That's why access and communication matter.
 
 ---
 
@@ -101,7 +101,7 @@ That changes how sustainable this career actually is.
 ## Next Steps
 
 - [ ] Bookmark the Slack #guides channel and introduce yourself
-- [ ] Save Brian's phone number: (817) 360-5555
+- [ ] Save Brian's number: (817) 360-5555 — He prefers questions start in Slack so the team can learn together, but he genuinely wants you to succeed and has your back when needed.
 - [ ] Identify one thing you're nervous about and commit to asking about it this week
 - [ ] Review this page again in your first month. It'll land differently.
 
