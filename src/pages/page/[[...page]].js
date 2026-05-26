@@ -5,6 +5,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import Page from '../../components/Page'
 import Navigation from '../../components/Navigation'
+import useCheckboxState from '../../hooks/useCheckboxState'
 
 const TOTAL_PAGES = 8
 
@@ -47,38 +48,7 @@ function renderMarkdown(content) {
 
 export default function PageComponent({ pageNumber, content, sectionTitle }) {
   const router = useRouter()
-  const [checkboxStates, setCheckboxStates] = useState({})
-  const [allCheckboxesChecked, setAllCheckboxesChecked] = useState(false)
-
-  useEffect(() => {
-    // Check if page has checkboxes and update state
-    const checkboxes = document.querySelectorAll('.page-checkbox')
-    const hasCheckboxes = checkboxes.length > 0
-
-    if (hasCheckboxes) {
-      const updateCheckedState = () => {
-        const states = {}
-        checkboxes.forEach((checkbox, index) => {
-          states[index] = checkbox.checked
-        })
-        setCheckboxStates(states)
-
-        // Check if all are checked
-        const allChecked = Object.values(states).every(state => state === true)
-        setAllCheckboxesChecked(allChecked)
-      }
-
-      checkboxes.forEach(checkbox => {
-        checkbox.addEventListener('change', updateCheckedState)
-      })
-
-      return () => {
-        checkboxes.forEach(checkbox => {
-          checkbox.removeEventListener('change', updateCheckedState)
-        })
-      }
-    }
-  }, [content])
+  const { getCompletionPercentage } = useCheckboxState(pageNumber)
 
   const handlePrev = () => {
     if (pageNumber > 1) {
@@ -87,18 +57,12 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
   }
 
   const handleNext = () => {
-    // Page 3 requires all checkboxes to be checked
-    if (pageNumber === 3 && !allCheckboxesChecked) {
-      alert('Please complete all items before moving forward.')
-      return
-    }
-
+    // Checkboxes are now voluntary (honor-system engagement)
+    // No gating on Page 3 or any other page
     if (pageNumber < TOTAL_PAGES) {
       router.push(`/page/${pageNumber + 1}`)
     }
   }
-
-  const nextButtonDisabled = pageNumber === 3 && !allCheckboxesChecked
 
   return (
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle}>
@@ -114,7 +78,6 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
         onPrev={handlePrev}
         onNext={handleNext}
         totalPages={TOTAL_PAGES}
-        nextDisabled={nextButtonDisabled}
       />
     </Page>
   )
