@@ -61,6 +61,9 @@ Once you've completed the 8 steps and these training sessions, your MLS will be 
 
 But the real work isn't the systems. It's the mindset shift: from "I need to know everything" to "I know how to find the answer." That's what this next phase teaches you.
 
+**Next: Go to Orientation** — How support works at 6th Ave.
+
+---
 
 ## Your Main References
 
