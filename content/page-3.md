@@ -22,6 +22,8 @@ You manage your own business:
 **What to expect:**
 Review it, sign it, click "finish" and you're good to go!
 
+- [ ] I have signed my Independent Contractor Agreement
+
 
 ## ⑤ Build Your Professional Presence
 
@@ -41,6 +43,8 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 
 6th Ave Homes does quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack. You'll have the opportunity to sign up for a shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
 
+- [ ] I have emailed my bio to brian@6thavehomes.com
+
 ### **Part B: "All About You" Form**
 
 This helps us know you better and it creates more personal content on your bio page.
@@ -49,6 +53,7 @@ See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-cl
 
 [**→ Go here to fill out the All About You Form (5 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
 
+- [ ] I completed the All About You form
 
 ### **Part C: Update Your Online Presence**
 
@@ -58,18 +63,9 @@ You can use one of these logo versions in your profiles:
 - [**Main Logo (Dark Background)**](https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing)
 - [**Main Logo (White Background)**](https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing)
 
+- [ ] I updated my online profiles with 6th Ave branding
+
 
 ## Why This Matters
 
 Your website bio is often the first impression clients have of you.
-
-
-## Next Steps
-
-Complete these before moving forward:
-
-- [ ] Submitted your bio to brian@6thavehomes.com
-- [ ] Filled out the "All About You" form
-- [ ] Updated your online profiles with 6th Ave branding
-
-Please check the boxes above signifying that you've completed each of the steps above to continue to page 4.

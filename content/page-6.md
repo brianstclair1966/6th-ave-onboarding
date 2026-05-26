@@ -25,6 +25,8 @@ You've now completed your activation and have access to 6th Ave's systems and to
 
 Each tool has a job. Use them that way.
 
+- [ ] I understand how to use Slack, Rechat, RealScout, and Google Workspace
+
 
 ## The Backsite Is Your Warehouse
 
@@ -42,6 +44,10 @@ You don't need to memorize it. You just need to know it exists.
 
 Use these as you work. The rest is there when you're ready.
 
+- [ ] I know where to find the Backsite resources
+
+- [ ] I know where to find the Backsite resources
+
 ---
 
 ## The Fort Worth Office
@@ -56,6 +62,8 @@ Wi-Fi: Connect to 6thavellc. The password is: 6thAveHomies
 - Feel free to use the office after hours! Just be sure to lock up and leave the office better than you found it.
 - We have a main printer located in the Brokerage Office (the one with the green couch). Once you are connected to our Wi-Fi, you should be able to add that printer on your computer to print.
 
+- [ ] I know how to access and use the Fort Worth office
+
 ---
 
 ## Mentors and Mentees - Important
@@ -68,6 +76,8 @@ Every NEW (to the industry) agent will have a mentor for their first 3 transacti
 - If the Mentee receives a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $200 Transaction Fee), the Mentor gets 45%, & 6th Ave 25%.
 - If the Mentee is a Part Time agent & brings a buyer or seller, The Mentee receives 60% of the compensation (with a $300 Transaction Fee), the Mentor gets 25%, & 6th Ave 15%.
 - If the Mentee is a Part Time agent & received a lead from 6th Ave, the Mentee receives 30% of the compensation (with a $300 Transaction Fee), Mentor gets 45%, & 6th Ave 25%.
+
+- [ ] I understand my mentorship path and compensation structure
 
 ---
 
@@ -87,6 +97,8 @@ Agents are also invited to attend our quarterly "Town Hall meetings". These meet
 
 Occasionally, your Brokerage Manager or Brokerage Director will request an annual, semi-annual, or quarterly meeting with you as a "catch-up". Low-pressure. Just a check-in. Please try to make time for these.
 
+- [ ] I understand the meeting schedule and expectations
+
 ---
 
 ## Competence and Rules
@@ -103,11 +115,15 @@ Agents are encouraged to consult with our [Subject Matter Experts](https://www.6
 
 No 6th Ave Guide will participate in a transaction as a Property Manager without being certified & trained in proper management procedures. Please consult with the broker for more detail.
 
+- [ ] I understand the competence and compliance requirements
+
 ---
 
 ## Contracts and Documents
 
 In addition to completing all of the forms and TREC documents correctly, we require each real estate transaction to have all required items on the [6AH Checklist Docs](https://www.6thavehomesagents.com/compliance-cda-process) for a CDA to be released. You are expected to submit all of this information in Rechat (full time agents) or to the Transaction Coordinator (part-time agents) a minimum of 7 days before closing to get paid on time. Our transaction coordinator is NOT an employee of 6th Ave Homes & does not work full time on our compliance & CDAs. 7 days gives her time to work us into her workflow & generate your CDA before your closing.
+
+- [ ] I understand the CDA and document submission requirements
 
 ---
 
@@ -116,6 +132,8 @@ In addition to completing all of the forms and TREC documents correctly, we requ
 Splits and caps are assessed on an individual basis. 6th Ave Homes charges a mandatory $200 brokerage fee on every transaction. This pays our broker $75 & our Transaction Coordinator $125 for their service.
 
 Once capped, all agents will pay a flat fee of $600/transaction (the $200 fee is included in the $600).
+
+- [ ] I understand the transaction split structure
 
 ---
 
@@ -132,6 +150,8 @@ Any 6th Ave Homes lead given to a 6th Ave Guide will be split 50/50, meaning you
 Search portal website leads are given out at the brokerage discretion as well. The split for these leads is 65% to you & 35% to 6th Ave.
 
 If you receive a selling lead and they purchase as well, both transactions are considered 6th Ave Leads and will be at a 50/50 or 65/35 split depending on the type of lead.
+
+- [ ] I understand the lead distribution and follow-up requirements
 
 ---
 
@@ -157,11 +177,15 @@ Lead generation is not rocket science. Agents that have prioritized regular lead
 - Call through 1 letter (first letter in last name) in your database of 400 contacts per week
 - This will be the equivalent of 2 touch points per year for everyone in your database.
 
+- [ ] I have (or am setting up) a lead database
+
 ---
 
 ## Marketing
 
 Each 6th Ave Guide is highly recommended to have, maintain, and actively use a personal Instagram and Facebook account. We recommend you make a minimum of 1 real estate related Social Media post per week on personal platforms. Please note that all social media posts must follow [TREC Guidelines for Advertising](https://www.texasrealestate.com/members/communications/texas-realtor-magazine/issues/may-2023/the-advertising-rules-you-need-to-know/).
+
+- [ ] I understand the social media and marketing expectations
 
 ---
 
@@ -178,6 +202,8 @@ When interacting with clients or leads, each 6th Ave Guide is expected to follow
 
 **Bonus:** 6th Ave has an [Editable Buyer Presentation](https://www.6thavehomesagents.com/buyers-presentation) that you can download & make your own!
 
+- [ ] I understand the client communication standards
+
 ---
 
 ## Personal Purchase Notifications
@@ -189,6 +215,8 @@ Purchasing and making a commission on your personal home or investment property 
 Note: we will not expect a commission off of this, other than the fixed cost for the transaction ($200) if commission is generated in the sale.
 
 In the event that an agent wants to take on a flip or renovation project, agents must have express consent from Jimmy Williams for use of any subcontractors or members of our renovation team.
+
+- [ ] I understand the requirements for personal real estate purchases
 
 ---
 
@@ -210,6 +238,8 @@ Once you complete your SAE, and renew your license for the 1st time, all Sales A
 - 7 hours of elective CE (We offer many opportunities to get CE credit during the year)
 
 All TREC details are [located here](https://www.trec.texas.gov/renew-license/real-estate-sales-agent).
+
+- [ ] I understand my training requirements (SAE and CE)
 
 ---
 
@@ -233,6 +263,9 @@ You are also responsible for setting up & maintaining a keycard account with you
 
 GFWAR charges $18.20 per month for this access.
 
+- [ ] I understand all fees and association dues
+
+---
 
 ## What You Now Understand
 

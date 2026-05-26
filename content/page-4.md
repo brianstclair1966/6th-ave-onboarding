@@ -31,6 +31,8 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 - IMPORTANT: Do not wire money to anyone without speaking to me first to confirm the destination, account info, and amount. There are many wire fraud scams out there.
 
+- [ ] I have created my IABS form and added it to my email signature
+
 
 ## ⑦ Get Started with Rechat
 
@@ -46,6 +48,8 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 
 **Rechat** is where we manage conversations, transactions, tasks, and follow-up. You'll learn it by using it.
 
+- [ ] I have looked at Rechat and understand the basics
+
 
 ## ⑧ Set Up RealScout
 
@@ -56,3 +60,4 @@ Work through the **"Getting Started"** section, then explore the **["Deals" sect
 **To market your RealScout to clients:**
 From your Marketing tab (along the left side), select "Market my Realscout". This creates a branded search portal your clients can use.
 
+- [ ] I have looked at RealScout and set up my branded portal

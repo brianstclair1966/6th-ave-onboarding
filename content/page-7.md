@@ -22,6 +22,8 @@ This is the core of how we operate:
 
 That line changes everything about how agents actually work here.
 
+- [ ] I understand that early communication prevents problems
+
 ---
 
 ## Real Estate Is Learned Through Doing
@@ -35,6 +37,8 @@ Contracts. Inspections. Negotiations. Closings. Unexpected situations. Surprises
 That's why newer agents get mentorship for their first 3 transactions. Your mentor isn't there to let you figure it out alone. They're there to show you what steady execution looks like when the pressure is real.
 
 After 3 deals, you have the operational foundation to run on your own. But the support doesn't disappear.
+
+- [ ] I understand my mentorship model and transaction learning
 
 ---
 
@@ -54,6 +58,8 @@ You don't coordinate these alone. You ask for help. Support exists so you don't 
 **When you're overwhelmed:**
 Brian's Masterminds (Wednesdays), classes, and broker accessibility exist so you can get perspective. Most situations aren't new. That's why access and communication matter.
 
+- [ ] I understand when and how to ask for support
+
 ---
 
 ## Your Real Job
@@ -72,6 +78,8 @@ Asking questions early is a sign of professionalism, not weakness. Strong agents
 
 That's operational maturity. That's how this actually works.
 
+- [ ] I understand that asking questions is professional, not weakness
+
 ---
 
 ## How This Feels Different
@@ -83,6 +91,8 @@ Here, confusion gets answered. Problems get solved earlier. You have access to e
 You're not building in isolation anymore.
 
 That changes how sustainable this career actually is.
+
+- [ ] I understand how 6th Ave's support differs from other brokerages
 
 ---
 

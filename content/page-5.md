@@ -42,6 +42,8 @@ Our brand identity, how to market yourself authentically, and content standards.
 
 **Complete these in your first week** — you don't need to finish before you start working, but this foundational knowledge will change how you operate.
 
+- [ ] I have completed the Three Guide Training sessions
+
 
 ## What Success Looks Like
 

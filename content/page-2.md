@@ -17,6 +17,8 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 
 That's it. Next.
 
+- [ ] I completed the Emergency Contact Form
+
 
 ## ② TREC Sponsorship
 
@@ -25,6 +27,8 @@ That's it. Next.
 **What you do:** Accept the invitation and complete the TREC sponsorship request.
 
 **Why it matters:** TREC licensing under 6th Ave is your legal foundation for operating in Texas. You can't access the MLS without it.
+
+- [ ] I completed TREC Sponsorship
 
 
 ## ③ Join Your Realtor Association
@@ -60,6 +64,8 @@ Once approved, order your SUPRA key and download eKEY.
 6th Ave Home is proud to be a member of the Austin Board of Realtors. ABOR uses the UnlockMLS. You are welcome to join & have access to UnlockMLS. Please understand that all fees & application fees for you to join ABOR & UnlockMLS are at your expense.
 
 [**Go to Unlock MLS →**](https://www.unlockmls.com/)
+
+- [ ] I joined my Realtor Association and completed MLS requirements
 
 
 ## What's Next

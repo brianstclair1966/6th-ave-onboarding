@@ -37,6 +37,8 @@ Clients remember how you made them feel long after they forget the details. If t
 
 That's what clients remember.
 
+- [ ] I understand that clients borrow certainty from me
+
 ---
 
 ## Strong Agents Stay Consistent
@@ -62,6 +64,8 @@ Your business builds through small moments:
 
 That's what compounds.
 
+- [ ] I understand the importance of consistency over intensity
+
 ---
 
 ## Judgment Matters More Than Information
@@ -84,6 +88,8 @@ You're not supposed to be an expert in construction, financing, title, marketing
 
 Information gets cheaper every year. Judgment becomes more valuable.
 
+- [ ] I understand my value is judgment, not information
+
 ---
 
 ## Systems Protect Relationships
@@ -101,6 +107,8 @@ Systems exist because relationships matter. When things get stressful—and they
 Systems reduce chaos. Systems preserve consistency. Systems create trust. Systems prevent small problems from becoming expensive ones.
 
 Your job is to show up consistently inside the system. The system reduces the chaos that destroys trust.
+
+- [ ] I understand that systems protect what matters
 
 ---
 
@@ -126,6 +134,8 @@ Small moments compound. Years pass. Reputation becomes your most valuable asset.
 
 The agent who follows up on time, communicates clearly, and handles stress calmly becomes the agent people refer. Not because they're perfect. That's what endures.
 
+- [ ] I understand reputation is built through small moments
+
 ---
 
 ## How This Actually Works
@@ -144,6 +154,8 @@ You need:
 And the willingness to keep learning.
 
 That's how sustainable real estate businesses are actually built.
+
+- [ ] I understand the 6 principles of how 6th Ave operates
 
 ---
 
