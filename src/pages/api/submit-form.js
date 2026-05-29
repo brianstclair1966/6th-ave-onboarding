@@ -14,17 +14,30 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing formType or data' })
     }
 
-    console.log('Form submission - Type:', formType)
+    console.log('Form submission - Type:', formType, 'Data keys:', Object.keys(data))
 
     // Get credentials from environment variable
-    const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS || '{}'
-    console.log('Credentials env var exists:', !!process.env.GOOGLE_SHEETS_CREDENTIALS)
+    const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS
+    const spreadsheetId = process.env.GOOGLE_SHEETS_ID
 
-    const credentials = JSON.parse(credentialsStr)
+    if (!credentialsStr || !spreadsheetId) {
+      console.error('Missing env vars - Credentials:', !!credentialsStr, 'SheetID:', !!spreadsheetId)
+      return res.status(500).json({
+        error: 'Configuration error',
+        details: `Missing: ${!credentialsStr ? 'GOOGLE_SHEETS_CREDENTIALS ' : ''}${!spreadsheetId ? 'GOOGLE_SHEETS_ID' : ''}`
+      })
+    }
+
+    let credentials
+    try {
+      credentials = JSON.parse(credentialsStr)
+    } catch (e) {
+      console.error('Failed to parse credentials JSON:', e.message)
+      return res.status(500).json({ error: 'Invalid credentials format' })
+    }
 
     if (!credentials.type) {
-      console.error('Missing credentials.type - credentials:', Object.keys(credentials))
-      return res.status(500).json({ error: 'Google credentials not configured' })
+      return res.status(500).json({ error: 'Google credentials incomplete' })
     }
 
     // Create auth client
@@ -32,11 +45,6 @@ export default async function handler(req, res) {
       credentials,
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     })
-
-    const spreadsheetId = process.env.GOOGLE_SHEETS_ID
-    if (!spreadsheetId) {
-      return res.status(500).json({ error: 'Spreadsheet ID not configured' })
-    }
 
     // Prepare row data based on form type
     let values = []
