@@ -6,6 +6,9 @@ import matter from 'gray-matter'
 import Page from '../../components/Page'
 import Navigation from '../../components/Navigation'
 import useCheckboxState from '../../hooks/useCheckboxState'
+import AgentInfoForm from '../../components/AgentInfoForm'
+import EmergencyContactForm from '../../components/EmergencyContactForm'
+import AboutYouForm from '../../components/AboutYouForm'
 
 const TOTAL_PAGES = 8
 
@@ -49,6 +52,66 @@ function renderMarkdown(content) {
 export default function PageComponent({ pageNumber, content, sectionTitle }) {
   const router = useRouter()
   const { getCompletionPercentage } = useCheckboxState(pageNumber)
+  const [agentInfo, setAgentInfo] = useState(null)
+
+  useEffect(() => {
+    // Load agent info from localStorage
+    const stored = localStorage.getItem('agentInfo')
+    if (stored) {
+      try {
+        setAgentInfo(JSON.parse(stored))
+      } catch (e) {
+        console.error('Error parsing agent info:', e)
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    // Wire up checkpoint logging to all checkboxes
+    const checkboxes = document.querySelectorAll('.page-checkbox')
+
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', async (e) => {
+        if (e.target.checked && agentInfo) {
+          const checkpointLabel = e.target.getAttribute('data-label')
+
+          try {
+            e.target.disabled = true
+            e.target.style.opacity = '0.5'
+
+            const response = await fetch('/api/log-checkpoint', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                firstName: agentInfo.firstName,
+                lastName: agentInfo.lastName,
+                email: agentInfo.email,
+                checkpointLabel: checkpointLabel,
+              }),
+            })
+
+            if (!response.ok) {
+              throw new Error('Failed to log checkpoint')
+            }
+
+            e.target.style.opacity = '1'
+          } catch (error) {
+            console.error('Checkpoint logging error:', error)
+            e.target.checked = false
+            e.target.disabled = false
+            e.target.style.opacity = '1'
+            alert('Failed to save checkpoint. Please try again.')
+          }
+        }
+      })
+    })
+
+    return () => {
+      checkboxes.forEach(checkbox => {
+        checkbox.removeEventListener('change', null)
+      })
+    }
+  }, [agentInfo])
 
   const handlePrev = () => {
     if (pageNumber > 1) {
@@ -67,10 +130,15 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
   return (
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
+        {pageNumber === 1 && <AgentInfoForm />}
+
         <div
           className="prose prose-sm max-w-none"
           dangerouslySetInnerHTML={{ __html: content }}
         />
+
+        {pageNumber === 2 && agentInfo && <EmergencyContactForm agentInfo={agentInfo} />}
+        {pageNumber === 3 && agentInfo && <AboutYouForm agentInfo={agentInfo} />}
       </main>
 
       <Navigation
