@@ -1,13 +1,28 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import useCheckboxState from '../hooks/useCheckboxState'
 
-export default function BioForm({ agentInfo }) {
+export default function BioForm({ agentInfo: propAgentInfo }) {
   const { toggle } = useCheckboxState(3)
   const [bio, setBio] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
   const [isDisabled, setIsDisabled] = useState(false)
+  const [agentInfo, setAgentInfo] = useState(propAgentInfo)
+
+  useEffect(() => {
+    // If agentInfo not passed as prop, try to load from localStorage
+    if (!agentInfo) {
+      const stored = localStorage.getItem('agentInfo')
+      if (stored) {
+        try {
+          setAgentInfo(JSON.parse(stored))
+        } catch (e) {
+          console.error('Error parsing stored agent info:', e)
+        }
+      }
+    }
+  }, [agentInfo])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
