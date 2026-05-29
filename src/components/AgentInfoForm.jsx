@@ -8,7 +8,6 @@ export default function AgentInfoForm() {
   })
   const [errors, setErrors] = useState({})
   const [submitted, setSubmitted] = useState(false)
-  const [showForm, setShowForm] = useState(true)
 
   useEffect(() => {
     // Check if agent info already exists in localStorage
@@ -17,7 +16,6 @@ export default function AgentInfoForm() {
       try {
         const parsed = JSON.parse(stored)
         setFormData(parsed)
-        setShowForm(false)
       } catch (e) {
         console.error('Error parsing stored agent info:', e)
       }
@@ -75,7 +73,6 @@ export default function AgentInfoForm() {
     // Store in localStorage
     localStorage.setItem('agentInfo', JSON.stringify(formData))
     setSubmitted(true)
-    setShowForm(false)
 
     // Clear success message after 3 seconds
     setTimeout(() => {
@@ -83,35 +80,19 @@ export default function AgentInfoForm() {
     }, 3000)
   }
 
-  if (!showForm) {
-    return (
-      <div className="mb-8">
-        {submitted && (
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
-            <p className="text-green-800 font-medium">
-              Welcome, {formData.firstName} {formData.lastName}! Your information has been saved.
-            </p>
-          </div>
-        )}
-      </div>
-    )
-  }
-
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 mb-8 max-w-md">
-      <h3 className="text-2xl font-bold text-brand-navy mb-6">Get Started</h3>
-
+    <div className="bg-brand-cream border-b border-gray-200 p-4 mb-8">
       {submitted && (
-        <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+        <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4 text-sm">
           <p className="text-green-800 font-medium">
-            Welcome, {formData.firstName} {formData.lastName}! Your information has been saved.
+            ✓ Welcome, {formData.firstName} {formData.lastName}! Your information has been saved.
           </p>
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div>
-          <label htmlFor="firstName" className="block text-sm font-semibold text-brand-navy mb-2">
+      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-3 items-end">
+        <div className="flex-1 min-w-0">
+          <label htmlFor="firstName" className="block text-xs font-semibold text-brand-navy mb-1">
             First Name
           </label>
           <input
@@ -120,20 +101,20 @@ export default function AgentInfoForm() {
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+            className={`w-full px-3 py-2 text-sm border-2 rounded focus:outline-none transition ${
               errors.firstName
                 ? 'border-red-500 focus:border-red-600 bg-red-50'
                 : 'border-gray-300 focus:border-brand-coral bg-white'
             }`}
-            placeholder="Your first name"
+            placeholder="First name"
           />
           {errors.firstName && (
-            <p className="text-red-600 text-sm mt-1">{errors.firstName}</p>
+            <p className="text-red-600 text-xs mt-0.5">{errors.firstName}</p>
           )}
         </div>
 
-        <div>
-          <label htmlFor="lastName" className="block text-sm font-semibold text-brand-navy mb-2">
+        <div className="flex-1 min-w-0">
+          <label htmlFor="lastName" className="block text-xs font-semibold text-brand-navy mb-1">
             Last Name
           </label>
           <input
@@ -142,21 +123,21 @@ export default function AgentInfoForm() {
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+            className={`w-full px-3 py-2 text-sm border-2 rounded focus:outline-none transition ${
               errors.lastName
                 ? 'border-red-500 focus:border-red-600 bg-red-50'
                 : 'border-gray-300 focus:border-brand-coral bg-white'
             }`}
-            placeholder="Your last name"
+            placeholder="Last name"
           />
           {errors.lastName && (
-            <p className="text-red-600 text-sm mt-1">{errors.lastName}</p>
+            <p className="text-red-600 text-xs mt-0.5">{errors.lastName}</p>
           )}
         </div>
 
-        <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-brand-navy mb-2">
-            Personal Email
+        <div className="flex-1 min-w-0">
+          <label htmlFor="email" className="block text-xs font-semibold text-brand-navy mb-1">
+            Your email address
           </label>
           <input
             type="email"
@@ -164,21 +145,21 @@ export default function AgentInfoForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+            className={`w-full px-3 py-2 text-sm border-2 rounded focus:outline-none transition ${
               errors.email
                 ? 'border-red-500 focus:border-red-600 bg-red-50'
                 : 'border-gray-300 focus:border-brand-coral bg-white'
             }`}
-            placeholder="your.email@example.com"
+            placeholder="your@email.com"
           />
           {errors.email && (
-            <p className="text-red-600 text-sm mt-1">{errors.email}</p>
+            <p className="text-red-600 text-xs mt-0.5">{errors.email}</p>
           )}
         </div>
 
         <button
           type="submit"
-          className="w-full bg-brand-coral hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg transition duration-200 mt-6"
+          className="px-6 py-2 bg-brand-coral hover:bg-red-600 text-white font-bold text-sm rounded transition duration-200 whitespace-nowrap"
         >
           Continue
         </button>

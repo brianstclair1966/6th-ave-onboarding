@@ -151,8 +151,8 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
     if (pageNumber === 1) {
       return (
         <>
-          <div className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: content }} />
           <AgentInfoForm />
+          <div className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: content }} />
         </>
       )
     }
