@@ -1,5 +1,4 @@
 import { google } from 'googleapis'
-import nodemailer from 'nodemailer'
 
 const sheets = google.sheets('v4')
 
@@ -157,61 +156,7 @@ export default async function handler(req, res) {
       }
     }
 
-    // Send email for bio and about-you forms
-    if ((formType === 'bio' || formType === 'about-you') && process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD) {
-      try {
-        const transporter = nodemailer.createTransport({
-          service: 'gmail',
-          auth: {
-            user: process.env.GMAIL_USER,
-            pass: process.env.GMAIL_APP_PASSWORD,
-          },
-        })
-
-        let emailSubject = ''
-        let emailHtml = ''
-
-        if (formType === 'bio') {
-          const agentName = `${data.firstName || ''} ${data.lastName || ''}`.trim()
-          emailSubject = `New Bio Submission from ${agentName}`
-          emailHtml = `
-            <h2>New Bio Submission</h2>
-            <p><strong>Agent:</strong> ${agentName}</p>
-            <p><strong>Email:</strong> ${data.email}</p>
-            <h3>Bio:</h3>
-            <p>${(data.bio || '').replace(/\n/g, '<br>')}</p>
-          `
-        } else if (formType === 'about-you') {
-          emailSubject = `New About You Submission from ${data.Email}`
-          emailHtml = `
-            <h2>New About You Submission</h2>
-            <p><strong>Email:</strong> ${data.Email}</p>
-            <h3>Responses:</h3>
-            <ul>
-              <li><strong>Go-to Beverage:</strong> ${data.Beverage}</li>
-              <li><strong>Current Obsession:</strong> ${data['Current Obsession']}</li>
-              <li><strong>Can't Live Without:</strong> ${data["Can't Live Without"]}</li>
-              <li><strong>Non-Profit:</strong> ${data['Non-Profit']}</li>
-              <li><strong>Favorite Meal in FW:</strong> ${data['Favorite Meal FW']}</li>
-              <li><strong>Favorite Bar/Venue in FW:</strong> ${data['Favorite Bar FW']}</li>
-              <li><strong>What Love About Job:</strong> ${data['What Love About Job']}</li>
-              <li><strong>Interesting Fact:</strong> ${data['Interesting Fact']}</li>
-              <li><strong>Enneagram Type:</strong> ${data.Enneagram}</li>
-            </ul>
-          `
-        }
-
-        await transporter.sendMail({
-          from: process.env.GMAIL_USER,
-          to: 'brian@6thavehomes.com',
-          subject: emailSubject,
-          html: emailHtml,
-        })
-      } catch (emailError) {
-        console.error('Email sending error:', emailError)
-        // Don't fail the request if email fails
-      }
-    }
+    // Email functionality temporarily disabled - will be re-enabled with proper setup
 
     return res.status(200).json({
       success: true,
