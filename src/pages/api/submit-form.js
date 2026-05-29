@@ -97,6 +97,65 @@ export default async function handler(req, res) {
       },
     })
 
+    // Update Agent Progress sheet
+    const agentEmail = data.Email || data.email || ''
+    if (agentEmail) {
+      try {
+        // Determine which column to update based on form type
+        let columnLetter = ''
+        let firstName = data.firstName || ''
+        let lastName = data.lastName || ''
+
+        if (formType === 'emergency-contact') {
+          columnLetter = 'F' // EC-Form column
+          // Extract name from email or use data provided
+        } else if (formType === 'bio') {
+          columnLetter = 'J' // Bio column
+          firstName = data.firstName || ''
+          lastName = data.lastName || ''
+        } else if (formType === 'about-you') {
+          columnLetter = 'K' // About-You column
+        }
+
+        if (columnLetter) {
+          // Read Agent Progress sheet to find agent row
+          const progressResponse = await sheets.spreadsheets.values.get({
+            auth,
+            spreadsheetId,
+            range: 'Agent Progress!A:D',
+          })
+
+          const progressRows = progressResponse.data.values || []
+          let agentRowIndex = -1
+
+          // Find the row with matching email
+          for (let i = 1; i < progressRows.length; i++) {
+            if (progressRows[i] && progressRows[i][3] === agentEmail) {
+              agentRowIndex = i
+              break
+            }
+          }
+
+          // If agent found, update the appropriate column
+          if (agentRowIndex >= 0) {
+            const updateRange = `Agent Progress!${columnLetter}${agentRowIndex + 1}`
+            await sheets.spreadsheets.values.update({
+              auth,
+              spreadsheetId,
+              range: updateRange,
+              valueInputOption: 'USER_ENTERED',
+              requestBody: {
+                values: [['✓']],
+              },
+            })
+          }
+        }
+      } catch (progressError) {
+        console.error('Agent Progress update error:', progressError)
+        // Don't fail the entire request if progress update fails
+      }
+    }
+
     return res.status(200).json({
       success: true,
       message: 'Form submitted successfully',
