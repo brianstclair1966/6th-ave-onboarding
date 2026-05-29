@@ -19,6 +19,7 @@ export default function AboutYouForm() {
   const [submitted, setSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState(null)
+  const [isDisabled, setIsDisabled] = useState(false)
 
   useEffect(() => {
     // Get agent info from localStorage
@@ -139,24 +140,9 @@ export default function AboutYouForm() {
       toggle(3, 1)
 
       setSubmitted(true)
+      setIsDisabled(true)
 
-      // Reset form
-      setFormData({
-        beverage: '',
-        currentObsession: '',
-        cantLiveWithout: '',
-        nonProfit: '',
-        favoriteMealFW: '',
-        favoriteBarFW: '',
-        whatLoveAboutJob: '',
-        interestingFact: '',
-        enneagram: '',
-      })
-
-      // Clear success message after 3 seconds
-      setTimeout(() => {
-        setSubmitted(false)
-      }, 3000)
+      // Keep data visible - do NOT reset form
     } catch (err) {
       console.error('Form submission error:', err)
       setError(err.message || 'Failed to submit form. Please try again.')
@@ -388,10 +374,10 @@ export default function AboutYouForm() {
 
         <button
           type="submit"
-          disabled={isLoading}
+          disabled={isLoading || isDisabled}
           className="w-full bg-brand-coral hover:bg-red-600 disabled:bg-gray-400 text-white font-bold py-3 px-4 rounded-lg transition duration-200 mt-6"
         >
-          {isLoading ? 'Submitting...' : 'Submit'}
+          {isLoading ? 'Submitting...' : isDisabled ? '✓ Submitted' : 'Submit'}
         </button>
       </form>
     </div>

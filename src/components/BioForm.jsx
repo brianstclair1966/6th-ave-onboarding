@@ -7,6 +7,7 @@ export default function BioForm({ agentInfo }) {
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
+  const [isDisabled, setIsDisabled] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -47,8 +48,8 @@ export default function BioForm({ agentInfo }) {
       toggle(3, 0)
 
       setSubmitted(true)
-      setBio('')
-      setTimeout(() => setSubmitted(false), 3000)
+      setIsDisabled(true)
+      // Keep bio visible - do NOT clear it
     } catch (err) {
       console.error('Bio submission error:', err)
       setError('Failed to save bio. Please try again.')
@@ -68,7 +69,7 @@ export default function BioForm({ agentInfo }) {
           placeholder="Write your bio here... (150–300 words recommended)"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-coral resize-none"
           rows="6"
-          disabled={loading}
+          disabled={loading || isDisabled}
         />
 
         <div className="mt-2 text-sm text-gray-600">
@@ -89,10 +90,10 @@ export default function BioForm({ agentInfo }) {
 
         <button
           type="submit"
-          disabled={loading || submitted}
+          disabled={loading || isDisabled}
           className="mt-4 w-full px-6 py-2 bg-brand-coral text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-brand-coral/50 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {loading ? 'Saving...' : submitted ? '✓ Saved' : 'Save Bio'}
+          {loading ? 'Saving...' : isDisabled ? '✓ Saved' : 'Save Bio'}
         </button>
       </form>
     </div>
