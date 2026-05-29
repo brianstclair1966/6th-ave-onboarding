@@ -13,8 +13,6 @@ Steps 1 - 3 are pretty straightforward & won't take you much time.
 
 This is housekeeping. We need some info for our files. We promise to keep your info safe.
 
-- [ ] I completed the Emergency Contact Form
-
 <!-- FORM:emergency_contact -->
 
 

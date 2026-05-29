@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+import useCheckboxState from '../hooks/useCheckboxState'
 
 export default function EmergencyContactForm() {
+  const { toggle } = useCheckboxState(2)
   const [formData, setFormData] = useState({
     trecLicenseNumber: '',
     licenseExpiry: '',
@@ -147,6 +149,9 @@ export default function EmergencyContactForm() {
         const errorData = await response.json()
         throw new Error(errorData.error || 'Failed to submit form')
       }
+
+      // Auto-check the corresponding checkbox
+      toggle(2, 0)
 
       setSubmitted(true)
 

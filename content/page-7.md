@@ -12,8 +12,6 @@ In a lot of brokerages, agents end up figuring out problems independently. Vendo
 
 That's not how this works.
 
----
-
 ## Most Problems Get Worse in Silence
 
 This is the core of how we operate:
@@ -23,8 +21,6 @@ This is the core of how we operate:
 That line changes everything about how agents actually work here.
 
 - [ ] I understand that early communication prevents problems
-
----
 
 ## Real Estate Is Learned Through Doing
 
@@ -39,8 +35,6 @@ That's why newer agents get mentorship for their first 3 transactions. Your ment
 After 3 deals, you have the operational foundation to run on your own. But the support doesn't disappear.
 
 - [ ] I understand my mentorship model and transaction learning
-
----
 
 ## Here's How You Actually Get Help
 
@@ -60,8 +54,6 @@ Brian's Masterminds (Wednesdays), classes, and broker accessibility exist so you
 
 - [ ] I understand when and how to ask for support
 
----
-
 ## Your Real Job
 
 Your job is NOT to know everything.
@@ -80,8 +72,6 @@ That's operational maturity. That's how this actually works.
 
 - [ ] I understand that asking questions is professional, not weakness
 
----
-
 ## How This Feels Different
 
 In fragmented brokerages, you coordinate vendors independently. You hunt for answers. You solve problems alone. You carry the weight.
@@ -93,8 +83,6 @@ You're not building in isolation anymore.
 That changes how sustainable this career actually is.
 
 - [ ] I understand how 6th Ave's support differs from other brokerages
-
----
 
 ## What You Now Understand
 

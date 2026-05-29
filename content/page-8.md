@@ -12,8 +12,6 @@ You know how support works.
 
 This is where onboarding ends and operating begins.
 
----
-
 ## Real Estate Is Emotional
 
 Not for you. For clients.
@@ -38,8 +36,6 @@ Clients remember how you made them feel long after they forget the details. If t
 That's what clients remember.
 
 - [ ] I understand that clients borrow certainty from me
-
----
 
 ## Strong Agents Stay Consistent
 
@@ -66,8 +62,6 @@ That's what compounds.
 
 - [ ] I understand the importance of consistency over intensity
 
----
-
 ## Judgment Matters More Than Information
 
 Information is abundant now. You can find anything online. You can ask AI anything. You can research any topic in minutes.
@@ -90,8 +84,6 @@ Information gets cheaper every year. Judgment becomes more valuable.
 
 - [ ] I understand my value is judgment, not information
 
----
-
 ## Systems Protect Relationships
 
 Weak brokerages frame systems as:
@@ -109,8 +101,6 @@ Systems reduce chaos. Systems preserve consistency. Systems create trust. System
 Your job is to show up consistently inside the system. The system reduces the chaos that destroys trust.
 
 - [ ] I understand that systems protect what matters
-
----
 
 ## Your Reputation Compounds
 
@@ -136,8 +126,6 @@ The agent who follows up on time, communicates clearly, and handles stress calml
 
 - [ ] I understand reputation is built through small moments
 
----
-
 ## How This Actually Works
 
 You don't have to become someone else to succeed here.
@@ -157,8 +145,6 @@ That's how sustainable real estate businesses are actually built.
 
 - [ ] I understand the 6 principles of how 6th Ave operates
 
----
-
 ## You're Ready
 
 You've learned the operational foundation. You understand the support structure. You know how to ask for help. You understand the philosophy.
@@ -170,8 +156,6 @@ That's where professionals are made.
 Welcome to 6th Ave.
 
 You're going to do good work here.
-
----
 
 ## Next Steps
 

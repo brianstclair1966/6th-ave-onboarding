@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+import useCheckboxState from '../hooks/useCheckboxState'
 
 export default function AboutYouForm() {
+  const { toggle } = useCheckboxState(3)
   const [formData, setFormData] = useState({
     beverage: '',
     currentObsession: '',
@@ -132,6 +134,9 @@ export default function AboutYouForm() {
         const errorData = await response.json()
         throw new Error(errorData.error || 'Failed to submit form')
       }
+
+      // Auto-check the corresponding checkbox
+      toggle(3, 1)
 
       setSubmitted(true)
 

@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import useCheckboxState from '../hooks/useCheckboxState'
 
 export default function BioForm({ agentInfo }) {
+  const { toggle } = useCheckboxState(3)
   const [bio, setBio] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -40,6 +42,9 @@ export default function BioForm({ agentInfo }) {
       if (!response.ok) {
         throw new Error('Failed to submit bio')
       }
+
+      // Auto-check the corresponding checkbox
+      toggle(3, 0)
 
       setSubmitted(true)
       setBio('')
