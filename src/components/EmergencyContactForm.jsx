@@ -13,7 +13,6 @@ export default function EmergencyContactForm() {
     emergencyContactName: '',
     emergencyContactPhone: '',
     emergencyContactEmail: '',
-    locationAccess: false,
   })
   const [agentInfo, setAgentInfo] = useState(null)
   const [errors, setErrors] = useState({})
@@ -80,10 +79,6 @@ export default function EmergencyContactForm() {
       newErrors.emergencyContactEmail = 'Please enter a valid email address'
     }
 
-    if (!formData.locationAccess) {
-      newErrors.locationAccess = 'You must agree to location access'
-    }
-
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
   }
@@ -131,7 +126,6 @@ export default function EmergencyContactForm() {
         'Emergency Contact Name': formData.emergencyContactName,
         'Emergency Contact Phone': formData.emergencyContactPhone,
         'Emergency Contact Email': formData.emergencyContactEmail,
-        'Location Access': formData.locationAccess ? 'Yes' : 'No',
       }
 
       const response = await fetch('/api/submit-form', {
@@ -166,7 +160,6 @@ export default function EmergencyContactForm() {
         emergencyContactName: '',
         emergencyContactPhone: '',
         emergencyContactEmail: '',
-        locationAccess: false,
       })
 
       // Clear success message after 3 seconds
@@ -413,29 +406,6 @@ export default function EmergencyContactForm() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Location Access Section */}
-        <div className="border-b pb-6">
-          <label className="flex items-center gap-3 cursor-pointer">
-            <input
-              type="checkbox"
-              name="locationAccess"
-              checked={formData.locationAccess}
-              onChange={handleChange}
-              className={`w-5 h-5 rounded cursor-pointer ${
-                errors.locationAccess
-                  ? 'border-2 border-red-500'
-                  : 'border-2 border-gray-300'
-              }`}
-            />
-            <span className="text-sm font-semibold text-brand-navy">
-              I agree to location access during business hours
-            </span>
-          </label>
-          {errors.locationAccess && (
-            <p className="text-red-600 text-sm mt-2">{errors.locationAccess}</p>
-          )}
         </div>
 
         <button
