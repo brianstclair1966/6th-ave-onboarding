@@ -8,6 +8,7 @@ export default function EmergencyContactForm() {
     licenseExpiry: '',
     cellPhone: '',
     birthday: '',
+    homeAddressStreet: '',
     homeAddressCity: '',
     homeAddressZip: '',
     emergencyContactName: '',
@@ -55,6 +56,10 @@ export default function EmergencyContactForm() {
 
     if (!formData.birthday.trim()) {
       newErrors.birthday = 'Birthday is required'
+    }
+
+    if (!formData.homeAddressStreet.trim()) {
+      newErrors.homeAddressStreet = 'Street address is required'
     }
 
     if (!formData.homeAddressCity.trim()) {
@@ -121,6 +126,7 @@ export default function EmergencyContactForm() {
         'License Expiry': formData.licenseExpiry,
         'Cell Phone': formData.cellPhone,
         Birthday: formData.birthday,
+        'Home Address Street': formData.homeAddressStreet,
         'Home Address City': formData.homeAddressCity,
         'Home Address Zip': formData.homeAddressZip,
         'Emergency Contact Name': formData.emergencyContactName,
@@ -155,6 +161,7 @@ export default function EmergencyContactForm() {
         licenseExpiry: '',
         cellPhone: '',
         birthday: '',
+        homeAddressStreet: '',
         homeAddressCity: '',
         homeAddressZip: '',
         emergencyContactName: '',
@@ -292,47 +299,70 @@ export default function EmergencyContactForm() {
         {/* Home Address Section */}
         <div className="border-b pb-6">
           <h4 className="text-lg font-semibold text-brand-navy mb-4">Home Address</h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-4">
             <div>
-              <label htmlFor="homeAddressCity" className="block text-sm font-semibold text-brand-navy mb-2">
-                City
+              <label htmlFor="homeAddressStreet" className="block text-sm font-semibold text-brand-navy mb-2">
+                Street Address
               </label>
               <input
                 type="text"
-                id="homeAddressCity"
-                name="homeAddressCity"
-                value={formData.homeAddressCity}
+                id="homeAddressStreet"
+                name="homeAddressStreet"
+                value={formData.homeAddressStreet}
                 onChange={handleChange}
                 className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
-                  errors.homeAddressCity
+                  errors.homeAddressStreet
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
                 }`}
               />
-              {errors.homeAddressCity && (
-                <p className="text-red-600 text-sm mt-1">{errors.homeAddressCity}</p>
+              {errors.homeAddressStreet && (
+                <p className="text-red-600 text-sm mt-1">{errors.homeAddressStreet}</p>
               )}
             </div>
 
-            <div>
-              <label htmlFor="homeAddressZip" className="block text-sm font-semibold text-brand-navy mb-2">
-                Zip Code
-              </label>
-              <input
-                type="text"
-                id="homeAddressZip"
-                name="homeAddressZip"
-                value={formData.homeAddressZip}
-                onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
-                  errors.homeAddressZip
-                    ? 'border-red-500 focus:border-red-600 bg-red-50'
-                    : 'border-gray-300 focus:border-brand-coral bg-white'
-                }`}
-              />
-              {errors.homeAddressZip && (
-                <p className="text-red-600 text-sm mt-1">{errors.homeAddressZip}</p>
-              )}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label htmlFor="homeAddressCity" className="block text-sm font-semibold text-brand-navy mb-2">
+                  City
+                </label>
+                <input
+                  type="text"
+                  id="homeAddressCity"
+                  name="homeAddressCity"
+                  value={formData.homeAddressCity}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                    errors.homeAddressCity
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-brand-coral bg-white'
+                  }`}
+                />
+                {errors.homeAddressCity && (
+                  <p className="text-red-600 text-sm mt-1">{errors.homeAddressCity}</p>
+                )}
+              </div>
+
+              <div>
+                <label htmlFor="homeAddressZip" className="block text-sm font-semibold text-brand-navy mb-2">
+                  Zip Code
+                </label>
+                <input
+                  type="text"
+                  id="homeAddressZip"
+                  name="homeAddressZip"
+                  value={formData.homeAddressZip}
+                  onChange={handleChange}
+                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                    errors.homeAddressZip
+                      ? 'border-red-500 focus:border-red-600 bg-red-50'
+                      : 'border-gray-300 focus:border-brand-coral bg-white'
+                  }`}
+                />
+                {errors.homeAddressZip && (
+                  <p className="text-red-600 text-sm mt-1">{errors.homeAddressZip}</p>
+                )}
+              </div>
             </div>
           </div>
         </div>
