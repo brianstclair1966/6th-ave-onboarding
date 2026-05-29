@@ -22,7 +22,7 @@ You manage your own business:
 **What to expect:**
 Review it, sign it, click "finish" and you're good to go!
 
-- [ ] I have signed my Independent Contractor Agreement
+- [ ] I understand that I will receive the ICA through email & I will sign it then.
 
 
 ## ⑤ Build Your Professional Presence
@@ -39,19 +39,15 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 - Highlighting what makes you different
 - Making it authentic and personal
 
-**Then:** Email your finished bio to **[brian@6thavehomes.com](mailto:brian@6thavehomes.com)**
-
 6th Ave Homes does quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack. You'll have the opportunity to sign up for a shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
 
-- [ ] I have emailed my bio to brian@6thavehomes.com
+- [ ] I have completed my bio
 
 ### **Part B: "All About You" Form**
 
 This helps us know you better and it creates more personal content on your bio page.
 
 See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
-
-[**→ Go here to fill out the All About You Form (5 minutes)**](https://forms.gle/LRHYkUAuX51Hyv5E6)
 
 - [ ] I completed the All About You form
 

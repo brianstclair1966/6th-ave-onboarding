@@ -8,6 +8,7 @@ import Navigation from '../../components/Navigation'
 import useCheckboxState from '../../hooks/useCheckboxState'
 import AgentInfoForm from '../../components/AgentInfoForm'
 import EmergencyContactForm from '../../components/EmergencyContactForm'
+import BioForm from '../../components/BioForm'
 import AboutYouForm from '../../components/AboutYouForm'
 
 const TOTAL_PAGES = 8
@@ -137,8 +138,9 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
-        {pageNumber === 2 && agentInfo && <EmergencyContactForm agentInfo={agentInfo} />}
-        {pageNumber === 3 && agentInfo && <AboutYouForm agentInfo={agentInfo} />}
+        {pageNumber === 2 && <EmergencyContactForm agentInfo={agentInfo} />}
+        {pageNumber === 3 && <BioForm agentInfo={agentInfo} />}
+        {pageNumber === 3 && <AboutYouForm agentInfo={agentInfo} />}
       </main>
 
       <Navigation

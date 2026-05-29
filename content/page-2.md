@@ -13,10 +13,6 @@ Steps 1 - 3 are pretty straightforward & won't take you much time.
 
 This is housekeeping. We need some info for our files. We promise to keep your info safe.
 
-[**→ Fill out the form (2 minutes)**](https://docs.google.com/forms/d/e/1FAIpQLSe8qn_VAEFbhRuSt6mBha39ARx3x8sVS49N3MNqCGVcO0SPPQ/viewform)
-
-That's it. Next.
-
 - [ ] I completed the Emergency Contact Form
 
 
