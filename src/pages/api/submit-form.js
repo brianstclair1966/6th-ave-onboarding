@@ -14,10 +14,16 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing formType or data' })
     }
 
+    console.log('Form submission - Type:', formType)
+
     // Get credentials from environment variable
-    const credentials = JSON.parse(process.env.GOOGLE_SHEETS_CREDENTIALS || '{}')
+    const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS || '{}'
+    console.log('Credentials env var exists:', !!process.env.GOOGLE_SHEETS_CREDENTIALS)
+
+    const credentials = JSON.parse(credentialsStr)
 
     if (!credentials.type) {
+      console.error('Missing credentials.type - credentials:', Object.keys(credentials))
       return res.status(500).json({ error: 'Google credentials not configured' })
     }
 
@@ -87,6 +93,7 @@ export default async function handler(req, res) {
     }
 
     // Append data to sheet
+    console.log('Appending to sheet:', sheetName, 'with', values.length, 'rows')
     const response = await sheets.spreadsheets.values.append({
       auth,
       spreadsheetId,
@@ -96,6 +103,7 @@ export default async function handler(req, res) {
         values,
       },
     })
+    console.log('Sheet append successful, updates:', response.data.updates)
 
     // Update Agent Progress sheet
     const agentEmail = data.Email || data.email || ''
