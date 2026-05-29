@@ -149,7 +149,12 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
   // Split content at form markers and render components inline
   const renderPageContent = () => {
     if (pageNumber === 1) {
-      return <AgentInfoForm />
+      return (
+        <>
+          <div className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: content }} />
+          <AgentInfoForm />
+        </>
+      )
     }
 
     // For pages with form markers, split and inject components
