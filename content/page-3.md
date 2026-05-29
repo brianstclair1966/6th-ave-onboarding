@@ -43,6 +43,8 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 
 - [ ] I have completed my bio
 
+<!-- FORM:bio -->
+
 ### **Part B: "All About You" Form**
 
 This helps us know you better and it creates more personal content on your bio page.
@@ -50,6 +52,8 @@ This helps us know you better and it creates more personal content on your bio p
 See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
 
 - [ ] I completed the All About You form
+
+<!-- FORM:about_you -->
 
 ### **Part C: Update Your Online Presence**
 

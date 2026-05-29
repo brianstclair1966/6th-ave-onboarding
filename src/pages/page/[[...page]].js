@@ -16,6 +16,13 @@ const TOTAL_PAGES = 8
 function renderMarkdown(content) {
   let html = content
 
+  // Extract form markers to preserve them
+  const markers = []
+  html = html.replace(/<!-- FORM:(.*?) -->/g, (match) => {
+    markers.push(match)
+    return `__FORM_MARKER_${markers.length - 1}__`
+  })
+
   // Headings - with special handling for Common Mistake/Misconception
   html = html.replace(/^### (.*?)$/gm, '<h3>$1</h3>')
   html = html.replace(/^## (Common Mistake.*?)$/gm, '<div class="common-mistake"><h2>$1</h2>')
@@ -47,7 +54,18 @@ function renderMarkdown(content) {
   html = html.replace(/<\/p><div class="common-misconception">/g, '</p>\n<div class="common-misconception">')
   html = html.replace(/<p><\/div>/g, '</div>')
 
-  return html.replace(/<p><\/p>/g, '')
+  // Remove empty paragraphs
+  html = html.replace(/<p><\/p>/g, '')
+
+  // Restore form markers
+  markers.forEach((marker, i) => {
+    html = html.replace(`__FORM_MARKER_${i}__`, marker)
+  })
+
+  // Unwrap form markers from paragraph tags
+  html = html.replace(/<p>(<!-- FORM:.*? -->)<\/p>/g, '$1')
+
+  return html
 }
 
 export default function PageComponent({ pageNumber, content, sectionTitle }) {
@@ -128,19 +146,62 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
     }
   }
 
+  // Split content at form markers and render components inline
+  const renderPageContent = () => {
+    if (pageNumber === 1) {
+      return <AgentInfoForm />
+    }
+
+    // For pages with form markers, split and inject components
+    const formMarkers = {
+      2: [{ marker: '<!-- FORM:emergency_contact -->', component: <EmergencyContactForm key="emergency" agentInfo={agentInfo} /> }],
+      3: [
+        { marker: '<!-- FORM:bio -->', component: <BioForm key="bio" agentInfo={agentInfo} /> },
+        { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
+      ],
+    }
+
+    const markers = formMarkers[pageNumber] || []
+
+    if (markers.length === 0) {
+      // No form markers, render content normally
+      return <div className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: content }} />
+    }
+
+    // Split content at markers and build JSX array
+    let currentContent = content
+    const elements = []
+
+    markers.forEach((item, index) => {
+      const parts = currentContent.split(item.marker)
+      if (parts.length > 1) {
+        // Render HTML before marker
+        if (parts[0]) {
+          elements.push(
+            <div key={`content-${index}`} className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: parts[0] }} />
+          )
+        }
+        // Add the form component
+        elements.push(item.component)
+        // Continue with remaining content
+        currentContent = parts.slice(1).join(item.marker)
+      }
+    })
+
+    // Render any remaining content after last marker
+    if (currentContent) {
+      elements.push(
+        <div key="content-final" className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: currentContent }} />
+      )
+    }
+
+    return elements
+  }
+
   return (
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
-        {pageNumber === 1 && <AgentInfoForm />}
-
-        <div
-          className="prose prose-sm max-w-none"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-
-        {pageNumber === 2 && <EmergencyContactForm agentInfo={agentInfo} />}
-        {pageNumber === 3 && <BioForm agentInfo={agentInfo} />}
-        {pageNumber === 3 && <AboutYouForm agentInfo={agentInfo} />}
+        {renderPageContent()}
       </main>
 
       <Navigation
