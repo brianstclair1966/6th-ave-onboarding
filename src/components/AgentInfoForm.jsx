@@ -63,7 +63,7 @@ export default function AgentInfoForm() {
     }
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
 
     if (!validateForm()) {
@@ -72,6 +72,32 @@ export default function AgentInfoForm() {
 
     // Store in localStorage
     localStorage.setItem('agentInfo', JSON.stringify(formData))
+
+    // Register agent in Google Sheets
+    try {
+      const response = await fetch('/api/register-agent', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+        }),
+      })
+
+      const result = await response.json()
+      console.log('Agent registration response:', result)
+
+      if (!response.ok) {
+        console.error('Agent registration failed:', result)
+        // Don't block the UI if registration fails - agent info is still in localStorage
+      }
+    } catch (error) {
+      console.error('Failed to register agent:', error)
+      // Don't block the UI if registration fails - agent info is still in localStorage
+    }
 
     // Dispatch event so TopBar re-renders and recalculates percentage
     try {
