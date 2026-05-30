@@ -67,6 +67,7 @@ export default async function handler(req, res) {
           data['Emergency Contact Name'] || '',
           data['Emergency Contact Phone'] || '',
           data['Emergency Contact Email'] || '',
+          data['Location Access'] || '',
         ],
       ]
     } else if (formType === 'bio') {

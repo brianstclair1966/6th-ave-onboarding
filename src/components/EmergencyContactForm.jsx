@@ -14,6 +14,7 @@ export default function EmergencyContactForm() {
     emergencyContactName: '',
     emergencyContactPhone: '',
     emergencyContactEmail: '',
+    hasLocationAccess: false,
   })
   const [agentInfo, setAgentInfo] = useState(null)
   const [errors, setErrors] = useState({})
@@ -133,6 +134,7 @@ export default function EmergencyContactForm() {
         'Emergency Contact Name': formData.emergencyContactName,
         'Emergency Contact Phone': formData.emergencyContactPhone,
         'Emergency Contact Email': formData.emergencyContactEmail,
+        'Location Access': formData.hasLocationAccess ? 'Yes' : 'No',
       }
 
       const response = await fetch('/api/submit-form', {
@@ -419,6 +421,27 @@ export default function EmergencyContactForm() {
                   <p className="text-red-600 text-sm mt-1">{errors.emergencyContactEmail}</p>
                 )}
               </div>
+            </div>
+
+            <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+              <label className="flex items-start gap-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  id="hasLocationAccess"
+                  name="hasLocationAccess"
+                  checked={formData.hasLocationAccess}
+                  onChange={handleChange}
+                  className="mt-1 w-5 h-5 text-brand-coral border-gray-300 rounded focus:ring-brand-coral cursor-pointer"
+                />
+                <div>
+                  <span className="block text-sm font-semibold text-brand-navy">
+                    Does your emergency contact have location access for you?
+                  </span>
+                  <p className="text-xs text-gray-600 mt-1">
+                    Just in case you are out with clients & have an emergency situation.
+                  </p>
+                </div>
+              </label>
             </div>
           </div>
         </div>
