@@ -72,6 +72,14 @@ export default function AgentInfoForm() {
 
     // Store in localStorage
     localStorage.setItem('agentInfo', JSON.stringify(formData))
+
+    // Dispatch event so TopBar re-renders and recalculates percentage
+    try {
+      window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'agentInfo' } }))
+    } catch (error) {
+      console.warn('Failed to dispatch checkbox state update:', error)
+    }
+
     setSubmitted(true)
 
     // Clear success message after 3 seconds
