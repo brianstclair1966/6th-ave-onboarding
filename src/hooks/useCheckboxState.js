@@ -150,23 +150,44 @@ export default function useCheckboxState(pageId) {
 
   /**
    * Get completion percentage across all pages
+   * Reads directly from localStorage to ensure always up-to-date
    */
   const getCompletionPercentage = useCallback(() => {
     let totalCheckboxes = 0
     let checkedCount = 0
 
-    Object.values(state).forEach(pageCheckboxes => {
-      if (typeof pageCheckboxes === 'object') {
-        Object.values(pageCheckboxes).forEach(isCheckedVal => {
-          totalCheckboxes++
-          if (isCheckedVal) checkedCount++
+    // Read directly from localStorage to avoid state sync issues during navigation
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY)
+      if (stored) {
+        const parsed = JSON.parse(stored)
+        const allState = parsed.v1 || {}
+
+        Object.values(allState).forEach(pageCheckboxes => {
+          if (typeof pageCheckboxes === 'object') {
+            Object.values(pageCheckboxes).forEach(isCheckedVal => {
+              totalCheckboxes++
+              if (isCheckedVal) checkedCount++
+            })
+          }
         })
       }
-    })
+    } catch (e) {
+      console.warn('Failed to read completion percentage from storage:', e)
+      // Fallback to current state
+      Object.values(state).forEach(pageCheckboxes => {
+        if (typeof pageCheckboxes === 'object') {
+          Object.values(pageCheckboxes).forEach(isCheckedVal => {
+            totalCheckboxes++
+            if (isCheckedVal) checkedCount++
+          })
+        }
+      })
+    }
 
     if (totalCheckboxes === 0) return 0
     return Math.round((checkedCount / totalCheckboxes) * 100)
-  }, [state])
+  }, [])
 
   /**
    * Get all checkboxes across all pages
