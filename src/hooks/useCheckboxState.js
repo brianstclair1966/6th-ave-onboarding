@@ -30,6 +30,14 @@ export default function useCheckboxState(pageId) {
   const saveToStorage = useCallback((newState) => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({ v1: newState }))
+
+      // Dispatch custom event so TopBar and other components know to re-render
+      if (typeof window !== 'undefined') {
+        const event = new CustomEvent('checkboxStateUpdated', {
+          detail: { newState }
+        })
+        window.dispatchEvent(event)
+      }
     } catch (e) {
       console.warn('Failed to save checkpoint state:', e)
     }

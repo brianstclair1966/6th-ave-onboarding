@@ -1,10 +1,26 @@
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 import useCheckboxState from '../hooks/useCheckboxState'
 
 const TOTAL_PAGES = 8
 
 export default function TopBar({ currentPage, sectionTitle }) {
   const { getCompletionPercentage } = useCheckboxState(currentPage)
+  const [, setRefresh] = useState(0)
+
+  // Re-render when checkbox state is updated (triggered by form submissions or checkbox toggles)
+  useEffect(() => {
+    const handleCheckboxUpdate = () => {
+      setRefresh(prev => prev + 1)
+    }
+
+    // Listen for checkbox state updates
+    window.addEventListener('checkboxStateUpdated', handleCheckboxUpdate)
+
+    return () => {
+      window.removeEventListener('checkboxStateUpdated', handleCheckboxUpdate)
+    }
+  }, [])
 
   // Pages 1-5: Onboarding system. Pages 6-8: Orientation system (separate)
   const isOrientation = currentPage >= 6

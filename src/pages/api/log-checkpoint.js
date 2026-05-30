@@ -1,7 +1,22 @@
 import { google } from 'googleapis'
 
 async function getGoogleSheetsClient() {
-  const credentials = JSON.parse(process.env.GOOGLE_SHEETS_CREDENTIALS || '{}')
+  const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS
+
+  if (!credentialsStr) {
+    throw new Error('GOOGLE_SHEETS_CREDENTIALS not configured')
+  }
+
+  let credentials
+  try {
+    credentials = JSON.parse(credentialsStr)
+  } catch (e) {
+    throw new Error('Invalid GOOGLE_SHEETS_CREDENTIALS JSON: ' + e.message)
+  }
+
+  if (!credentials || !credentials.type) {
+    throw new Error('GOOGLE_SHEETS_CREDENTIALS missing type field')
+  }
 
   const auth = new google.auth.GoogleAuth({
     credentials,
@@ -26,8 +41,26 @@ export default async function handler(req, res) {
       })
     }
 
-    const sheets = await getGoogleSheetsClient()
-    const sheetId = '1o2r9VD_Ee0V4rVlZAzkfJeHANoQ1MBuX7BDbMhgUZSU'
+    // Get sheet ID from environment
+    const sheetId = process.env.GOOGLE_SHEETS_ID
+    if (!sheetId) {
+      console.warn('GOOGLE_SHEETS_ID not configured')
+      return res.status(200).json({
+        success: true,
+        message: 'Checkpoint logged locally (Google Sheets ID not configured)'
+      })
+    }
+
+    let sheets
+    try {
+      sheets = await getGoogleSheetsClient()
+    } catch (authError) {
+      console.warn('Google Sheets auth failed:', authError.message)
+      return res.status(200).json({
+        success: true,
+        message: 'Checkpoint logged locally (Google Sheets credentials issue: ' + authError.message + ')'
+      })
+    }
 
     const timestamp = new Date().toISOString()
 
