@@ -156,6 +156,17 @@ export default function EmergencyContactForm() {
       // Auto-check the corresponding checkbox
       toggle(2, 0)
 
+      // Mark form as completed for percentage calculation
+      try {
+        const completedForms = JSON.parse(localStorage.getItem('completedForms_v1') || '{}')
+        completedForms.emergencyContact = true
+        localStorage.setItem('completedForms_v1', JSON.stringify(completedForms))
+        // Dispatch event so TopBar re-renders
+        window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'emergencyContact' } }))
+      } catch (e) {
+        console.warn('Failed to mark emergency contact form as completed:', e)
+      }
+
       setSubmitted(true)
       setIsDisabled(true)
 

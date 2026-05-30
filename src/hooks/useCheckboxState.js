@@ -158,13 +158,27 @@ export default function useCheckboxState(pageId) {
 
   /**
    * Get completion percentage across all pages
-   * Reads directly from localStorage to ensure always up-to-date
+   * Accounts for:
+   * - 1 AgentInfoForm (2%)
+   * - 46 checkboxes across pages 2-8 (46 × 2% = 92%)
+   * - 3 forms: Emergency Contact, Bio, About You (3 × 2% = 6%)
+   * Total: 50 items = 100%
    */
   const getCompletionPercentage = useCallback(() => {
-    let totalCheckboxes = 0
-    let checkedCount = 0
+    let completedItems = 0
+    const totalItems = 50 // 1 agentinfo + 46 checkboxes + 3 forms
 
-    // Read directly from localStorage to avoid state sync issues during navigation
+    // Check if AgentInfoForm was completed
+    try {
+      const agentInfo = localStorage.getItem('agentInfo')
+      if (agentInfo) {
+        completedItems++ // AgentInfoForm = 1 item
+      }
+    } catch (e) {
+      console.warn('Failed to read agentInfo:', e)
+    }
+
+    // Count completed checkboxes from localStorage
     try {
       const stored = localStorage.getItem(STORAGE_KEY)
       if (stored) {
@@ -174,27 +188,29 @@ export default function useCheckboxState(pageId) {
         Object.values(allState).forEach(pageCheckboxes => {
           if (typeof pageCheckboxes === 'object') {
             Object.values(pageCheckboxes).forEach(isCheckedVal => {
-              totalCheckboxes++
-              if (isCheckedVal) checkedCount++
+              if (isCheckedVal) completedItems++
             })
           }
         })
       }
     } catch (e) {
-      console.warn('Failed to read completion percentage from storage:', e)
-      // Fallback to current state
-      Object.values(state).forEach(pageCheckboxes => {
-        if (typeof pageCheckboxes === 'object') {
-          Object.values(pageCheckboxes).forEach(isCheckedVal => {
-            totalCheckboxes++
-            if (isCheckedVal) checkedCount++
-          })
-        }
-      })
+      console.warn('Failed to read checkboxes from storage:', e)
     }
 
-    if (totalCheckboxes === 0) return 0
-    return Math.round((checkedCount / totalCheckboxes) * 100)
+    // Count completed forms from localStorage
+    try {
+      const formState = localStorage.getItem('completedForms_v1')
+      if (formState) {
+        const forms = JSON.parse(formState)
+        completedItems += Object.values(forms).filter(v => v === true).length
+      }
+    } catch (e) {
+      console.warn('Failed to read completed forms:', e)
+    }
+
+    // Calculate percentage: each of 50 items = 2%
+    const percentage = Math.round((completedItems / totalItems) * 100)
+    return Math.min(percentage, 100) // Cap at 100%
   }, [])
 
   /**
