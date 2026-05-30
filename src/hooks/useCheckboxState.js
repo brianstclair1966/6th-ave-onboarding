@@ -106,6 +106,27 @@ export default function useCheckboxState(pageId) {
           newState[pageKey] = {}
         }
         newState[pageKey][index] = !newState[pageKey][index]
+
+        // Log checkbox change to Google Sheets (fire and forget)
+        try {
+          const agentInfo = JSON.parse(localStorage.getItem('agentInfo') || '{}')
+          const email = agentInfo.email
+          if (email) {
+            fetch('/api/log-checkbox', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                email,
+                page: pageId,
+                checkboxIndex: index,
+                isChecked: newState[pageKey][index],
+              }),
+            }).catch(err => console.warn('Failed to log checkbox to Google Sheets:', err))
+          }
+        } catch (e) {
+          console.warn('Failed to log checkbox:', e)
+        }
+
         return newState
       })
     }
