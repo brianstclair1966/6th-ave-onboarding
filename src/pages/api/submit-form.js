@@ -1,4 +1,5 @@
 import { google } from 'googleapis'
+import { GOOGLE_SHEETS_CONFIG } from '@/config/sheets'
 
 const sheets = google.sheets('v4')
 
@@ -18,7 +19,7 @@ export default async function handler(req, res) {
 
     // Get credentials from environment variable
     const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS
-    const spreadsheetId = process.env.GOOGLE_SHEETS_ID
+    const spreadsheetId = GOOGLE_SHEETS_CONFIG.spreadsheetId
 
     // Check if Google Sheets is configured
     const hasGoogleSheets = credentialsStr && spreadsheetId
