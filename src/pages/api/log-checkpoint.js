@@ -31,52 +31,28 @@ async function getGoogleSheetsClient() {
  * Maps checkpoint columns using a normalized label approach
  * Agent Progress Sheet columns:
  * A=Timestamp, B=FirstName, C=LastName, D=Email, E=Welcome, F=EC-Form, G=TREC, H=GFWAR, I=IC-Agree, J=Bio, K=About-You, L=IABS, M=Rechat, N=Realscout, O=Training, P=BackUp
+ *
+ * NOTE: BackUp column (P) is used as catch-all for checkpoints without dedicated columns
  */
 function getCheckpointColumnIndex(checkpointLabel) {
   // Normalize the label for matching
   const normalized = checkpointLabel.toLowerCase().trim()
 
-  // Direct column mappings
-  const columnMap = {
-    'welcome': 4,
-    'ec-form': 5,
-    'emergency contact': 5,
-    'trec': 6,
-    'trec sponsorship': 6,
-    'gfwar': 7,
-    'realtor association': 7,
-    'ic-agree': 8,
-    'independent contractor': 8,
-    'bio': 9,
-    'about-you': 10,
-    'about you': 10,
-    'iabs': 11,
-    'rechat': 12,
-    'realscout': 13,
-    'training': 14,
-    'guide training': 14,
-    'backup': 15,
-  }
-
-  // Try direct match first
-  if (columnMap[normalized]) {
-    return columnMap[normalized]
-  }
-
-  // Try partial matches for common patterns
-  if (normalized.includes('trec')) return 6
-  if (normalized.includes('realtor') || normalized.includes('gfwar')) return 7
-  if (normalized.includes('independent') || normalized.includes('contractor')) return 8
+  // Try partial matches for the most important checkpoints first
+  if (normalized.includes('trec') && normalized.includes('sponsorship')) return 6
+  if (normalized.includes('realtor') || normalized.includes('association') || normalized.includes('mls')) return 7
+  if (normalized.includes('independent') || normalized.includes('contractor') || normalized.includes('ica')) return 8
+  if (normalized.includes('iabs')) return 11
   if (normalized.includes('rechat')) return 12
   if (normalized.includes('realscout')) return 13
-  if (normalized.includes('iabs')) return 11
   if (normalized.includes('training') || normalized.includes('guide')) return 14
   if (normalized.includes('emergency') || normalized.includes('contact')) return 5
   if (normalized.includes('bio')) return 9
   if (normalized.includes('about')) return 10
 
-  // If no match found, return -1
-  return -1
+  // For all other checkpoints, use BackUp column (P=15)
+  console.log(`Checkpoint label not specifically mapped, using BackUp column: "${checkpointLabel}"`)
+  return 15
 }
 
 export default async function handler(req, res) {
