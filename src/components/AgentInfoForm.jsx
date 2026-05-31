@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export default function AgentInfoForm() {
   const [formData, setFormData] = useState({
@@ -8,19 +8,6 @@ export default function AgentInfoForm() {
   })
   const [errors, setErrors] = useState({})
   const [submitted, setSubmitted] = useState(false)
-
-  useEffect(() => {
-    // Check if agent info already exists in localStorage
-    const stored = localStorage.getItem('agentInfo')
-    if (stored) {
-      try {
-        const parsed = JSON.parse(stored)
-        setFormData(parsed)
-      } catch (e) {
-        console.error('Error parsing stored agent info:', e)
-      }
-    }
-  }, [])
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
