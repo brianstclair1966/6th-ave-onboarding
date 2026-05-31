@@ -4,10 +4,22 @@ import { GOOGLE_SHEETS_CONFIG } from '@/config/sheets'
 const sheets = google.sheets('v4')
 
 export default async function handler(req, res) {
+  // DEPRECATED: This endpoint is no longer used. Use /api/log-checkpoint instead.
+  // This endpoint was creating junk data in the Google Sheet.
+  console.warn('DEPRECATED: log-checkbox API called. Use log-checkpoint instead.')
+
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
+  // Return success but don't write anything to Google Sheets
+  return res.status(200).json({
+    success: true,
+    message: 'This endpoint is deprecated. Use /api/log-checkpoint instead.'
+  })
+
+  // OLD CODE BELOW - DISABLED
+  /*
   try {
     const { email, page, checkboxIndex, isChecked } = req.body
 

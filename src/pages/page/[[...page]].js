@@ -5,7 +5,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import Page from '../../components/Page'
 import Navigation from '../../components/Navigation'
-import useCheckboxState from '../../hooks/useCheckboxState'
 import AgentInfoForm from '../../components/AgentInfoForm'
 import EmergencyContactForm from '../../components/EmergencyContactForm'
 import BioForm from '../../components/BioForm'
@@ -70,7 +69,6 @@ function renderMarkdown(content) {
 
 export default function PageComponent({ pageNumber, content, sectionTitle }) {
   const router = useRouter()
-  const { getCompletionPercentage } = useCheckboxState(pageNumber)
   const [agentInfo, setAgentInfo] = useState(null)
 
   useEffect(() => {
