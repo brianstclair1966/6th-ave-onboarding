@@ -28,31 +28,67 @@ async function getGoogleSheetsClient() {
 }
 
 /**
- * Maps checkpoint columns using a normalized label approach
- * Agent Progress Sheet columns:
- * A=Timestamp, B=FirstName, C=LastName, D=Email, E=Welcome, F=EC-Form, G=TREC, H=GFWAR, I=IC-Agree, J=Bio, K=About-You, L=IABS, M=Rechat, N=Realscout, O=Training, P=BackUp
+ * Maps checkpoint columns using a comprehensive label-to-column mapping
  *
- * NOTE: BackUp column (P) is used as catch-all for checkpoints without dedicated columns
+ * Agent Progress Sheet structure:
+ * A=Timestamp, B=FirstName, C=LastName, D=Email
+ * E=Welcome, F=EC-Form
+ * G=TREC, H=GFWAR, I=IC-Agree
+ * J=Bio, K=About-You
+ * L=IABS, M=Rechat, N=Realscout, O=Training
+ * P=Backsite, Q=Office, R=Mentors, S=Meetings
+ * T=Compliance, U=Contracts, V=Splits, W=Leads
+ * X=Database, Y=Marketing, Z=Comm
+ * AA=Learning, AB=Help, AC=Questions, AD=Difference
+ * AE=Emotional, AF=Consistency, AG=Judgement, AH=Systems, AI=Reputation, AJ=Principles
  */
 function getCheckpointColumnIndex(checkpointLabel) {
-  // Normalize the label for matching
   const normalized = checkpointLabel.toLowerCase().trim()
 
-  // Try partial matches for the most important checkpoints first
-  if (normalized.includes('trec') && normalized.includes('sponsorship')) return 6
-  if (normalized.includes('realtor') || normalized.includes('association') || normalized.includes('mls')) return 7
-  if (normalized.includes('independent') || normalized.includes('contractor') || normalized.includes('ica')) return 8
-  if (normalized.includes('iabs')) return 11
-  if (normalized.includes('rechat')) return 12
-  if (normalized.includes('realscout')) return 13
-  if (normalized.includes('training') || normalized.includes('guide')) return 14
-  if (normalized.includes('emergency') || normalized.includes('contact')) return 5
-  if (normalized.includes('bio')) return 9
-  if (normalized.includes('about')) return 10
+  // Page 2 checkpoints
+  if (normalized.includes('trec') && normalized.includes('sponsorship')) return 6 // G
+  if (normalized.includes('realtor') || normalized.includes('association') || normalized.includes('mls')) return 7 // H
 
-  // For all other checkpoints, use BackUp column (P=15)
-  console.log(`Checkpoint label not specifically mapped, using BackUp column: "${checkpointLabel}"`)
-  return 15
+  // Page 3 checkpoints
+  if (normalized.includes('independent') || normalized.includes('contractor') || normalized.includes('ica')) return 8 // I
+  if (normalized.includes('updated') && normalized.includes('profiles')) return 16 // Q
+
+  // Page 4 checkpoints
+  if (normalized.includes('iabs')) return 11 // L
+  if (normalized.includes('rechat')) return 12 // M
+  if (normalized.includes('realscout')) return 13 // N
+
+  // Page 5 checkpoints
+  if (normalized.includes('training') || normalized.includes('guide')) return 14 // O
+
+  // Page 6 checkpoints
+  if (normalized.includes('backsite')) return 15 // P
+  if (normalized.includes('slack') && normalized.includes('explore')) return 26 // AA
+  if (normalized.includes('20 people') || (normalized.includes('people') && normalized.includes('sphere'))) return 18 // S
+
+  // Page 7 checkpoints
+  if (normalized.includes('early') && normalized.includes('communication')) return 19 // T
+  if (normalized.includes('mentorship') && normalized.includes('transaction')) return 17 // R
+  if (normalized.includes('ask for support') || (normalized.includes('how') && normalized.includes('support'))) return 28 // AC
+  if (normalized.includes('questions') && normalized.includes('professional')) return 28 // AC
+  if (normalized.includes('support') && normalized.includes('differs')) return 29 // AD
+
+  // Page 8 checkpoints
+  if (normalized.includes('certainty') || (normalized.includes('clients') && normalized.includes('borrow'))) return 30 // AE
+  if (normalized.includes('consistency') && normalized.includes('intensity')) return 31 // AF
+  if (normalized.includes('judgment') && normalized.includes('information')) return 32 // AG
+  if (normalized.includes('systems') && normalized.includes('protect')) return 33 // AH
+  if (normalized.includes('reputation') && normalized.includes('moments')) return 34 // AI
+  if (normalized.includes('6 principles') || (normalized.includes('principles') && normalized.includes('6th ave'))) return 35 // AJ
+
+  // Form submissions
+  if (normalized.includes('emergency') || normalized.includes('contact')) return 5 // F
+  if (normalized.includes('bio')) return 9 // J
+  if (normalized.includes('about')) return 10 // K
+
+  // Fallback for any unmapped checkpoints
+  console.warn(`Checkpoint label not specifically mapped: "${checkpointLabel}" - mapping to column P (Backsite)`)
+  return 15 // P
 }
 
 export default async function handler(req, res) {
