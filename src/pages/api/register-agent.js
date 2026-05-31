@@ -84,6 +84,54 @@ export default async function handler(req, res) {
       // Continue with registration anyway
     }
 
+    // Check if headers exist
+    try {
+      const headerCheckResponse = await sheets.spreadsheets.values.get({
+        auth,
+        spreadsheetId,
+        range: 'Agent Progress!1:1',
+      })
+
+      const existingHeaders = headerCheckResponse.data.values?.[0] || []
+
+      // If headers don't exist or are incomplete, create them
+      if (!existingHeaders || existingHeaders.length < 16) {
+        const headers = [
+          'Timestamp',
+          'First Name',
+          'Last Name',
+          'Email',
+          'Welcome',
+          'EC-Form',
+          'TREC',
+          'GFWAR',
+          'IC-Agree',
+          'Bio',
+          'About-You',
+          'IABS',
+          'Rechat',
+          'Realscout',
+          'Training',
+          'BackUp',
+        ]
+
+        await sheets.spreadsheets.values.update({
+          auth,
+          spreadsheetId,
+          range: 'Agent Progress!A1:P1',
+          valueInputOption: 'USER_ENTERED',
+          requestBody: {
+            values: [headers],
+          },
+        })
+
+        console.log('Agent Progress headers created')
+      }
+    } catch (headerError) {
+      console.warn('Error checking/creating headers:', headerError.message)
+      // Continue anyway - headers might be created or already exist
+    }
+
     // Register new agent - append to Agent Progress sheet
     // Schema: Timestamp, First Name, Last Name, Email, Welcome, EC-Form, TREC, GFWAR, IC-Agree, Bio, About-You, IABS, Rechat, Realscout, Training, BackUp
     const timestamp = new Date().toISOString()

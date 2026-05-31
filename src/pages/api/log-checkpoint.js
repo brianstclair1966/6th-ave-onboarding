@@ -1,4 +1,5 @@
 import { google } from 'googleapis'
+import { GOOGLE_SHEETS_CONFIG } from '@/config/sheets'
 
 async function getGoogleSheetsClient() {
   const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS
@@ -26,13 +27,65 @@ async function getGoogleSheetsClient() {
   return google.sheets({ version: 'v4', auth })
 }
 
+/**
+ * Maps checkpoint columns using a normalized label approach
+ * Agent Progress Sheet columns:
+ * A=Timestamp, B=FirstName, C=LastName, D=Email, E=Welcome, F=EC-Form, G=TREC, H=GFWAR, I=IC-Agree, J=Bio, K=About-You, L=IABS, M=Rechat, N=Realscout, O=Training, P=BackUp
+ */
+function getCheckpointColumnIndex(checkpointLabel) {
+  // Normalize the label for matching
+  const normalized = checkpointLabel.toLowerCase().trim()
+
+  // Direct column mappings
+  const columnMap = {
+    'welcome': 4,
+    'ec-form': 5,
+    'emergency contact': 5,
+    'trec': 6,
+    'trec sponsorship': 6,
+    'gfwar': 7,
+    'realtor association': 7,
+    'ic-agree': 8,
+    'independent contractor': 8,
+    'bio': 9,
+    'about-you': 10,
+    'about you': 10,
+    'iabs': 11,
+    'rechat': 12,
+    'realscout': 13,
+    'training': 14,
+    'guide training': 14,
+    'backup': 15,
+  }
+
+  // Try direct match first
+  if (columnMap[normalized]) {
+    return columnMap[normalized]
+  }
+
+  // Try partial matches for common patterns
+  if (normalized.includes('trec')) return 6
+  if (normalized.includes('realtor') || normalized.includes('gfwar')) return 7
+  if (normalized.includes('independent') || normalized.includes('contractor')) return 8
+  if (normalized.includes('rechat')) return 12
+  if (normalized.includes('realscout')) return 13
+  if (normalized.includes('iabs')) return 11
+  if (normalized.includes('training') || normalized.includes('guide')) return 14
+  if (normalized.includes('emergency') || normalized.includes('contact')) return 5
+  if (normalized.includes('bio')) return 9
+  if (normalized.includes('about')) return 10
+
+  // If no match found, return -1
+  return -1
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
   try {
-    const { firstName, lastName, email, checkpointLabel } = req.body
+    const { firstName, lastName, email, checkpointLabel, pageNumber } = req.body
 
     // Validate required fields
     if (!firstName || !lastName || !email || !checkpointLabel) {
@@ -41,8 +94,8 @@ export default async function handler(req, res) {
       })
     }
 
-    // Get sheet ID from environment
-    const sheetId = process.env.GOOGLE_SHEETS_ID
+    // Get sheet ID from config (with fallback)
+    const sheetId = GOOGLE_SHEETS_CONFIG.spreadsheetId
     if (!sheetId) {
       console.warn('GOOGLE_SHEETS_ID not configured')
       return res.status(200).json({
@@ -62,77 +115,67 @@ export default async function handler(req, res) {
       })
     }
 
-    const timestamp = new Date().toISOString()
-
-    // First, get the header row to find the checkpoint column
-    const headerResponse = await sheets.spreadsheets.values.get({
-      spreadsheetId: sheetId,
-      range: 'Agent Progress!1:1',
-    })
-
-    const headers = headerResponse.data.values[0] || []
-    const checkpointColumnIndex = headers.findIndex(
-      h => h && h.toLowerCase() === checkpointLabel.toLowerCase()
-    )
+    // Map checkpoint label to column index
+    const checkpointColumnIndex = getCheckpointColumnIndex(checkpointLabel)
 
     if (checkpointColumnIndex === -1) {
+      console.warn(`Unable to map checkpoint label: "${checkpointLabel}"`)
       return res.status(400).json({
-        error: `Checkpoint column "${checkpointLabel}" not found in sheet`
+        error: `Unable to map checkpoint label "${checkpointLabel}" to a column`
       })
     }
+
+    const timestamp = new Date().toISOString()
 
     // Get all data to find if this agent already has a row
     const dataResponse = await sheets.spreadsheets.values.get({
       spreadsheetId: sheetId,
-      range: 'Agent Progress!A:E',
+      range: 'Agent Progress!A:P',
     })
 
     const rows = dataResponse.data.values || []
     let agentRowIndex = -1
 
     // Search for existing agent row (skip header, start at row 2)
+    // Email is in column D (index 3)
     for (let i = 1; i < rows.length; i++) {
-      if (rows[i][1] === firstName && rows[i][2] === lastName && rows[i][3] === email) {
+      if (rows[i] && rows[i][3] === email) {
         agentRowIndex = i + 1 // Convert to 1-based sheet row number
+        console.log(`Found agent ${email} at row ${agentRowIndex}`)
         break
       }
     }
 
     if (agentRowIndex === -1) {
-      // Create new row for this agent
-      const newRow = [timestamp, firstName, lastName, email]
-
-      // Pad the row to match the checkpoint column position
-      while (newRow.length <= checkpointColumnIndex) {
-        newRow.push('')
-      }
-
-      // Mark checkpoint as completed
-      newRow[checkpointColumnIndex] = 'X'
-
-      await sheets.spreadsheets.values.append({
-        spreadsheetId: sheetId,
-        range: 'Agent Progress!A:Z',
-        valueInputOption: 'USER_ENTERED',
-        resource: {
-          values: [newRow],
-        },
-      })
-    } else {
-      // Update existing row with checkpoint mark
-      const cellToUpdate = String.fromCharCode(65 + checkpointColumnIndex) + agentRowIndex
-
-      await sheets.spreadsheets.values.update({
-        spreadsheetId: sheetId,
-        range: `Agent Progress!${cellToUpdate}`,
-        valueInputOption: 'USER_ENTERED',
-        resource: {
-          values: [['X']],
-        },
+      console.warn(`Agent ${email} not found in Agent Progress sheet`)
+      return res.status(400).json({
+        error: `Agent with email ${email} not found in Agent Progress sheet. Agent must be registered first.`
       })
     }
 
-    return res.status(200).json({ success: true })
+    // Update existing row with checkpoint mark
+    const cellColumn = String.fromCharCode(65 + checkpointColumnIndex)
+    const cellToUpdate = `${cellColumn}${agentRowIndex}`
+
+    console.log(`Updating cell ${cellToUpdate} for agent ${email} (checkpoint: ${checkpointLabel})`)
+
+    await sheets.spreadsheets.values.update({
+      spreadsheetId: sheetId,
+      range: `Agent Progress!${cellToUpdate}`,
+      valueInputOption: 'USER_ENTERED',
+      resource: {
+        values: [['✓']],
+      },
+    })
+
+    console.log(`Checkpoint logged successfully: ${checkpointLabel} for ${email}`)
+
+    return res.status(200).json({
+      success: true,
+      message: `Checkpoint "${checkpointLabel}" logged successfully`,
+      checkpoint: checkpointLabel,
+      column: cellColumn,
+    })
   } catch (error) {
     console.error('Checkpoint logging error:', error)
     return res.status(500).json({

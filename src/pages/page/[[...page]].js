@@ -106,6 +106,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
                 lastName: agentInfo.lastName,
                 email: agentInfo.email,
                 checkpointLabel: checkpointLabel,
+                pageNumber: pageNumber,
               }),
             })
 
