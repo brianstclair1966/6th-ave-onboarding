@@ -87,49 +87,54 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
     // Wire up checkpoint logging to all checkboxes
     const checkboxes = document.querySelectorAll('.page-checkbox')
 
-    checkboxes.forEach(checkbox => {
-      checkbox.addEventListener('change', async (e) => {
-        if (e.target.checked && agentInfo) {
-          const checkpointLabel = e.target.getAttribute('data-label')
+    // Create handler function that can be properly removed later
+    const handleCheckboxChange = async (e) => {
+      if (e.target.checked && agentInfo) {
+        const checkpointLabel = e.target.getAttribute('data-label')
 
-          try {
-            e.target.disabled = true
-            e.target.style.opacity = '0.5'
+        try {
+          e.target.disabled = true
+          e.target.style.opacity = '0.5'
 
-            const response = await fetch('/api/log-checkpoint', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({
-                firstName: agentInfo.firstName,
-                lastName: agentInfo.lastName,
-                email: agentInfo.email,
-                checkpointLabel: checkpointLabel,
-                pageNumber: pageNumber,
-              }),
-            })
+          const response = await fetch('/api/log-checkpoint', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              firstName: agentInfo.firstName,
+              lastName: agentInfo.lastName,
+              email: agentInfo.email,
+              checkpointLabel: checkpointLabel,
+              pageNumber: pageNumber,
+            }),
+          })
 
-            if (!response.ok) {
-              throw new Error('Failed to log checkpoint')
-            }
-
-            e.target.style.opacity = '1'
-          } catch (error) {
-            console.error('Checkpoint logging error:', error)
-            e.target.checked = false
-            e.target.disabled = false
-            e.target.style.opacity = '1'
-            alert('Failed to save checkpoint. Please try again.')
+          if (!response.ok) {
+            throw new Error('Failed to log checkpoint')
           }
+
+          e.target.style.opacity = '1'
+        } catch (error) {
+          console.error('Checkpoint logging error:', error)
+          e.target.checked = false
+          e.target.disabled = false
+          e.target.style.opacity = '1'
+          alert('Failed to save checkpoint. Please try again.')
         }
-      })
+      }
+    }
+
+    // Attach listener to each checkbox
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', handleCheckboxChange)
     })
 
+    // Cleanup: properly remove listeners using the same handler reference
     return () => {
       checkboxes.forEach(checkbox => {
-        checkbox.removeEventListener('change', null)
+        checkbox.removeEventListener('change', handleCheckboxChange)
       })
     }
-  }, [agentInfo])
+  }, [agentInfo, pageNumber])
 
   const handlePrev = () => {
     if (pageNumber > 1) {
