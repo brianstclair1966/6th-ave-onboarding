@@ -186,7 +186,13 @@ export default async function handler(req, res) {
     }
 
     // Update existing row with checkpoint mark
-    const cellColumn = String.fromCharCode(65 + checkpointColumnIndex)
+    // Convert column index to letter(s) - handles A-Z and AA-AJ
+    let cellColumn = ''
+    let colIndex = checkpointColumnIndex
+    while (colIndex >= 0) {
+      cellColumn = String.fromCharCode(65 + (colIndex % 26)) + cellColumn
+      colIndex = Math.floor(colIndex / 26) - 1
+    }
     const cellToUpdate = `${cellColumn}${agentRowIndex}`
 
     console.log(`Updating cell ${cellToUpdate} for agent ${email} (checkpoint: ${checkpointLabel})`)
