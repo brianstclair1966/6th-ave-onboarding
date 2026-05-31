@@ -146,11 +146,31 @@ export default async function handler(req, res) {
       }
     }
 
+    // If agent not found, create a new agent row
     if (agentRowIndex === -1) {
-      console.warn(`Agent ${email} not found in Agent Progress sheet`)
-      return res.status(400).json({
-        error: `Agent with email ${email} not found in Agent Progress sheet. Agent must be registered first.`
-      })
+      console.log(`Agent ${email} not found, creating new agent row`)
+      try {
+        const timestamp = new Date().toISOString()
+        const newAgentRow = [[timestamp, firstName, lastName, email, '', '', '', '', '', '', '', '', '', '', '', '']]
+
+        const appendResponse = await sheets.spreadsheets.values.append({
+          spreadsheetId: sheetId,
+          range: 'Agent Progress!A:P',
+          valueInputOption: 'USER_ENTERED',
+          requestBody: {
+            values: newAgentRow,
+          },
+        })
+
+        console.log('New agent row created:', appendResponse.data.updates)
+        // Get the new row index (append returns the update range)
+        agentRowIndex = rows.length + 1 // rows.length gives 0-based, +1 for header, +1 for new row = +2, but we're already at rows.length so +1
+      } catch (createError) {
+        console.error('Failed to create new agent row:', createError.message)
+        return res.status(500).json({
+          error: `Failed to create agent row: ${createError.message}`
+        })
+      }
     }
 
     // Update existing row with checkpoint mark
