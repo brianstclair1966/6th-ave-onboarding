@@ -35,7 +35,7 @@ Clients remember how you made them feel long after they forget the details. If t
 
 That's what clients remember.
 
-- [ ] BackUp
+- [ ] I understand that clients borrow certainty from me
 
 ## Strong Agents Stay Consistent
 
