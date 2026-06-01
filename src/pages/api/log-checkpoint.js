@@ -62,24 +62,25 @@ function getCheckpointColumnIndex(checkpointLabel) {
   if (normalized.includes('training') || normalized.includes('guide')) return 14 // O
 
   // Page 6 checkpoints
-  if (normalized.includes('backsite')) return 15 // P
-  if (normalized.includes('slack') && normalized.includes('explore')) return 26 // AA
-  if (normalized.includes('20 people') || (normalized.includes('people') && normalized.includes('sphere'))) return 18 // S
+  if (normalized.includes('backsite')) return 15 // P - Backsite
+  if (normalized.includes('slack') && normalized.includes('exploring')) return 16 // Q - Slack
+  if (normalized.includes('20 people') || (normalized.includes('people') && normalized.includes('sphere'))) return 17 // R - Connections
+  if (normalized.includes('read this page again')) return 18 // S - Review
 
   // Page 7 checkpoints
-  if (normalized.includes('early') && normalized.includes('communication')) return 19 // T
-  if (normalized.includes('mentorship') && normalized.includes('transaction')) return 17 // R
-  if (normalized.includes('ask for support') || (normalized.includes('how') && normalized.includes('support'))) return 28 // AC
-  if (normalized.includes('questions') && normalized.includes('professional')) return 28 // AC
-  if (normalized.includes('support') && normalized.includes('differs')) return 29 // AD
+  if (normalized.includes('early') && normalized.includes('communication')) return 19 // T - Early Communication
+  if (normalized.includes('mentorship') && normalized.includes('transaction')) return 20 // U - Mentorship
+  if (normalized.includes('ask for support') || (normalized.includes('when') && normalized.includes('how') && normalized.includes('support'))) return 21 // V - Support Request
+  if (normalized.includes('asking questions') && normalized.includes('professional')) return 22 // W - Ask Questions
+  if (normalized.includes('support') && normalized.includes('differs')) return 23 // X - Support Differs
 
   // Page 8 checkpoints
-  if (normalized.includes('certainty') || (normalized.includes('clients') && normalized.includes('borrow'))) return 30 // AE
-  if (normalized.includes('consistency') && normalized.includes('intensity')) return 31 // AF
-  if (normalized.includes('judgment') && normalized.includes('information')) return 32 // AG
-  if (normalized.includes('systems') && normalized.includes('protect')) return 33 // AH
-  if (normalized.includes('reputation') && normalized.includes('moments')) return 34 // AI
-  if (normalized.includes('6 principles') || (normalized.includes('principles') && normalized.includes('6th ave'))) return 35 // AJ
+  if (normalized.includes('borrow certainty') || (normalized.includes('clients') && normalized.includes('borrow') && normalized.includes('certainty'))) return 24 // Y - Certainty
+  if (normalized.includes('consistency') && normalized.includes('intensity')) return 25 // Z - Consistency
+  if (normalized.includes('judgment') && normalized.includes('information')) return 26 // AA - Judgment
+  if (normalized.includes('systems') && normalized.includes('protect')) return 27 // AB - Systems
+  if (normalized.includes('reputation') && (normalized.includes('small moments') || normalized.includes('moments'))) return 28 // AC - Reputation
+  if (normalized.includes('6 principles') || (normalized.includes('principles') && normalized.includes('6th ave'))) return 29 // AD - Principles
 
   // Form submissions
   if (normalized.includes('emergency') || normalized.includes('contact')) return 5 // F
