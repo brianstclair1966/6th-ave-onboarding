@@ -26,17 +26,17 @@ export default function SummaryDownload({ totalItems }) {
         You've completed everything.
       </h3>
       <p className="text-brand-navy/80 mb-6 max-w-xl mx-auto">
-        Here's a one-page summary of everything you just walked through — save it so
-        you can reflect back on it anytime.
+        Here's your First 90-Day Reference Guide — office access, who to ask, your
+        systems, and how we operate. Save it; you'll come back to it.
       </p>
       <a
-        href="/onboarding-summary.pdf"
-        download="6th-Ave-Homes-Onboarding-Summary.pdf"
+        href="/6th-ave-first-90-days.pdf"
+        download="6th Ave Homes - First 90-Day Reference Guide.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center px-8 py-3 bg-brand-coral text-white font-bold rounded-lg hover:shadow-lg hover:shadow-brand-coral/50 transition-all duration-200 min-h-12 uppercase text-sm tracking-wide"
       >
-        Download your onboarding summary (PDF)
+        Download your 90-Day Reference Guide (PDF)
       </a>
     </div>
   )
