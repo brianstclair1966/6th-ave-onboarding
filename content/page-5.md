@@ -1,10 +1,10 @@
 ---
-title: "Your Development Path"
+title: "Your Operating Foundation"
 page: 5
 description: "How you grow at 6th Ave"
 ---
 
-## ⑨ Your Development Path
+## ⑨ Your Operating Foundation
 
 You've now completed your activation steps. Your systems are online. Your foundation is solid.
 
@@ -17,14 +17,16 @@ Your first transactions are the foundation. But growth doesn't happen by acciden
 
 **Real mentorship** — Your assigned mentor (if you're new to the industry) isn't a rubber stamp. They're there for your first 3 transactions, working alongside you, catching what you miss, and showing you what success looks like operationally.
 
-**Structured learning** — Three Guide Training sessions in your first week ground you in philosophy, compliance, and standards. These aren't optional theory. They change how you operate.
+**A foundation to build on** — Guide training resources covering philosophy, compliance, and brand standards are there to ground you in how we operate. Work through them as you go — they'll sharpen how you show up.
 
 **Immediate feedback** — After every transaction, there's clarity on what worked, what didn't, and what to adjust. No guessing.
 
 **A team that scales with you** — Construction, lending, title, and support systems are already in place. You don't have to build vendor relationships in isolation.
 
 
-## The Three Guide Training Sessions
+## Your Guide Training Sessions
+
+These ground you in how we operate. They're resources, not a gated course — work through them at your own pace.
 
 [**→ Go to Guide Training Program**](https://www.6thavehomesagents.com/guide-training-program)
 
@@ -40,7 +42,7 @@ How we handle client data, the CDA process, and your responsibilities as a licen
 
 Our brand identity, how to market yourself authentically, and content standards.
 
-**Complete these in your first week** — you don't need to finish before you start working, but this foundational knowledge will change how you operate.
+**Review these when you can** — there's no deadline and no test, but this foundation will change how you operate.
 
 - [ ] I have reviewed the three training sessions
 
@@ -60,6 +62,8 @@ After your first 3–6 months, you'll know:
 Once you've completed the 8 steps and these training sessions, your MLS will be active, systems will be set up, and you're ready to list your first property.
 
 But the real work isn't the systems. It's the mindset shift: from "I need to know everything" to "I know how to find the answer." That's what this next phase teaches you.
+
+*Your systems are almost ready. What's left isn't setup — it's learning how we operate.*
 
 **Next: Go to Orientation** — How support works at 6th Ave.
 

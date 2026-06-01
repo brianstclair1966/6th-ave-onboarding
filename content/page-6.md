@@ -6,6 +6,8 @@ description: "How 6th Ave actually works"
 
 # Operations and Requirements
 
+*You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
+
 ## Watch This First
 
 <iframe width="60%" height="450" src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>

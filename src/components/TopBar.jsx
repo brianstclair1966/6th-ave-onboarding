@@ -26,10 +26,22 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
   const displayTotalPages = isOrientation ? 3 : 5
   const systemStartPage = isOrientation ? 6 : 1
 
-  // Session progress: completed items out of the build-time total (resets on reload).
+  // Progress: completed items out of the build-time total (persists across visits).
   const percentage = getPercentage(totalItems)
 
-  // Reset the bar to 0% without a page refresh, and uncheck any visible boxes.
+  // A short milestone label shown alongside the percentage for emotional momentum.
+  const milestone =
+    percentage >= 100
+      ? 'Ready to operate'
+      : percentage >= 67
+      ? 'Almost ready to operate'
+      : percentage >= 34
+      ? 'Foundation built'
+      : percentage >= 1
+      ? 'Building your foundation'
+      : "Let's get started"
+
+  // Reset progress to 0%, and uncheck any visible boxes.
   const handleStartOver = () => {
     resetProgress()
     document.querySelectorAll('.page-checkbox').forEach((cb) => {
@@ -96,11 +108,12 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
               </Link>
             )}
             <div className="flex items-center gap-2">
+              <span className="text-xxs text-brand-taupe hidden sm:inline whitespace-nowrap">{milestone}</span>
               <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
               <button
                 type="button"
                 onClick={handleStartOver}
-                title="Reset progress to 0% (this session only)"
+                title="Reset your progress back to 0%"
                 className="text-xxs text-brand-taupe hover:text-brand-coral underline transition-colors whitespace-nowrap"
               >
                 Start over
@@ -108,6 +121,11 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
             </div>
           </div>
         </div>
+
+        {/* Reassurance: progress is saved so agents never fear losing their place */}
+        <p className="text-xxs text-brand-taupe/80 mt-1 text-right leading-tight">
+          ✓ Your progress saves automatically — leave and pick up where you left off.
+        </p>
 
         {/* Section title for pages 6+ */}
         {sectionTitle && currentPage >= 6 && (
