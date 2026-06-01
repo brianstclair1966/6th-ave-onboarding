@@ -17,13 +17,14 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 ### **Here's what to do:**
 
-[**IABS Template →**](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view?usp=sharing)
+[**→ Open your 6th Ave IABS form (fillable)**](/6th-ave-iabs.pdf)
 
-- Once you open the IABS Template, look near the top left corner & click "Download"
-- Save the file to your computer or cloud service
-- Open a PDF editor to add your name, license number, email address, and phone number
-- Re-save the file back to your computer or cloud
-- Add to your email signature — Create a hyperlink to the PDF. This link must be above your picture & links in your email signature
+The 6th Ave brokerage info is already filled in for you. To finish it:
+
+- Open the form (it opens in a new tab).
+- On the bottom **"Sales Agent/Associate's Name"** line, type your **name, license number, email, and phone**.
+- **Save it to your computer.** (If your browser won't let you type into the form, download it first, then open it in a PDF viewer.)
+- Add it to your email signature — create a hyperlink to your saved PDF, placed above your picture and links.
 
 ### **Email signature template:** (Place this template wording directly above your email signature. If you are unsure how to do that, please ask Brian or the #guides channel.)
 
