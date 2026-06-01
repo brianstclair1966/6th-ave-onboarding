@@ -39,6 +39,12 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 - Highlighting what makes you different
 - Making it authentic and personal
 
+**Stuck on where to start? Let AI help.** Open your favorite AI tool (ChatGPT, Claude, Gemini), pull up [Brian's bio](https://6thavehomes.com/brian-st-clair) as an example, and paste a prompt like this:
+
+*"Here is an example real estate agent bio from my brokerage: [paste Brian's bio here]. Help me write my own 150-300 word bio in the same warm, authentic, story-driven style. A bit about me: [where you grew up, what brought you to real estate, what makes you different, and what you love about helping clients]. Keep it personal and conversational, not salesy."*
+
+Then tweak what it gives you until it sounds like you. AI gets you a strong first draft; your voice makes it real.
+
 6th Ave Homes does quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack. You'll have the opportunity to sign up for a shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
 
 <!-- FORM:bio -->
