@@ -54,8 +54,14 @@ function renderMarkdown(content) {
   // Links
   html = html.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
 
-  // Checkboxes - convert [ ] to interactive checkboxes
-  html = html.replace(/^\- \[ \] (.*?)$/gm, '<li class="checkbox-item"><input type="checkbox" class="page-checkbox" data-label="$1"> <label>$1</label></li>')
+  // Checkboxes - convert [ ] to interactive checkboxes. Each input gets a unique
+  // id and its <label> a matching `for`, so tapping the label text toggles the box
+  // (a much larger, mobile-friendly tap target than the 20px checkbox alone).
+  let checkboxIndex = 0
+  html = html.replace(/^\- \[ \] (.*?)$/gm, (match, label) => {
+    const id = `pcb-${checkboxIndex++}`
+    return `<li class="checkbox-item"><input type="checkbox" id="${id}" class="page-checkbox" data-label="${label}"> <label for="${id}">${label}</label></li>`
+  })
 
   // Lists
   html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>')

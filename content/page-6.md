@@ -10,7 +10,7 @@ description: "How 6th Ave actually works"
 
 ## Watch This First
 
-<iframe width="60%" height="450" src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>
+<iframe src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
 ---
 

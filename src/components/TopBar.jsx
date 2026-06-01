@@ -123,8 +123,8 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
         </div>
 
         {/* Reassurance: progress is saved so agents never fear losing their place */}
-        <p className="text-xxs text-brand-taupe/80 mt-1 text-right leading-tight">
-          ✓ Your progress saves automatically — leave and pick up where you left off.
+        <p className="text-xxs text-brand-taupe/80 mt-0.5 text-right leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+          ✓ Your progress saves automatically.
         </p>
 
         {/* Section title for pages 6+ */}
