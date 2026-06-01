@@ -1,5 +1,10 @@
 import { google } from 'googleapis'
-import { GOOGLE_SHEETS_CONFIG } from '@/config/sheets'
+import {
+  GOOGLE_SHEETS_CONFIG,
+  resolveColumnIndex,
+  columnIndexToLetter,
+  lastColumnLetter,
+} from '@/config/sheets'
 
 const sheets = google.sheets('v4')
 
@@ -124,39 +129,41 @@ export default async function handler(req, res) {
         const agentEmail = data.Email || data.email || ''
         if (agentEmail) {
           try {
-            // Determine which column to update based on form type
-            let columnLetter = ''
-
+            // Determine which canonical column header this form maps to.
+            let targetHeader = ''
             if (formType === 'emergency-contact') {
-              columnLetter = 'F' // EC-Form column
+              targetHeader = 'EC-Form'
             } else if (formType === 'bio') {
-              columnLetter = 'J' // Bio column
+              targetHeader = 'Bio'
             } else if (formType === 'about-you') {
-              columnLetter = 'K' // About-You column
+              targetHeader = 'About-You'
             }
 
-            if (columnLetter) {
-              // Read Agent Progress sheet to find agent row
+            if (targetHeader) {
+              const lastCol = lastColumnLetter()
+              // Read header row + agent rows to resolve column by NAME and find the agent.
               const progressResponse = await sheets.spreadsheets.values.get({
                 auth,
                 spreadsheetId,
-                range: 'Agent Progress!A:D',
+                range: `Agent Progress!A:${lastCol}`,
               })
 
               const progressRows = progressResponse.data.values || []
-              let agentRowIndex = -1
+              const headerRow = progressRows[0] || []
+              const columnIndex = resolveColumnIndex(targetHeader, headerRow)
 
-              // Find the row with matching email
+              let agentRowNumber = -1
               for (let i = 1; i < progressRows.length; i++) {
                 if (progressRows[i] && progressRows[i][3] === agentEmail) {
-                  agentRowIndex = i
+                  agentRowNumber = i + 1 // 1-based sheet row
                   break
                 }
               }
 
-              // If agent found, update the appropriate column
-              if (agentRowIndex >= 0) {
-                const updateRange = `Agent Progress!${columnLetter}${agentRowIndex + 1}`
+              // Update the column only if both the column and the agent row resolved.
+              if (columnIndex >= 0 && agentRowNumber >= 0) {
+                const columnLetter = columnIndexToLetter(columnIndex)
+                const updateRange = `Agent Progress!${columnLetter}${agentRowNumber}`
                 await sheets.spreadsheets.values.update({
                   auth,
                   spreadsheetId,
