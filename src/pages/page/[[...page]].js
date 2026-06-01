@@ -109,6 +109,30 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     }
   }, [pageNumber])
 
+  // Re-check registration whenever progress changes (e.g. right after the page-1
+  // form saves), so the "Next" gate updates without needing a navigation.
+  useEffect(() => {
+    const refreshAgent = () => {
+      try {
+        const stored = localStorage.getItem('agentInfo')
+        setAgentInfo(stored ? JSON.parse(stored) : null)
+      } catch (e) {
+        /* ignore */
+      }
+    }
+    window.addEventListener(progress.PROGRESS_EVENT, refreshAgent)
+    return () => window.removeEventListener(progress.PROGRESS_EVENT, refreshAgent)
+  }, [])
+
+  // Registration on page 1 is required before continuing. If someone reaches a
+  // later page without registering (deep link, breadcrumb, back/forward), send
+  // them back to page 1 so their work can actually be logged.
+  useEffect(() => {
+    if (pageNumber > 1 && typeof window !== 'undefined' && !localStorage.getItem('agentInfo')) {
+      router.replace('/page/1')
+    }
+  }, [pageNumber, router])
+
   useEffect(() => {
     // Wire up checkpoint logging to all checkboxes
     const checkboxes = document.querySelectorAll('.page-checkbox')
@@ -195,8 +219,8 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
   }
 
   const handleNext = () => {
-    // Checkboxes are now voluntary (honor-system engagement)
-    // No gating on Page 3 or any other page
+    // Page 1 registration is required before continuing; checkboxes stay voluntary.
+    if (pageNumber === 1 && !agentInfo) return
     if (pageNumber < TOTAL_PAGES) {
       router.push(`/page/${pageNumber + 1}`)
     }
@@ -264,6 +288,11 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         {renderPageContent()}
         {pageNumber === 8 && <SummaryDownload totalItems={totalItems} />}
+        {pageNumber === 1 && !agentInfo && (
+          <p className="mt-6 text-center text-sm font-semibold text-brand-coral">
+            Please save your name and email above before continuing.
+          </p>
+        )}
       </main>
 
       <Navigation
@@ -271,6 +300,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
         onPrev={handlePrev}
         onNext={handleNext}
         totalPages={TOTAL_PAGES}
+        nextDisabled={pageNumber === 1 && !agentInfo}
       />
     </Page>
   )
