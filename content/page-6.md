@@ -8,6 +8,10 @@ description: "How 6th Ave actually works"
 
 *You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
 
+## Watch This First
+
+<div style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; margin: 0 auto; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; background: #F8F0E6; border: 2px dashed #ED6758; border-radius: 12px; color: #043853; font-weight: 600;">Brian's short orientation video — coming soon</div>
+
 This is the short version of what's expected of you as a Guide. The full detail lives in the **[Guide Role & Expectations](https://www.6thavehomesagents.com/guide-role-and-expectations)** document — read it. It's the source of truth for everything below.
 
 ## Meetings
