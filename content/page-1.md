@@ -12,7 +12,9 @@ And we think you're going to appreciate the difference.
 
 **You made a smart decision.**
 
-### We're going to walk you through some steps to get you setup on our platforms so that you can start building, or continue building YOUR business. These next few pages will get your operational foundation in place quickly. You're in good hands. This system exists to support you — we've thought this through.
+### We're going to walk you through some steps to get you set up on our platforms so that you can start building, or continue building, YOUR business. These next few pages will get your operational foundation in place quickly.
+
+### You're in good hands. This system exists to support you — we've thought this through.
 
 ### Here's what matters: we think of you as our client, not a transaction. We're here to make you better at what you're already good at: Relationships. Stories. People.
 

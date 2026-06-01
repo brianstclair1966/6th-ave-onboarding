@@ -167,3 +167,5 @@ You're going to do good work here.
 You've completed your onboarding and orientation.
 
 You're ready to begin.
+
+**Now go take care of people.**

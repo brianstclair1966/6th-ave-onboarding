@@ -1,10 +1,10 @@
 ---
-title: "Your Operating Foundation"
+title: "Your Growth Foundation"
 page: 5
 description: "How you grow at 6th Ave"
 ---
 
-## ⑨ Your Operating Foundation
+## ⑨ Your Growth Foundation
 
 You've now completed your activation steps. Your systems are online. Your foundation is solid.
 
