@@ -58,8 +58,12 @@ export default function AgentInfoForm() {
       return
     }
 
-    // Store in localStorage
-    localStorage.setItem('agentInfo', JSON.stringify(formData))
+    // Store in localStorage (guarded — Safari Private Browsing can throw)
+    try {
+      localStorage.setItem('agentInfo', JSON.stringify(formData))
+    } catch (e) {
+      console.warn('Could not save agent info to localStorage:', e)
+    }
 
     // Register agent in Google Sheets
     try {
