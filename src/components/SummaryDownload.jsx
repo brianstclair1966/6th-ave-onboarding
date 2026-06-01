@@ -15,19 +15,20 @@ export default function SummaryDownload({ totalItems }) {
     return () => window.removeEventListener(PROGRESS_EVENT, update)
   }, [totalItems])
 
-  if (pct < 100) return null
+  const done = pct >= 100
 
   return (
     <div className="mt-12 p-6 md:p-8 bg-brand-cream border border-brand-coral/40 rounded-xl text-center">
       <p className="text-xs font-bold uppercase tracking-widest text-brand-coral mb-2">
-        Onboarding &amp; Orientation Complete
+        {done ? 'Onboarding & Orientation Complete' : 'Your First 90-Day Reference Guide'}
       </p>
       <h3 className="text-xl md:text-2xl font-bold text-brand-navy mb-2">
-        You've completed everything.
+        {done ? "You've completed everything." : 'Keep this handy.'}
       </h3>
       <p className="text-brand-navy/80 mb-6 max-w-xl mx-auto">
-        Here's your First 90-Day Reference Guide — office access, who to ask, your
-        systems, and how we operate. Save it; you'll come back to it.
+        {done
+          ? "Here's your First 90-Day Reference Guide — office access, who to ask, your systems, and how we operate. Save it; you'll come back to it."
+          : 'Office access, who to ask, your systems, and how we operate — yours to download and reference anytime.'}
       </p>
       <a
         href="/6th-ave-first-90-days.pdf"
