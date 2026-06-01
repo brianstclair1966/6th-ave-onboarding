@@ -8,15 +8,45 @@ description: "How 6th Ave actually works"
 
 *You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
 
-## Watch This First
+This is the short version of what's expected of you as a Guide. The full detail lives in the **[Guide Role & Expectations](https://www.6thavehomesagents.com/guide-role-and-expectations)** document — read it. It's the source of truth for everything below.
 
-<iframe src="https://www.youtube.com/embed/placeholder" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
+## Meetings
 
----
+- **Wednesdays at 10am** — weekly team meeting (in person or virtual). We record these on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
+- **1st Wednesday** of the month — agent meeting: wins, market conditions, and industry updates.
+- **Other Wednesdays** — Masterminds, where an experienced agent shares from their toolbelt.
+- **Quarterly All-Team** — last Thursday of the quarter at 11:30am.
+- A **quarterly or semi-annual catch-up** with your Brokerage Manager.
 
-## What You're About to Learn
+Life happens — if you can't make a meeting, let your Brokerage Manager know ahead of time.
 
-You've now completed your activation and have access to 6th Ave's systems and tools. The next phase is understanding how we actually operate—the real mechanics of how deals move, how our team works together, and what we expect from every Guide. This isn't theoretical. It's the operational framework that every successful 6th Ave agent has learned to execute. You'll learn what resources are available to you, what's required of you, how compensation works, and what it takes to build a sustainable real estate career with us. By the end of this page, you'll have clarity on exactly what it takes to succeed here.
+## Production & Responsiveness
+
+- Complete **6 transactions per year**, at least **3 self-generated** (deals from a previous brokerage count toward your totals).
+- Respond to clients and team members **within 24 hours** (excluding Sundays). Responsiveness makes or breaks deals.
+
+## Money
+
+- A **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
+- **Resource fee: $215/month** for full-time agents. Part-time agents don't pay it — and don't get Rechat, RealScout, or Docusign.
+- **Leads** are split **50/50** (search-portal leads are **65/35** in your favor). Owners and the broker don't take leads — they go to Guides.
+
+## Your Database & Marketing
+
+- Build and actively use a database of **200+ people** — your 50 VIPs plus all past clients — and reach out about **twice a year**.
+- Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
+
+## Compliance & Training
+
+- Know and follow your **[TREC license requirements](https://www.trec.texas.gov/renew-license/real-estate-sales-agent)** (SAE within your first two years; continuing education every renewal).
+- Get all **[CDA / compliance checklist](https://www.6thavehomesagents.com/compliance-cda-process)** items to the Transaction Coordinator **at least 7 days before closing** so you get paid on time.
+- Follow TREC advertising and IABS display rules, and be familiar with our **[Policies & Procedures](https://static1.squarespace.com/static/63769174e6778950255aed67/t/64bfee5cc12af321169eaa83/1690299996708/6th+Ave+Homes+Policies+%26+Procedures.pdf)**.
+
+## Where to Get Help
+
+- **Slack #guides** — your first stop for most questions.
+- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — volunteer pros organized by specialty. Use them.
+- Your **mentor** (alongside you for your first 3 transactions) and your **Brokerage Manager**.
 
 ## Your Operational Toolkit
 
@@ -24,22 +54,18 @@ You've now completed your activation and have access to 6th Ave's systems and to
 - **Rechat** — Where transactions live (contracts, timelines, addenda, & compliance checks)
 - **RealScout** — Client portal for searching. They feel like they're using Zillow, but you have all the data.
 - **Google Workspace** — Email, calendar, docs. Organize your business.
+- **Docusign** — E-signatures (full-time agents)
 
 Each tool has a job. Use them that way.
 
+## Read the Full Picture
 
-## What You Now Understand
+- **[Guide Role & Expectations](https://www.6thavehomesagents.com/guide-role-and-expectations)** — the complete expectations (meetings, splits, database, marketing, clients, and more)
+- **[Policies & Procedures](https://static1.squarespace.com/static/63769174e6778950255aed67/t/64bfee5cc12af321169eaa83/1690299996708/6th+Ave+Homes+Policies+%26+Procedures.pdf)**
+- **[CDA & Compliance Process](https://www.6thavehomesagents.com/compliance-cda-process)**
+- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)**
 
-- How to access and use 6th Ave's operational tools and resources
-- Your mentorship path and compensation structure
-- What's required of you (meetings, training, fees, database, lead generation)
-- How our office operates and what's available to you
-- The rules, compliance requirements, and operational expectations
-- What to expect financially (resource fees, association dues, transaction costs)
-- Where to find everything you need to execute as a Guide
-
-**Next: Page 2** — How we think at 6th Ave.
-
+**Next: Page 7** — How support works at 6th Ave.
 
 ## Next Steps
 
