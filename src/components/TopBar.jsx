@@ -1,10 +1,12 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import { getPercentage, resetProgress, PROGRESS_EVENT } from '../lib/progress'
 
 const TOTAL_PAGES = 8
 
 export default function TopBar({ currentPage, sectionTitle, totalItems }) {
+  const router = useRouter()
   const [, setRefresh] = useState(0)
 
   // Re-render when session progress changes (checkbox toggles or form submissions).
@@ -41,7 +43,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
       ? 'Building your foundation'
       : "Let's get started"
 
-  // Reset progress to 0%, and uncheck any visible boxes.
+  // Reset progress to 0%, uncheck any visible boxes, and return to onboarding page 1.
   const handleStartOver = () => {
     resetProgress()
     document.querySelectorAll('.page-checkbox').forEach((cb) => {
@@ -49,6 +51,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
       cb.disabled = false
       cb.style.opacity = '1'
     })
+    router.push('/page/1')
   }
 
   return (
