@@ -110,98 +110,100 @@ export default async function handler(req, res) {
 
     let response = null
 
+    // Retry transient Google Sheets failures (rate limits / brief unavailability)
+    // with growing backoff. Real submissions succeed on the first try; this only
+    // matters when many writes land in a short window.
+    const withRetry = async (fn, attempts = 5) => {
+      let lastErr
+      for (let i = 0; i < attempts; i++) {
+        try {
+          return await fn()
+        } catch (e) {
+          lastErr = e
+          await new Promise((r) => setTimeout(r, 600 * (i + 1)))
+        }
+      }
+      throw lastErr
+    }
+
     // Only append to Google Sheets if configured
     if (auth) {
+      // 1) Save the form data to its detail tab. If this ultimately fails, surface
+      //    an error so the agent can retry — never silently report success.
       try {
-        console.log('Appending to sheet:', sheetName, 'with', values.length, 'rows')
-        response = await sheets.spreadsheets.values.append({
-          auth,
-          spreadsheetId,
-          range: `${sheetName}!A:Z`,
-          valueInputOption: 'USER_ENTERED',
-          requestBody: {
-            values,
-          },
-        })
-        console.log('Sheet append successful, updates:', response.data.updates)
-
-        // Update Agent Progress sheet
-        const agentEmail = data.Email || data.email || ''
-        if (agentEmail) {
-          try {
-            // Determine which canonical column header this form maps to.
-            let targetHeader = ''
-            if (formType === 'emergency-contact') {
-              targetHeader = 'EC-Form'
-            } else if (formType === 'bio') {
-              targetHeader = 'Bio'
-            } else if (formType === 'about-you') {
-              targetHeader = 'About-You'
-            }
-
-            if (targetHeader) {
-              const lastCol = lastColumnLetter()
-              let columnIndex = -1
-              let agentRowNumber = -1
-
-              // The agent's row is created by /api/register-agent. Under tight
-              // timing (a form submitted immediately after registering, or two
-              // agents at once) that freshly-appended row may not be visible to
-              // the first read, so retry a few times before giving up. Real
-              // agents fill these forms long after registering and never wait.
-              for (let attempt = 0; attempt < 4; attempt++) {
-                const progressResponse = await sheets.spreadsheets.values.get({
-                  auth,
-                  spreadsheetId,
-                  range: `Agent Progress!A:${lastCol}`,
-                })
-
-                const progressRows = progressResponse.data.values || []
-                const headerRow = progressRows[0] || []
-                columnIndex = resolveColumnIndex(targetHeader, headerRow)
-
-                agentRowNumber = -1
-                for (let i = 1; i < progressRows.length; i++) {
-                  if (progressRows[i] && progressRows[i][3] === agentEmail) {
-                    agentRowNumber = i + 1 // 1-based sheet row
-                    break
-                  }
-                }
-
-                if (agentRowNumber >= 0) break
-                // Wait briefly for the appended row to become visible, then retry.
-                await new Promise((resolve) => setTimeout(resolve, 400))
-              }
-
-              if (agentRowNumber < 0) {
-                console.warn(
-                  `submit-form: agent row for ${agentEmail} not found after retries; skipped ${targetHeader} mark`
-                )
-              }
-
-              // Update the column only if both the column and the agent row resolved.
-              if (columnIndex >= 0 && agentRowNumber >= 0) {
-                const columnLetter = columnIndexToLetter(columnIndex)
-                const updateRange = `Agent Progress!${columnLetter}${agentRowNumber}`
-                await sheets.spreadsheets.values.update({
-                  auth,
-                  spreadsheetId,
-                  range: updateRange,
-                  valueInputOption: 'USER_ENTERED',
-                  requestBody: {
-                    values: [['✓']],
-                  },
-                })
-              }
-            }
-          } catch (progressError) {
-            console.error('Agent Progress update error:', progressError)
-            // Don't fail the entire request if progress update fails
-          }
-        }
+        response = await withRetry(() =>
+          sheets.spreadsheets.values.append({
+            auth,
+            spreadsheetId,
+            range: `${sheetName}!A:Z`,
+            valueInputOption: 'USER_ENTERED',
+            requestBody: { values },
+          })
+        )
       } catch (sheetsError) {
-        console.error('Google Sheets error:', sheetsError.message)
-        // Continue anyway - form was submitted even if we couldn't save it
+        console.error('Google Sheets append failed after retries:', sheetsError.message)
+        return res.status(502).json({
+          error: 'Could not save your form right now. Please try again.',
+          message: sheetsError.message,
+        })
+      }
+
+      // 2) Mark the matching Agent Progress column. Non-fatal — the data is saved.
+      const agentEmail = data.Email || data.email || ''
+      let targetHeader = ''
+      if (formType === 'emergency-contact') targetHeader = 'EC-Form'
+      else if (formType === 'bio') targetHeader = 'Bio'
+      else if (formType === 'about-you') targetHeader = 'About-You'
+
+      if (agentEmail && targetHeader) {
+        try {
+          const lastCol = lastColumnLetter()
+          let columnIndex = -1
+          let agentRowNumber = -1
+
+          // The agent row is created by register-agent; under tight timing it may
+          // not be visible to the first read, so retry the lookup.
+          for (let attempt = 0; attempt < 8; attempt++) {
+            const progressResponse = await withRetry(() =>
+              sheets.spreadsheets.values.get({
+                auth,
+                spreadsheetId,
+                range: `Agent Progress!A:${lastCol}`,
+              })
+            )
+            const progressRows = progressResponse.data.values || []
+            columnIndex = resolveColumnIndex(targetHeader, progressRows[0] || [])
+            agentRowNumber = -1
+            for (let i = 1; i < progressRows.length; i++) {
+              if (progressRows[i] && progressRows[i][3] === agentEmail) {
+                agentRowNumber = i + 1
+                break
+              }
+            }
+            if (agentRowNumber >= 0) break
+            await new Promise((resolve) => setTimeout(resolve, 600))
+          }
+
+          if (columnIndex >= 0 && agentRowNumber >= 0) {
+            const columnLetter = columnIndexToLetter(columnIndex)
+            await withRetry(() =>
+              sheets.spreadsheets.values.update({
+                auth,
+                spreadsheetId,
+                range: `Agent Progress!${columnLetter}${agentRowNumber}`,
+                valueInputOption: 'USER_ENTERED',
+                requestBody: { values: [['✓']] },
+              })
+            )
+          } else {
+            console.warn(
+              `submit-form: agent row for ${agentEmail} not found after retries; skipped ${targetHeader} mark`
+            )
+          }
+        } catch (progressError) {
+          console.error('Agent Progress update error:', progressError)
+          // Non-fatal: the form data is already saved.
+        }
       }
     }
 
