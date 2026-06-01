@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { getPercentage, PROGRESS_EVENT } from '../lib/progress'
+import { getPercentage, resetProgress, PROGRESS_EVENT } from '../lib/progress'
 
 const TOTAL_PAGES = 8
 
@@ -28,6 +28,16 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
 
   // Session progress: completed items out of the build-time total (resets on reload).
   const percentage = getPercentage(totalItems)
+
+  // Reset the bar to 0% without a page refresh, and uncheck any visible boxes.
+  const handleStartOver = () => {
+    resetProgress()
+    document.querySelectorAll('.page-checkbox').forEach((cb) => {
+      cb.checked = false
+      cb.disabled = false
+      cb.style.opacity = '1'
+    })
+  }
 
   return (
     <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 pt-3 pb-1 md:pt-6 md:pb-1">
@@ -85,7 +95,17 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
                 Orientation →
               </Link>
             )}
-            <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
+            <div className="flex items-center gap-2">
+              <span className="text-xs md:text-sm font-bold text-brand-coral">{percentage.toFixed(0)}%</span>
+              <button
+                type="button"
+                onClick={handleStartOver}
+                title="Reset progress to 0% (this session only)"
+                className="text-xxs text-brand-taupe hover:text-brand-coral underline transition-colors whitespace-nowrap"
+              >
+                Start over
+              </button>
+            </div>
           </div>
         </div>
 
