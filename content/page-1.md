@@ -23,7 +23,7 @@ And we think you're going to appreciate the difference.
 
 Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome message explaining who we are and what to expect.
 
-<iframe width="60%" height="450" src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 400px; display: block; margin: 0 auto;"></iframe>
+<iframe src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
 
 ## Your Activation Path
