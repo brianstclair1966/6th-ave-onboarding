@@ -40,7 +40,7 @@ Life happens — if you can't make a meeting, let your Brokerage Manager know ah
 
 - Know and follow your **[TREC license requirements](https://www.trec.texas.gov/renew-license/real-estate-sales-agent)** (SAE within your first two years; continuing education every renewal).
 - Get all **[CDA / compliance checklist](https://www.6thavehomesagents.com/compliance-cda-process)** items to the Transaction Coordinator **at least 7 days before closing** so you get paid on time.
-- Follow TREC advertising and IABS display rules, and be familiar with our **[Policies & Procedures](https://static1.squarespace.com/static/63769174e6778950255aed67/t/64bfee5cc12af321169eaa83/1690299996708/6th+Ave+Homes+Policies+%26+Procedures.pdf)**.
+- Follow TREC advertising and IABS display rules, and be familiar with our **[Policies & Procedures](https://drive.google.com/file/d/19go9A0reuKBX10-EhZCCwh3oqI4K9WIe/view?usp=sharing)**.
 
 ## Where to Get Help
 
@@ -57,13 +57,6 @@ Life happens — if you can't make a meeting, let your Brokerage Manager know ah
 - **Docusign** — E-signatures (full-time agents)
 
 Each tool has a job. Use them that way.
-
-## Read the Full Picture
-
-- **[Guide Role & Expectations](https://www.6thavehomesagents.com/guide-role-and-expectations)** — the complete expectations (meetings, splits, database, marketing, clients, and more)
-- **[Policies & Procedures](https://static1.squarespace.com/static/63769174e6778950255aed67/t/64bfee5cc12af321169eaa83/1690299996708/6th+Ave+Homes+Policies+%26+Procedures.pdf)**
-- **[CDA & Compliance Process](https://www.6thavehomesagents.com/compliance-cda-process)**
-- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)**
 
 **Next: Page 7** — How support works at 6th Ave.
 
