@@ -366,6 +366,18 @@ export default function AboutYouForm() {
             }`}
             placeholder="e.g., 1w2, 3w2, 5w4..."
           />
+          <p className="text-sm text-brand-taupe mt-2">
+            Never taken the Enneagram or don't remember your type?{' '}
+            <a
+              href="https://enneagramtest.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-coral underline hover:text-brand-coral/80"
+            >
+              Go here
+            </a>{' '}
+            to take the survey. Come back here once you have your Enneagram type.
+          </p>
           {errors.enneagram && (
             <p className="text-red-600 text-sm mt-1">{errors.enneagram}</p>
           )}

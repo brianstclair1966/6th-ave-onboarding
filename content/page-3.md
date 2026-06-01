@@ -51,7 +51,13 @@ See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-cl
 
 <!-- FORM:about_you -->
 
-### **Part C: Update Your Online Presence**
+### **Part C: Culture Index**
+
+Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Please take the Culture Index by clicking this link: [Culture Index](https://surveys.cultureindex.com/s/dsK5s9LYO8/78525).
+
+After you've completed the Culture Index survey, come back here to continue your onboarding.
+
+### **Part D: Update Your Online Presence**
 
 We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**.
 
