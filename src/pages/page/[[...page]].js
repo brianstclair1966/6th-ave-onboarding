@@ -9,6 +9,7 @@ import AgentInfoForm from '../../components/AgentInfoForm'
 import EmergencyContactForm from '../../components/EmergencyContactForm'
 import BioForm from '../../components/BioForm'
 import AboutYouForm from '../../components/AboutYouForm'
+import SummaryDownload from '../../components/SummaryDownload'
 import * as progress from '../../lib/progress'
 
 const TOTAL_PAGES = 8
@@ -262,6 +263,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle} totalItems={totalItems}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         {renderPageContent()}
+        {pageNumber === 8 && <SummaryDownload totalItems={totalItems} />}
       </main>
 
       <Navigation
