@@ -57,6 +57,8 @@ Because culture is a big part of the 6th Ave Homes business model, we use a prog
 
 After you've completed the Culture Index survey, come back here to continue your onboarding.
 
+- [ ] I completed Culture Index
+
 ### **Part D: Update Your Online Presence**
 
 We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**.

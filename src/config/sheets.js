@@ -68,6 +68,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'Systems',              // AC (28) page 8 checkbox
   'Reputation',           // AD (29) page 8 checkbox
   'Principles',           // AE (30) page 8 checkbox
+  'Culture Index',        // AF (31) page 3 checkbox (Culture Index survey)
 ]
 
 // 0-based column index of the Welcome column, set at registration time.
@@ -111,6 +112,7 @@ export function getCheckpointTargetHeader(checkpointLabel) {
   // "ica" also appears inside "communication", so require an ICA-specific cue.
   if (n.includes('ica') && (n.includes('email') || n.includes('sign'))) return 'IC-Agree'
   if (n.includes('profiles')) return 'Profiles'
+  if (n.includes('culture index')) return 'Culture Index'
 
   // --- Page 4 ---
   if (n.includes('iabs')) return 'IABS'
