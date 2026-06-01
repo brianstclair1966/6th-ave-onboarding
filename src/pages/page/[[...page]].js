@@ -90,7 +90,8 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
   const [agentInfo, setAgentInfo] = useState(null)
 
   useEffect(() => {
-    // Load agent info from localStorage
+    // Load agent info from localStorage. Re-read on every page so registration
+    // done on page 1 is picked up after client-side navigation (no full reload).
     const stored = localStorage.getItem('agentInfo')
     if (stored) {
       try {
@@ -99,7 +100,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
         console.error('Error parsing agent info:', e)
       }
     }
-  }, [])
+  }, [pageNumber])
 
   useEffect(() => {
     // Wire up checkpoint logging to all checkboxes
@@ -122,7 +123,17 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       if (e.target.checked) progress.markDone(id)
       else progress.markUndone(id)
 
-      if (e.target.checked && agentInfo) {
+      // Read the latest registration straight from localStorage — the captured
+      // `agentInfo` state can be stale after client-side navigation from page 1.
+      let liveAgent = agentInfo
+      try {
+        const stored = localStorage.getItem('agentInfo')
+        if (stored) liveAgent = JSON.parse(stored)
+      } catch (err) {
+        /* fall back to state */
+      }
+
+      if (e.target.checked && liveAgent) {
         const checkpointLabel = e.target.getAttribute('data-label')
 
         try {
@@ -133,9 +144,9 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              firstName: agentInfo.firstName,
-              lastName: agentInfo.lastName,
-              email: agentInfo.email,
+              firstName: liveAgent.firstName,
+              lastName: liveAgent.lastName,
+              email: liveAgent.email,
               checkpointLabel: checkpointLabel,
               pageNumber: pageNumber,
             }),
