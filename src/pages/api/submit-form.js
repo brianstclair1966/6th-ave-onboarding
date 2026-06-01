@@ -141,23 +141,42 @@ export default async function handler(req, res) {
 
             if (targetHeader) {
               const lastCol = lastColumnLetter()
-              // Read header row + agent rows to resolve column by NAME and find the agent.
-              const progressResponse = await sheets.spreadsheets.values.get({
-                auth,
-                spreadsheetId,
-                range: `Agent Progress!A:${lastCol}`,
-              })
-
-              const progressRows = progressResponse.data.values || []
-              const headerRow = progressRows[0] || []
-              const columnIndex = resolveColumnIndex(targetHeader, headerRow)
-
+              let columnIndex = -1
               let agentRowNumber = -1
-              for (let i = 1; i < progressRows.length; i++) {
-                if (progressRows[i] && progressRows[i][3] === agentEmail) {
-                  agentRowNumber = i + 1 // 1-based sheet row
-                  break
+
+              // The agent's row is created by /api/register-agent. Under tight
+              // timing (a form submitted immediately after registering, or two
+              // agents at once) that freshly-appended row may not be visible to
+              // the first read, so retry a few times before giving up. Real
+              // agents fill these forms long after registering and never wait.
+              for (let attempt = 0; attempt < 4; attempt++) {
+                const progressResponse = await sheets.spreadsheets.values.get({
+                  auth,
+                  spreadsheetId,
+                  range: `Agent Progress!A:${lastCol}`,
+                })
+
+                const progressRows = progressResponse.data.values || []
+                const headerRow = progressRows[0] || []
+                columnIndex = resolveColumnIndex(targetHeader, headerRow)
+
+                agentRowNumber = -1
+                for (let i = 1; i < progressRows.length; i++) {
+                  if (progressRows[i] && progressRows[i][3] === agentEmail) {
+                    agentRowNumber = i + 1 // 1-based sheet row
+                    break
+                  }
                 }
+
+                if (agentRowNumber >= 0) break
+                // Wait briefly for the appended row to become visible, then retry.
+                await new Promise((resolve) => setTimeout(resolve, 400))
+              }
+
+              if (agentRowNumber < 0) {
+                console.warn(
+                  `submit-form: agent row for ${agentEmail} not found after retries; skipped ${targetHeader} mark`
+                )
               }
 
               // Update the column only if both the column and the agent row resolved.
