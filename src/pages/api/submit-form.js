@@ -137,6 +137,7 @@ export default async function handler(req, res) {
             spreadsheetId,
             range: `${sheetName}!A:Z`,
             valueInputOption: 'USER_ENTERED',
+            insertDataOption: 'INSERT_ROWS',
             requestBody: { values },
           })
         )

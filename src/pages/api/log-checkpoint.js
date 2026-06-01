@@ -134,6 +134,7 @@ export default async function handler(req, res) {
         spreadsheetId: sheetId,
         range: `Agent Progress!A:${lastCol}`,
         valueInputOption: 'USER_ENTERED',
+        insertDataOption: 'INSERT_ROWS',
         requestBody: { values: [newRow] },
       })
 
