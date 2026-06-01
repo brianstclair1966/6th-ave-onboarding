@@ -44,7 +44,7 @@ Our brand identity, how to market yourself authentically, and content standards.
 
 **Review these when you can** — there's no deadline and no test, but this foundation will change how you operate.
 
-- [ ] I have reviewed the three training sessions
+- [ ] I reviewed the three Guide training sessions
 
 
 ## What Success Looks Like

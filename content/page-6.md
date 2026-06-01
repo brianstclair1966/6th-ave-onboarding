@@ -43,9 +43,9 @@ Each tool has a job. Use them that way.
 
 ## Next Steps
 
-- [ ] Bookmark the Backsite resources above
-- [ ] Spend 15 minutes exploring Slack
-- [ ] Identify 20 people from your sphere you want to stay connected to
-- [ ] Read this page again in your first week. You'll notice different things.
+- [ ] I bookmarked the Backsite resources
+- [ ] I spent 15 minutes exploring Slack
+- [ ] I identified 20 people from my sphere to stay connected to
+- [ ] I commit to re-reading this page in my first week
 
 Please check the boxes above when you're ready to move to Page 7.

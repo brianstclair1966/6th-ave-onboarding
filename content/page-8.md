@@ -159,10 +159,10 @@ You're going to do good work here.
 
 ## Next Steps
 
-- [ ] Identify one client situation coming up where you'll practice staying calm and communicating clearly
-- [ ] Join the #guides Slack channel and introduce yourself
-- [ ] Commit to one consistent action this week (follow-up call, coffee meeting, visibility moment)
-- [ ] Review the entire onboarding in your first month. The layers will become clearer.
+- [ ] I commit to naming one client situation where I'll practice staying calm and communicating clearly
+- [ ] I commit to joining the #guides Slack channel and introducing myself
+- [ ] I commit to one consistent action this week (a follow-up call, coffee, or visibility moment)
+- [ ] I commit to reviewing the entire onboarding in my first month
 
 You've completed your onboarding and orientation.
 

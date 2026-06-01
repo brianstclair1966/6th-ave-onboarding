@@ -98,9 +98,9 @@ That changes how sustainable this career actually is.
 
 ## Next Steps
 
-- [ ] Bookmark the Slack #guides channel and introduce yourself
-- [ ] Save Brian's number: (817) 360-5555 — He prefers questions start in Slack so the team can learn together, but he genuinely wants you to succeed and has your back when needed.
-- [ ] Identify one thing you're nervous about and commit to asking about it this week
-- [ ] Review this page again in your first month. It'll land differently.
+- [ ] I commit to bookmarking the Slack #guides channel and introducing myself
+- [ ] I saved Brian's number — (817) 360-5555 — and know to start questions in Slack
+- [ ] I commit to naming one thing I'm nervous about and asking about it this week
+- [ ] I commit to reviewing this page again in my first month
 
 Please check the boxes above when you're ready to move to Page 8.

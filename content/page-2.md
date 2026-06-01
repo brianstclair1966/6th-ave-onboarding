@@ -24,7 +24,7 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 
 **Why it matters:** TREC licensing under 6th Ave is your legal foundation for operating in Texas. You can't access the MLS without it.
 
-- [ ] I will accept the TREC sponsorship request
+- [ ] I completed my TREC sponsorship request
 
 
 ## ③ Join Your Realtor Association
@@ -61,7 +61,7 @@ Once approved, order your SUPRA key and download eKEY.
 
 [**Go to Unlock MLS →**](https://www.unlockmls.com/)
 
-- [ ] I joined my Realtor Association and completed MLS requirements
+- [ ] I completed my Realtor Association and MLS requirements
 
 
 ## What's Next

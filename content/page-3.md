@@ -22,7 +22,7 @@ You manage your own business:
 **What to expect:**
 Review it, sign it, click "finish" and you're good to go!
 
-- [ ] I understand that I will receive the ICA through email & I will sign it then.
+- [ ] I understand I'll receive and sign my ICA by email
 
 
 ## ⑤ Build Your Professional Presence
@@ -59,7 +59,7 @@ You can use one of these logo versions in your profiles:
 - [**Main Logo (Dark Background)**](https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing)
 - [**Main Logo (White Background)**](https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing)
 
-- [ ] I updated my online profiles with 6th Ave branding
+- [ ] I completed updating my online profiles with 6th Ave branding
 
 
 ## Why This Matters

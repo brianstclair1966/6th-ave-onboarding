@@ -124,7 +124,7 @@ export function getCheckpointTargetHeader(checkpointLabel) {
   if (n.includes('backsite')) return 'Backsite'
   if (n.includes('slack') && n.includes('exploring')) return 'Slack'
   if (n.includes('20 people') || (n.includes('people') && n.includes('sphere'))) return 'Connections'
-  if (n.includes('read this page again')) return 'Review'
+  if (n.includes('this page') && n.includes('first week')) return 'Review'
 
   // --- Page 7 ---
   if (n.includes('early communication')) return 'Early Communication'
