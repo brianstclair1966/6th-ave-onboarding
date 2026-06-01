@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
-import useCheckboxState from '../hooks/useCheckboxState'
+import { markDone } from '../lib/progress'
 
 export default function EmergencyContactForm() {
-  const { toggle } = useCheckboxState(2)
   const [formData, setFormData] = useState({
     trecLicenseNumber: '',
     licenseExpiry: '',
@@ -153,19 +152,8 @@ export default function EmergencyContactForm() {
         throw new Error(errorData.error || 'Failed to submit form')
       }
 
-      // Auto-check the corresponding checkbox
-      toggle(2, 0)
-
-      // Mark form as completed for percentage calculation
-      try {
-        const completedForms = JSON.parse(localStorage.getItem('completedForms_v1') || '{}')
-        completedForms.emergencyContact = true
-        localStorage.setItem('completedForms_v1', JSON.stringify(completedForms))
-        // Dispatch event so TopBar re-renders
-        window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'emergencyContact' } }))
-      } catch (e) {
-        console.warn('Failed to mark emergency contact form as completed:', e)
-      }
+      // Mark this form complete for the session progress bar.
+      markDone('form:emergency')
 
       setSubmitted(true)
       setIsDisabled(true)

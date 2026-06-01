@@ -9,8 +9,26 @@ import AgentInfoForm from '../../components/AgentInfoForm'
 import EmergencyContactForm from '../../components/EmergencyContactForm'
 import BioForm from '../../components/BioForm'
 import AboutYouForm from '../../components/AboutYouForm'
+import * as progress from '../../lib/progress'
 
 const TOTAL_PAGES = 8
+// Forms that count toward the progress bar (page 1 agent info + the 3 page 2-3 forms).
+const TOTAL_FORMS = 4
+
+// Count every `- [ ]` checkbox across all onboarding pages at build time, so the
+// progress denominator stays correct automatically if checkboxes are added/removed.
+function countAllCheckboxes() {
+  let total = 0
+  for (let i = 1; i <= TOTAL_PAGES; i++) {
+    try {
+      const txt = fs.readFileSync(path.join(process.cwd(), 'content', `page-${i}.md`), 'utf-8')
+      total += (txt.match(/^- \[ \] /gm) || []).length
+    } catch (e) {
+      /* page file missing — skip */
+    }
+  }
+  return total
+}
 
 function renderMarkdown(content) {
   let html = content
@@ -67,7 +85,7 @@ function renderMarkdown(content) {
   return html
 }
 
-export default function PageComponent({ pageNumber, content, sectionTitle }) {
+export default function PageComponent({ pageNumber, content, sectionTitle, totalItems }) {
   const router = useRouter()
   const [agentInfo, setAgentInfo] = useState(null)
 
@@ -87,8 +105,23 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
     // Wire up checkpoint logging to all checkboxes
     const checkboxes = document.querySelectorAll('.page-checkbox')
 
+    const idFor = (target) =>
+      `cb:${pageNumber}:${Array.from(document.querySelectorAll('.page-checkbox')).indexOf(target)}`
+
+    // Restore this session's checked state when revisiting a page (keeps the
+    // checkboxes visually consistent with the progress bar within a session).
+    checkboxes.forEach((checkbox, index) => {
+      if (progress.isDone(`cb:${pageNumber}:${index}`)) checkbox.checked = true
+    })
+
     // Create handler function that can be properly removed later
     const handleCheckboxChange = async (e) => {
+      const id = idFor(e.target)
+
+      // Update the progress bar immediately (works with or without registration).
+      if (e.target.checked) progress.markDone(id)
+      else progress.markUndone(id)
+
       if (e.target.checked && agentInfo) {
         const checkpointLabel = e.target.getAttribute('data-label')
 
@@ -118,6 +151,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
           e.target.checked = false
           e.target.disabled = false
           e.target.style.opacity = '1'
+          progress.markUndone(id)
           alert('Failed to save checkpoint. Please try again.')
         }
       }
@@ -208,7 +242,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle }) {
   }
 
   return (
-    <Page pageNumber={pageNumber} sectionTitle={sectionTitle}>
+    <Page pageNumber={pageNumber} sectionTitle={sectionTitle} totalItems={totalItems}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         {renderPageContent()}
       </main>
@@ -240,6 +274,7 @@ export async function getStaticProps({ params }) {
       pageNumber,
       content: htmlContent,
       sectionTitle: data.description || null,
+      totalItems: countAllCheckboxes() + TOTAL_FORMS,
     },
     revalidate: 3600,
   }

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { markDone } from '../lib/progress'
 
 export default function AgentInfoForm() {
   const [formData, setFormData] = useState({
@@ -86,12 +87,8 @@ export default function AgentInfoForm() {
       // Don't block the UI if registration fails - agent info is still in localStorage
     }
 
-    // Dispatch event so TopBar re-renders and recalculates percentage
-    try {
-      window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'agentInfo' } }))
-    } catch (error) {
-      console.warn('Failed to dispatch checkbox state update:', error)
-    }
+    // Mark registration complete for the session progress bar.
+    markDone('form:agentInfo')
 
     setSubmitted(true)
 

@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
-import useCheckboxState from '../hooks/useCheckboxState'
+import { markDone } from '../lib/progress'
 
 export default function BioForm({ agentInfo: propAgentInfo }) {
-  const { toggle } = useCheckboxState(3)
   const [bio, setBio] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -59,19 +58,8 @@ export default function BioForm({ agentInfo: propAgentInfo }) {
         throw new Error('Failed to submit bio')
       }
 
-      // Auto-check the corresponding checkbox
-      toggle(3, 0)
-
-      // Mark form as completed for percentage calculation
-      try {
-        const completedForms = JSON.parse(localStorage.getItem('completedForms_v1') || '{}')
-        completedForms.bio = true
-        localStorage.setItem('completedForms_v1', JSON.stringify(completedForms))
-        // Dispatch event so TopBar re-renders
-        window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'bio' } }))
-      } catch (e) {
-        console.warn('Failed to mark bio form as completed:', e)
-      }
+      // Mark this form complete for the session progress bar.
+      markDone('form:bio')
 
       setSubmitted(true)
       setIsDisabled(true)

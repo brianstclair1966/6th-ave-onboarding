@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
-import useCheckboxState from '../hooks/useCheckboxState'
+import { markDone } from '../lib/progress'
 
 export default function AboutYouForm() {
-  const { toggle } = useCheckboxState(3)
   const [formData, setFormData] = useState({
     beverage: '',
     currentObsession: '',
@@ -136,19 +135,8 @@ export default function AboutYouForm() {
         throw new Error(errorData.error || 'Failed to submit form')
       }
 
-      // Auto-check the corresponding checkbox
-      toggle(3, 1)
-
-      // Mark form as completed for percentage calculation
-      try {
-        const completedForms = JSON.parse(localStorage.getItem('completedForms_v1') || '{}')
-        completedForms.aboutYou = true
-        localStorage.setItem('completedForms_v1', JSON.stringify(completedForms))
-        // Dispatch event so TopBar re-renders
-        window.dispatchEvent(new CustomEvent('checkboxStateUpdated', { detail: { formType: 'aboutYou' } }))
-      } catch (e) {
-        console.warn('Failed to mark about you form as completed:', e)
-      }
+      // Mark this form complete for the session progress bar.
+      markDone('form:about')
 
       setSubmitted(true)
       setIsDisabled(true)

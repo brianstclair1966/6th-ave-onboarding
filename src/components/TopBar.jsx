@@ -1,24 +1,22 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import useCheckboxState from '../hooks/useCheckboxState'
+import { getPercentage, PROGRESS_EVENT } from '../lib/progress'
 
 const TOTAL_PAGES = 8
 
-export default function TopBar({ currentPage, sectionTitle }) {
-  const { getCompletionPercentage } = useCheckboxState(currentPage)
+export default function TopBar({ currentPage, sectionTitle, totalItems }) {
   const [, setRefresh] = useState(0)
 
-  // Re-render when checkbox state is updated (triggered by form submissions or checkbox toggles)
+  // Re-render when session progress changes (checkbox toggles or form submissions).
   useEffect(() => {
-    const handleCheckboxUpdate = () => {
+    const handleProgressUpdate = () => {
       setRefresh(prev => prev + 1)
     }
 
-    // Listen for checkbox state updates
-    window.addEventListener('checkboxStateUpdated', handleCheckboxUpdate)
+    window.addEventListener(PROGRESS_EVENT, handleProgressUpdate)
 
     return () => {
-      window.removeEventListener('checkboxStateUpdated', handleCheckboxUpdate)
+      window.removeEventListener(PROGRESS_EVENT, handleProgressUpdate)
     }
   }, [])
 
@@ -28,8 +26,8 @@ export default function TopBar({ currentPage, sectionTitle }) {
   const displayTotalPages = isOrientation ? 3 : 5
   const systemStartPage = isOrientation ? 6 : 1
 
-  // Calculate percentage based on checkboxes checked
-  const percentage = getCompletionPercentage()
+  // Session progress: completed items out of the build-time total (resets on reload).
+  const percentage = getPercentage(totalItems)
 
   return (
     <div className="fixed top-24 md:top-28 left-0 right-0 z-40 bg-white border-b border-gray-100 pt-3 pb-1 md:pt-6 md:pb-1">
