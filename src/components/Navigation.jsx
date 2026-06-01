@@ -29,6 +29,13 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nex
             >
               {pageNumber === 5 ? 'Go to Orientation →' : pageNumber === 6 ? 'Page 7 →' : pageNumber === 7 ? 'Page 8 →' : 'Next →'}
             </button>
+          ) : nextDisabled ? (
+            <span
+              className="px-10 py-3 bg-gray-300 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm cursor-not-allowed"
+              title="Complete every checkbox on this page first"
+            >
+              Enter the Backsite →
+            </span>
           ) : (
             <a
               href="https://www.6thavehomesagents.com"

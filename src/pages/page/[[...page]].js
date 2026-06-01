@@ -16,6 +16,9 @@ const TOTAL_PAGES = 8
 // Forms that count toward the progress bar (page 1 agent info + the 3 page 2-3 forms).
 const TOTAL_FORMS = 4
 
+// Forms (by progress-store id) that must be submitted to complete each page.
+const PAGE_FORMS = { 2: ['form:emergency'], 3: ['form:bio', 'form:about'] }
+
 // Count every `- [ ]` checkbox across all onboarding pages at build time, so the
 // progress denominator stays correct automatically if checkboxes are added/removed.
 function countAllCheckboxes() {
@@ -95,6 +98,7 @@ function renderMarkdown(content) {
 export default function PageComponent({ pageNumber, content, sectionTitle, totalItems }) {
   const router = useRouter()
   const [agentInfo, setAgentInfo] = useState(null)
+  const [pageComplete, setPageComplete] = useState(false)
 
   useEffect(() => {
     // Load agent info from localStorage. Re-read on every page so registration
@@ -145,6 +149,21 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     checkboxes.forEach((checkbox, index) => {
       if (progress.isDone(`cb:${pageNumber}:${index}`)) checkbox.checked = true
     })
+
+    // A page is "complete" (and Next unlocks) when every form on the page has been
+    // submitted AND every checkbox on the page is checked. Page 1 just needs
+    // registration. External links don't count — only on-page boxes and forms.
+    const evaluateComplete = () => {
+      if (pageNumber === 1) {
+        setPageComplete(!!localStorage.getItem('agentInfo'))
+        return
+      }
+      const requiredForms = PAGE_FORMS[pageNumber] || []
+      const formsDone = requiredForms.every((id) => progress.isDone(id))
+      const allBoxes = Array.from(document.querySelectorAll('.page-checkbox'))
+      setPageComplete(formsDone && allBoxes.every((cb) => cb.checked))
+    }
+    evaluateComplete()
 
     // Create handler function that can be properly removed later
     const handleCheckboxChange = async (e) => {
@@ -204,11 +223,16 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       checkbox.addEventListener('change', handleCheckboxChange)
     })
 
+    // Re-evaluate the page-complete gate on any progress change — a checkbox
+    // toggle or a form submission (forms are separate components that fire this).
+    window.addEventListener(progress.PROGRESS_EVENT, evaluateComplete)
+
     // Cleanup: properly remove listeners using the same handler reference
     return () => {
       checkboxes.forEach(checkbox => {
         checkbox.removeEventListener('change', handleCheckboxChange)
       })
+      window.removeEventListener(progress.PROGRESS_EVENT, evaluateComplete)
     }
   }, [agentInfo, pageNumber])
 
@@ -219,8 +243,8 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
   }
 
   const handleNext = () => {
-    // Page 1 registration is required before continuing; checkboxes stay voluntary.
-    if (pageNumber === 1 && !agentInfo) return
+    // Every checkbox and form on the page must be complete before advancing.
+    if (!pageComplete) return
     if (pageNumber < TOTAL_PAGES) {
       router.push(`/page/${pageNumber + 1}`)
     }
@@ -288,9 +312,11 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         {renderPageContent()}
         {pageNumber === 8 && <SummaryDownload totalItems={totalItems} />}
-        {pageNumber === 1 && !agentInfo && (
+        {!pageComplete && (
           <p className="mt-6 text-center text-sm font-semibold text-brand-coral">
-            Please save your name and email above before continuing.
+            {pageNumber === 1
+              ? 'Please save your name and email above before continuing.'
+              : 'Please complete every checkbox and form on this page to continue.'}
           </p>
         )}
       </main>
@@ -300,7 +326,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
         onPrev={handlePrev}
         onNext={handleNext}
         totalPages={TOTAL_PAGES}
-        nextDisabled={pageNumber === 1 && !agentInfo}
+        nextDisabled={!pageComplete}
       />
     </Page>
   )
