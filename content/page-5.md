@@ -57,12 +57,14 @@ These all live on the 6th Ave backsite at [www.6thavehomesagents.com](https://ww
 
 ## Questions?
 
-Text Brian at **(817) 360-5555** or ask questions on the **#guides** channel on Slack. The #general channel goes to everyone in the company so we try to keep real estate questions on the #guides channel. Be sure to join the **#put-listings-openhouse-here** channel to grab an Open House opportunity soon!
+Our backsite has a wide range of information available to you. If you want a short-cut, the **#guides** channel on Slack should always be your first stop for questions you can't find answers to. Or contact one of our **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)**. Our team has a wide range of real estate backgrounds & experiences, and we're always willing to help each other.
+
+The #general channel goes to everyone in the company so we try to keep real estate questions on the #guides channel. Be sure to join the **#put-listings-openhouse-here** channel to grab an Open House opportunity soon!
 
 Also join **#brokerageannouncements** channel to stay up to date with messages from 6th Ave & the leadership team.
 
 Thanks for walking through all of the steps. We have tried to give you everything you need to get started, but if you feel like something's missing, [let us know](mailto:brian@6thavehomes.com). We'll be happy to answer your question or help you find what you need.
 
-**Welcome to 6th Ave Homes.**
+<p style="color:#ED6758; font-size:2.25rem; font-weight:800; line-height:1.2; margin:0.5rem 0;">Welcome to 6th Ave Homes.</p>
 
-You're going to love being part of our culture & one of our Homies.
+<p style="font-size:1.4rem; font-weight:600; margin:0;">You're going to love being part of our culture & one of our Homies.</p>
