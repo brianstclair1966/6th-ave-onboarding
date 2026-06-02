@@ -14,8 +14,6 @@ A few minutes from Brian on what this next phase is really about — give it a w
 
 <iframe src="https://www.youtube.com/embed/FuPZ3alReFA" title="6th Ave Homes — Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
-This is the short version of what's expected of you as a Guide. The full detail lives in the **[Guide Role & Expectations](https://www.6thavehomesagents.com/guide-role-and-expectations)** document — read it. It's the source of truth for everything below.
-
 ## Meetings
 
 - **Wednesdays at 10am** — weekly team meeting (in person or virtual). We record these on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
