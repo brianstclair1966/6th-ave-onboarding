@@ -151,7 +151,7 @@ export default function AboutYouForm() {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-3xl">
+    <div className="bg-white rounded-lg shadow-md p-6 max-w-5xl">
       <h3 className="text-2xl font-bold text-brand-navy mb-6">All About You</h3>
 
       <p className="text-gray-700 mb-6">
@@ -173,7 +173,7 @@ export default function AboutYouForm() {
       )}
 
       <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-4 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-4 items-start">
         <div>
           <label htmlFor="beverage" className="block text-sm font-semibold text-brand-navy mb-2">
             What's your go-to beverage?

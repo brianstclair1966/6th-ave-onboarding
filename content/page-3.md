@@ -53,10 +53,8 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 **See an example:** [**Brian's bio →**](https://6thavehomes.com/brian-st-clair)
 
 **Write yours by:**
-- Keeping it 150–300 words
-- Sharing your background (where you grew up, what brought you to real estate)
-- Highlighting what makes you different
-- Making it authentic and personal
+
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Keeping it 150–300 words</div><div style="break-inside:avoid; margin-bottom:6px;">• Sharing your background (where you grew up, what brought you to real estate)</div><div style="break-inside:avoid; margin-bottom:6px;">• Highlighting what makes you different</div><div style="break-inside:avoid; margin-bottom:6px;">• Making it authentic and personal</div></div>
 
 **Stuck on where to start? Let AI help.** Open your favorite AI tool (ChatGPT, Claude, Gemini), pull up [Brian's bio](https://6thavehomes.com/brian-st-clair) as an example, and paste a prompt like this:
 
