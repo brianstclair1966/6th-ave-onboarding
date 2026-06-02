@@ -52,7 +52,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'IABS',                 // M  (12) page 4 checkbox
   'Rechat',               // N  (13) page 4 checkbox
   'Realscout',            // O  (14) page 4 checkbox
-  'Training',             // P  (15) page 5 checkbox
+  'Resources',            // P  (15) page 5 checkbox (aware of backsite resources)
   'Backsite',             // Q  (16) page 6 checkbox
   'Slack',                // R  (17) page 6 checkbox (explore Slack)
   'Connections',          // S  (18) page 6 checkbox (20 people from sphere)
@@ -120,7 +120,9 @@ export function getCheckpointTargetHeader(checkpointLabel) {
   if (n.includes('realscout')) return 'Realscout'
 
   // --- Page 5 ---
-  if (n.includes('training') && (n.includes('session') || n.includes('reviewed'))) return 'Training'
+  // New label "I am aware of the resources on the 6th Ave backsite" also
+  // contains "backsite", so this MUST stay above the Page 6 backsite rule.
+  if (n.includes('aware') && n.includes('resources')) return 'Resources'
 
   // --- Page 6 ---
   if (n.includes('backsite')) return 'Backsite'

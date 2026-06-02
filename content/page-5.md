@@ -24,29 +24,6 @@ Your first transactions are the foundation. But growth doesn't happen by acciden
 **A team that scales with you** — Construction, lending, title, and support systems are already in place. You don't have to build vendor relationships in isolation.
 
 
-## Your Guide Training Sessions
-
-These ground you in how we operate. They're resources, not a gated course — work through them at your own pace.
-
-[**→ Go to Guide Training Program**](https://www.6thavehomesagents.com/guide-training-program)
-
-### Session 1: Your Role as a Guide
-
-Our philosophy, your role, and how we build business through authenticity and trust.
-
-### Session 2: Compliance & the CDA Process
-
-How we handle client data, the CDA process, and your responsibilities as a licensed agent.
-
-### Session 3: Brand Standards & Marketing
-
-Our brand identity, how to market yourself authentically, and content standards.
-
-**Review these when you can** — there's no deadline and no test, but this foundation will change how you operate.
-
-- [ ] I reviewed the three Guide training sessions
-
-
 ## What Success Looks Like
 
 After your first 3–6 months, you'll know:
@@ -59,7 +36,7 @@ After your first 3–6 months, you'll know:
 
 ## What's Next
 
-Once you've completed the 8 steps and these training sessions, your MLS will be active, systems will be set up, and you're ready to list your first property.
+Once you've completed the 8 steps, your MLS will be active, systems will be set up, and you're ready to list your first property.
 
 But the real work isn't the systems. It's the mindset shift: from "I need to know everything" to "I know how to find the answer." That's what this next phase teaches you.
 
@@ -69,13 +46,22 @@ But the real work isn't the systems. It's the mindset shift: from "I need to kno
 
 ---
 
-## Your Main References
+## Your Main Resources
 
-- [Mission & Values](https://www.6thavehomesagents.com/mission-and-values)
+These all live on the 6th Ave backsite. You don't need to read them all today — just know they're here, and bookmark the ones you'll come back to.
+
+- [Backsite Home](https://www.6thavehomesagents.com/backsite-landing-page) — the hub for everything below
+- [Mission, Vision & Core Values](https://www.6thavehomesagents.com/mission-and-values)
+- [Logos, Brand Standards & Colors](https://www.6thavehomesagents.com/logos-and-brand-standards)
+- [Guide Training Program](https://www.6thavehomesagents.com/guide-training-program)
 - [Your 90-Day Roadmap](https://www.dropbox.com/scl/fi/5sll74lw1ydy27cb2hotg/6th-Ave-Homes-Language-Roadmap-05.24.pdf)
-- [CDA & Compliance Process](https://www.6thavehomesagents.com/compliance-cda-process)
-- [Brand Standards & Logos](https://www.6thavehomesagents.com/logos-and-brand-standards)
+- [Canva Pro Account](https://www.6thavehomesagents.com/canva-pro)
+- [Vendors We Like](https://www.6thavehomesagents.com/preferred-vendors)
+- [Good Reads & Links](https://www.6thavehomesagents.com/good-reads)
+- [Make the One-Stop-Shop Work for You](https://www.6thavehomesagents.com/make-the-one-stop-shop-work-for-you)
 - [www.6thavehomesagents.com](https://www.6thavehomesagents.com) — password: "one-stop-shop"
+
+- [ ] I am aware of the resources on the 6th Ave backsite
 
 
 ## Questions?
