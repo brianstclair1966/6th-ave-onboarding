@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react'
-import { markDone } from '../lib/progress'
+import { markDone, isDone } from '../lib/progress'
+
+// Where the in-progress bio draft is stored so a returning agent doesn't lose it.
+const BIO_DRAFT_KEY = 'bioDraft'
 
 export default function BioForm({ agentInfo: propAgentInfo }) {
   const [bio, setBio] = useState('')
@@ -22,6 +25,21 @@ export default function BioForm({ agentInfo: propAgentInfo }) {
       }
     }
   }, [agentInfo])
+
+  // Restore any saved bio draft (and the submitted state) on mount, so an agent
+  // who closed the tab mid-way comes back to their text instead of a blank box.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(BIO_DRAFT_KEY)
+      if (saved) setBio(saved)
+      if (isDone('form:bio')) {
+        setSubmitted(true)
+        setIsDisabled(true)
+      }
+    } catch (e) {
+      /* ignore */
+    }
+  }, [])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -79,7 +97,14 @@ export default function BioForm({ agentInfo: propAgentInfo }) {
       <form onSubmit={handleSubmit}>
         <textarea
           value={bio}
-          onChange={(e) => setBio(e.target.value)}
+          onChange={(e) => {
+            setBio(e.target.value)
+            try {
+              localStorage.setItem(BIO_DRAFT_KEY, e.target.value)
+            } catch (err) {
+              /* storage unavailable — draft just won't persist */
+            }
+          }}
           placeholder="Write your bio here... (150–300 words recommended)"
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-coral resize-none"
           rows="6"

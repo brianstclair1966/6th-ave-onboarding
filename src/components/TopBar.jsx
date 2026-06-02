@@ -51,9 +51,10 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
       cb.disabled = false
       cb.style.opacity = '1'
     })
-    // Also clear the saved business-card pick so the page-3 gate matches the bar.
+    // Also clear the saved business-card pick and bio draft so they match the bar.
     try {
       localStorage.removeItem('businessCardSelection')
+      localStorage.removeItem('bioDraft')
     } catch (e) {
       /* no-op */
     }
