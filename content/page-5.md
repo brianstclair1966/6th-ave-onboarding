@@ -27,11 +27,7 @@ Your first transactions are the foundation. But growth doesn't happen by acciden
 ## What Success Looks Like
 
 After your first 3–6 months, you'll know:
-- How real transactions move through your systems
-- What support actually feels like when it's available
-- How to build a sustainable pipeline (not just close one deal)
-- Who to go to when you're stuck
-- How to ask the right questions
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• How real transactions move through your systems</div><div style="break-inside:avoid; margin-bottom:6px;">• What support actually feels like when it's available</div><div style="break-inside:avoid; margin-bottom:6px;">• How to build a sustainable pipeline (not just close one deal)</div><div style="break-inside:avoid; margin-bottom:6px;">• Who to go to when you're stuck</div><div style="break-inside:avoid; margin-bottom:6px;">• How to ask the right questions</div></div>
 
 
 ## What's Next
