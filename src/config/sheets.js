@@ -53,7 +53,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'Rechat',               // N  (13) page 4 checkbox
   'Realscout',            // O  (14) page 4 checkbox
   'Resources',            // P  (15) page 5 checkbox (aware of backsite resources)
-  'Backsite',             // Q  (16) page 6 checkbox
+  'Mastermind',           // Q  (16) page 6 checkbox (knows weekly Mastermind meeting)
   'Slack',                // R  (17) page 6 checkbox (explore Slack)
   'Connections',          // S  (18) page 6 checkbox (20 people from sphere)
   'Review',               // T  (19) page 6 checkbox (read page again)
@@ -126,7 +126,7 @@ export function getCheckpointTargetHeader(checkpointLabel) {
   if (n.includes('aware') && n.includes('resources')) return 'Resources'
 
   // --- Page 6 ---
-  if (n.includes('backsite')) return 'Backsite'
+  if (n.includes('mastermind')) return 'Mastermind'
   if (n.includes('slack') && n.includes('exploring')) return 'Slack'
   if (n.includes('20 people') || (n.includes('people') && n.includes('sphere'))) return 'Connections'
   if (n.includes('this page') && n.includes('first week')) return 'Review'

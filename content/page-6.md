@@ -16,13 +16,10 @@ A few minutes from Brian on what this next phase is really about — give it a w
 
 ## Meetings
 
-- **Wednesdays at 10am** — weekly team meeting (in person or virtual). We record these on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
-- **1st Wednesday** of the month — agent meeting: wins, market conditions, and industry updates.
-- **Other Wednesdays** — Masterminds, where an experienced agent shares from their toolbelt.
-- **Quarterly All-Team** — last Thursday of the quarter at 11:30am.
-- A **quarterly or semi-annual catch-up** with your Brokerage Manager.
+- **Wednesdays at 9:45am** — Weekly Mastermind Team Meeting at the Fort Worth office. (If you can't make it in person, join us virtually on Google Meet — check your 6th Ave Calendar & join from there!)
+- **Quarterly All-Team** — Last Thursday of each quarter, usually around lunchtime and usually tons of fun!
 
-Life happens — if you can't make a meeting, let your Brokerage Manager know ahead of time.
+Life happens, if you can't make a meeting — it's OK. Our meetings are designed to give you real-time market data & info you can use. But you can always catch up on what you missed on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
 
 ## Production & Responsiveness
 
@@ -31,13 +28,13 @@ Life happens — if you can't make a meeting, let your Brokerage Manager know ah
 
 ## Fees & Lead Structure
 
-- A **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
+- Your **personal split** is agreed to by you & the brokerage director or manager. It is important for you to know that there is a **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
 - **Resource fee: $215/month** for full-time agents. Part-time agents don't pay it — and don't get Rechat, RealScout, or Docusign.
 - **Leads** are split **50/50** (search-portal leads are **65/35** in your favor). Owners and the broker don't take leads — they go to Guides.
 
 ## Your Database & Marketing
 
-- Build and actively use a database of **200+ people** — your 50 VIPs plus all past clients — and reach out about **twice a year**.
+- Build and actively use a database of **100+ people** — your 50 VIPs plus all past clients — and reach out about **4-6 times per year**.
 - Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
 
 ## Compliance & Training
@@ -66,7 +63,7 @@ Each tool has a job. Use them that way.
 
 ## Next Steps
 
-- [ ] I bookmarked the Backsite resources
+- [ ] I know when our weekly Mastermind meeting is and how to join
 - [ ] I spent 15 minutes exploring Slack
 - [ ] I identified 20 people from my sphere to stay connected to
 - [ ] I commit to re-reading this page in my first week
