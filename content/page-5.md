@@ -65,6 +65,6 @@ Also join **#brokerageannouncements** channel to stay up to date with messages f
 
 Thanks for walking through all of the steps. We have tried to give you everything you need to get started, but if you feel like something's missing, [let us know](mailto:brian@6thavehomes.com). We'll be happy to answer your question or help you find what you need.
 
-<p style="color:#ED6758; font-size:2.25rem; font-weight:800; line-height:1.2; margin:0.5rem 0;">Welcome to 6th Ave Homes.</p>
+<p style="color:#ED6758; font-size:2.75rem; font-weight:800; line-height:1.2; text-align:center; margin:2.5rem 0 0.5rem;">Welcome to 6th Ave Homes.</p>
 
-<p style="font-size:1.4rem; font-weight:600; margin:0;">You're going to love being part of our culture & one of our Homies.</p>
+<p style="font-size:1.6rem; font-weight:600; text-align:center; margin:0 0 0.5rem;">You're going to love being part of our culture & one of our Homies.</p>
