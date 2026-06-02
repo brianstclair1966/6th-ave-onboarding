@@ -9,15 +9,21 @@ import AgentInfoForm from '../../components/AgentInfoForm'
 import EmergencyContactForm from '../../components/EmergencyContactForm'
 import BioForm from '../../components/BioForm'
 import AboutYouForm from '../../components/AboutYouForm'
+import BusinessCardPicker from '../../components/BusinessCardPicker'
 import SummaryDownload from '../../components/SummaryDownload'
 import * as progress from '../../lib/progress'
 
 const TOTAL_PAGES = 8
 // Forms that count toward the progress bar (page 1 agent info + the 3 page 2-3 forms).
 const TOTAL_FORMS = 4
+// Single-select items that count toward the progress bar (page 3 business card).
+const TOTAL_SELECTIONS = 1
 
 // Forms (by progress-store id) that must be submitted to complete each page.
 const PAGE_FORMS = { 2: ['form:emergency'], 3: ['form:bio', 'form:about'] }
+
+// Single-select pickers (by progress-store id) required to complete each page.
+const PAGE_SELECTIONS = { 3: ['cards:3'] }
 
 // Count every `- [ ]` checkbox across all onboarding pages at build time, so the
 // progress denominator stays correct automatically if checkboxes are added/removed.
@@ -91,6 +97,8 @@ function renderMarkdown(content) {
 
   // Unwrap form markers from paragraph tags
   html = html.replace(/<p>(<!-- FORM:.*? -->)<\/p>/g, '$1')
+  // Same for the business-card picker marker, so the split stays clean.
+  html = html.replace(/<p>(<!-- CARDS -->)<\/p>/g, '$1')
 
   return html
 }
@@ -160,8 +168,10 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       }
       const requiredForms = PAGE_FORMS[pageNumber] || []
       const formsDone = requiredForms.every((id) => progress.isDone(id))
+      const requiredSelections = PAGE_SELECTIONS[pageNumber] || []
+      const selectionsDone = requiredSelections.every((id) => progress.isDone(id))
       const allBoxes = Array.from(document.querySelectorAll('.page-checkbox'))
-      setPageComplete(formsDone && allBoxes.every((cb) => cb.checked))
+      setPageComplete(formsDone && selectionsDone && allBoxes.every((cb) => cb.checked))
     }
     evaluateComplete()
 
@@ -267,6 +277,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       3: [
         { marker: '<!-- FORM:bio -->', component: <BioForm key="bio" agentInfo={agentInfo} /> },
         { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
+        { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
     }
 
@@ -349,7 +360,7 @@ export async function getStaticProps({ params }) {
       pageNumber,
       content: htmlContent,
       sectionTitle: data.description || null,
-      totalItems: countAllCheckboxes() + TOTAL_FORMS,
+      totalItems: countAllCheckboxes() + TOTAL_FORMS + TOTAL_SELECTIONS,
     },
     revalidate: 3600,
   }

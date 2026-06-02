@@ -51,6 +51,12 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
       cb.disabled = false
       cb.style.opacity = '1'
     })
+    // Also clear the saved business-card pick so the page-3 gate matches the bar.
+    try {
+      localStorage.removeItem('businessCardSelection')
+    } catch (e) {
+      /* no-op */
+    }
     router.push('/page/1')
   }
 

@@ -15,7 +15,7 @@ export const GOOGLE_SHEETS_CONFIG = {
 
   // Column ranges
   ranges: {
-    agentProgress: 'Agent Progress!A:AE',
+    agentProgress: 'Agent Progress!A:AG',
     emergencyContact: 'Emergency Contact!A:Z',
     bioSubmissions: 'Bio Submissions!A:Z',
     aboutYouSubmissions: 'About You Submissions!A:Z',
@@ -69,6 +69,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'Reputation',           // AD (29) page 8 checkbox
   'Principles',           // AE (30) page 8 checkbox
   'Culture Index',        // AF (31) page 3 checkbox (Culture Index survey)
+  'Business Card',        // AG (32) page 3 single-select (which card design to order)
 ]
 
 // 0-based column index of the Welcome column, set at registration time.
