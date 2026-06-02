@@ -61,7 +61,9 @@ Each tool has a job. Use them that way.
 
 ## Next Steps
 
+<div class="cb-2col">
 - [ ] I know when our weekly Mastermind meeting is and how to join
 - [ ] I spent 15 minutes exploring Slack
 - [ ] I identified 20 people from my sphere to stay connected to
 - [ ] I commit to re-reading this page in my first week
+</div>
