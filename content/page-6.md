@@ -31,7 +31,7 @@ Life happens — if you can't make a meeting, let your Brokerage Manager know ah
 - Complete **6 transactions per year**, at least **3 self-generated** (deals from a previous brokerage count toward your totals).
 - Respond to clients and team members **within 24 hours** (excluding Sundays). Responsiveness makes or breaks deals.
 
-## Money
+## Fees & Lead Structure
 
 - A **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
 - **Resource fee: $215/month** for full-time agents. Part-time agents don't pay it — and don't get Rechat, RealScout, or Docusign.

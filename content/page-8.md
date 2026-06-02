@@ -145,6 +145,8 @@ That's how sustainable real estate businesses are actually built.
 
 - [ ] I understand the 6 principles of how 6th Ave operates
 
+None of this gets mastered in a month. This is just the foundation strong agents keep returning to over time.
+
 ## You're Ready
 
 You've learned the operational foundation. You understand the support structure. You know how to ask for help. You understand the philosophy.
