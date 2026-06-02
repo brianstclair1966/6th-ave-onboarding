@@ -8,9 +8,7 @@ description: "Your first week — what to do first"
 
 ## You're joining a brokerage that looks, feels, & operates differently.
 
-And we think you're going to appreciate the difference.
-
-**You made a smart decision.**
+<p style="color:#ED6758; font-style:italic; font-size:1.25rem; font-weight:500; margin:0;">And we think you're going to appreciate the difference.</p>
 
 ### We're going to walk you through some steps to get you set up on our platforms so that you can start building, or continue building, YOUR business. These next few pages will get your operational foundation in place quickly.
 
