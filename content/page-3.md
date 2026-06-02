@@ -78,7 +78,7 @@ You can use one of these logo versions in your profiles:
 
 ### Part E: Select Your Business Cards
 
-Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Choose one of the five below.
+Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Each option shows the front and back — choose one of the eight below.
 
 <!-- CARDS -->
 
