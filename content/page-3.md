@@ -49,25 +49,9 @@ Then tweak what it gives you until it sounds like you. AI gets you a strong firs
 
 <!-- FORM:bio -->
 
-### Part B: "All About You" Form
+### Part B: Update Your Online Presence
 
-This helps us know you better and it creates more personal content on your bio page.
-
-See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
-
-<!-- FORM:about_you -->
-
-### Part C: Culture Index
-
-Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Please take the Culture Index by clicking this link: [Culture Index](https://surveys.cultureindex.com/s/dsK5s9LYO8/78525).
-
-After you've completed the Culture Index survey, come back here to continue your onboarding.
-
-- [ ] I completed Culture Index
-
-### Part D: Update Your Online Presence
-
-We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**.
+We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**. We recommend that your bio is consistent across all platforms for AI visibility.
 
 You can use one of these logo versions in your profiles:
 
@@ -75,6 +59,21 @@ You can use one of these logo versions in your profiles:
 
 - [ ] I completed updating my online profiles with 6th Ave branding
 
+### Part C: "All About You" Form
+
+This helps us know you better and it creates more personal content on your bio page.
+
+See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
+
+<!-- FORM:about_you -->
+
+### Part D: Culture Index
+
+Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Please take the Culture Index by clicking this link: [Culture Index](https://surveys.cultureindex.com/s/dsK5s9LYO8/78525).
+
+After you've completed the Culture Index survey, come back here to continue your onboarding.
+
+- [ ] I completed Culture Index
 
 ### Part E: Select Your Business Cards
 
