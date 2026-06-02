@@ -168,7 +168,7 @@ export default function EmergencyContactForm() {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-2xl">
+    <div className="bg-white rounded-lg shadow-md p-6 max-w-3xl">
       <h3 className="text-2xl font-bold text-brand-navy mb-6">Emergency Contact Information</h3>
 
       {error && (
@@ -185,10 +185,10 @@ export default function EmergencyContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-6">
-        {/* License Section */}
-        <div className="border-b pb-6">
-          <h4 className="text-lg font-semibold text-brand-navy mb-4">License Information</h4>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        {/* License & Personal Information */}
+        <div className="border-b pb-4">
+          <h4 className="text-base font-semibold text-brand-navy mb-2">License &amp; Personal Information</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label htmlFor="trecLicenseNumber" className="block text-sm font-semibold text-brand-navy mb-2">
@@ -231,13 +231,7 @@ export default function EmergencyContactForm() {
                 <p className="text-red-600 text-sm mt-1">{errors.licenseExpiry}</p>
               )}
             </div>
-          </div>
-        </div>
 
-        {/* Personal Information Section */}
-        <div className="border-b pb-6">
-          <h4 className="text-lg font-semibold text-brand-navy mb-4">Personal Information</h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label htmlFor="cellPhone" className="block text-sm font-semibold text-brand-navy mb-2">
                 Cell Phone
@@ -283,8 +277,8 @@ export default function EmergencyContactForm() {
         </div>
 
         {/* Home Address Section */}
-        <div className="border-b pb-6">
-          <h4 className="text-lg font-semibold text-brand-navy mb-4">Home Address</h4>
+        <div className="border-b pb-4">
+          <h4 className="text-base font-semibold text-brand-navy mb-2">Home Address</h4>
           <div className="space-y-4">
             <div>
               <label htmlFor="homeAddressStreet" className="block text-sm font-semibold text-brand-navy mb-2">
@@ -354,8 +348,8 @@ export default function EmergencyContactForm() {
         </div>
 
         {/* Emergency Contact Section */}
-        <div className="border-b pb-6">
-          <h4 className="text-lg font-semibold text-brand-navy mb-4">Emergency Contact</h4>
+        <div className="border-b pb-4">
+          <h4 className="text-base font-semibold text-brand-navy mb-2">Emergency Contact</h4>
           <div className="space-y-4">
             <div>
               <label htmlFor="emergencyContactName" className="block text-sm font-semibold text-brand-navy mb-2">
@@ -422,7 +416,7 @@ export default function EmergencyContactForm() {
               </div>
             </div>
 
-            <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
               <label className="flex items-start gap-3 cursor-pointer">
                 <input
                   type="checkbox"
