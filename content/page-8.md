@@ -1,7 +1,7 @@
 ---
 title: "How Strong Agents Operate"
 page: 8
-description: "Professional sustainability in real estate"
+description: ""
 ---
 
 # How Strong Agents Operate
@@ -26,10 +26,7 @@ Your job isn't to be perfect. Your job is to be steady.
 
 That means:
 
-- Clarity over perfection
-- Calmness over urgency
-- Composure under pressure
-- Honesty about uncertainty
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Clarity over perfection</div><div style="break-inside:avoid; margin-bottom:6px;">• Calmness over urgency</div><div style="break-inside:avoid; margin-bottom:6px;">• Composure under pressure</div><div style="break-inside:avoid; margin-bottom:6px;">• Honesty about uncertainty</div></div>
 
 Clients remember how you made them feel long after they forget the details. If they felt safe, guided, and confident? They refer you for years. If they felt rushed or confused or like you were figuring it out as you went? They don't.
 
@@ -53,10 +50,7 @@ Steady visibility compounds. Regular communication compounds. Consistent follow-
 
 Your business builds through small moments:
 
-- Following up when you said you would
-- Staying in touch when you're not closing deals
-- Showing up consistently in people's lives
-- Being the person who remembers
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Following up when you said you would</div><div style="break-inside:avoid; margin-bottom:6px;">• Staying in touch when you're not closing deals</div><div style="break-inside:avoid; margin-bottom:6px;">• Showing up consistently in people's lives</div><div style="break-inside:avoid; margin-bottom:6px;">• Being the person who remembers</div></div>
 
 That's what compounds.
 
@@ -72,11 +66,7 @@ Your value isn't knowing everything. Your value is helping people make good deci
 
 That means:
 
-- Asking better questions instead of pretending to know
-- Thinking clearly instead of reacting emotionally
-- Slowing down decision-making instead of rushing
-- Bringing in the right expertise at the right time
-- Communicating early instead of hiding problems
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Asking better questions instead of pretending to know</div><div style="break-inside:avoid; margin-bottom:6px;">• Thinking clearly instead of reacting emotionally</div><div style="break-inside:avoid; margin-bottom:6px;">• Slowing down decision-making instead of rushing</div><div style="break-inside:avoid; margin-bottom:6px;">• Bringing in the right expertise at the right time</div><div style="break-inside:avoid; margin-bottom:6px;">• Communicating early instead of hiding problems</div></div>
 
 You're not supposed to be an expert in construction, financing, title, marketing, and compliance. You're supposed to know who to ask and when to ask them. That's the actual skill.
 
@@ -108,17 +98,11 @@ Your reputation is built transaction by transaction. Deal by deal. Conversation 
 
 Not through:
 
-- Personal branding
-- Social media following
-- Awards or recognition
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Personal branding</div><div style="break-inside:avoid; margin-bottom:6px;">• Social media following</div><div style="break-inside:avoid; margin-bottom:6px;">• Awards or recognition</div></div>
 
 But through:
 
-- How fast you communicate
-- How honest you are when things get complicated
-- How you handle stress and pressure
-- Whether clients feel safe working with you
-- How you solve problems instead of avoiding them
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• How fast you communicate</div><div style="break-inside:avoid; margin-bottom:6px;">• How honest you are when things get complicated</div><div style="break-inside:avoid; margin-bottom:6px;">• How you handle stress and pressure</div><div style="break-inside:avoid; margin-bottom:6px;">• Whether clients feel safe working with you</div><div style="break-inside:avoid; margin-bottom:6px;">• How you solve problems instead of avoiding them</div></div>
 
 Small moments compound. Years pass. Reputation becomes your most valuable asset.
 
@@ -170,4 +154,6 @@ You've completed your onboarding and orientation.
 
 You're ready to begin.
 
-**Now go take care of people.**
+<p style="color:#ED6758; font-size:2.75rem; font-weight:800; line-height:1.2; text-align:center; margin:2rem 0 0.5rem;">Welcome to 6th Ave Homes</p>
+
+<p style="font-size:1.5rem; font-weight:600; text-align:center; margin:0 0 0.5rem;">Take good care of your people & they will take good care of you.</p>

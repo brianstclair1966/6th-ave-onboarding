@@ -175,6 +175,21 @@ a:hover {
   border-color: var(--brand-coral);
 }
 
+/* Multi-item checkbox lists (e.g. "Next Steps") flow into 2 columns to save height.
+   Single-item lists are unaffected; reverts to 1 column on phones for tappability. */
+ul:has(.page-checkbox) {
+  column-count: 2;
+  column-gap: 2rem;
+}
+ul:has(.page-checkbox) .checkbox-item {
+  break-inside: avoid;
+}
+@media (max-width: 640px) {
+  ul:has(.page-checkbox) {
+    column-count: 1;
+  }
+}
+
 /* Lists */
 ul,
 ol {

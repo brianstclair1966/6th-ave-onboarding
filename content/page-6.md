@@ -1,7 +1,7 @@
 ---
 title: "How 6th Ave Operates"
 page: 6
-description: "How 6th Ave actually works"
+description: ""
 ---
 
 # How 6th Ave Operates

@@ -1,7 +1,7 @@
 ---
 title: "How Support Works at 6th Ave"
 page: 7
-description: "You don't have to do this alone"
+description: ""
 ---
 
 # How Support Works at 6th Ave
@@ -60,11 +60,7 @@ Your job is NOT to know everything.
 
 Your job IS to:
 
-- Communicate clearly with clients about what's happening and why
-- Ask good questions when you're unsure
-- Stay calm when pressure shows up
-- Know who to bring in and when
-- Admit what you don't know
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Communicate clearly with clients about what's happening and why</div><div style="break-inside:avoid; margin-bottom:6px;">• Ask good questions when you're unsure</div><div style="break-inside:avoid; margin-bottom:6px;">• Stay calm when pressure shows up</div><div style="break-inside:avoid; margin-bottom:6px;">• Know who to bring in and when</div><div style="break-inside:avoid; margin-bottom:6px;">• Admit what you don't know</div></div>
 
 Asking questions early is a sign of professionalism, not weakness. Strong agents ask for clarity when they need it. That's what separates people who build long-term businesses from people who burn out.
 
@@ -86,13 +82,7 @@ That changes how sustainable this career actually is.
 
 ## What You Now Understand
 
-- You have mentorship on your first transactions
-- Support exists for every type of real estate problem
-- Communication and escalation are how you stay ahead of problems
-- Your job is to know how to ask good questions and bring in the right people
-- You're not carrying this business alone
-
-**Next: Page 8** — How strong agents actually think and work.
+<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• You have mentorship on your first transactions</div><div style="break-inside:avoid; margin-bottom:6px;">• Support exists for every type of real estate problem</div><div style="break-inside:avoid; margin-bottom:6px;">• Communication and escalation are how you stay ahead of problems</div><div style="break-inside:avoid; margin-bottom:6px;">• Your job is to know how to ask good questions and bring in the right people</div><div style="break-inside:avoid; margin-bottom:6px;">• You're not carrying this business alone</div></div>
 
 ---
 
@@ -102,5 +92,3 @@ That changes how sustainable this career actually is.
 - [ ] I saved Brian's number — (817) 360-5555 — and know to start questions in Slack
 - [ ] I commit to naming one thing I'm nervous about and asking about it this week
 - [ ] I commit to reviewing this page again in my first month
-
-Please check the boxes above when you're ready to move to Page 8.
