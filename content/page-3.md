@@ -70,8 +70,8 @@ After you've completed the Culture Index survey, come back here to continue your
 We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**.
 
 You can use one of these logo versions in your profiles:
-- [**Main Logo (Dark Background)**](https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing)
-- [**Main Logo (White Background)**](https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing)
+
+<div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center; margin:16px 0;"><div style="flex:1 1 220px; max-width:280px; text-align:center;"><img src="/Logos/main-logo-dark.png" alt="6th Ave Homes Main Logo (Dark Background)" style="width:100%; border:1px solid #e5e7eb; border-radius:10px; display:block;"><a href="https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:8px;">Main Logo (Dark Background)</a></div><div style="flex:1 1 220px; max-width:280px; text-align:center;"><img src="/Logos/main-logo-white.png" alt="6th Ave Homes Main Logo (White Background)" style="width:100%; border:1px solid #e5e7eb; border-radius:10px; display:block;"><a href="https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:8px;">Main Logo (White Background)</a></div></div>
 
 - [ ] I completed updating my online profiles with 6th Ave branding
 
