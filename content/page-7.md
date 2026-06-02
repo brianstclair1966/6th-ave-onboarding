@@ -88,7 +88,9 @@ That changes how sustainable this career actually is.
 
 ## Next Steps
 
+<div class="cb-2col">
 - [ ] I commit to bookmarking the Slack #guides channel and introducing myself
 - [ ] I saved Brian's number — (817) 360-5555 — and know to start questions in Slack
 - [ ] I commit to naming one thing I'm nervous about and asking about it this week
 - [ ] I commit to reviewing this page again in my first month
+</div>

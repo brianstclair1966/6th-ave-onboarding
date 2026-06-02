@@ -145,10 +145,12 @@ You're going to do good work here.
 
 ## Next Steps
 
+<div class="cb-2col">
 - [ ] I commit to naming one client situation where I'll practice staying calm and communicating clearly
 - [ ] I commit to joining the #guides Slack channel and introducing myself
 - [ ] I commit to one consistent action this week (a follow-up call, coffee, or visibility moment)
 - [ ] I commit to reviewing the entire onboarding in my first month
+</div>
 
 You've completed your onboarding and orientation.
 
