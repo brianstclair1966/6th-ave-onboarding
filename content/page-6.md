@@ -59,13 +59,9 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 
 Each tool has a job. Use them that way.
 
-**Next: Page 7** — How support works at 6th Ave.
-
 ## Next Steps
 
 - [ ] I know when our weekly Mastermind meeting is and how to join
 - [ ] I spent 15 minutes exploring Slack
 - [ ] I identified 20 people from my sphere to stay connected to
 - [ ] I commit to re-reading this page in my first week
-
-Please check the boxes above when you're ready to move to Page 7.
