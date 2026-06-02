@@ -15,16 +15,7 @@ Three quick pieces of paperwork get you set up as a contractor, paid correctly, 
 
 ### Independent Contractor Agreement (ICA)
 
-**What this means:**
-You're an independent contractor, not an employee. This is standard in real estate. It means you own your business — and we support that.
-
-You manage your own business:
-- your schedule
-- your taxes
-- your expenses
-
-**What to expect:**
-Review it, sign it, click "finish" and you're good to go!
+You're an independent contractor, not an employee — standard in real estate. You own your business (schedule, taxes, expenses), and we support that. You'll receive your ICA by DocuSign: review it, sign, and click "finish."
 
 - [ ] I understand I'll receive and sign my ICA by email
 
