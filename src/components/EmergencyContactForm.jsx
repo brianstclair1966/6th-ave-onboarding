@@ -3,7 +3,10 @@ import { markDone } from '../lib/progress'
 
 // Format a US phone number as the agent types, e.g. "(817) 360-5555".
 function formatPhoneNumber(value) {
-  const digits = String(value).replace(/\D/g, '').slice(0, 10)
+  let raw = String(value).replace(/\D/g, '')
+  // Drop a leading country-code "1" if an 11-digit number is pasted in.
+  if (raw.length === 11 && raw[0] === '1') raw = raw.slice(1)
+  const digits = raw.slice(0, 10)
   if (digits.length === 0) return ''
   if (digits.length < 4) return `(${digits}`
   if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
