@@ -54,6 +54,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
     // Also clear the saved business-card pick and bio draft so they match the bar.
     try {
       localStorage.removeItem('businessCardSelection')
+      localStorage.removeItem('businessCardDetails')
       localStorage.removeItem('bioDraft')
     } catch (e) {
       /* no-op */

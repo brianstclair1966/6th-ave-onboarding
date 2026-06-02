@@ -104,6 +104,19 @@ export default async function handler(req, res) {
           data.Enneagram || '',
         ],
       ]
+    } else if (formType === 'business-card') {
+      sheetName = 'Business Card Orders'
+      values = [
+        [
+          new Date().toISOString(),
+          data.Email || '',
+          data['Agent Name'] || '',
+          data['Card Option'] || '',
+          data.Phone || '',
+          data.Instagram || '',
+          data.Website || '',
+        ],
+      ]
     } else {
       return res.status(400).json({ error: 'Unknown form type' })
     }
@@ -126,8 +139,53 @@ export default async function handler(req, res) {
       throw lastErr
     }
 
+    // For order-style tabs (e.g. business cards) we create the sheet on first use.
+    const ensureSheetExists = async (title, headerRow) => {
+      try {
+        const meta = await withRetry(() =>
+          sheets.spreadsheets.get({ auth, spreadsheetId, fields: 'sheets.properties.title' })
+        )
+        const titles = (meta.data.sheets || []).map((s) => s.properties.title)
+        if (titles.includes(title)) return
+        await withRetry(() =>
+          sheets.spreadsheets.batchUpdate({
+            auth,
+            spreadsheetId,
+            requestBody: { requests: [{ addSheet: { properties: { title } } }] },
+          })
+        )
+        if (headerRow) {
+          await withRetry(() =>
+            sheets.spreadsheets.values.update({
+              auth,
+              spreadsheetId,
+              range: `${title}!A1`,
+              valueInputOption: 'USER_ENTERED',
+              requestBody: { values: [headerRow] },
+            })
+          )
+        }
+      } catch (e) {
+        // If a concurrent request already created it, that's fine — the append still works.
+        console.warn('ensureSheetExists:', title, e.message)
+      }
+    }
+
     // Only append to Google Sheets if configured
     if (auth) {
+      // Make sure the business-card order tab exists before appending to it.
+      if (formType === 'business-card') {
+        await ensureSheetExists('Business Card Orders', [
+          'Timestamp',
+          'Email',
+          'Agent Name',
+          'Card Option',
+          'Phone',
+          'Instagram',
+          'Website',
+        ])
+      }
+
       // 1) Save the form data to its detail tab. If this ultimately fails, surface
       //    an error so the agent can retry — never silently report success.
       try {
@@ -151,10 +209,13 @@ export default async function handler(req, res) {
 
       // 2) Mark the matching Agent Progress column. Non-fatal — the data is saved.
       const agentEmail = data.Email || data.email || ''
+      // Most forms just stamp a ✓; the business card stamps which option was chosen.
+      const markValue = formType === 'business-card' ? data['Card Option'] || '✓' : '✓'
       let targetHeader = ''
       if (formType === 'emergency-contact') targetHeader = 'EC-Form'
       else if (formType === 'bio') targetHeader = 'Bio'
       else if (formType === 'about-you') targetHeader = 'About-You'
+      else if (formType === 'business-card') targetHeader = 'Business Card'
 
       if (agentEmail && targetHeader) {
         try {
@@ -193,7 +254,7 @@ export default async function handler(req, res) {
                 spreadsheetId,
                 range: `Agent Progress!${columnLetter}${agentRowNumber}`,
                 valueInputOption: 'USER_ENTERED',
-                requestBody: { values: [['✓']] },
+                requestBody: { values: [[markValue]] },
               })
             )
           } else {
