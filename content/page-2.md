@@ -31,15 +31,19 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 
 MLS access is how you'll guide clients confidently through the market. Choose the association that matches your location.
 
-### [Greater Fort Worth Association of Realtors](https://gfwar.org/)
+### Greater Fort Worth Association of Realtors <span style="font-size:0.8rem; font-weight:400;">— Call (817) 336-5165 for questions &amp; info.</span>
 
-Open the [GFWAR Transfer Form](/gfwar-transfer-form.pdf), fill in the blanks, sign it, and email it to **[membership@gfwar.org](mailto:membership@gfwar.org)** — or call **(817) 336-5165** with questions.
+[gfwar.org](https://gfwar.org/)
+
+Open the [GFWAR Transfer Form](/gfwar-transfer-form.pdf), fill in the blanks, sign it, and email it to **[membership@gfwar.org](mailto:membership@gfwar.org)**.
 
 **Also required:**
 
 <div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• <strong>SUPRA Key</strong> — Order your first SUPRA lockbox key (GFWAR will guide you)</div><div style="break-inside:avoid; margin-bottom:6px;">• <strong>eKEY App</strong> — Download the SUPRA eKEY app to your phone</div><div style="break-inside:avoid; margin-bottom:6px;">• <strong>Matrix MLS Training</strong> — GFWAR will schedule this (video-based, ~2 hours)</div><div style="break-inside:avoid; margin-bottom:6px;">• <strong>NAR Code of Ethics</strong> — Online course, ~1 hour, can do anytime</div><div style="break-inside:avoid; margin-bottom:6px;">• <strong>Create your Matrix account</strong> — Once you have MLS access</div></div>
 
-### [Temple-Belton Board of Realtors / CTX MLS](https://www.mytbbor.com/) <span style="font-size:0.8rem; font-weight:400;">— Call (254) 773-0410 for questions &amp; info.</span>
+<h3 style="margin-top:2.75rem;">Temple-Belton Board of Realtors / CTX MLS <span style="font-size:0.8rem; font-weight:400;">— Call (254) 773-0410 for questions &amp; info.</span></h3>
+
+[mytbbor.com](https://www.mytbbor.com/)
 
 6th Ave Home is proud to be a member of the Temple Belton Board of Realtors. TBBOR uses the CTX MLS. You are welcome to join & have access to CTX MLS. Please understand that all fees & application fees for you to join TBBOR & CTX MLS are at your expense.
 
@@ -47,7 +51,9 @@ Open the [GFWAR Transfer Form](/gfwar-transfer-form.pdf), fill in the blanks, si
 
 Contact TBBOR for e-Key & MLS access.
 
-### [Austin Board of Realtors / Unlock MLS](https://www.unlockmls.com/) <span style="font-size:0.8rem; font-weight:400;">— Call (512) 454-7636 for questions &amp; info.</span>
+<h3 style="margin-top:2.75rem;">Austin Board of Realtors / Unlock MLS <span style="font-size:0.8rem; font-weight:400;">— Call (512) 454-7636 for questions &amp; info.</span></h3>
+
+[unlockmls.com](https://www.unlockmls.com/)
 
 [Realtor Application](https://form.abor.com/8e1c6ab0-ffb2-11ea-99d3-e37a87727b48)
 
