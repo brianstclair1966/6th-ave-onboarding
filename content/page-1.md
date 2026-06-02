@@ -23,7 +23,7 @@ description: "Your first week — what to do first"
 
 Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome message explaining who we are and what to expect.
 
-<iframe src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 560px; aspect-ratio: 16 / 9; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
+<iframe src="https://www.youtube.com/embed/ZRhEcxcJfK0" title="6th Ave Homes — Welcome" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
 
 ## Your Activation Path
