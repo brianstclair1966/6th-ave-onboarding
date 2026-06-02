@@ -81,8 +81,3 @@ You can use one of these logo versions in your profiles:
 Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Each option shows the front and back — choose one of the eight below.
 
 <!-- CARDS -->
-
-
-## Why This Matters
-
-Your website bio is often the first impression clients have of you.
