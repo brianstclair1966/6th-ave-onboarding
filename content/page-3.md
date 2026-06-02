@@ -25,6 +25,17 @@ Review it, sign it, click "finish" and you're good to go!
 - [ ] I understand I'll receive and sign my ICA by email
 
 
+### Your W-9 — So We Can Pay You
+
+As an independent contractor, we need a completed **W-9** on file so we can pay you and issue your 1099 at tax time.
+
+[**→ Download your W-9 (fillable PDF)**](/6th-ave-w9.pdf)
+
+Open it, fill in your information, save it, and email the completed form to our bookkeeper at **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. If you're unsure about any field, just ask Brian or the **#guides** channel.
+
+- [ ] I completed my W-9 and emailed it to Rachel
+
+
 ## ⑤ Build Your Professional Presence
 
 ### Part A: Website Bio
