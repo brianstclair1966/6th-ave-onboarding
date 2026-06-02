@@ -48,18 +48,9 @@ But the real work isn't the systems. It's the mindset shift: from "I need to kno
 
 ## Your Main Resources
 
-These all live on the 6th Ave backsite. You don't need to read them all today — just know they're here, and bookmark the ones you'll come back to.
+These all live on the 6th Ave backsite at [www.6thavehomesagents.com](https://www.6thavehomesagents.com) (password: "one-stop-shop"). You don't need to read them all today — just know they're here, and bookmark the ones you'll come back to.
 
-- [Backsite Home](https://www.6thavehomesagents.com/backsite-landing-page) — the hub for everything below
-- [Mission, Vision & Core Values](https://www.6thavehomesagents.com/mission-and-values)
-- [Logos, Brand Standards & Colors](https://www.6thavehomesagents.com/logos-and-brand-standards)
-- [Guide Training Program](https://www.6thavehomesagents.com/guide-training-program)
-- [Your 90-Day Roadmap](https://www.dropbox.com/scl/fi/5sll74lw1ydy27cb2hotg/6th-Ave-Homes-Language-Roadmap-05.24.pdf)
-- [Canva Pro Account](https://www.6thavehomesagents.com/canva-pro)
-- [Vendors We Like](https://www.6thavehomesagents.com/preferred-vendors)
-- [Good Reads & Links](https://www.6thavehomesagents.com/good-reads)
-- [Make the One-Stop-Shop Work for You](https://www.6thavehomesagents.com/make-the-one-stop-shop-work-for-you)
-- [www.6thavehomesagents.com](https://www.6thavehomesagents.com) — password: "one-stop-shop"
+<div style="display:flex; flex-wrap:wrap; gap:32px; margin:16px 0; line-height:2;"><div style="flex:1 1 260px; min-width:240px;"><a href="https://www.6thavehomesagents.com/mission-and-values" target="_blank" rel="noopener noreferrer">Mission, Vision, Core Values</a><br><a href="https://www.6thavehomesagents.com/logos-and-brand-standards" target="_blank" rel="noopener noreferrer">Logos, Brand Standards, &amp; Colors</a><br><a href="https://www.6thavehomesagents.com/canva-pro" target="_blank" rel="noopener noreferrer">Canva Pro Account</a><br><a href="https://drive.google.com/file/d/12_aWqsC0ULFGI6bMVeGC_BI95p91LGlx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Buyer's Checklist</a> &amp; <a href="https://drive.google.com/file/d/12_vMBDw2ZLIhYuA2SQc5u3tPuoXCvl2E/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Listing Checklist</a><br><a href="https://www.6thavehomesagents.com/new-tar-forms" target="_blank" rel="noopener noreferrer">TXR Forms — Updates from TREC &amp; TXR</a></div><div style="flex:1 1 260px; min-width:240px;"><strong>6th Ave Homes Training Courses</strong><br><a href="https://www.6thavehomesagents.com/your-guide-to-texas-real-estate" target="_blank" rel="noopener noreferrer">Your Guide to Texas Real Estate</a><br><a href="https://www.6thavehomesagents.com/small-steps-big-results" target="_blank" rel="noopener noreferrer">Small Steps. Big Results.</a><br><a href="https://www.6thavehomesagents.com/irreplaceable-agent" target="_blank" rel="noopener noreferrer">Irreplaceable Agent</a><br><a href="https://www.6thavehomesagents.com/6th-ave-ai-playbook" target="_blank" rel="noopener noreferrer">6th Ave Homes AI Playbook</a></div></div>
 
 - [ ] I am aware of the resources on the 6th Ave backsite
 
