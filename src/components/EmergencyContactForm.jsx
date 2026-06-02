@@ -1,6 +1,15 @@
 import { useState, useEffect } from 'react'
 import { markDone } from '../lib/progress'
 
+// Format a US phone number as the agent types, e.g. "(817) 360-5555".
+function formatPhoneNumber(value) {
+  const digits = String(value).replace(/\D/g, '').slice(0, 10)
+  if (digits.length === 0) return ''
+  if (digits.length < 4) return `(${digits}`
+  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
+}
+
 export default function EmergencyContactForm() {
   const [formData, setFormData] = useState({
     trecLicenseNumber: '',
@@ -91,7 +100,10 @@ export default function EmergencyContactForm() {
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target
-    const newValue = type === 'checkbox' ? checked : value
+    let newValue = type === 'checkbox' ? checked : value
+    if (name === 'cellPhone' || name === 'emergencyContactPhone') {
+      newValue = formatPhoneNumber(value)
+    }
 
     setFormData(prev => ({
       ...prev,
@@ -242,6 +254,9 @@ export default function EmergencyContactForm() {
                 name="cellPhone"
                 value={formData.cellPhone}
                 onChange={handleChange}
+                inputMode="numeric"
+                maxLength={14}
+                placeholder="(817) 360-5555"
                 className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
                   errors.cellPhone
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
@@ -383,6 +398,9 @@ export default function EmergencyContactForm() {
                   name="emergencyContactPhone"
                   value={formData.emergencyContactPhone}
                   onChange={handleChange}
+                  inputMode="numeric"
+                  maxLength={14}
+                  placeholder="(817) 360-5555"
                   className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
                     errors.emergencyContactPhone
                       ? 'border-red-500 focus:border-red-600 bg-red-50'
