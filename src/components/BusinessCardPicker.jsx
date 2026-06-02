@@ -114,19 +114,31 @@ export default function BusinessCardPicker({ agentInfo: propAgentInfo }) {
               } disabled:opacity-60 disabled:cursor-not-allowed`}
               style={{ flex: '1 1 230px', maxWidth: '280px', minWidth: '210px' }}
             >
-              {/* Front + back, side by side */}
+              {/* Front + back, side by side. A fixed-height band keeps landscape
+                  and portrait designs both fully visible (object-fit: contain) and
+                  lines the labels + checkboxes up across the grid. */}
               <div style={{ display: 'flex', gap: '8px', width: '100%' }}>
                 {[
                   { src: opt.front, label: 'Front' },
                   { src: opt.back, label: 'Back' },
                 ].map((face) => (
-                  <div key={face.label} style={{ flex: 1 }}>
-                    <img
-                      src={face.src}
-                      alt={`${opt.value} ${face.label}`}
-                      style={{ width: '100%', aspectRatio: '7 / 4', objectFit: 'cover', borderRadius: '6px' }}
-                    />
-                    <div className="text-center text-gray-400 mt-0.5" style={{ fontSize: '11px' }}>
+                  <div key={face.label} style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ height: '120px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <img
+                        src={face.src}
+                        alt={`${opt.value} ${face.label}`}
+                        style={{
+                          maxWidth: '100%',
+                          maxHeight: '120px',
+                          width: 'auto',
+                          height: 'auto',
+                          objectFit: 'contain',
+                          borderRadius: '6px',
+                          border: '1px solid #e5e7eb',
+                        }}
+                      />
+                    </div>
+                    <div className="text-center text-gray-400 mt-1" style={{ fontSize: '11px' }}>
                       {face.label}
                     </div>
                   </div>
