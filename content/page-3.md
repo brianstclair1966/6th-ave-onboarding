@@ -9,7 +9,11 @@ description: "IC agreement, website bio, and getting established"
 Our Transaction Coordinator will be helping you with Step 4 by sending you a Docusign email that contains your Independent Contractor Agreement. You can go to Step 5 and begin building your 6th Ave Homes Professional Presence.
 
 
-## ④ Sign Your Independent Contractor Agreement
+## ④ Documents & Payment Setup
+
+Three quick pieces of paperwork get you set up as a contractor, paid correctly, and squared away on your resource fees.
+
+### Independent Contractor Agreement (ICA)
 
 **What this means:**
 You're an independent contractor, not an employee. This is standard in real estate. It means you own your business — and we support that.
@@ -31,9 +35,22 @@ As an independent contractor, we need a completed **W-9** on file so we can pay 
 
 [**→ Download your W-9 (fillable PDF)**](/6th-ave-w9.pdf)
 
-Open it, fill in your information, save it, and email the completed form to our bookkeeper at **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. If you're unsure about any field, just ask Brian or the **#guides** channel.
+<div style="display:flex; flex-wrap:wrap; gap:28px; margin:14px 0; line-height:1.5;"><div style="flex:1 1 300px; min-width:260px;"><strong>How to fill out your W-9</strong><div style="margin-top:6px;"><div style="margin-bottom:6px;">• <strong>Name:</strong> Your legal name exactly as it appears on your tax return</div><div style="margin-bottom:6px;">• <strong>Business name:</strong> Leave blank unless you operate under a DBA (Doing Business As). Example: if your legal name is John Smith but you work under "Smith Elite Realty," enter the DBA here. Most agents leave this blank.</div><div style="margin-bottom:6px;">• <strong>Tax Classification:</strong> Check "Individual/Sole Proprietor" (unless you've formed an LLC, S-Corp, or C-Corp)</div><div style="margin-bottom:6px;">• <strong>Address:</strong> Your current mailing address (where we'll send your tax documents)</div><div style="margin-bottom:6px;">• <strong>SSN:</strong> Your Social Security Number (XXX-XX-XXXX) — required</div><div style="margin-bottom:6px;">• <strong>Certification:</strong> Sign and date at the bottom</div></div></div><div style="flex:1 1 200px; min-width:200px;"><strong>Don't</strong><div style="margin-top:6px;"><div style="margin-bottom:6px;">• Leave your SSN blank</div><div style="margin-bottom:6px;">• Check multiple tax classification boxes</div><div style="margin-bottom:6px;">• Enter your EIN unless you actually have one</div></div></div></div>
+
+Once it's filled out, save it and email the completed form to our bookkeeper at **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. Questions? Text Brian at **(817) 360-5555**.
 
 - [ ] I completed my W-9 and emailed it to Rachel
+
+
+### Credit Card Authorization (Resource-Fee Auto-Pay)
+
+If you're a **full-time agent**, your **$215/month resource fee** runs on auto-pay. We need your card authorization on file so our bookkeeper can set that up.
+
+[**→ Download the Credit Card Authorization form (fillable PDF)**](/6th-ave-credit-card-authorization.pdf)
+
+Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. Put your card details on the form only — never anywhere else.
+
+- [ ] I set up my resource-fee auto-pay (or I'm part-time, so this doesn't apply)
 
 
 ## ⑤ Build Your Professional Presence

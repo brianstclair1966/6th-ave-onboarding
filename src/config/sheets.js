@@ -15,7 +15,7 @@ export const GOOGLE_SHEETS_CONFIG = {
 
   // Column ranges
   ranges: {
-    agentProgress: 'Agent Progress!A:AH',
+    agentProgress: 'Agent Progress!A:AI',
     emergencyContact: 'Emergency Contact!A:Z',
     bioSubmissions: 'Bio Submissions!A:Z',
     aboutYouSubmissions: 'About You Submissions!A:Z',
@@ -71,6 +71,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'Culture Index',        // AF (31) page 3 checkbox (Culture Index survey)
   'Business Card',        // AG (32) page 3 single-select (which card design to order)
   'W-9',                  // AH (33) page 3 checkbox (W-9 completed + emailed to bookkeeper)
+  'Credit Auth',          // AI (34) page 3 checkbox (resource-fee auto-pay authorization)
 ]
 
 // 0-based column index of the Welcome column, set at registration time.
@@ -112,6 +113,7 @@ export function getCheckpointTargetHeader(checkpointLabel) {
 
   // --- Page 3 ---
   if (n.includes('w-9') || n.includes('w9')) return 'W-9'
+  if (n.includes('auto-pay')) return 'Credit Auth'
   // "ica" also appears inside "communication", so require an ICA-specific cue.
   if (n.includes('ica') && (n.includes('email') || n.includes('sign'))) return 'IC-Agree'
   if (n.includes('profiles')) return 'Profiles'
