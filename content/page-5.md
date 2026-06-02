@@ -4,7 +4,7 @@ page: 5
 description: "How you grow at 6th Ave"
 ---
 
-## ⑨ Your Growth Foundation
+# Your Growth Foundation
 
 You've now completed your activation steps. Your systems are online. Your foundation is solid.
 
@@ -30,15 +30,15 @@ These ground you in how we operate. They're resources, not a gated course — wo
 
 [**→ Go to Guide Training Program**](https://www.6thavehomesagents.com/guide-training-program)
 
-### **Session 1: Your Role as a Guide**
+### Session 1: Your Role as a Guide
 
 Our philosophy, your role, and how we build business through authenticity and trust.
 
-### **Session 2: Compliance & the CDA Process**
+### Session 2: Compliance & the CDA Process
 
 How we handle client data, the CDA process, and your responsibilities as a licensed agent.
 
-### **Session 3: Brand Standards & Marketing**
+### Session 3: Brand Standards & Marketing
 
 Our brand identity, how to market yourself authentically, and content standards.
 

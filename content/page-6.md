@@ -1,10 +1,10 @@
 ---
-title: "Operations and Requirements"
+title: "How 6th Ave Operates"
 page: 6
 description: "How 6th Ave actually works"
 ---
 
-# Operations and Requirements
+# How 6th Ave Operates
 
 *You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
 

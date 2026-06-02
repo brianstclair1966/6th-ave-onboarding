@@ -27,7 +27,7 @@ Review it, sign it, click "finish" and you're good to go!
 
 ## ⑤ Build Your Professional Presence
 
-### **Part A: Website Bio**
+### Part A: Website Bio
 
 Your website bio is often the first impression clients have of you. Every 6th Ave agent gets featured on [**www.6thavehomes.com/the-team**](https://www.6thavehomes.com/the-team).
 
@@ -49,7 +49,7 @@ Then tweak what it gives you until it sounds like you. AI gets you a strong firs
 
 <!-- FORM:bio -->
 
-### **Part B: "All About You" Form**
+### Part B: "All About You" Form
 
 This helps us know you better and it creates more personal content on your bio page.
 
@@ -57,7 +57,7 @@ See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-cl
 
 <!-- FORM:about_you -->
 
-### **Part C: Culture Index**
+### Part C: Culture Index
 
 Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Please take the Culture Index by clicking this link: [Culture Index](https://surveys.cultureindex.com/s/dsK5s9LYO8/78525).
 
@@ -65,7 +65,7 @@ After you've completed the Culture Index survey, come back here to continue your
 
 - [ ] I completed Culture Index
 
-### **Part D: Update Your Online Presence**
+### Part D: Update Your Online Presence
 
 We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**.
 

@@ -15,7 +15,7 @@ Steps 6, 7, and 8 are **critical for working with clients**. Don't skip or postp
 
 **Why it matters:** This protects you and your clients. Texas law requires you to give this form to every client and prospective client at **first contact**. If you don't, you face big fines and potential license loss.
 
-### **Here's what to do:**
+### Here's what to do:
 
 [**→ Open your 6th Ave IABS form (fillable)**](/6th-ave-iabs.pdf)
 
@@ -26,7 +26,9 @@ The 6th Ave brokerage info is already filled in for you. To finish it:
 - **Save it to your computer.** (If your browser won't let you type into the form, download it first, then open it in a PDF viewer.)
 - Add it to your email signature — create a hyperlink to your saved PDF, placed above your picture and links.
 
-### **Email signature template:** (Place this template wording directly above your email signature. If you are unsure how to do that, please ask Brian or the #guides channel.)
+### Email signature template
+
+Place this template wording directly above your email signature. If you are unsure how to do that, please ask Brian or the #guides channel.
 
 - Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
 
@@ -39,7 +41,7 @@ The 6th Ave brokerage info is already filled in for you. To finish it:
 
 **<span title="Client Relationship Management platform for real estate professionals">Rechat</span>** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups as your business grows. You'll also submit your Compensation Disbursement Agreement here to get paid at closing.
 
-### **Start here:**
+### Start here:
 
 [**→ Rechat Getting Started Guide**](https://help.rechat.com/guides/getting-started)
 

@@ -31,7 +31,7 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 
 MLS access is how you'll guide clients confidently through the market. Choose the association that matches your location.
 
-### **DFW Metroplex**
+### DFW Metroplex
 
 Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 336-5165** and say:
 > "I'm a newly licensed real estate agent with 6th Ave Homes. I'd like to apply for membership."
@@ -43,7 +43,7 @@ Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 
 - **NAR Code of Ethics** — Online course, ~1 hour, can do anytime
 - **Create your Matrix account** — Once you have MLS access
 
-### **Temple-Belton Board of Realtors / CTX MLS**
+### Temple-Belton Board of Realtors / CTX MLS
 
 6th Ave Home is proud to be a member of the Temple Belton Board of Realtors. TBBOR uses the CTX MLS. You are welcome to join & have access to CTX MLS. Please understand that all fees & application fees for you to join TBBOR & CTX MLS are at your expense.
 
@@ -55,7 +55,7 @@ Contact **[membership@GFWAR.org](mailto:membership@GFWAR.org)** or call **(817) 
 
 Once approved, order your SUPRA key and download eKEY.
 
-### **Austin Board of Realtors / Unlock MLS**
+### Austin Board of Realtors / Unlock MLS
 
 6th Ave Home is proud to be a member of the Austin Board of Realtors. ABOR uses the UnlockMLS. You are welcome to join & have access to UnlockMLS. Please understand that all fees & application fees for you to join ABOR & UnlockMLS are at your expense.
 
