@@ -32,7 +32,7 @@ After your first 3–6 months, you'll know:
 
 ---
 
-## Your Main Resources
+## Your Resource Library
 
 These all live on the 6th Ave backsite at [www.6thavehomesagents.com](https://www.6thavehomesagents.com) (password: "one-stop-shop"). You don't need to read them all today — just know they're here, and bookmark the ones you'll come back to.
 

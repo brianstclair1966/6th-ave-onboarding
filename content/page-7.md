@@ -16,7 +16,7 @@ This is a different video from your page 1 welcome — a few minutes on how this
 
 ## Meetings
 
-- **Wednesdays at 9:45am** — Weekly Mastermind Team Meeting at the Fort Worth office. (If you can't make it in person, join us virtually on Google Meet — check your 6th Ave Calendar & join from there!)
+- **Wednesdays at 9:45 am** — Weekly Mastermind Team Meeting at the Fort Worth office. (If you can't make it in person, join us virtually on Google Meet — check your 6th Ave Calendar & join from there!)
 - **Quarterly All-Team** — Last Thursday of each quarter, usually around lunchtime and usually tons of fun!
 
 Life happens, if you can't make a meeting — it's OK. Our meetings are designed to give you real-time market data & info you can use. But you can always catch up on what you missed on our [YouTube channel](https://www.youtube.com/@6thAveHomes).

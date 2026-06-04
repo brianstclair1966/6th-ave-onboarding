@@ -6,7 +6,7 @@ description: "IABS, Rechat, and RealScout — your client-facing tools"
 
 # Your Core Business Tools
 
-These are the systems you'll use with clients and transactions every day. Spend a little time getting familiar with them now — you'll learn the rest through real use.
+Now that your professional presence is in place, let's set up your core tools. These are the systems you'll use with clients and transactions every day — spend a little time getting familiar with them now, and you'll learn the rest through real use.
 
 
 ## ⑦ Create Your IABS Form
