@@ -27,8 +27,8 @@ export default function Page({ children, pageNumber, sectionTitle, totalItems })
       <footer className="bg-brand-navy text-gray-300 text-xs py-8 mt-24">
         <div className="max-w-4xl mx-auto px-6">
           <div className="border-t border-gray-700 pt-6">
-            <p className="text-center">© 2026 6th Ave Homes. All rights reserved.</p>
-            <p className="text-center text-gray-400 mt-2">Welcome to the team.</p>
+            <p className="text-center font-semibold text-gray-200">6th Ave Homes</p>
+            <p className="text-center text-gray-400 mt-1">Fort Worth, Texas</p>
           </div>
         </div>
       </footer>

@@ -167,7 +167,14 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     // registration. External links don't count — only on-page boxes and forms.
     const evaluateComplete = () => {
       if (pageNumber === 1) {
-        setPageComplete(!!localStorage.getItem('agentInfo'))
+        let ok = false
+        try {
+          const o = JSON.parse(localStorage.getItem('agentInfo') || 'null')
+          ok = !!(o && o.firstName && o.lastName && o.email)
+        } catch (e) {
+          ok = false
+        }
+        setPageComplete(ok)
         return
       }
       const requiredForms = PAGE_FORMS[pageNumber] || []

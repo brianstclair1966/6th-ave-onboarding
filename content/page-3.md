@@ -46,7 +46,7 @@ Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com]
 
 ## ⑤ Getting to Know You
 
-These help us understand you, build out your bio page, and get your business cards ordered.
+These help us understand you and get your business cards ordered.
 
 ### Culture Index
 
@@ -58,7 +58,7 @@ After you've completed the Culture Index survey, come back here to continue your
 
 ### "All About You" Form
 
-This helps us know you better and it creates more personal content on your bio page.
+This info will be displayed on your 6th Ave team member page.
 
 See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
 
