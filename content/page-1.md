@@ -46,6 +46,8 @@ After you complete Step 1 and fill out your Emergency Contact Form, we will begi
 
 <div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• RealScout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
 
+<p style="font-size:0.92rem; color:#5f6e74; margin:6px 0 0;">Rechat, RealScout &amp; DocuSign are provided for full-time agents.</p>
+
 You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 
 

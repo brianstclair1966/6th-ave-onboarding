@@ -4,7 +4,7 @@ page: 3
 description: "IC agreement, payment setup, and helping us get to know you"
 ---
 
-# Getting Your Foundation Ready
+# Documents & Getting to Know You
 
 Our Transaction Coordinator will help you with Step 4 by sending you a DocuSign email that contains your Independent Contractor Agreement. From there, a few quick items get you paid correctly and help us get to know you.
 

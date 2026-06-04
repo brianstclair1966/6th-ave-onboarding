@@ -8,9 +8,9 @@ description: ""
 
 *You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
 
-## Watch This First
+## A New Message from Brian
 
-A few minutes from Brian on what this next phase is really about — give it a watch before you read on.
+This is a different video from your page 1 welcome — a few minutes on how this orientation phase differs from the setup you just finished. Give it a watch before you read on.
 
 <iframe src="https://www.youtube.com/embed/FuPZ3alReFA" title="6th Ave Homes — Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
@@ -23,7 +23,7 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 
 ## Production & Responsiveness
 
-- Complete **6 transactions per year**, at least **3 self-generated** (deals from a previous brokerage count toward your totals).
+- Complete **6 transactions per year**, at least **3 self-generated** (deals from a previous brokerage count toward your totals). These are the minimums to stay active — not the ceiling you're aiming for.
 - Respond to clients and team members **within 24 hours** (excluding Sundays). Responsiveness makes or breaks deals.
 
 ## Fees & Lead Structure

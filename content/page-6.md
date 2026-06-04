@@ -51,13 +51,16 @@ These all live on the 6th Ave backsite at [www.6thavehomesagents.com](https://ww
 - [ ] I am aware of the resources on the 6th Ave backsite
 
 
-## Questions?
+## Your Slack Channels
 
-Our backsite has a wide range of information available to you. If you want a short-cut, the **#guides** channel on Slack should always be your first stop for questions you can't find answers to. Or contact one of our **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)**. Our team has a wide range of real estate backgrounds & experiences, and we're always willing to help each other.
+We've already added you to these channels — they're your home base for questions, leads, and updates:
 
-The #general channel goes to everyone in the company so we try to keep real estate questions on the #guides channel. Be sure to join the **#put-listings-openhouse-here** channel to grab an Open House opportunity soon!
+- **#guides** — your first stop for any real-estate question you can't find an answer to (keep questions here, not in #general).
+- **#general** — company-wide chatter and culture; goes to everyone.
+- **#brokerageannouncements** — official updates from 6th Ave & the leadership team.
+- **#put-listings-openhouse-here** — grab an open-house opportunity.
 
-Also join **#brokerageannouncements** channel to stay up to date with messages from 6th Ave & the leadership team.
+You can also reach one of our **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — our team has a wide range of real estate backgrounds & experiences, and we're always willing to help each other.
 
 Thanks for walking through all of the steps. We have tried to give you everything you need to get started, but if you feel like something's missing, [let us know](mailto:brian@6thavehomes.com). We'll be happy to answer your question or help you find what you need.
 

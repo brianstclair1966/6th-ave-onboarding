@@ -16,7 +16,7 @@ That's not how this works.
 
 This is the core of how we operate:
 
-**Most problems in real estate get worse in silence. Questions asked early are usually small. Questions avoided become expensive.**
+<p style="color:#ED6758; font-size:1.35rem; font-weight:700; line-height:1.45; border-left:4px solid #ED6758; padding-left:1.1rem; margin:1.25rem 0;">Most problems in real estate get worse in silence. Questions asked early are usually small. Questions avoided become expensive.</p>
 
 That line changes everything about how agents actually work here.
 
