@@ -270,7 +270,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     if (!candidates.length) return
     candidates.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top)
     const target = candidates[0]
-    target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    target.scrollIntoView({ behavior: 'auto', block: 'center' })
     target.classList.add('flash-missed')
     setTimeout(() => target.classList.remove('flash-missed'), 1600)
   }
