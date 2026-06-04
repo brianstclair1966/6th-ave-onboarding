@@ -132,9 +132,12 @@ export default function BusinessCardPicker({ agentInfo: propAgentInfo }) {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 my-6 border border-gray-200">
       <h3 className="text-lg font-semibold mb-1 text-brand-navy">Choose Your Business Card</h3>
+      <p className="text-base md:text-lg font-semibold text-brand-coral mb-1">
+        Tap any card to zoom in and read it.
+      </p>
       <p className="text-sm text-gray-600 mb-4">
-        Tap any card to zoom in and read it. Browse all eight designs, then check the box under your
-        favorite (pick one). Fill in your details below so we can print and order your cards.
+        Browse all eight designs, then check the box under your favorite (pick one). Fill in your
+        details below so we can print and order your cards.
       </p>
 
       <div className="flex flex-wrap gap-5 justify-center">

@@ -23,7 +23,7 @@ The 6th Ave brokerage info is already filled in for you. To finish it:
 
 - Open the form (it opens in a new tab).
 - On the bottom **"Sales Agent/Associate's Name"** line, type your **name, license number, email, and phone**.
-- **Save it to your computer.** (If your browser won't let you type into the form, download it first, then open it in a PDF viewer.)
+- **Save it to your computer as "Your Name IABS"** (for example, *Lauren Smith IABS*). If your browser won't let you type into the form, download it first, then open it in a PDF viewer.
 - Add it to your email signature — create a hyperlink to your saved PDF, placed above your picture and links.
 
 ### Email signature template
@@ -39,24 +39,20 @@ Place this template wording directly above your email signature. If you are unsu
 
 ## ⑦ Get Started with Rechat
 
-**<span title="Client Relationship Management platform for real estate professionals">Rechat</span>** is your client relationship management tool. It's where you manage conversations, deals, and follow-ups as your business grows. You'll also submit your Compensation Disbursement Agreement here to get paid at closing.
+Rechat isn't just a CRM — it's the system that helps you stay organized as your business grows. It brings together your contacts, conversations, transactions, documents, tasks, and follow-up in one place so you always know what's next. You don't need to master it today; you'll learn it by using it with real clients and real transactions.
 
-### Start here:
+You don't have to do all of this now — just know these resources are here for you. Bookmark the site so you can come back to it after onboarding.
 
 [**→ Rechat Getting Started Guide**](https://help.rechat.com/guides/getting-started)
-
-Work through the **"Getting Started"** section, then explore the **["Deals" section](https://help.rechat.com/guides/deals)**.
-
-**You don't need to be an expert yet.** Spend 30 minutes getting familiar with the interface.
-
-**Rechat** is where we manage conversations, transactions, tasks, and follow-up. You'll learn it by using it.
 
 - [ ] I reviewed Rechat and understand the basics
 
 
 ## ⑧ Set Up RealScout
 
-**<span title="Lead generation and marketing platform for real estate professionals">RealScout</span>** is your lead generation and marketing platform. It gives your clients a familiar search experience while you control all the data and insights. You can share it with your clients to let them search the MLS much like Zillow or Realtor.com.
+RealScout is your client search and engagement platform. It gives your clients a modern home-search experience while helping you understand what they're looking at, saving, and searching for. Instead of guessing when to follow up, RealScout gives you insights that help you have more relevant conversations and stay connected throughout the buying journey. Zillow tells clients what's happening; RealScout tells agents what's happening.
+
+You don't have to do all of this now — just know these resources are here for you. Bookmark the site so you can come back to it after onboarding.
 
 [**→ RealScout Help Page →**](https://support.realscout.com/en/)
 
