@@ -122,6 +122,7 @@ export default async function handler(req, res) {
     }
 
     let response = null
+    let progressMark = { marked: false }
 
     // Retry transient Google Sheets failures (rate limits / brief unavailability)
     // with growing backoff. Real submissions succeed on the first try; this only
@@ -208,7 +209,9 @@ export default async function handler(req, res) {
       }
 
       // 2) Mark the matching Agent Progress column. Non-fatal — the data is saved.
-      const agentEmail = data.Email || data.email || ''
+      // Prefer the registered email (page-1 agentInfo) passed as `agentEmail` for the
+      // row lookup, so an edited or stale order email can't break the mark.
+      const agentEmail = (req.body.agentEmail || data.Email || data.email || '').trim()
       // Most forms just stamp a ✓; the business card stamps which option was chosen.
       const markValue = formType === 'business-card' ? data['Card Option'] || '✓' : '✓'
       let targetHeader = ''
@@ -220,6 +223,7 @@ export default async function handler(req, res) {
       if (agentEmail && targetHeader) {
         try {
           const lastCol = lastColumnLetter()
+          const wanted = agentEmail.toLowerCase()
           let columnIndex = -1
           let agentRowNumber = -1
 
@@ -237,7 +241,7 @@ export default async function handler(req, res) {
             columnIndex = resolveColumnIndex(targetHeader, progressRows[0] || [])
             agentRowNumber = -1
             for (let i = 1; i < progressRows.length; i++) {
-              if (progressRows[i] && progressRows[i][3] === agentEmail) {
+              if (progressRows[i] && String(progressRows[i][3] || '').trim().toLowerCase() === wanted) {
                 agentRowNumber = i + 1
                 break
               }
@@ -257,13 +261,16 @@ export default async function handler(req, res) {
                 requestBody: { values: [[markValue]] },
               })
             )
+            progressMark = { marked: true, header: targetHeader, column: columnLetter, row: agentRowNumber }
           } else {
             console.warn(
               `submit-form: agent row for ${agentEmail} not found after retries; skipped ${targetHeader} mark`
             )
+            progressMark = { marked: false, reason: 'agent row not found', email: agentEmail }
           }
         } catch (progressError) {
           console.error('Agent Progress update error:', progressError)
+          progressMark = { marked: false, reason: progressError.message }
           // Non-fatal: the form data is already saved.
         }
       }
@@ -273,6 +280,7 @@ export default async function handler(req, res) {
       success: true,
       message: 'Form submitted successfully' + (auth ? '' : ' (stored locally)'),
       updates: response?.data?.updates || null,
+      progress: progressMark,
     })
   } catch (error) {
     console.error('Form submission error:', error)

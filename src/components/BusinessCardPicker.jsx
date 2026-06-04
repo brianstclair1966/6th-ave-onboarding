@@ -58,7 +58,7 @@ export default function BusinessCardPicker({ agentInfo: propAgentInfo }) {
       ...f,
       ...(savedDetails || {}),
       name: (savedDetails && savedDetails.name) || (ai ? [ai.firstName, ai.lastName].filter(Boolean).join(' ') : ''),
-      email: (savedDetails && savedDetails.email) || (ai ? ai.email || '' : ''),
+      email: (ai && ai.email) || (savedDetails && savedDetails.email) || '',
     }))
 
     if (isDone(PROGRESS_ID)) setSaved(true)
@@ -98,6 +98,7 @@ export default function BusinessCardPicker({ agentInfo: propAgentInfo }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           formType: 'business-card',
+          agentEmail: liveAgent?.email || form.email.trim() || '',
           data: {
             Email: form.email.trim() || liveAgent?.email || '',
             'Agent Name': form.name.trim(),
