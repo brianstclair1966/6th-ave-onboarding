@@ -9,6 +9,17 @@ description: "Forms, licensing, MLS — getting legally active"
 Steps 1–3 are pretty straightforward & won't take you much time.
 
 
+## What Happens on Our End
+
+Once you submit your Emergency Contact Form below, we'll begin getting you set up on our platforms:
+
+<div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• RealScout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
+
+<p style="font-size:0.92rem; color:#5f6e74; margin:6px 0 0;">Rechat, RealScout &amp; DocuSign are provided for full-time agents.</p>
+
+You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
+
+
 ## ① Emergency Contact Form
 
 This is housekeeping. We need some info for our files. We promise to keep your info safe.

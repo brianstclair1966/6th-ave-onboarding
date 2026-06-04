@@ -4,9 +4,9 @@ page: 5
 description: "IABS, Rechat, and RealScout — your client-facing tools"
 ---
 
-# The Client-Facing Foundation
+# Your Client-Facing Tools
 
-Steps 7, 8, and 9 are **critical for working with clients**. Don't skip or postpone these.
+Create your IABS form, then get set up in Rechat and RealScout — the tools you'll use with every client. Your IABS is **required by Texas law**, so don't skip it; Rechat and RealScout you'll learn by using.
 
 
 ## ⑦ Create Your IABS Form

@@ -40,17 +40,6 @@ A few of these steps go faster if you have what you need handy before you dive i
 <div style="columns:2; column-gap:40px; margin:12px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:8px;">• <strong>TREC license number</strong> &amp; expiration date</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Social Security Number</strong> (for your W-9)</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Credit or debit card</strong> (resource-fee auto-pay — full-time agents)</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Home / mailing address</strong> &amp; birthday</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Emergency contact</strong> — name, phone &amp; email</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>A short bio</strong> (150–300 words) — don't have one? We'll help you write it with AI</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Professional headshot</strong> (you can also add it later)</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>Your phone</strong> (for the SUPRA eKEY app &amp; tool setup)</div><div style="break-inside:avoid; margin-bottom:8px;">• <strong>30–45 minutes</strong> of focused time</div></div>
 
 
-## What Happens on Our End
-
-After you complete Step 1 and fill out your Emergency Contact Form, we will begin getting you set up on our platforms:
-
-<div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• RealScout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
-
-<p style="font-size:0.92rem; color:#5f6e74; margin:6px 0 0;">Rechat, RealScout &amp; DocuSign are provided for full-time agents.</p>
-
-You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
-
-
 ## Need Help?
 
 Send Brian a text at **(817) 360-5555**

@@ -25,14 +25,14 @@ Your website bio is often the first impression clients have of you. Every 6th Av
 
 Then tweak what it gives you until it sounds like you. AI gets you a strong first draft; your voice makes it real.
 
-6th Ave Homes does quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack. You'll have the opportunity to sign up for a shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
-
 <!-- FORM:bio -->
 
 
 ## Update Your Online Presence
 
 Do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**. Keeping your bio consistent across every platform helps your visibility — including with AI search.
+
+Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes team member site](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
 
 ### Where to look
 
