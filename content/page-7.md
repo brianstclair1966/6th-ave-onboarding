@@ -38,19 +38,21 @@ After 3 deals, you have the operational foundation to run on your own. But the s
 
 ## Here's How You Actually Get Help
 
-**When you're learning your first deals:**
+**When you're learning your first 3 deals:**
 Your mentor walks alongside you. They see the contract before you send it. They understand your client's situation. They help you think through problems while there's still time to solve them.
 
 **When you have a question:**
-Start in Slack (#guides channel). Use AI to help organize your thinking, understand terminology, or review situations. Search previous conversations and resources first. Most questions have been asked before—and many answers are already documented. When you need real-world perspective or experience, bring it to Slack. That's how the team learns together.
+Start in Slack (#guides channel). Search previous conversations and resources first. Most questions have been asked before—and many answers are already documented. When you need real-world perspective or experience, bring it to Slack. That's how the team learns together.
 
-**When you have a weird situation:**
-That's exactly when support exists. Construction questions. Renovation feasibility. Design/layout guidance. Financing problems. Title issues. Marketing strategy. Pool and outdoor expertise.
-
-You don't coordinate these alone. You ask for help. Support exists so you don't have to carry every problem alone.
+Also, use these beginning prompts from our **[Playbook](https://www.6thavehomesagents.com/6th-ave-ai-playbook)** to help organize your thinking, understand terminology, or review situations.
 
 **When you're overwhelmed:**
 Brian's Masterminds (Wednesdays), classes, and broker accessibility exist so you can get perspective. Most situations aren't new. That's why access and communication matter.
+
+**Where to get help:**
+- **Slack #guides** — your first stop for most questions.
+- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — volunteer pros organized by specialty. Use them.
+- Your **mentor** (alongside you for your first 3 transactions) and your **Brokerage Manager**.
 
 - [ ] I understand when and how to ask for support
 

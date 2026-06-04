@@ -44,12 +44,9 @@ A few of these steps go faster if you have what you need handy before you dive i
 
 After you complete Step 1 and fill out your Emergency Contact Form, we will begin getting you setup on our platforms:
 
-- Google Suite (Gmail, Drive, Calendar)
-- Slack
-- Rechat
-- Realscout
-- DocuSign
-- You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
+<div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• Realscout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
+
+You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 
 
 ## Need Help?

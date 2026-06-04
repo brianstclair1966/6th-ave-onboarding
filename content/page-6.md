@@ -34,20 +34,14 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 
 ## Your Database & Marketing
 
-- Build and actively use a database of **100+ people** — your 50 VIPs plus all past clients — and reach out about **4-6 times per year**.
+- Build and actively use a database of **100+ people** — 6th Ave encourages you to strive for 50 VIP clients plus any and all past clients — and reach out to all of them about **4-6 times per year**.
 - Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
 
 ## Compliance & Training
 
 - Know and follow your **[TREC license requirements](https://www.trec.texas.gov/renew-license/real-estate-sales-agent)** (SAE within your first two years; continuing education every renewal).
-- Get all **[CDA / compliance checklist](https://www.6thavehomesagents.com/compliance-cda-process)** items to the Transaction Coordinator **at least 7 days before closing** so you get paid on time.
+- Be aware of our **[CDA / compliance checklist](https://www.6thavehomesagents.com/compliance-cda-process)**. You will need to have these items loaded into Rechat (full-time agents) or uploaded through our **[Part-Time Agent](https://www.6thavehomesagents.com/part-time-agents)** site **at least 7 days prior to closing**. Submitting or uploading docs later than that could delay your CDA being generated & sent to a title company.
 - Follow TREC advertising and IABS display rules, and be familiar with our **[Policies & Procedures](https://drive.google.com/file/d/19go9A0reuKBX10-EhZCCwh3oqI4K9WIe/view?usp=sharing)**.
-
-## Where to Get Help
-
-- **Slack #guides** — your first stop for most questions.
-- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — volunteer pros organized by specialty. Use them.
-- Your **mentor** (alongside you for your first 3 transactions) and your **Brokerage Manager**.
 
 ## Your Operational Toolkit
 
@@ -63,7 +57,7 @@ Each tool has a job. Use them that way.
 
 <div class="cb-2col">
 - [ ] I know when our weekly Mastermind meeting is and how to join
-- [ ] I spent 15 minutes exploring Slack
-- [ ] I identified 20 people from my sphere to stay connected to
+- [ ] I understand that Slack is my best way to communicate with other agents & ask questions
+- [ ] I commit to building my database with my SOI and/or Past Clients
 - [ ] I commit to re-reading this page in my first week
 </div>

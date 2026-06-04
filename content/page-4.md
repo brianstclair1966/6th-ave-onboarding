@@ -28,7 +28,7 @@ The 6th Ave brokerage info is already filled in for you. To finish it:
 
 ### Email signature template
 
-Place this template wording directly above your email signature. If you are unsure how to do that, please ask Brian or the #guides channel.
+Place this template wording directly above your email signature & include the sentence about Wire Fraud. If you are unsure how to do that, please ask Brian or the #guides channel.
 
 - Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
 

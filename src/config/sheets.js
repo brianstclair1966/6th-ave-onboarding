@@ -131,8 +131,8 @@ export function getCheckpointTargetHeader(checkpointLabel) {
 
   // --- Page 6 ---
   if (n.includes('mastermind')) return 'Mastermind'
-  if (n.includes('slack') && n.includes('exploring')) return 'Slack'
-  if (n.includes('20 people') || (n.includes('people') && n.includes('sphere'))) return 'Connections'
+  if (n.includes('slack') && (n.includes('exploring') || n.includes('communicate'))) return 'Slack'
+  if (n.includes('20 people') || n.includes('database') || (n.includes('people') && n.includes('sphere'))) return 'Connections'
   if (n.includes('this page') && n.includes('first week')) return 'Review'
 
   // --- Page 7 ---

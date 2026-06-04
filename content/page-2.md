@@ -61,7 +61,7 @@ Contact TBBOR for e-Key & MLS access.
 
 Contact ABoR for e-Key & MLS access.
 
-- [ ] I completed my Realtor Association and MLS requirements
+- [ ] I've contacted my Realtor Association or completed the requirements
 
 
 ## What's Next
