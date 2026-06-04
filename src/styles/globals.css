@@ -203,6 +203,19 @@ a:hover {
   60% { box-shadow: 0 0 0 3px rgba(237, 103, 88, 0.4); }
 }
 
+/* Page-8 "Welcome to 6th Ave Homes" celebratory pop when the page is completed. */
+.welcome-celebrate.is-celebrating {
+  animation: welcomeDance 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes welcomeDance {
+  0% { transform: scale(0.6) rotate(-5deg); opacity: 0.4; }
+  35% { transform: scale(1.2) rotate(4deg); opacity: 1; }
+  55% { transform: scale(0.94) rotate(-3deg); }
+  72% { transform: scale(1.08) rotate(2deg); }
+  86% { transform: scale(0.98) rotate(-1deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+
 /* Lists */
 ul,
 ol {

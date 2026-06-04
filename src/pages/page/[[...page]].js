@@ -11,6 +11,7 @@ import BioForm from '../../components/BioForm'
 import AboutYouForm from '../../components/AboutYouForm'
 import BusinessCardPicker from '../../components/BusinessCardPicker'
 import SummaryDownload from '../../components/SummaryDownload'
+import WelcomeCelebration from '../../components/WelcomeCelebration'
 import * as progress from '../../lib/progress'
 
 const TOTAL_PAGES = 8
@@ -101,6 +102,7 @@ function renderMarkdown(content) {
   html = html.replace(/<p>(<!-- CARDS -->)<\/p>/g, '$1')
   // Same for the page-8 reference-guide download marker.
   html = html.replace(/<p>(<!-- DOWNLOAD -->)<\/p>/g, '$1')
+  html = html.replace(/<p>(<!-- CELEBRATE -->)<\/p>/g, '$1')
 
   return html
 }
@@ -308,7 +310,10 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
         { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
         { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
-      8: [{ marker: '<!-- DOWNLOAD -->', component: <SummaryDownload key="download" totalItems={totalItems} /> }],
+      8: [
+        { marker: '<!-- DOWNLOAD -->', component: <SummaryDownload key="download" totalItems={totalItems} /> },
+        { marker: '<!-- CELEBRATE -->', component: <WelcomeCelebration key="celebrate" complete={pageComplete} /> },
+      ],
     }
 
     const markers = formMarkers[pageNumber] || []

@@ -150,6 +150,6 @@ That's where professionals are made.
 
 <!-- DOWNLOAD -->
 
-<p style="color:#ED6758; font-size:2.75rem; font-weight:800; line-height:1.2; text-align:center; margin:2rem 0 0.5rem;">Welcome to 6th Ave Homes</p>
+<!-- CELEBRATE -->
 
 <p style="font-size:1.5rem; font-weight:600; text-align:center; margin:0 0 0.5rem;">Take good care of your people & they will take good care of you.</p>
