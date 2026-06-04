@@ -1,43 +1,23 @@
-import { useState, useEffect } from 'react'
-import { getPercentage, PROGRESS_EVENT } from '../lib/progress'
-
 /**
- * Appears only once the agent reaches 100% completion. Offers a calm,
- * professional download of the onboarding summary PDF (a keepsake/reference).
+ * Compact reference-guide download card shown near the end of Page 8.
+ * Kept small on purpose — the page's "Welcome to 6th Ave Homes" line below it
+ * carries the celebratory close, so this is just a clean grab-your-guide card.
  */
-export default function SummaryDownload({ totalItems }) {
-  const [pct, setPct] = useState(0)
-
-  useEffect(() => {
-    const update = () => setPct(getPercentage(totalItems))
-    update()
-    window.addEventListener(PROGRESS_EVENT, update)
-    return () => window.removeEventListener(PROGRESS_EVENT, update)
-  }, [totalItems])
-
-  const done = pct >= 100
-
+export default function SummaryDownload() {
   return (
-    <div className="mt-12 p-6 md:p-8 bg-brand-cream border border-brand-coral/40 rounded-xl text-center">
-      <p className="text-xs font-bold uppercase tracking-widest text-brand-coral mb-2">
-        {done ? 'Onboarding & Orientation Complete' : 'Your First 90-Day Reference Guide'}
-      </p>
-      <h3 className="text-xl md:text-2xl font-bold text-brand-navy mb-2">
-        {done ? "You've completed everything." : 'Keep this handy.'}
-      </h3>
-      <p className="text-brand-navy/80 mb-6 max-w-xl mx-auto">
-        {done
-          ? "Here's your First 90-Day Reference Guide — office access, who to ask, your systems, and how we operate. Save it; you'll come back to it."
-          : 'Office access, who to ask, your systems, and how we operate — yours to download and reference anytime.'}
+    <div className="mt-8 px-4 py-4 bg-brand-cream border border-brand-coral/40 rounded-xl text-center max-w-md mx-auto">
+      <h3 className="text-base font-bold text-brand-navy mb-1">Your First 90-Day Reference Guide</h3>
+      <p className="text-sm text-brand-navy/80 mb-3">
+        Office access, who to ask, your systems, and how we operate — save it and come back anytime.
       </p>
       <a
         href="/6th-ave-first-90-days.pdf"
         download="6th Ave Homes - First 90-Day Reference Guide.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center justify-center px-8 py-3 bg-brand-coral text-white font-bold rounded-lg hover:shadow-lg hover:shadow-brand-coral/50 transition-all duration-200 min-h-12 uppercase text-sm tracking-wide"
+        className="inline-flex items-center justify-center px-6 py-2.5 bg-brand-coral text-white font-bold rounded-lg hover:shadow-lg hover:shadow-brand-coral/50 transition-all duration-200 uppercase text-xs tracking-wide"
       >
-        Download your 90-Day Reference Guide (PDF)
+        Download the PDF
       </a>
     </div>
   )
