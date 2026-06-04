@@ -183,30 +183,30 @@ export default function EmergencyContactForm() {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 max-w-3xl">
-      <h3 className="text-2xl font-bold text-brand-navy mb-6">Emergency Contact Information</h3>
+    <div className="bg-white rounded-lg shadow-md p-5 max-w-3xl">
+      <h3 className="text-xl font-bold text-brand-navy mb-3">Emergency Contact Information</h3>
 
       {error && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+        <div className="bg-red-50 border border-red-200 rounded-lg p-3 mb-4">
           <p className="text-red-800">{error}</p>
         </div>
       )}
 
       {submitted && (
-        <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6">
+        <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4">
           <p className="text-green-800 font-medium">
             Your emergency contact information has been saved successfully!
           </p>
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-3">
         {/* License & Personal Information */}
-        <div className="border-b pb-4">
-          <h4 className="text-base font-semibold text-brand-navy mb-2">License &amp; Personal Information</h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="border-b pb-3">
+          <h4 className="text-base font-semibold text-brand-navy mb-2 mt-0">License &amp; Personal Information</h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div>
-              <label htmlFor="trecLicenseNumber" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="trecLicenseNumber" className="block text-sm font-semibold text-brand-navy mb-1">
                 TREC License #
               </label>
               <input
@@ -215,7 +215,7 @@ export default function EmergencyContactForm() {
                 name="trecLicenseNumber"
                 value={formData.trecLicenseNumber}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.trecLicenseNumber
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -227,7 +227,7 @@ export default function EmergencyContactForm() {
             </div>
 
             <div>
-              <label htmlFor="licenseExpiry" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="licenseExpiry" className="block text-sm font-semibold text-brand-navy mb-1">
                 License Expiry
               </label>
               <input
@@ -236,7 +236,7 @@ export default function EmergencyContactForm() {
                 name="licenseExpiry"
                 value={formData.licenseExpiry}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.licenseExpiry
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -248,7 +248,7 @@ export default function EmergencyContactForm() {
             </div>
 
             <div>
-              <label htmlFor="cellPhone" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="cellPhone" className="block text-sm font-semibold text-brand-navy mb-1">
                 Cell Phone
               </label>
               <input
@@ -260,7 +260,7 @@ export default function EmergencyContactForm() {
                 inputMode="numeric"
                 maxLength={14}
                 placeholder="(817) 360-5555"
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.cellPhone
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -272,7 +272,7 @@ export default function EmergencyContactForm() {
             </div>
 
             <div>
-              <label htmlFor="birthday" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="birthday" className="block text-sm font-semibold text-brand-navy mb-1">
                 Birthday
               </label>
               <input
@@ -281,7 +281,7 @@ export default function EmergencyContactForm() {
                 name="birthday"
                 value={formData.birthday}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.birthday
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -295,11 +295,11 @@ export default function EmergencyContactForm() {
         </div>
 
         {/* Home Address Section */}
-        <div className="border-b pb-4">
-          <h4 className="text-base font-semibold text-brand-navy mb-2">Home Address</h4>
-          <div className="space-y-4">
+        <div className="border-b pb-3">
+          <h4 className="text-base font-semibold text-brand-navy mb-2 mt-0">Home Address</h4>
+          <div className="space-y-3">
             <div>
-              <label htmlFor="homeAddressStreet" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="homeAddressStreet" className="block text-sm font-semibold text-brand-navy mb-1">
                 Street Address
               </label>
               <input
@@ -308,7 +308,7 @@ export default function EmergencyContactForm() {
                 name="homeAddressStreet"
                 value={formData.homeAddressStreet}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.homeAddressStreet
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -319,9 +319,9 @@ export default function EmergencyContactForm() {
               )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div>
-                <label htmlFor="homeAddressCity" className="block text-sm font-semibold text-brand-navy mb-2">
+                <label htmlFor="homeAddressCity" className="block text-sm font-semibold text-brand-navy mb-1">
                   City
                 </label>
                 <input
@@ -330,7 +330,7 @@ export default function EmergencyContactForm() {
                   name="homeAddressCity"
                   value={formData.homeAddressCity}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                  className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                     errors.homeAddressCity
                       ? 'border-red-500 focus:border-red-600 bg-red-50'
                       : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -342,7 +342,7 @@ export default function EmergencyContactForm() {
               </div>
 
               <div>
-                <label htmlFor="homeAddressZip" className="block text-sm font-semibold text-brand-navy mb-2">
+                <label htmlFor="homeAddressZip" className="block text-sm font-semibold text-brand-navy mb-1">
                   Zip Code
                 </label>
                 <input
@@ -351,7 +351,7 @@ export default function EmergencyContactForm() {
                   name="homeAddressZip"
                   value={formData.homeAddressZip}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                  className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                     errors.homeAddressZip
                       ? 'border-red-500 focus:border-red-600 bg-red-50'
                       : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -366,11 +366,11 @@ export default function EmergencyContactForm() {
         </div>
 
         {/* Emergency Contact Section */}
-        <div className="border-b pb-4">
-          <h4 className="text-base font-semibold text-brand-navy mb-2">Emergency Contact</h4>
-          <div className="space-y-4">
+        <div className="border-b pb-3">
+          <h4 className="text-base font-semibold text-brand-navy mb-2 mt-0">Emergency Contact</h4>
+          <div className="space-y-3">
             <div>
-              <label htmlFor="emergencyContactName" className="block text-sm font-semibold text-brand-navy mb-2">
+              <label htmlFor="emergencyContactName" className="block text-sm font-semibold text-brand-navy mb-1">
                 Name
               </label>
               <input
@@ -379,7 +379,7 @@ export default function EmergencyContactForm() {
                 name="emergencyContactName"
                 value={formData.emergencyContactName}
                 onChange={handleChange}
-                className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                   errors.emergencyContactName
                     ? 'border-red-500 focus:border-red-600 bg-red-50'
                     : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -390,9 +390,9 @@ export default function EmergencyContactForm() {
               )}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <div>
-                <label htmlFor="emergencyContactPhone" className="block text-sm font-semibold text-brand-navy mb-2">
+                <label htmlFor="emergencyContactPhone" className="block text-sm font-semibold text-brand-navy mb-1">
                   Phone
                 </label>
                 <input
@@ -404,7 +404,7 @@ export default function EmergencyContactForm() {
                   inputMode="numeric"
                   maxLength={14}
                   placeholder="(817) 360-5555"
-                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                  className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                     errors.emergencyContactPhone
                       ? 'border-red-500 focus:border-red-600 bg-red-50'
                       : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -416,7 +416,7 @@ export default function EmergencyContactForm() {
               </div>
 
               <div>
-                <label htmlFor="emergencyContactEmail" className="block text-sm font-semibold text-brand-navy mb-2">
+                <label htmlFor="emergencyContactEmail" className="block text-sm font-semibold text-brand-navy mb-1">
                   Email
                 </label>
                 <input
@@ -425,7 +425,7 @@ export default function EmergencyContactForm() {
                   name="emergencyContactEmail"
                   value={formData.emergencyContactEmail}
                   onChange={handleChange}
-                  className={`w-full px-4 py-2 border-2 rounded-lg focus:outline-none transition ${
+                  className={`w-full px-3 py-1.5 border-2 rounded-lg focus:outline-none transition ${
                     errors.emergencyContactEmail
                       ? 'border-red-500 focus:border-red-600 bg-red-50'
                       : 'border-gray-300 focus:border-brand-coral bg-white'
@@ -437,7 +437,7 @@ export default function EmergencyContactForm() {
               </div>
             </div>
 
-            <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+            <div className="mt-3 p-2.5 bg-blue-50 border border-blue-200 rounded-lg">
               <label className="flex items-start gap-3 cursor-pointer">
                 <input
                   type="checkbox"
@@ -463,7 +463,7 @@ export default function EmergencyContactForm() {
         <button
           type="submit"
           disabled={isLoading || isDisabled}
-          className="w-full bg-brand-coral hover:bg-red-600 disabled:bg-gray-400 text-white font-bold py-3 px-4 rounded-lg transition duration-200"
+          className="w-full bg-brand-coral hover:bg-red-600 disabled:bg-gray-400 text-white font-bold py-2.5 px-4 rounded-lg transition duration-200 mt-1"
         >
           {isLoading ? 'Submitting...' : isDisabled ? '✓ Submitted' : 'Submit Emergency Contact Information'}
         </button>
