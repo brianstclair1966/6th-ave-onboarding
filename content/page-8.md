@@ -148,9 +148,7 @@ That's where professionals are made.
 - [ ] I commit to reviewing the entire onboarding in my first month
 </div>
 
-You've completed your onboarding and orientation.
-
-You're ready to begin.
+<!-- DOWNLOAD -->
 
 <p style="color:#ED6758; font-size:2.75rem; font-weight:800; line-height:1.2; text-align:center; margin:2rem 0 0.5rem;">Welcome to 6th Ave Homes</p>
 

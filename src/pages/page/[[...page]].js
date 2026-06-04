@@ -99,6 +99,8 @@ function renderMarkdown(content) {
   html = html.replace(/<p>(<!-- FORM:.*? -->)<\/p>/g, '$1')
   // Same for the business-card picker marker, so the split stays clean.
   html = html.replace(/<p>(<!-- CARDS -->)<\/p>/g, '$1')
+  // Same for the page-8 reference-guide download marker.
+  html = html.replace(/<p>(<!-- DOWNLOAD -->)<\/p>/g, '$1')
 
   return html
 }
@@ -306,6 +308,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
         { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
         { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
+      8: [{ marker: '<!-- DOWNLOAD -->', component: <SummaryDownload key="download" totalItems={totalItems} /> }],
     }
 
     const markers = formMarkers[pageNumber] || []
@@ -349,7 +352,6 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle} totalItems={totalItems}>
       <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
         {renderPageContent()}
-        {pageNumber === 8 && <SummaryDownload totalItems={totalItems} />}
         {!pageComplete && (
           <p className="mt-6 text-center text-sm font-semibold text-brand-coral">
             {pageNumber === 1
