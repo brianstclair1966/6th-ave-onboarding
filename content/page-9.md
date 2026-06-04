@@ -152,6 +152,8 @@ That's where professionals are made.
 
 <!-- CELEBRATE -->
 
-<p style="text-align:center; font-size:1.15rem; line-height:1.7; max-width:640px; margin:1rem auto 0;">You're not just joining a brokerage. You're joining a team that's serious about building real, sustainable businesses — and real relationships. We're glad you're here. Let's go.</p>
+<p style="text-align:center; font-size:1.15rem; line-height:1.7; max-width:640px; margin:1rem auto 0;">You're not just joining a brokerage. You're joining a team that's serious about building real, sustainable businesses — and real relationships.</p>
+
+<p style="text-align:center; font-size:1.15rem; line-height:1.7; margin:0.4rem auto 0;">We're glad you're here. Let's go.</p>
 
 <p style="font-size:1.5rem; font-weight:600; text-align:center; margin:1rem 0 0.5rem;">Take good care of your people & they will take good care of you.</p>
