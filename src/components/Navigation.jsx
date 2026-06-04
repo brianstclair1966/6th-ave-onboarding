@@ -27,7 +27,7 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nex
               }`}
               title={nextDisabled ? 'Finish the highlighted item to continue' : undefined}
             >
-              {pageNumber === 6 ? 'Go to Orientation →' : pageNumber === 7 ? 'Page 8 →' : pageNumber === 8 ? 'Page 9 →' : 'Next →'}
+              {pageNumber === 6 ? 'How We Operate →' : pageNumber === 7 ? 'Page 8 →' : pageNumber === 8 ? 'Page 9 →' : 'Next →'}
             </button>
           ) : nextDisabled ? (
             <button

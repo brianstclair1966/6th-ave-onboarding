@@ -10,9 +10,9 @@ description: ""
 
 ## A New Message from Brian
 
-This is a different video from your page 1 welcome — a few minutes on how this orientation phase differs from the setup you just finished. Give it a watch before you read on.
+This is a different video from your page 1 welcome — a few minutes on how this next phase differs from the setup you just finished. Give it a watch before you read on.
 
-<iframe src="https://www.youtube.com/embed/FuPZ3alReFA" title="6th Ave Homes — Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
+<iframe src="https://www.youtube.com/embed/FuPZ3alReFA" title="6th Ave Homes — How We Operate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
 ## Meetings
 

@@ -22,7 +22,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
     }
   }, [])
 
-  // Pages 1-6: Onboarding system. Pages 7-9: Orientation system (separate)
+  // Pages 1-6: Onboarding system. Pages 7-9: How We Operate system (separate)
   const isOrientation = currentPage >= 7
   const displayPageNum = isOrientation ? currentPage - 6 : currentPage
   const displayTotalPages = isOrientation ? 3 : 6
@@ -72,8 +72,8 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
               {currentPage >= 7 ? (
                 <>
                   <span className="text-xs">←</span>
-                  <span className="text-xxs">Orientation</span>
-                  <span className="text-xxs">Home</span>
+                  <span className="text-xxs">How We</span>
+                  <span className="text-xxs">Operate</span>
                 </>
               ) : (
                 '← Home'
@@ -115,7 +115,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
               </Link>
             ) : (
               <Link href="/page/7" className="text-xxs text-brand-taupe hover:text-brand-coral transition-colors font-medium whitespace-nowrap">
-                Orientation →
+                How We Operate →
               </Link>
             )}
             <div className="flex items-center gap-2">

@@ -4,9 +4,9 @@ page: 5
 description: "IABS, Rechat, and RealScout — your client-facing tools"
 ---
 
-# Your Client-Facing Tools
+# Your Core Business Tools
 
-Create your IABS form, then get set up in Rechat and RealScout — the tools you'll use with every client. Your IABS is **required by Texas law**, so don't skip it; Rechat and RealScout you'll learn by using.
+These are the systems you'll use with clients and transactions every day. Spend a little time getting familiar with them now — you'll learn the rest through real use.
 
 
 ## ⑦ Create Your IABS Form
