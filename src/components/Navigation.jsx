@@ -20,22 +20,23 @@ export default function Navigation({ pageNumber, onPrev, onNext, totalPages, nex
           {showNext ? (
             <button
               onClick={onNext}
-              disabled={nextDisabled}
-              className={`px-10 py-3 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm transition-all duration-200 ${
+              className={`px-10 py-3 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm transition-all duration-200 cursor-pointer ${
                 nextDisabled
-                  ? 'bg-gray-300 cursor-not-allowed'
+                  ? 'bg-gray-300'
                   : 'bg-brand-coral hover:shadow-lg hover:shadow-brand-coral/50'
               }`}
+              title={nextDisabled ? 'Finish the highlighted item to continue' : undefined}
             >
               {pageNumber === 5 ? 'Go to Orientation →' : pageNumber === 6 ? 'Page 7 →' : pageNumber === 7 ? 'Page 8 →' : 'Next →'}
             </button>
           ) : nextDisabled ? (
-            <span
-              className="px-10 py-3 bg-gray-300 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm cursor-not-allowed"
-              title="Complete every checkbox on this page first"
+            <button
+              onClick={onNext}
+              className="px-10 py-3 bg-gray-300 text-white font-bold rounded-lg min-h-12 flex items-center justify-center tracking-wide uppercase text-sm cursor-pointer"
+              title="Finish the highlighted item to continue"
             >
               Enter the Backsite →
-            </span>
+            </button>
           ) : (
             <a
               href="https://www.6thavehomesagents.com"

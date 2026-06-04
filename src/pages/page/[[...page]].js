@@ -252,9 +252,36 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     }
   }
 
+  // When the agent clicks Next on an incomplete page, take them to the first
+  // thing they still need to do (and flash it) instead of doing nothing.
+  const scrollToFirstIncomplete = () => {
+    const main = document.querySelector('main')
+    if (!main) return
+    const candidates = []
+    main.querySelectorAll('.page-checkbox').forEach((cb) => {
+      if (!cb.checked) candidates.push(cb.closest('.checkbox-item') || cb)
+    })
+    // Unsubmitted forms / unselected card: white cards with fields but no green "saved" box.
+    main.querySelectorAll('.shadow-md').forEach((card) => {
+      const hasFields = card.querySelector('input, textarea')
+      const hasSuccess = card.querySelector('.bg-green-50')
+      if (hasFields && !hasSuccess) candidates.push(card)
+    })
+    if (!candidates.length) return
+    candidates.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top)
+    const target = candidates[0]
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    target.classList.add('flash-missed')
+    setTimeout(() => target.classList.remove('flash-missed'), 1600)
+  }
+
   const handleNext = () => {
     // Every checkbox and form on the page must be complete before advancing.
-    if (!pageComplete) return
+    // If something's missing, scroll the agent to the first incomplete item.
+    if (!pageComplete) {
+      scrollToFirstIncomplete()
+      return
+    }
     if (pageNumber < TOTAL_PAGES) {
       router.push(`/page/${pageNumber + 1}`)
     }
