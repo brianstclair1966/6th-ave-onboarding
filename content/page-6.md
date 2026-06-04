@@ -54,7 +54,7 @@ You can also reach one of our **[Subject Matter Experts](https://www.6thavehomes
 
 ## What's Next
 
-Once you've completed these steps, your systems are being initiated & being set up, and you're ready to get going. We understand.
+Once you've completed these steps, your systems are being set up, and you're ready to get going. We understand you're ready to dive in.
 
 But the real work isn't just these systems. It's the mindset shift: from "I need to know everything" to "I know how to find the answer." That's what this next phase teaches you. We're going to introduce you to how 6th Ave thinks and supports you, and your business.
 

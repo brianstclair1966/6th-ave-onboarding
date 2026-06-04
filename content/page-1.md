@@ -16,7 +16,7 @@ description: "Your first week — what to do first"
 
 ### Here's what matters: we think of you as our client, not a transaction. We're here to make you better at what you're already good at: Relationships. Stories. People.
 
-### 6th Ave Homes focuses on tools, trainings, and meetings that are geared for your success.
+### 6th Ave Homes focuses on tools, training, and meetings that are geared for your success.
 
 
 ## Watch This First

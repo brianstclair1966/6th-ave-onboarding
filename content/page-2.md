@@ -29,7 +29,7 @@ This is housekeeping. We need some info for our files. We promise to keep your i
 
 ## ② TREC Sponsorship
 
-**What happens:** Once you submit your emergency contact form, Brian will receive it and invite you to join us on the <span title="Texas Real Estate Commission">TREC</span> website.
+**What happens:** Once you submit your Emergency Contact Form, Brian will receive it and invite you to join us on the <span title="Texas Real Estate Commission">TREC</span> website.
 
 **What you do:** Accept the invitation and complete the TREC sponsorship request.
 

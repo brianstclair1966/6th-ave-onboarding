@@ -39,9 +39,9 @@ Place this template wording directly above your email signature & include the se
 
 ## ⑧ Get Started with Rechat
 
-Rechat isn't just a CRM — it's the system that helps you stay organized as your business grows. It brings together your contacts, conversations, transactions, documents, tasks, and follow-up in one place so you always know what's next. You don't need to master it today; you'll learn it by using it with real clients and real transactions.
+Rechat isn't just a CRM — it's the system that helps you stay organized as your business grows. It brings together your contacts, conversations, transactions, documents, tasks, and follow-up in one place so you always know what's next.
 
-You don't have to do all of this now — just know these resources are here for you. Bookmark the site so you can come back to it after onboarding.
+You don't have to understand all of Rechat now — it takes a little trial and error to really get it. That's OK. Bookmark the Starting Guide below & you can come back later to get acclimated.
 
 [**→ Rechat Getting Started Guide**](https://help.rechat.com/guides/getting-started)
 
@@ -52,7 +52,7 @@ You don't have to do all of this now — just know these resources are here for 
 
 RealScout is your client search and engagement platform. It gives your clients a modern home-search experience while helping you understand what they're looking at, saving, and searching for. Instead of guessing when to follow up, RealScout gives you insights that help you have more relevant conversations and stay connected throughout the buying journey. Zillow tells clients what's happening; RealScout tells agents what's happening.
 
-You don't have to do all of this now — just know these resources are here for you. Bookmark the site so you can come back to it after onboarding.
+RealScout has some very helpful functions that are covered in their "Help" documentation. Many agents use RealScout with their clients like a Zillow search — give them access through an onboarding link & let them peruse the MLS just like they would on Zillow. It's a great starting platform for buyers who don't know exactly what they want in their next home, or sellers who want a monthly update of their home's value (using RealScout's Home Value Alerts feature).
 
 [**→ RealScout Help Page**](https://support.realscout.com/en/)
 

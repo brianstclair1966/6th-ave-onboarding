@@ -58,7 +58,7 @@ After you've completed the Culture Index survey, come back here to continue your
 
 ### "All About You" Form
 
-This info will be displayed on your 6th Ave team member page.
+This info will be displayed on your 6th Ave Team Member page.
 
 See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
 

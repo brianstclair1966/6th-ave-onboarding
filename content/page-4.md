@@ -32,7 +32,7 @@ Then tweak what it gives you until it sounds like you. AI gets you a strong firs
 
 Do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**. Keeping your bio consistent across every platform helps your visibility — including with AI search.
 
-Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes team member site](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
+Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes Team Member page](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
 
 ### Where to look
 
