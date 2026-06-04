@@ -364,7 +364,7 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
 
   return (
     <Page pageNumber={pageNumber} sectionTitle={sectionTitle} totalItems={totalItems}>
-      <main className="flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12">
+      <main className={`flex-1 max-w-4xl md:max-w-6xl mx-auto px-6 py-12 page-${pageNumber}`}>
         {renderPageContent()}
         {!pageComplete && (
           <p className="mt-6 text-center text-sm font-semibold text-brand-coral">

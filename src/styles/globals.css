@@ -192,6 +192,22 @@ a:hover {
   }
 }
 
+/* Page 7 is the densest page (lots of category switching). Tighten its vertical
+   rhythm a touch so it reads less long, without affecting the other pages. */
+.page-7 h2 {
+  margin-top: 1.75rem;
+}
+.page-7 ul,
+.page-7 ol {
+  margin-bottom: 0.75rem;
+}
+.page-7 li {
+  margin-bottom: 0.35rem;
+}
+.page-7 p {
+  margin-bottom: 0.75rem;
+}
+
 /* Brief coral pulse on the first incomplete item when Next is clicked early. */
 .flash-missed {
   animation: flashMissed 1.5s ease;

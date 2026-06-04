@@ -29,7 +29,7 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 ## Fees & Lead Structure
 
 - Your **personal split** is agreed to by you & the brokerage director or manager. It is important for you to know that there is a **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
-- **Resource fee: $215/month** for full-time agents. Part-time agents don't pay it — and don't get Rechat, RealScout, or DocuSign.
+- **Resource fee: $215/month** for full-time agents. This covers DocuSign, Rechat, RealScout, Google Suite, and brokerage overhead (office, printer, utilities). Part-time agents don't pay it — and don't get Rechat, RealScout, or DocuSign.
 - **Leads** are split **50/50** (search-portal leads are **65/35** in your favor). Owners and the broker don't take leads — they go to Guides.
 
 ## Your Database & Marketing
@@ -45,11 +45,7 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 
 ## Your Operational Toolkit
 
-- **Slack** — How we talk, share, celebrate, problem-solve
-- **Rechat** — Where transactions live (contracts, timelines, addenda, & compliance checks)
-- **RealScout** — Client portal for searching. They feel like they're using Zillow, but you have all the data.
-- **Google Workspace** — Email, calendar, docs. Organize your business.
-- **DocuSign** — E-signatures (full-time agents)
+<div style="background:rgba(237,103,88,0.08); border-left:4px solid #ED6758; border-radius:8px; padding:0.9rem 1.25rem; margin:1rem 0; color:#043853; line-height:1.55;"><div style="margin-bottom:6px;"><strong>Slack</strong> — How we talk, share, celebrate, problem-solve</div><div style="margin-bottom:6px;"><strong>Rechat</strong> — Where transactions live (contracts, timelines, addenda, &amp; compliance checks)</div><div style="margin-bottom:6px;"><strong>RealScout</strong> — Client portal for searching. They feel like they're using Zillow, but you have all the data.</div><div style="margin-bottom:6px;"><strong>Google Workspace</strong> — Email, calendar, docs. Organize your business.</div><div><strong>DocuSign</strong> — E-signatures (full-time agents)</div></div>
 
 Each tool has a job. Use them that way.
 
