@@ -46,28 +46,28 @@ export const AGENT_PROGRESS_COLUMNS = [
   'TREC',                 // G  (6)  page 2 checkbox
   'GFWAR',                // H  (7)  page 2 checkbox (Realtor Assoc / MLS)
   'IC-Agree',             // I  (8)  page 3 checkbox (ICA)
-  'Bio',                  // J  (9)  page 3 Bio form
+  'Bio',                  // J  (9)  page 4 Bio form
   'About-You',            // K  (10) page 3 About You form
-  'Profiles',             // L  (11) page 3 checkbox (updated online profiles)
-  'IABS',                 // M  (12) page 4 checkbox
-  'Rechat',               // N  (13) page 4 checkbox
-  'Realscout',            // O  (14) page 4 checkbox
-  'Resources',            // P  (15) page 5 checkbox (aware of backsite resources)
-  'Mastermind',           // Q  (16) page 6 checkbox (knows weekly Mastermind meeting)
-  'Responsiveness',       // R  (17) page 6 checkbox (production goals + 24h responsiveness)
-  'Connections',          // S  (18) page 6 checkbox (20 people from sphere)
-  'Review',               // T  (19) page 6 checkbox (read page again)
-  'Early Communication',  // U  (20) page 7 checkbox
-  'Mentorship',           // V  (21) page 7 checkbox
-  'Support Request',      // W  (22) page 7 checkbox (ask for support)
-  'Ask Questions',        // X  (23) page 7 checkbox
-  'Support Differs',      // Y  (24) page 7 checkbox
-  'Certainty',            // Z  (25) page 8 checkbox (clients borrow certainty)
-  'Consistency',          // AA (26) page 8 checkbox
-  'Judgment',             // AB (27) page 8 checkbox
-  'Systems',              // AC (28) page 8 checkbox
-  'Reputation',           // AD (29) page 8 checkbox
-  'Principles',           // AE (30) page 8 checkbox
+  'Profiles',             // L  (11) page 4 checkbox (updated online profiles)
+  'IABS',                 // M  (12) page 5 checkbox
+  'Rechat',               // N  (13) page 5 checkbox
+  'Realscout',            // O  (14) page 5 checkbox
+  'Resources',            // P  (15) page 6 checkbox (aware of backsite resources)
+  'Mastermind',           // Q  (16) page 7 checkbox (knows weekly Mastermind meeting)
+  'Responsiveness',       // R  (17) page 7 checkbox (production goals + 24h responsiveness)
+  'Connections',          // S  (18) page 7 checkbox (20 people from sphere)
+  'Review',               // T  (19) page 7 checkbox (read page again)
+  'Early Communication',  // U  (20) page 8 checkbox
+  'Mentorship',           // V  (21) page 8 checkbox
+  'Support Request',      // W  (22) page 8 checkbox (ask for support)
+  'Ask Questions',        // X  (23) page 8 checkbox
+  'Support Differs',      // Y  (24) page 8 checkbox
+  'Certainty',            // Z  (25) page 9 checkbox (clients borrow certainty)
+  'Consistency',          // AA (26) page 9 checkbox
+  'Judgment',             // AB (27) page 9 checkbox
+  'Systems',              // AC (28) page 9 checkbox
+  'Reputation',           // AD (29) page 9 checkbox
+  'Principles',           // AE (30) page 9 checkbox
   'Culture Index',        // AF (31) page 3 checkbox (Culture Index survey)
   'Business Card',        // AG (32) page 3 single-select (which card design to order)
   'W-9',                  // AH (33) page 3 checkbox (W-9 completed + emailed to bookkeeper)

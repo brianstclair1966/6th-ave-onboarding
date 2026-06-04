@@ -28,9 +28,9 @@ Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome
 
 ## Your Activation Path
 
-Here's the things you'll be working on over the next few pages of this module:
+Here are the things you'll be working on over the next few pages of this module:
 
-<div style="columns:2; column-gap:40px; margin:12px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:10px;">① <strong>Emergency Contact Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">② <strong>TREC Sponsorship</strong></div><div style="break-inside:avoid; margin-bottom:10px;">③ <strong>Join Your Realtor Association</strong></div><div style="break-inside:avoid; margin-bottom:10px;">④ <strong>Documents &amp; Payment Setup</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑤ <strong>Professional Presence, Bio, &amp; All About You</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑥ <strong>Create Your IABS Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑦ <strong>Get Started with Rechat</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑧ <strong>Get Started with RealScout</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑨ <strong>Guide Training and Orientation</strong></div></div>
+<div style="columns:2; column-gap:40px; margin:12px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:10px;">① <strong>Emergency Contact Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">② <strong>TREC Sponsorship</strong></div><div style="break-inside:avoid; margin-bottom:10px;">③ <strong>Join Your Realtor Association</strong></div><div style="break-inside:avoid; margin-bottom:10px;">④ <strong>Documents &amp; Payment Setup</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑤ <strong>Getting to Know You</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑥ <strong>Build Your Professional Presence</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑦ <strong>Create Your IABS Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑧ <strong>Get Started with Rechat</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑨ <strong>Get Started with RealScout</strong></div><div style="break-inside:avoid; margin-bottom:10px;"><strong>Guide Orientation</strong></div></div>
 
 
 ## Before You Begin
@@ -42,9 +42,9 @@ A few of these steps go faster if you have what you need handy before you dive i
 
 ## What Happens on Our End
 
-After you complete Step 1 and fill out your Emergency Contact Form, we will begin getting you setup on our platforms:
+After you complete Step 1 and fill out your Emergency Contact Form, we will begin getting you set up on our platforms:
 
-<div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• Realscout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
+<div style="columns:2; column-gap:40px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Google Suite (Gmail, Drive, Calendar)</div><div style="break-inside:avoid; margin-bottom:6px;">• Slack</div><div style="break-inside:avoid; margin-bottom:6px;">• Rechat</div><div style="break-inside:avoid; margin-bottom:6px;">• RealScout</div><div style="break-inside:avoid; margin-bottom:6px;">• DocuSign</div></div>
 
 You'll receive setup emails to your 6th Ave Gmail account as your accounts activate. Accept them as they arrive.
 

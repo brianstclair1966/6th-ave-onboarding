@@ -6,7 +6,7 @@ description: "Forms, licensing, MLS — getting legally active"
 
 # Getting You Active
 
-Steps 1 - 3 are pretty straightforward & won't take you much time.
+Steps 1–3 are pretty straightforward & won't take you much time.
 
 
 ## ① Emergency Contact Form
@@ -47,7 +47,7 @@ Fill in the blanks, sign it, and email the completed form to **[membership@gfwar
 
 <div class="assoc-meta"><a href="https://www.mytbbor.com/" target="_blank" rel="noopener noreferrer">mytbbor.com</a> &nbsp;·&nbsp; Call (254) 773-0410 for questions &amp; info</div>
 
-6th Ave Home is proud to be a member of the Temple Belton Board of Realtors. TBBOR uses the CTX MLS. You are welcome to join & have access to CTX MLS. Please understand that all fees & application fees for you to join TBBOR & CTX MLS are at your expense.
+6th Ave Homes is proud to be a member of the Temple-Belton Board of Realtors. TBBOR uses the CTX MLS. You are welcome to join & have access to CTX MLS. Please understand that all fees & application fees for you to join TBBOR & CTX MLS are at your expense.
 
 <div class="assoc-pills"><a class="assoc-pill" href="https://members.mytbbor.com/ap/Membership/Application/XpjA90rG" target="_blank" rel="noopener noreferrer">Primary Realtor Application</a><a class="assoc-pill" href="https://members.mytbbor.com/ap/Membership/Application/xP2Ek6pV" target="_blank" rel="noopener noreferrer">Secondary Realtor Application</a><a class="assoc-pill" href="https://members.mytbbor.com/ap/Membership/Application/4rJA9xL2" target="_blank" rel="noopener noreferrer">MLS Only Subscription</a></div>
 
@@ -66,4 +66,4 @@ Contact ABoR for e-Key & MLS access.
 
 ## What's Next
 
-Move on to Step 4 (your Independent Contractor Agreement), Step 5 (Building your Professional Presence & Bio).
+Move on to Step 4 (Documents & Payment Setup) and Step 5 (Culture Index, All About You & Business Cards).

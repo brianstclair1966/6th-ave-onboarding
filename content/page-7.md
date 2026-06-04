@@ -1,98 +1,63 @@
 ---
-title: "How Support Works at 6th Ave"
+title: "How 6th Ave Operates"
 page: 7
 description: ""
 ---
 
-# How Support Works at 6th Ave
+# How 6th Ave Operates
 
-Most real estate agents build their careers alone.
+*You've finished setup. Now we shift from getting ready to how 6th Ave actually operates.*
 
-In a lot of brokerages, agents end up figuring out problems independently. Vendor relationships are fragmented. Questions get answered slowly. Stress builds quietly over time.
+## Watch This First
 
-That's not how this works.
+A few minutes from Brian on what this next phase is really about — give it a watch before you read on.
 
-## Most Problems Get Worse in Silence
+<iframe src="https://www.youtube.com/embed/FuPZ3alReFA" title="6th Ave Homes — Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; max-width: 320px; aspect-ratio: 9 / 16; height: auto; display: block; margin: 0 auto; border-radius: 12px;"></iframe>
 
-This is the core of how we operate:
+## Meetings
 
-**Most problems in real estate get worse in silence. Questions asked early are usually small. Questions avoided become expensive.**
+- **Wednesdays at 9:45am** — Weekly Mastermind Team Meeting at the Fort Worth office. (If you can't make it in person, join us virtually on Google Meet — check your 6th Ave Calendar & join from there!)
+- **Quarterly All-Team** — Last Thursday of each quarter, usually around lunchtime and usually tons of fun!
 
-That line changes everything about how agents actually work here.
+Life happens, if you can't make a meeting — it's OK. Our meetings are designed to give you real-time market data & info you can use. But you can always catch up on what you missed on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
 
-- [ ] I understand that early communication prevents problems
+## Production & Responsiveness
 
-## Real Estate Is Learned Through Doing
+- Complete **6 transactions per year**, at least **3 self-generated** (deals from a previous brokerage count toward your totals).
+- Respond to clients and team members **within 24 hours** (excluding Sundays). Responsiveness makes or breaks deals.
 
-Not through seminars. Not through webinars. Not through reading pages like this one.
+## Fees & Lead Structure
 
-Real estate is learned through live transactions.
+- Your **personal split** is agreed to by you & the brokerage director or manager. It is important for you to know that there is a **$200 brokerage fee** on every transaction (covers the broker and our Transaction Coordinator). Once you've capped, it's a flat **$600 per transaction**.
+- **Resource fee: $215/month** for full-time agents. Part-time agents don't pay it — and don't get Rechat, RealScout, or DocuSign.
+- **Leads** are split **50/50** (search-portal leads are **65/35** in your favor). Owners and the broker don't take leads — they go to Guides.
 
-Contracts. Inspections. Negotiations. Closings. Unexpected situations. Surprises. Problems solved in real time.
+## Your Database & Marketing
 
-That's why newer agents get mentorship for their first 3 transactions. Your mentor isn't there to let you figure it out alone. They're there to show you what steady execution looks like when the pressure is real.
+- Build and actively use a database of **100+ people** — 6th Ave encourages you to strive for 50 VIP clients plus any and all past clients — and reach out to all of them about **4–6 times per year**.
+- Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
 
-After 3 deals, you have the operational foundation to run on your own. But the support doesn't disappear.
+## Compliance & Training
 
-- [ ] I understand my mentorship model and transaction learning
+- Know and follow your **[TREC license requirements](https://www.trec.texas.gov/renew-license/real-estate-sales-agent)** (SAE within your first two years; continuing education every renewal).
+- Be aware of our **[CDA / compliance checklist](https://www.6thavehomesagents.com/compliance-cda-process)**. You will need to have these items loaded into Rechat (full-time agents) or uploaded through our **[Part-Time Agent](https://www.6thavehomesagents.com/part-time-agents)** site **at least 7 days prior to closing**. Submitting or uploading docs later than that could delay your CDA being generated & sent to a title company.
+- Follow TREC advertising and IABS display rules, and be familiar with our **[Policies & Procedures](https://drive.google.com/file/d/19go9A0reuKBX10-EhZCCwh3oqI4K9WIe/view?usp=sharing)**.
 
-## Here's How You Actually Get Help
+## Your Operational Toolkit
 
-**When you're learning your first 3 deals:**
-Your mentor walks alongside you. They see the contract before you send it. They understand your client's situation. They help you think through problems while there's still time to solve them.
+- **Slack** — How we talk, share, celebrate, problem-solve
+- **Rechat** — Where transactions live (contracts, timelines, addenda, & compliance checks)
+- **RealScout** — Client portal for searching. They feel like they're using Zillow, but you have all the data.
+- **Google Workspace** — Email, calendar, docs. Organize your business.
+- **DocuSign** — E-signatures (full-time agents)
 
-**When you have a question:**
-Start in Slack (#guides channel). Search previous conversations and resources first. Most questions have been asked before—and many answers are already documented. When you need real-world perspective or experience, bring it to Slack. That's how the team learns together.
-
-Also, use these beginning prompts from our **[Playbook](https://www.6thavehomesagents.com/6th-ave-ai-playbook)** to help organize your thinking, understand terminology, or review situations.
-
-**When you're overwhelmed:**
-Brian's Masterminds (Wednesdays), classes, and broker accessibility exist so you can get perspective. Most situations aren't new. That's why access and communication matter.
-
-**Where to get help:**
-- **Slack #guides** — your first stop for most questions.
-- **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — volunteer pros organized by specialty. Use them.
-- Your **mentor** (alongside you for your first 3 transactions) and your **Brokerage Manager**.
-
-- [ ] I understand when and how to ask for support
-
-## Your Real Job
-
-Your job is NOT to know everything.
-
-Your job IS to:
-
-<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Communicate clearly with clients about what's happening and why</div><div style="break-inside:avoid; margin-bottom:6px;">• Ask good questions when you're unsure</div><div style="break-inside:avoid; margin-bottom:6px;">• Stay calm when pressure shows up</div><div style="break-inside:avoid; margin-bottom:6px;">• Know who to bring in and when</div><div style="break-inside:avoid; margin-bottom:6px;">• Admit what you don't know</div></div>
-
-Asking questions early is a sign of professionalism, not weakness. Strong agents ask for clarity when they need it. That's what separates people who build long-term businesses from people who burn out.
-
-That's operational maturity. That's how this actually works.
-
-- [ ] I understand that asking questions is professional, not weakness
-
-## How This Feels Different
-
-In fragmented brokerages, you coordinate vendors independently. You hunt for answers. You solve problems alone. You carry the weight.
-
-Here, confusion gets answered. Problems get solved earlier. You have access to expertise and other agents who've done this before.
-
-You're not building in isolation anymore.
-
-That changes how sustainable this career actually is.
-
-- [ ] I understand how 6th Ave's support differs from other brokerages
-
-## What You Now Understand
-
-<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• You have mentorship on your first transactions</div><div style="break-inside:avoid; margin-bottom:6px;">• Support exists for every type of real estate problem</div><div style="break-inside:avoid; margin-bottom:6px;">• Communication and escalation are how you stay ahead of problems</div><div style="break-inside:avoid; margin-bottom:6px;">• Your job is to know how to ask good questions and bring in the right people</div><div style="break-inside:avoid; margin-bottom:6px;">• You're not carrying this business alone</div></div>
-
----
+Each tool has a job. Use them that way.
 
 ## Next Steps
 
 <div class="cb-2col">
-- [ ] I commit to bookmarking the Slack #guides channel and introducing myself
-- [ ] I saved Brian's number — (817) 360-5555 — and know to start questions in Slack
-- [ ] I commit to naming one thing I'm nervous about and asking about it this week
-- [ ] I commit to reviewing this page again in my first month
+- [ ] I know when our weekly Mastermind meeting is and how to join
+- [ ] I understand my production goals and the 24-hour client response expectation
+- [ ] I commit to building my database with my SOI and/or Past Clients
+- [ ] I commit to re-reading this page in my first week
 </div>

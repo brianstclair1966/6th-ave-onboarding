@@ -14,14 +14,14 @@ import SummaryDownload from '../../components/SummaryDownload'
 import WelcomeCelebration from '../../components/WelcomeCelebration'
 import * as progress from '../../lib/progress'
 
-const TOTAL_PAGES = 8
-// Forms that count toward the progress bar (page 1 agent info + the 3 page 2-3 forms).
+const TOTAL_PAGES = 9
+// Forms that count toward the progress bar (page 1 agent info + the 3 page 2-4 forms).
 const TOTAL_FORMS = 4
 // Single-select items that count toward the progress bar (page 3 business card).
 const TOTAL_SELECTIONS = 1
 
 // Forms (by progress-store id) that must be submitted to complete each page.
-const PAGE_FORMS = { 2: ['form:emergency'], 3: ['form:bio', 'form:about'] }
+const PAGE_FORMS = { 2: ['form:emergency'], 3: ['form:about'], 4: ['form:bio'] }
 
 // Single-select pickers (by progress-store id) required to complete each page.
 const PAGE_SELECTIONS = { 3: ['cards:3'] }
@@ -306,11 +306,13 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     const formMarkers = {
       2: [{ marker: '<!-- FORM:emergency_contact -->', component: <EmergencyContactForm key="emergency" agentInfo={agentInfo} /> }],
       3: [
-        { marker: '<!-- FORM:bio -->', component: <BioForm key="bio" agentInfo={agentInfo} /> },
         { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
         { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
-      8: [
+      4: [
+        { marker: '<!-- FORM:bio -->', component: <BioForm key="bio" agentInfo={agentInfo} /> },
+      ],
+      9: [
         { marker: '<!-- DOWNLOAD -->', component: <SummaryDownload key="download" totalItems={totalItems} /> },
         { marker: '<!-- CELEBRATE -->', component: <WelcomeCelebration key="celebrate" complete={pageComplete} /> },
       ],

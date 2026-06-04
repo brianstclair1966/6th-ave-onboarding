@@ -1,12 +1,12 @@
 ---
-title: "Steps 4–5: Documentation & Presence"
+title: "Steps 4–5: Documents & Getting to Know You"
 page: 3
-description: "IC agreement, website bio, and getting established"
+description: "IC agreement, payment setup, and helping us get to know you"
 ---
 
 # Getting Your Foundation Ready
 
-Our Transaction Coordinator will be helping you with Step 4 by sending you a Docusign email that contains your Independent Contractor Agreement. You can go to Step 5 and begin building your 6th Ave Homes Professional Presence.
+Our Transaction Coordinator will help you with Step 4 by sending you a DocuSign email that contains your Independent Contractor Agreement. From there, a few quick items get you paid correctly and help us get to know you.
 
 
 ## ④ Documents & Payment Setup
@@ -44,47 +44,11 @@ Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com]
 - [ ] I set up my resource-fee auto-pay (or I'm part-time, so this doesn't apply)
 
 
-## ⑤ Build Your Professional Presence
+## ⑤ Getting to Know You
 
-### Part A: Website Bio
+These help us understand you, build out your bio page, and get your business cards ordered.
 
-Your website bio is often the first impression clients have of you. Every 6th Ave agent gets featured on [**www.6thavehomes.com/the-team**](https://www.6thavehomes.com/the-team).
-
-**See an example:** [**Brian's bio →**](https://6thavehomes.com/brian-st-clair)
-
-**Write yours by:**
-
-<div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• Keeping it 150–300 words</div><div style="break-inside:avoid; margin-bottom:6px;">• Sharing your background (where you grew up, what brought you to real estate)</div><div style="break-inside:avoid; margin-bottom:6px;">• Highlighting what makes you different</div><div style="break-inside:avoid; margin-bottom:6px;">• Making it authentic and personal</div></div>
-
-**Stuck on where to start? Let AI help.** Open your favorite AI tool (ChatGPT, Claude, Gemini), pull up [Brian's bio](https://6thavehomes.com/brian-st-clair) as an example, and paste a prompt like this:
-
-*"Here is an example real estate agent bio from my brokerage: [paste Brian's bio here]. Help me write my own 150-300 word bio in the same warm, authentic, story-driven style. A bit about me: [where you grew up, what brought you to real estate, what makes you different, and what you love about helping clients]. Keep it personal and conversational, not salesy."*
-
-Then tweak what it gives you until it sounds like you. AI gets you a strong first draft; your voice makes it real.
-
-6th Ave Homes does quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack. You'll have the opportunity to sign up for a shoot. In the meantime, you can send your headshot to [Brian](mailto:brian@6thavehomes.com).
-
-<!-- FORM:bio -->
-
-### Part B: Update Your Online Presence
-
-We recommend that you do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**. We recommend that your bio is consistent across all platforms for AI visibility.
-
-You can use one of these logo versions in your profiles:
-
-<div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center; margin:16px 0;"><div style="flex:1 1 220px; max-width:280px; text-align:center;"><div style="border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; background-color:#ffffff; background-image:linear-gradient(45deg,#d6d6d6 25%,transparent 25%),linear-gradient(-45deg,#d6d6d6 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#d6d6d6 75%),linear-gradient(-45deg,transparent 75%,#d6d6d6 75%); background-size:18px 18px; background-position:0 0,0 9px,9px -9px,-9px 0;"><img src="/Logos/main-logo-dark.png" alt="6th Ave Homes Main Logo (Transparent Background)" style="width:100%; display:block;"></div><a href="https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:8px;">Main Logo (Transparent Background)</a></div><div style="flex:1 1 220px; max-width:280px; text-align:center;"><div style="border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; background:#ffffff;"><img src="/Logos/main-logo-white.png" alt="6th Ave Homes Main Logo (White Background)" style="width:100%; display:block;"></div><a href="https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-top:8px;">Main Logo (White Background)</a></div></div>
-
-- [ ] I completed updating my online profiles with 6th Ave branding
-
-### Part C: "All About You" Form
-
-This helps us know you better and it creates more personal content on your bio page.
-
-See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
-
-<!-- FORM:about_you -->
-
-### Part D: Culture Index
+### Culture Index
 
 Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Please take the Culture Index by clicking this link: [Culture Index](https://surveys.cultureindex.com/s/dsK5s9LYO8/78525).
 
@@ -92,7 +56,15 @@ After you've completed the Culture Index survey, come back here to continue your
 
 - [ ] I completed Culture Index
 
-### Part E: Select Your Business Cards
+### "All About You" Form
+
+This helps us know you better and it creates more personal content on your bio page.
+
+See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
+
+<!-- FORM:about_you -->
+
+### Select Your Business Cards
 
 Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Each option shows the front and back — choose one of the eight below.
 

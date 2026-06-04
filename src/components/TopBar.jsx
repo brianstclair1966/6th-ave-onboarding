@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import { getPercentage, resetProgress, PROGRESS_EVENT } from '../lib/progress'
 
-const TOTAL_PAGES = 8
+const TOTAL_PAGES = 9
 
 export default function TopBar({ currentPage, sectionTitle, totalItems }) {
   const router = useRouter()
@@ -22,11 +22,11 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
     }
   }, [])
 
-  // Pages 1-5: Onboarding system. Pages 6-8: Orientation system (separate)
-  const isOrientation = currentPage >= 6
-  const displayPageNum = isOrientation ? currentPage - 5 : currentPage
-  const displayTotalPages = isOrientation ? 3 : 5
-  const systemStartPage = isOrientation ? 6 : 1
+  // Pages 1-6: Onboarding system. Pages 7-9: Orientation system (separate)
+  const isOrientation = currentPage >= 7
+  const displayPageNum = isOrientation ? currentPage - 6 : currentPage
+  const displayTotalPages = isOrientation ? 3 : 6
+  const systemStartPage = isOrientation ? 7 : 1
 
   // Progress: completed items out of the build-time total (persists across visits).
   const percentage = getPercentage(totalItems)
@@ -68,8 +68,8 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
         <div className="flex items-center justify-between gap-2 md:gap-6">
           {/* Breadcrumbs - show on all pages */}
           <div className="flex items-center gap-0.5 md:gap-2 flex-shrink-0 min-w-0">
-            <Link href={currentPage >= 6 ? '/page/6' : '/page/1'} className="text-brand-coral hover:text-brand-coral/80 font-bold transition-colors flex flex-col items-center leading-none gap-0">
-              {currentPage >= 6 ? (
+            <Link href={currentPage >= 7 ? '/page/7' : '/page/1'} className="text-brand-coral hover:text-brand-coral/80 font-bold transition-colors flex flex-col items-center leading-none gap-0">
+              {currentPage >= 7 ? (
                 <>
                   <span className="text-xs">←</span>
                   <span className="text-xxs">Orientation</span>
@@ -114,7 +114,7 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
                 ← Onboarding
               </Link>
             ) : (
-              <Link href="/page/6" className="text-xxs text-brand-taupe hover:text-brand-coral transition-colors font-medium whitespace-nowrap">
+              <Link href="/page/7" className="text-xxs text-brand-taupe hover:text-brand-coral transition-colors font-medium whitespace-nowrap">
                 Orientation →
               </Link>
             )}
@@ -138,8 +138,8 @@ export default function TopBar({ currentPage, sectionTitle, totalItems }) {
           ✓ Your progress saves automatically.
         </p>
 
-        {/* Section title for pages 6+ */}
-        {sectionTitle && currentPage >= 6 && (
+        {/* Section title for pages 7+ */}
+        {sectionTitle && currentPage >= 7 && (
           <div className="mt-2 md:mt-3">
             <p className="text-xs md:text-sm text-brand-navy font-medium">{sectionTitle}</p>
           </div>
