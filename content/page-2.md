@@ -46,9 +46,15 @@ MLS access is how you'll guide clients confidently through the market. Choose th
 
 <div class="assoc-meta"><a href="https://gfwar.org/" target="_blank" rel="noopener noreferrer">gfwar.org</a> &nbsp;·&nbsp; Call (817) 336-5165 for questions &amp; info</div>
 
-Fill in the blanks, sign it, and email the completed form to **[membership@gfwar.org](mailto:membership@gfwar.org)**.
+GFWAR requires a transfer form for all agents joining 6th Ave Homes.
+
+Access the transfer form below and fill in the top section with your personal info. In the 2nd section, labeled **"Transfer Information,"** fill in the brokerage you're coming from, the date you accepted the 6th Ave invitation, and whether you're an MLS member, then put your cell phone in the **"Phone Number"** blank. Put today's date in the last blank. Save the form to your computer, then attach it to an email and send it to **[membership@gfwar.org](mailto:membership@gfwar.org)**. You'll also need to call them at **(817) 336-5165** to make a **$30 payment** for the transfer.
 
 <div class="assoc-pills"><a class="assoc-pill" href="/gfwar-transfer-form.pdf" target="_blank" rel="noopener noreferrer">Open the GFWAR Transfer Form →</a></div>
+
+You'll also want to sign up for Autopay through GFWAR. Open the form below, fill in your info, print it, sign it, then scan it back into your computer and send it to **[krystal@gfwar.org](mailto:krystal@gfwar.org)**. This makes your quarterly payments to GFWAR simple and automatic.
+
+<div class="assoc-pills"><a class="assoc-pill" href="/gfwar-autopay-enrollment.pdf" target="_blank" rel="noopener noreferrer">GFWAR Pre-Authorized Payment Agreement →</a></div>
 
 **Also required:**
 
