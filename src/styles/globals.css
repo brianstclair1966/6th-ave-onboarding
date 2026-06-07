@@ -197,7 +197,11 @@ a:hover {
   border: 2px solid #c5cbce;
   border-radius: 9999px;
   padding: 8px 18px;
+  align-items: center;
   transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+.cb-2col .checkbox-item input[type='checkbox'] {
+  margin-top: 0;
 }
 .cb-2col .checkbox-item:hover {
   border-color: var(--brand-coral);
