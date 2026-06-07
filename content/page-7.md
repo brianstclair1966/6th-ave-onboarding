@@ -53,7 +53,7 @@ Each tool has a job. Use them that way.
 
 <div class="cb-2col">
 - [ ] I know when our weekly Mastermind meeting is and how to join
-- [ ] I understand my production goals and the 24-hour client response expectation
-- [ ] I commit to building my database with my SOI and/or Past Clients
 - [ ] I commit to re-reading this page in my first week
+- [ ] I commit to building my database with my SOI and/or Past Clients
+- [ ] I understand my production goals and the 24-hour client response expectation
 </div>
