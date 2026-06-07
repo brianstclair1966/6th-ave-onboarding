@@ -1,7 +1,7 @@
 ---
-title: "Steps 7–9: Compliance & Tools"
+title: "Steps 7–10: Compliance & Tools"
 page: 5
-description: "IABS, Rechat, and RealScout — your client-facing tools"
+description: "IABS, Rechat, RealScout, and your business cards"
 ---
 
 # Your Core Business Tools
@@ -28,7 +28,7 @@ The 6th Ave brokerage info is already filled in for you. To finish it:
 
 ### Email signature template
 
-Place this template wording directly above your email signature & include the sentence about Wire Fraud. If you are unsure how to do that, please ask Brian or the #guides channel.
+Place this template wording directly above your email signature & include the sentence about Wire Fraud. If you are unsure how to do that, please ask Brian — or the #guides channel once you're in Slack.
 
 - Texas Law requires all real estate license holders to provide a form called [Information About Brokerage Services](https://drive.google.com/file/d/1U-izD4n4SczM8C0-UX4q7RJw9aj7lMnd/view). Please review this document before we meet.
 
@@ -60,3 +60,10 @@ RealScout has some very helpful functions that are covered in their "Help" docum
 From your Marketing tab (along the left side), select "Market my RealScout". This creates a branded search portal your clients can use.
 
 - [ ] I reviewed RealScout
+
+
+## ⑩ Select Your Business Cards
+
+Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Each option shows the front and back — choose one of the eight below.
+
+<!-- CARDS -->

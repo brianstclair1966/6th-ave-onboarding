@@ -83,4 +83,4 @@ Contact ABoR for e-Key & MLS access.
 
 ## What's Next
 
-Move on to Step 4 (Documents & Payment Setup) and Step 5 (Culture Index, All About You & Business Cards).
+Move on to Step 4 (Documents & Payment Setup) and Step 5 (Getting to Know You).

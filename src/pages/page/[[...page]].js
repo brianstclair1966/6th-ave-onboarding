@@ -24,7 +24,8 @@ const TOTAL_SELECTIONS = 1
 const PAGE_FORMS = { 2: ['form:emergency'], 3: ['form:about'], 4: ['form:bio'] }
 
 // Single-select pickers (by progress-store id) required to complete each page.
-const PAGE_SELECTIONS = { 3: ['cards:3'] }
+// (The 'cards:3' id is historical — the picker now lives on page 5.)
+const PAGE_SELECTIONS = { 5: ['cards:3'] }
 
 // Count every `- [ ]` checkbox across all onboarding pages at build time, so the
 // progress denominator stays correct automatically if checkboxes are added/removed.
@@ -314,10 +315,12 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       2: [{ marker: '<!-- FORM:emergency_contact -->', component: <EmergencyContactForm key="emergency" agentInfo={agentInfo} /> }],
       3: [
         { marker: '<!-- FORM:about_you -->', component: <AboutYouForm key="about" agentInfo={agentInfo} /> },
-        { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
       4: [
         { marker: '<!-- FORM:bio -->', component: <BioForm key="bio" agentInfo={agentInfo} /> },
+      ],
+      5: [
+        { marker: '<!-- CARDS -->', component: <BusinessCardPicker key="cards" agentInfo={agentInfo} /> },
       ],
       9: [
         { marker: '<!-- DOWNLOAD -->', component: <SummaryDownload key="download" totalItems={totalItems} /> },

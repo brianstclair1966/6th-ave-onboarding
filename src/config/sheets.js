@@ -69,7 +69,7 @@ export const AGENT_PROGRESS_COLUMNS = [
   'Reputation',           // AD (29) page 9 checkbox
   'Principles',           // AE (30) page 9 checkbox
   'Culture Index',        // AF (31) page 3 checkbox (Culture Index survey)
-  'Business Card',        // AG (32) page 3 single-select (which card design to order)
+  'Business Card',        // AG (32) page 5 single-select (which card design to order)
   'W-9',                  // AH (33) page 3 checkbox (W-9 completed + emailed to bookkeeper)
   'Credit Auth',          // AI (34) page 3 checkbox (resource-fee auto-pay authorization)
 ]

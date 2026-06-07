@@ -19,6 +19,11 @@ description: "Your first week — what to do first"
 ### 6th Ave Homes focuses on tools, training, and meetings that are geared for your success.
 
 
+## What is a Guide?
+
+At 6th Ave Homes, we call all of our licensed real estate agents "Guides". While we are all technically agents, we prefer the term guide because we believe that truly defines what a good agent is supposed to do. A guide cares about the success of the client and not themselves. They seek to understand the customer's problem, empathize with them, and help them overcome it. A guide knows what they are doing and is better than a salesman. The best realtors are actually just good real estate guides. So, we decided to just call them that.
+
+
 ## Watch This First
 
 Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome message explaining who we are and what to expect.
@@ -30,7 +35,7 @@ Please watch our Broker & Fort Worth Brokerage Manager, Brian's 3-minute welcome
 
 Here are the things you'll be working on over the next few pages of this module:
 
-<div style="columns:2; column-gap:40px; margin:12px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:10px;">① <strong>Emergency Contact Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">② <strong>TREC Sponsorship</strong></div><div style="break-inside:avoid; margin-bottom:10px;">③ <strong>Join Your Realtor Association</strong></div><div style="break-inside:avoid; margin-bottom:10px;">④ <strong>Documents &amp; Payment Setup</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑤ <strong>Getting to Know You</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑥ <strong>Build Your Professional Presence</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑦ <strong>Create Your IABS Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑧ <strong>Get Started with Rechat</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑨ <strong>Get Started with RealScout</strong></div><div style="break-inside:avoid; margin-bottom:10px;"><strong>How We Operate</strong></div></div>
+<div style="columns:2; column-gap:40px; margin:12px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:10px;">① <strong>Emergency Contact Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">② <strong>TREC Sponsorship</strong></div><div style="break-inside:avoid; margin-bottom:10px;">③ <strong>Join Your Realtor Association</strong></div><div style="break-inside:avoid; margin-bottom:10px;">④ <strong>Documents &amp; Payment Setup</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑤ <strong>Getting to Know You</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑥ <strong>Build Your Professional Presence</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑦ <strong>Create Your IABS Form</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑧ <strong>Get Started with Rechat</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑨ <strong>Get Started with RealScout</strong></div><div style="break-inside:avoid; margin-bottom:10px;">⑩ <strong>Select Your Business Cards</strong></div><div style="break-inside:avoid; margin-bottom:10px;"><strong>How We Operate</strong></div></div>
 
 
 ## Before You Begin

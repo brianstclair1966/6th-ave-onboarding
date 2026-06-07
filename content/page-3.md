@@ -46,7 +46,7 @@ Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com]
 
 ## ⑤ Getting to Know You
 
-These help us understand you and get your business cards ordered.
+These help us understand you better.
 
 ### Culture Index
 
@@ -65,9 +65,3 @@ This info will be displayed on your 6th Ave Team Member page.
 See Brian's "About you" info by going [here](https://6thavehomes.com/brian-st-clair) and scroll down his page to see that section & what yours will look like.
 
 <!-- FORM:about_you -->
-
-### Select Your Business Cards
-
-Pick the design you'd like for your 6th Ave business cards. We'll order your first 100 in the style you choose. Each option shows the front and back — choose one of the eight below.
-
-<!-- CARDS -->

@@ -6,7 +6,7 @@ description: "How you grow at 6th Ave"
 
 # Your Growth Foundation
 
-You've now completed your activation steps. Your systems are online. Your foundation is solid.
+You've now completed your onboarding steps. We're setting you up in our systems & platforms. You're doing great!
 
 What comes next is where the actual growth happens — and how 6th Ave supports it differently from most brokerages.
 
@@ -45,10 +45,7 @@ These all live on the 6th Ave backsite at [www.6thavehomesagents.com](https://ww
 
 We've already added you to these channels — they're your home base for questions, leads, and updates:
 
-- **#guides** — your first stop for any real-estate question you can't find an answer to (keep questions here, not in #general).
-- **#general** — company-wide chatter and culture; goes to everyone.
-- **#brokerageannouncements** — official updates from 6th Ave & the leadership team.
-- **#put-listings-openhouse-here** — grab an open-house opportunity.
+<div style="background:rgba(237,103,88,0.08); border-left:4px solid #ED6758; border-radius:8px; padding:0.9rem 1.25rem; margin:1rem 0; color:#043853; line-height:1.55;"><div style="margin-bottom:6px;"><strong>#guides</strong> — your first stop for any real-estate question you can't find an answer to (keep questions here, not in #general)</div><div style="margin-bottom:6px;"><strong>#general</strong> — company-wide chatter and culture; goes to everyone</div><div style="margin-bottom:6px;"><strong>#brokerageannouncements</strong> — official updates from 6th Ave &amp; the leadership team</div><div><strong>#put-listings-openhouse-here</strong> — grab an open-house opportunity</div></div>
 
 You can also reach one of our **[Subject Matter Experts](https://www.6thavehomesagents.com/subjectmatterexperts)** — our team has a wide range of real estate backgrounds & experiences, and we're always willing to help each other.
 

@@ -32,8 +32,6 @@ Then tweak what it gives you until it sounds like you. AI gets you a strong firs
 
 Do a Google search for your name and find all the places you're currently listed as a Realtor. **Update your bio** on those sites and change your brokerage name to **6th Ave Homes**. Keeping your bio consistent across every platform helps your visibility — including with AI search.
 
-Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes Team Member page](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
-
 ### Where to look
 
 Start with a search for *"[Your Name] realtor"* and work through the sites below. Update your brokerage name, bio, and logo on any that list you:
@@ -43,5 +41,7 @@ Start with a search for *"[Your Name] realtor"* and work through the sites below
 You can use one of these logo versions in your profiles:
 
 <div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center; margin:16px 0;"><div style="flex:1 1 220px; max-width:280px; text-align:center;"><div style="border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; background-color:#ffffff; background-image:linear-gradient(45deg,#d6d6d6 25%,transparent 25%),linear-gradient(-45deg,#d6d6d6 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#d6d6d6 75%),linear-gradient(-45deg,transparent 75%,#d6d6d6 75%); background-size:18px 18px; background-position:0 0,0 9px,9px -9px,-9px 0;"><img src="/Logos/main-logo-dark.png" alt="6th Ave Homes Main Logo (Transparent Background)" style="width:100%; display:block;"></div><a class="assoc-pill" href="https://drive.google.com/file/d/14SRNRLCQ-KFEUbaWJDxQSCvdLnmLb4UT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="margin-top:10px;">Transparent Background →</a></div><div style="flex:1 1 220px; max-width:280px; text-align:center;"><div style="border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; background:#ffffff;"><img src="/Logos/main-logo-white.png" alt="6th Ave Homes Main Logo (White Background)" style="width:100%; display:block;"></div><a class="assoc-pill" href="https://drive.google.com/file/d/1mk8F98mUOBtyHjHwY8UUmT_MqBPeYwlG/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="margin-top:10px;">White Background →</a></div></div>
+
+Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes Team Member page](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
 
 - [ ] I completed updating my online profiles with 6th Ave branding
