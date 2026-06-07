@@ -17,7 +17,7 @@ Now that your professional presence is in place, let's set up your core tools. T
 
 ### Here's what to do:
 
-[**→ Open your 6th Ave IABS form (fillable)**](/6th-ave-iabs.pdf)
+<div class="assoc-pills"><a class="assoc-pill" href="/6th-ave-iabs.pdf" target="_blank" rel="noopener noreferrer">Open your 6th Ave IABS form →</a></div>
 
 The 6th Ave brokerage info is already filled in for you. To finish it:
 
@@ -43,7 +43,7 @@ Rechat isn't just a CRM — it's the system that helps you stay organized as you
 
 You don't have to understand all of Rechat now — it takes a little trial and error to really get it. That's OK. Bookmark the Starting Guide below & you can come back later to get acclimated.
 
-[**→ Rechat Getting Started Guide**](https://help.rechat.com/guides/getting-started)
+<div class="assoc-pills"><a class="assoc-pill" href="https://help.rechat.com/guides/getting-started" target="_blank" rel="noopener noreferrer">Rechat Getting Started Guide →</a></div>
 
 - [ ] I reviewed Rechat and understand the basics
 
@@ -54,7 +54,7 @@ RealScout is your client search and engagement platform. It gives your clients a
 
 RealScout has some very helpful functions that are covered in their "Help" documentation. Many agents use RealScout with their clients like a Zillow search — give them access through an onboarding link & let them peruse the MLS just like they would on Zillow. It's a great starting platform for buyers who don't know exactly what they want in their next home, or sellers who want a monthly update of their home's value (using RealScout's Home Value Alerts feature).
 
-[**→ RealScout Help Page**](https://support.realscout.com/en/)
+<div class="assoc-pills"><a class="assoc-pill" href="https://support.realscout.com/en/" target="_blank" rel="noopener noreferrer">RealScout Help Page →</a></div>
 
 **To market your RealScout to clients:**
 From your Marketing tab (along the left side), select "Market my RealScout". This creates a branded search portal your clients can use.
