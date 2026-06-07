@@ -116,12 +116,7 @@ You don't have to become someone else to succeed here.
 
 You need:
 
-- **Clarity.** Be honest about what you know and don't know.
-- **Consistency.** Show up the same way, every time, for years.
-- **Communication.** Ask early, answer clearly, update constantly.
-- **Relationships.** Build slowly, maintain steadily, let them compound.
-- **Judgment.** Think clearly instead of react emotionally.
-- **Rhythm.** Work at a sustainable pace you can maintain for decades.
+<div style="background:rgba(237,103,88,0.08); border-left:4px solid #ED6758; border-radius:8px; padding:0.9rem 1.25rem; margin:1rem 0; color:#043853; line-height:1.55;"><div style="margin-bottom:6px;"><strong>Clarity.</strong> Be honest about what you know and don't know.</div><div style="margin-bottom:6px;"><strong>Consistency.</strong> Show up the same way, every time, for years.</div><div style="margin-bottom:6px;"><strong>Communication.</strong> Ask early, answer clearly, update constantly.</div><div style="margin-bottom:6px;"><strong>Relationships.</strong> Build slowly, maintain steadily, let them compound.</div><div style="margin-bottom:6px;"><strong>Judgment.</strong> Think clearly instead of react emotionally.</div><div><strong>Rhythm.</strong> Work at a sustainable pace you can maintain for decades.</div></div>
 
 And the willingness to keep learning.
 
