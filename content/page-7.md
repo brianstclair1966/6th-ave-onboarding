@@ -37,7 +37,7 @@ This is a different video from your page 1 welcome — a few minutes on how this
 - Build and actively use a database of **100+ people** — 6th Ave encourages you to strive for 50 VIP clients plus any and all past clients — and reach out to all of them about **4–6 times per year**.
 - Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
 
-**Start today:** add everyone already in your phone — that's your first sphere. Our template makes it simple.
+**Start today:** don't worry about 100 yet — start with **50 people you already know** (everyone in your phone counts). That's your first sphere, and our template makes it simple.
 
 <div class="assoc-pills"><a class="assoc-pill" href="/Agent_Database_Template.xlsx">Download the Agent Database Template →</a></div>
 
