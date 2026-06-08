@@ -187,6 +187,11 @@ export default function AgentInfoForm() {
           {submitted ? '✓ Saved' : 'Save'}
         </button>
       </form>
+
+      <p className="text-xs text-brand-taupe mt-2">
+        Already started — or coming back to revisit? Enter the same name and email
+        to pick up where you left off and reach any page.
+      </p>
     </div>
   )
 }
