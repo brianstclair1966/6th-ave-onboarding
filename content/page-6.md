@@ -29,6 +29,10 @@ Your first transactions are the foundation. But growth doesn't happen by acciden
 After your first 3–6 months, you'll know:
 <div style="columns:2; column-gap:32px; margin:8px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;">• How real transactions move through your systems</div><div style="break-inside:avoid; margin-bottom:6px;">• What support actually feels like when it's available</div><div style="break-inside:avoid; margin-bottom:6px;">• How to build a sustainable pipeline (not just close one deal)</div><div style="break-inside:avoid; margin-bottom:6px;">• Who to go to when you're stuck</div><div style="break-inside:avoid; margin-bottom:6px;">• How to ask the right questions</div></div>
 
+A simple rhythm to get there: **Month 1** — learn the systems, meet people, start your database. **Month 2** — real conversations, practice showings, write offers with your mentor. **Month 3** — build follow-up habits and start generating your own opportunities.
+
+In these first months, measure yourself by **activity, not closings**. The conversations, follow-ups, and habits you build now are what produce deals later.
+
 
 ---
 

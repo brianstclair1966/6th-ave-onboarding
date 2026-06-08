@@ -42,7 +42,7 @@ After 3 deals, you have the operational foundation to run on your own. But the s
 Your mentor walks alongside you. They see the contract before you send it. They understand your client's situation. They help you think through problems while there's still time to solve them.
 
 **When you have a question:**
-Start in Slack (#guides channel). Search previous conversations and resources first. Most questions have been asked before—and many answers are already documented. When you need real-world perspective or experience, bring it to Slack. That's how the team learns together.
+Ask it in Slack (#guides channel), where the whole team can see it. That's the point — we learn from each other, work out solutions together, and Brian jumps in with a broker's perspective or a directive when it's needed. None of us knows everything; we're stronger when we solve problems as a team. (Search the channel first — many answers are already there.)
 
 Also, use these beginning prompts from our **[Playbook](https://www.6thavehomesagents.com/6th-ave-ai-playbook)** to help organize your thinking, understand terminology, or review situations.
 

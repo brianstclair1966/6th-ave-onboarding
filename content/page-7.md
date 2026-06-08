@@ -19,7 +19,7 @@ This is a different video from your page 1 welcome — a few minutes on how this
 - **Wednesdays at 9:45 am** — Weekly Mastermind Team Meeting at the Fort Worth office. (If you can't make it in person, join us virtually on Google Meet — check your 6th Ave Calendar & join from there!)
 - **Quarterly All-Team** — Last Thursday of each quarter, usually around lunchtime and usually tons of fun!
 
-Life happens, if you can't make a meeting — it's OK. Our meetings are designed to give you real-time market data & info you can use. But you can always catch up on what you missed on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
+**Why we meet:** the fastest way to fail in real estate is isolation — the fastest way to grow is proximity. Every week we also cover real-time market data and conditions, so you keep your finger on the pulse and always have something worth sharing with your sphere on social to help grow it. Life happens — if you can't make one, it's OK; catch up anytime on our [YouTube channel](https://www.youtube.com/@6thAveHomes).
 
 ## Production & Responsiveness
 
@@ -36,6 +36,10 @@ Life happens, if you can't make a meeting — it's OK. Our meetings are designed
 
 - Build and actively use a database of **100+ people** — 6th Ave encourages you to strive for 50 VIP clients plus any and all past clients — and reach out to all of them about **4–6 times per year**.
 - Keep a steady weekly lead-generation rhythm, and aim for about **one real-estate social post per week** (Instagram / Facebook).
+
+**Start today:** add everyone already in your phone — that's your first sphere. Our template makes it simple.
+
+<div class="assoc-pills"><a class="assoc-pill" href="/Agent_Database_Template.xlsx">Download the Agent Database Template →</a></div>
 
 ## Compliance & Training
 
