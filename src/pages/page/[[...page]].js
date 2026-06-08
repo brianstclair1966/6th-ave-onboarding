@@ -141,14 +141,12 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
     return () => window.removeEventListener(progress.PROGRESS_EVENT, refreshAgent)
   }, [])
 
-  // Registration on page 1 is required before continuing. If someone reaches a
-  // later page without registering (deep link, breadcrumb, back/forward), send
-  // them back to page 1 so their work can actually be logged.
-  useEffect(() => {
-    if (pageNumber > 1 && typeof window !== 'undefined' && !localStorage.getItem('agentInfo')) {
-      router.replace('/page/1')
-    }
-  }, [pageNumber, router])
+  // We intentionally do NOT bounce un-registered visitors back to page 1. Returning
+  // agents use the link to revisit and reference the material (the content itself
+  // invites it — "re-read this page", "bookmark it"), and a different device or a
+  // cleared browser has no saved agentInfo. First-time agents still land on page 1
+  // (root → /page/1) and register there; checkpoint logging simply waits until they
+  // save their name + email, but the pages are always readable.
 
   useEffect(() => {
     // Wire up checkpoint logging to all checkboxes
