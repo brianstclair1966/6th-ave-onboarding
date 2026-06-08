@@ -52,9 +52,13 @@ Access the transfer form below and fill in the top section with your personal in
 
 <div class="assoc-pills"><a class="assoc-pill" href="/gfwar-transfer-form.pdf" target="_blank" rel="noopener noreferrer">Open the GFWAR Transfer Form →</a></div>
 
-You'll also want to sign up for Autopay through GFWAR. Open the form below, fill in your info, print it, sign it, then scan it back into your computer and send it to **[krystal@gfwar.org](mailto:krystal@gfwar.org)**. This makes your quarterly payments to GFWAR simple and automatic.
+<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> On the latest version of Chrome, you can fill, sign, and save this PDF right in your browser, then email it — no printing or extra apps needed.</p>
+
+You'll also want to sign up for Autopay through GFWAR. Open the form below, fill it in, sign it, and email it to **[krystal@gfwar.org](mailto:krystal@gfwar.org)**. This makes your quarterly payments to GFWAR simple and automatic.
 
 <div class="assoc-pills"><a class="assoc-pill" href="/gfwar-autopay-enrollment.pdf" target="_blank" rel="noopener noreferrer">GFWAR Pre-Authorized Payment Agreement →</a></div>
+
+<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> On the latest version of Chrome, you can fill, sign, and save this PDF right in your browser, then email it — no printing or extra apps needed.</p>
 
 **Also required:**
 
