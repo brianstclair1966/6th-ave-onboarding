@@ -50,7 +50,7 @@ These help us understand you better.
 
 ### Culture Index
 
-Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Take the Culture Index using the link below.
+Because culture is a big part of the 6th Ave Homes business model, we use a program called Culture Index as part of our onboarding & orientation platform. This is similar to other personality tests & gives us insight into a person's personality, strengths, and gifts, as well as their cultural fit. Take it using the link below.
 
 <div class="assoc-pills"><a class="assoc-pill" href="https://surveys.cultureindex.com/s/dsK5s9LYO8/78525" target="_blank" rel="noopener noreferrer">Take the Culture Index →</a></div>
 
