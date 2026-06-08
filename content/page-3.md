@@ -26,7 +26,7 @@ As an independent contractor, we need a completed **W-9** on file so we can pay 
 
 <div class="assoc-pills"><a class="assoc-pill" href="/6th-ave-w9.pdf" target="_blank" rel="noopener noreferrer">Download your W-9 (fillable PDF) →</a></div>
 
-<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> On the latest version of Chrome, you can fill, sign, and save this PDF right in your browser, then email it — no printing or extra apps needed.</p>
+<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> No printer needed — you can fill and sign this PDF right on your computer or phone (Chrome signs in the browser; on iPhone/iPad, use Markup), then save and email it.</p>
 
 <div style="display:flex; flex-wrap:wrap; gap:28px; margin:14px 0; line-height:1.5; color:#043853;"><div style="flex:1 1 300px; min-width:260px;"><strong>How to fill out your W-9</strong><div style="margin-top:6px;"><div style="margin-bottom:6px;">• <strong>Name:</strong> Your legal name exactly as it appears on your tax return</div><div style="margin-bottom:6px;">• <strong>Business name:</strong> Leave blank unless you operate under a DBA (Doing Business As). Example: if your legal name is John Smith but you work under "Smith Elite Realty," enter the DBA here. Most agents leave this blank.</div><div style="margin-bottom:6px;">• <strong>Tax Classification:</strong> Check "Individual/Sole Proprietor" (unless you've formed an LLC, S-Corp, or C-Corp)</div><div style="margin-bottom:6px;">• <strong>Address:</strong> Your current mailing address (where we'll send your tax documents)</div><div style="margin-bottom:6px;">• <strong>SSN:</strong> Your Social Security Number (XXX-XX-XXXX) — required</div><div style="margin-bottom:6px;">• <strong>Certification:</strong> Sign and date at the bottom</div></div></div><div style="flex:1 1 200px; min-width:200px;"><strong>Don't</strong><div style="margin-top:6px;"><div style="margin-bottom:6px;">• Leave your SSN blank</div><div style="margin-bottom:6px;">• Check multiple tax classification boxes</div><div style="margin-bottom:6px;">• Enter your EIN unless you actually have one</div></div></div></div>
 
@@ -41,7 +41,7 @@ If you're a **full-time agent**, your **$215/month resource fee** runs on auto-p
 
 <div class="assoc-pills"><a class="assoc-pill" href="/6th-ave-credit-card-authorization.pdf" target="_blank" rel="noopener noreferrer">Download the Credit Card Authorization form →</a></div>
 
-<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> On the latest version of Chrome, you can fill, sign, and save this PDF right in your browser, then email it — no printing or extra apps needed.</p>
+<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> No printer needed — you can fill and sign this PDF right on your computer or phone (Chrome signs in the browser; on iPhone/iPad, use Markup), then save and email it.</p>
 
 Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. Put your card details on the form only — never anywhere else.
 

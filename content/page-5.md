@@ -19,7 +19,7 @@ Now that your professional presence is in place, let's set up your core tools. Y
 
 <div class="assoc-pills"><a class="assoc-pill" href="/6th-ave-iabs.pdf" target="_blank" rel="noopener noreferrer">Open your 6th Ave IABS form →</a></div>
 
-<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> On the latest version of Chrome, you can fill, sign, and save this PDF right in your browser, then email it — no printing or extra apps needed.</p>
+<p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> No printer needed — you can fill and sign this PDF right on your computer or phone (Chrome signs in the browser; on iPhone/iPad, use Markup), then save and email it.</p>
 
 The 6th Ave brokerage info is already filled in for you. To finish it:
 
