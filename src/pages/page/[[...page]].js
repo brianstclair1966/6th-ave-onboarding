@@ -54,9 +54,16 @@ function renderMarkdown(content) {
 
   // Headings - with special handling for Common Mistake/Misconception
   html = html.replace(/^### (.*?)$/gm, '<h3>$1</h3>')
-  html = html.replace(/^## (Common Mistake.*?)$/gm, '<div class="common-mistake"><h2>$1</h2>')
-  html = html.replace(/^## (Common Misconception.*?)$/gm, '<div class="common-misconception"><h2>$1</h2>')
-  html = html.replace(/^## (.*?)$/gm, '<h2>$1</h2>')
+  // Give every `## ` heading a sequential id (s-0, s-1, …) in document order so
+  // search results can deep-link to a section (/page/N#s-i). The order here must
+  // match scripts/gen-search-lessons.js, which splits on the same `## ` headings.
+  let h2Index = 0
+  html = html.replace(/^## (.*?)$/gm, (m, t) => {
+    const id = `s-${h2Index++}`
+    if (/^Common Mistake/.test(t)) return `<div class="common-mistake"><h2 id="${id}">${t}</h2>`
+    if (/^Common Misconception/.test(t)) return `<div class="common-misconception"><h2 id="${id}">${t}</h2>`
+    return `<h2 id="${id}">${t}</h2>`
+  })
   html = html.replace(/^# (.*?)$/gm, '<h1>$1</h1>')
 
   // Bold and italic
@@ -152,6 +159,29 @@ export default function PageComponent({ pageNumber, content, sectionTitle, total
       router.replace('/page/1')
     }
   }, [pageNumber, router])
+
+  // Deep-link support: when arriving with a #hash (e.g. from a search result),
+  // scroll to that section once the page content has rendered. Also respond to
+  // in-page hash changes (clicking a result while already on the page).
+  useEffect(() => {
+    const scrollToHash = () => {
+      const hash = window.location.hash
+      if (!hash) return
+      let el = null
+      try {
+        el = document.querySelector(hash)
+      } catch (e) {
+        /* invalid selector — ignore */
+      }
+      if (el) el.scrollIntoView({ behavior: 'auto', block: 'start' })
+    }
+    const t = setTimeout(scrollToHash, 60)
+    window.addEventListener('hashchange', scrollToHash)
+    return () => {
+      clearTimeout(t)
+      window.removeEventListener('hashchange', scrollToHash)
+    }
+  }, [pageNumber, content])
 
   useEffect(() => {
     // Wire up checkpoint logging to all checkboxes

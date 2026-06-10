@@ -499,3 +499,17 @@ span[title]:hover::before {
     border-bottom-color: var(--brand-navy);
   }
 }
+
+/* Deep-link offset: keep anchored section headings (search results -> /page/N#s-i)
+   clear of the fixed header + progress bar when scrolled into view. */
+.prose h1[id],
+.prose h2[id] {
+  scroll-margin-top: 13rem;
+}
+
+@media (max-width: 768px) {
+  .prose h1[id],
+  .prose h2[id] {
+    scroll-margin-top: 10rem;
+  }
+}

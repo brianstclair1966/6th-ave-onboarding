@@ -4,6 +4,7 @@
   "description": "6th Ave Homes agent onboarding app",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/gen-search-lessons.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

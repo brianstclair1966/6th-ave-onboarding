@@ -1,17 +1,21 @@
 import TopBar from './TopBar'
 import Glossary from './Glossary'
+import SearchBar from './SearchBar'
 
 export default function Page({ children, pageNumber, sectionTitle, totalItems }) {
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-brand-cream to-white flex flex-col">
       <header className="fixed top-0 left-0 right-0 z-50 bg-brand-navy text-white py-2 md:py-3 border-b-4 border-brand-coral">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="flex items-center gap-2 md:gap-6">
-            <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-10 md:h-16" />
-            <div className="w-1 h-10 md:h-16 bg-brand-coral"></div>
-            <h2 className="text-xl md:text-4xl font-bold text-white tracking-tight">
+          <div className="flex items-center gap-2 md:gap-4">
+            <img src="/images/6th-ave-logo.png" alt="6th Ave Homes" className="h-10 md:h-16 flex-shrink-0" />
+            <div className="w-1 h-10 md:h-16 bg-brand-coral flex-shrink-0"></div>
+            <h2 className="text-lg md:text-4xl font-bold text-white tracking-tight truncate">
               {pageNumber >= 7 ? 'HOW WE OPERATE' : 'AGENT ONBOARDING'}
             </h2>
+            <div className="ml-auto flex-shrink-0">
+              <SearchBar />
+            </div>
           </div>
         </div>
       </header>
