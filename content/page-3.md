@@ -32,6 +32,10 @@ As an independent contractor, we need a completed **W-9** on file so we can pay 
 
 Once it's filled out, save it and email the completed form to our bookkeeper at **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. Questions? Text Brian at **(817) 360-5555**.
 
+Saved your completed W-9? Tap below to email it straight to Rachel — just **attach your saved PDF** before you hit send.
+
+<div class="assoc-pills"><a class="assoc-pill" href="mailto:rachel@6thavehomes.com?subject=W-9%20%E2%80%94%206th%20Ave%20Homes&amp;body=Hi%20Rachel%2C%0A%0AMy%20completed%20W-9%20is%20attached.%0A%0AThank%20you%21">Email my W-9 to Rachel →</a></div>
+
 - [ ] I completed my W-9 and emailed it to Rachel
 
 
@@ -44,6 +48,10 @@ If you're a **full-time agent**, your **$215/month resource fee** runs on auto-p
 <p style="font-size:0.9rem; color:#5f6e74; margin:8px 0 0;"><strong>Tip:</strong> No printer needed — you can fill and sign this PDF right on your computer or phone (Chrome signs in the browser; on iPhone/iPad, use Markup), then save and email it.</p>
 
 Fill it out, save it, and email the completed form to **[rachel@6thavehomes.com](mailto:rachel@6thavehomes.com)**. Put your card details on the form only — never anywhere else.
+
+Saved the completed form? Tap below to email it straight to Rachel — just **attach your saved PDF** before you hit send.
+
+<div class="assoc-pills"><a class="assoc-pill" href="mailto:rachel@6thavehomes.com?subject=Credit%20Card%20Authorization%20%E2%80%94%206th%20Ave%20Homes&amp;body=Hi%20Rachel%2C%0A%0AMy%20completed%20credit%20card%20authorization%20form%20is%20attached.%0A%0AThank%20you%21">Email my form to Rachel →</a></div>
 
 - [ ] I set up my resource-fee auto-pay (or I'm part-time, so this doesn't apply)
 

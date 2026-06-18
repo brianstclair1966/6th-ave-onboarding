@@ -35,13 +35,13 @@ export function mailerConfigured() {
 // Sends an email. Resolves with {sent:false, skipped:true} when not configured,
 // so callers can always await it without guarding. Throwing is left to the caller
 // to catch — submission flows treat email as best-effort.
-export async function sendMail({ to, subject, text, html, replyTo }) {
+export async function sendMail({ to, cc, subject, text, html, replyTo }) {
   const transport = getTransport()
   if (!transport) {
     console.warn('[mailer] GMAIL_USER/GMAIL_APP_PASSWORD not set — skipping email:', subject)
     return { sent: false, skipped: true }
   }
   const from = `"6th Ave Onboarding" <${process.env.GMAIL_USER}>`
-  const info = await transport.sendMail({ from, to, subject, text, html, replyTo })
+  const info = await transport.sendMail({ from, to, cc, subject, text, html, replyTo })
   return { sent: true, id: info.messageId }
 }

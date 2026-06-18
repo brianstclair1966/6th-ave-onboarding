@@ -7,6 +7,45 @@ import {
   columnIndexToLetter,
   lastColumnLetter,
 } from '@/config/sheets'
+import { sendMail } from '@/lib/mailer'
+
+const escapeHtml = (s) =>
+  String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+
+// The W-9 and Credit Card Authorization forms are emailed by the agent directly
+// to Rachel — that sensitive data never touches this app. When an agent checks
+// one of those boxes, send Rachel a heads-up (name + which document only, no
+// SSN/card data) so she can follow up if the agent's email doesn't arrive.
+async function maybeNotifyRachel(label, firstName, lastName, email) {
+  const l = String(label || '').toLowerCase()
+  let doc = null
+  if (/w-?9/.test(l)) doc = 'W-9'
+  else if (/auto-?pay|resource-?fee|credit card/.test(l)) doc = 'Credit Card Authorization'
+  if (!doc) return
+
+  const agent = [firstName, lastName].filter(Boolean).join(' ') || email
+  const note =
+    doc === 'Credit Card Authorization'
+      ? ' (Part-time agents check this box without sending a form, so this one may be N/A.)'
+      : ''
+  await sendMail({
+    to: 'rachel@6thavehomes.com',
+    replyTo: email || undefined,
+    subject: `${doc} marked complete — ${agent}`,
+    text:
+      `${agent} (${email}) just marked their ${doc} step complete in onboarding and ` +
+      `should be emailing the completed form to you.${note}\n\n` +
+      `Automated heads-up only — no W-9, SSN, or card details are included here.`,
+    html:
+      `<div style="font-family:system-ui,Arial,sans-serif;max-width:520px">` +
+      `<h2 style="color:#043853;margin:0 0 8px">${doc} marked complete</h2>` +
+      `<p style="color:#043853;margin:0 0 8px"><strong>${escapeHtml(agent)}</strong> ` +
+      `(${escapeHtml(email)}) just marked their ${doc} step complete in onboarding and ` +
+      `should be emailing the completed form to you.${note}</p>` +
+      `<p style="color:#9aa3a7;font-size:12px;margin-top:16px">Automated heads-up only — ` +
+      `no W-9, SSN, or card details are included here.</p></div>`,
+  })
+}
 
 async function getGoogleSheetsClient() {
   const credentialsStr = process.env.GOOGLE_SHEETS_CREDENTIALS
@@ -55,6 +94,15 @@ export default async function handler(req, res) {
       return res.status(400).json({
         error: 'Missing required fields: firstName, lastName, email, checkpointLabel',
       })
+    }
+
+    // Notify Rachel about W-9 / Credit Card Authorization completions. Runs before
+    // the sheet logic so it fires whether or not the checkbox maps to a column.
+    // Best-effort: never blocks checkpoint logging.
+    try {
+      await maybeNotifyRachel(checkpointLabel, firstName, lastName, email)
+    } catch (e) {
+      console.error('Rachel notification failed:', e.message)
     }
 
     // Map the checkpoint label to a canonical column header. Operational /

@@ -51,6 +51,7 @@ const TEAM_EMAILS = {
   },
   'business-card': {
     to: 'victoria@6thavehomes.com',
+    cc: 'brian@6thavehomes.com',
     title: 'Business Card Order',
     fields: [
       ['Agent Name', 'Agent Name'],
@@ -97,6 +98,7 @@ async function sendSubmissionEmail(formType, data) {
   const { text, html } = buildSubmissionEmail(cfg, data)
   await sendMail({
     to: cfg.to,
+    cc: cfg.cc || undefined,
     subject: `New ${cfg.title}${name ? ` — ${name}` : ''}`,
     text,
     html,
