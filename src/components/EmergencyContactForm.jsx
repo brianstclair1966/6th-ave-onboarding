@@ -138,6 +138,7 @@ export default function EmergencyContactForm() {
     try {
       const submitData = {
         Email: agentInfo.email,
+        'Agent Name': [agentInfo.firstName, agentInfo.lastName].filter(Boolean).join(' '),
         'TREC License #': formData.trecLicenseNumber,
         'License Expiry': formData.licenseExpiry,
         'Cell Phone': formData.cellPhone,

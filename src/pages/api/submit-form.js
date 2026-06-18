@@ -5,8 +5,104 @@ import {
   columnIndexToLetter,
   lastColumnLetter,
 } from '@/config/sheets'
+import { sendMail } from '@/lib/mailer'
 
 const sheets = google.sheets('v4')
+
+// Team notifications: who gets emailed when each form is submitted, and which
+// fields (label -> data key, in order) to include. Email is best-effort and
+// only fires after the submission is otherwise handled.
+const TEAM_EMAILS = {
+  'emergency-contact': {
+    to: 'brian@6thavehomes.com',
+    title: 'Emergency Contact',
+    fields: [
+      ['Agent Name', 'Agent Name'],
+      ['Agent Email', 'Email'],
+      ['TREC License #', 'TREC License #'],
+      ['License Expiry', 'License Expiry'],
+      ['Cell Phone', 'Cell Phone'],
+      ['Birthday', 'Birthday'],
+      ['Home Address — Street', 'Home Address Street'],
+      ['Home Address — City', 'Home Address City'],
+      ['Home Address — Zip', 'Home Address Zip'],
+      ['Emergency Contact Name', 'Emergency Contact Name'],
+      ['Emergency Contact Phone', 'Emergency Contact Phone'],
+      ['Emergency Contact Email', 'Emergency Contact Email'],
+      ['Location Access', 'Location Access'],
+    ],
+  },
+  'about-you': {
+    to: 'brian@6thavehomes.com',
+    title: 'About You',
+    fields: [
+      ['Agent Name', 'Agent Name'],
+      ['Agent Email', 'Email'],
+      ['Go-to Beverage', 'Beverage'],
+      ['Current Obsession', 'Current Obsession'],
+      ["Can't Live Without", "Can't Live Without"],
+      ['Non-Profit', 'Non-Profit'],
+      ['Favorite Meal (FW)', 'Favorite Meal FW'],
+      ['Favorite Bar (FW)', 'Favorite Bar FW'],
+      ['What They Love About the Job', 'What Love About Job'],
+      ['Interesting Fact', 'Interesting Fact'],
+      ['Enneagram', 'Enneagram'],
+    ],
+  },
+  'business-card': {
+    to: 'victoria@6thavehomes.com',
+    title: 'Business Card Order',
+    fields: [
+      ['Agent Name', 'Agent Name'],
+      ['Email', 'Email'],
+      ['Phone', 'Phone'],
+      ['Instagram', 'Instagram'],
+      ['Website', 'Website'],
+      ['Card Selected', 'Card Option'],
+    ],
+  },
+}
+
+const escapeHtml = (s) =>
+  String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+
+function buildSubmissionEmail(cfg, data) {
+  const name = data['Agent Name'] || data.Email || 'New agent'
+  const rows = cfg.fields.map(([label, key]) => [label, data[key]])
+  const text =
+    `New ${cfg.title} submission from ${name}\n\n` +
+    rows.map(([l, v]) => `${l}: ${v || '—'}`).join('\n') +
+    '\n'
+  const htmlRows = rows
+    .map(
+      ([l, v]) =>
+        `<tr><td style="padding:6px 14px 6px 0;color:#5f6e74;font-weight:600;vertical-align:top;white-space:nowrap">${escapeHtml(
+          l
+        )}</td><td style="padding:6px 0;color:#043853">${escapeHtml(v) || '—'}</td></tr>`
+    )
+    .join('')
+  const html = `<div style="font-family:system-ui,Arial,sans-serif;max-width:560px">
+    <h2 style="color:#043853;margin:0 0 4px">New ${escapeHtml(cfg.title)} submission</h2>
+    <p style="color:#5f6e74;margin:0 0 16px">From <strong>${escapeHtml(name)}</strong></p>
+    <table style="border-collapse:collapse;font-size:14px">${htmlRows}</table>
+    <p style="color:#9aa3a7;font-size:12px;margin-top:20px">Sent automatically by the 6th Ave onboarding app.</p>
+  </div>`
+  return { text, html }
+}
+
+async function sendSubmissionEmail(formType, data) {
+  const cfg = TEAM_EMAILS[formType]
+  if (!cfg) return
+  const name = data['Agent Name'] || data.Email || ''
+  const { text, html } = buildSubmissionEmail(cfg, data)
+  await sendMail({
+    to: cfg.to,
+    subject: `New ${cfg.title}${name ? ` — ${name}` : ''}`,
+    text,
+    html,
+    replyTo: data.Email || undefined,
+  })
+}
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -274,6 +370,13 @@ export default async function handler(req, res) {
           // Non-fatal: the form data is already saved.
         }
       }
+    }
+
+    // Notify the team by email (best-effort; never blocks or fails the submission).
+    try {
+      await sendSubmissionEmail(formType, data)
+    } catch (mailErr) {
+      console.error('Notification email failed:', mailErr.message)
     }
 
     return res.status(200).json({

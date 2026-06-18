@@ -108,6 +108,7 @@ export default function AboutYouForm() {
     try {
       const submitData = {
         Email: agentInfo.email,
+        'Agent Name': [agentInfo.firstName, agentInfo.lastName].filter(Boolean).join(' '),
         Beverage: formData.beverage,
         'Current Obsession': formData.currentObsession,
         "Can't Live Without": formData.cantLiveWithout,
