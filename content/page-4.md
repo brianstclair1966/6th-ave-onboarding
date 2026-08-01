@@ -45,3 +45,16 @@ You can use one of these logo versions in your profiles — go with the transpar
 Please send your favorite headshot to [Brian](mailto:brian@6thavehomes.com) so he can get you up on the [6th Ave Homes Team Member page](https://6thavehomes.com/the-team) and create your personal 6th Ave page. If you don't have a headshot — or if yours is out of date — 6th Ave Homes does complimentary quarterly photo shoots with a professional photographer. We announce these during our Wednesday meeting & on Slack, so you'll have a chance to sign up for one.
 
 - [ ] I completed updating my online profiles with 6th Ave branding
+
+
+## Order Your Listing Signs
+
+Every listing needs signage — and 6th Ave Homes has partnered with **Signs by Tomorrow** to make it simple. You get your own ordering portal for yard signs, panels, riders, Open House flags, table covers, and more.
+
+<div style="margin:10px 0; color:#043853;"><div style="break-inside:avoid; margin-bottom:6px;"><strong>1.</strong> Visit the 6th Ave sign portal and create your own account.</div><div style="break-inside:avoid; margin-bottom:6px;"><strong>2.</strong> Once your account is set up, order your signs and materials directly — anytime.</div></div>
+
+<div style="text-align:center; margin:16px 0;"><a class="assoc-pill" href="https://6thave.sbtfortworth.com/login" target="_blank" rel="noopener noreferrer">Open the 6th Ave Sign Portal →</a></div>
+
+Signs are a new add-on service, ordered directly through your Signs by Tomorrow account.
+
+- [ ] I understand where & how to get my Listing signs.
